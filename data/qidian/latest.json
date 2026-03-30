@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-30 20:56:36",
+  "update_time": "2026-03-30 21:19:57",
   "update_date": "2026-03-30",
   "total_count": 50,
   "source": "起点中文网·每日畅销榜",
@@ -7,10 +7,10 @@
   "platform": "qidian",
   "platform_name": "起点中文网",
   "tag_stats": {
-    "都市": 10,
+    "都市": 9,
     "玄幻": 15,
     "仙侠": 9,
-    "轻小说": 7,
+    "轻小说": 8,
     "科幻": 1,
     "奇幻": 2,
     "历史": 4,
@@ -83,7 +83,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1035420986/150.webp",
       "book_url": "https://www.qidian.com/book/1035420986/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 4,
@@ -104,7 +104,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042256511/150.webp",
       "book_url": "https://www.qidian.com/book/1042256511/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 5,
@@ -356,7 +356,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/150.webp",
       "book_url": "https://www.qidian.com/book/1047166699/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 17,
@@ -377,7 +377,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046692521/150.webp",
       "book_url": "https://www.qidian.com/book/1046692521/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 18,
@@ -608,7 +608,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047611660/150.webp",
       "book_url": "https://www.qidian.com/book/1047611660/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 29,
@@ -629,7 +629,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
       "book_url": "https://www.qidian.com/book/1012584111/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 30,
@@ -654,27 +654,6 @@
     },
     {
       "rank": 31,
-      "book_id": "107580",
-      "book_name": "凡人修仙传",
-      "author": "忘语",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "幻想修仙"
-      ],
-      "all_tags": [
-        "仙侠",
-        "幻想修仙"
-      ],
-      "abstract": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！诸位道友，新版实体书已经上市，有兴趣的可自行购买，感谢支持！",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/107580/150.webp",
-      "book_url": "https://www.qidian.com/book/107580/",
-      "rank_change": 0
-    },
-    {
-      "rank": 32,
       "book_id": "1031777108",
       "book_name": "光阴之外",
       "author": "耳根",
@@ -692,7 +671,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1031777108/150.webp",
       "book_url": "https://www.qidian.com/book/1031777108/",
-      "rank_change": 0
+      "rank_change": 1
+    },
+    {
+      "rank": 32,
+      "book_id": "107580",
+      "book_name": "凡人修仙传",
+      "author": "忘语",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "幻想修仙"
+      ],
+      "all_tags": [
+        "仙侠",
+        "幻想修仙"
+      ],
+      "abstract": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！诸位道友，新版实体书已经上市，有兴趣的可自行购买，感谢支持！",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/107580/150.webp",
+      "book_url": "https://www.qidian.com/book/107580/",
+      "rank_change": -1
     },
     {
       "rank": 33,
@@ -717,27 +717,6 @@
     },
     {
       "rank": 34,
-      "book_id": "1036370336",
-      "book_name": "宿命之环",
-      "author": "爱潜水的乌贼",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
-      "book_url": "https://www.qidian.com/book/1036370336/",
-      "rank_change": 1
-    },
-    {
-      "rank": 35,
       "book_id": "1043182343",
       "book_name": "苟在初圣魔门当人材",
       "author": "鹤守月满池",
@@ -755,6 +734,27 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043182343/150.webp",
       "book_url": "https://www.qidian.com/book/1043182343/",
+      "rank_change": 1
+    },
+    {
+      "rank": 35,
+      "book_id": "1036370336",
+      "book_name": "宿命之环",
+      "author": "爱潜水的乌贼",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
+      "book_url": "https://www.qidian.com/book/1036370336/",
       "rank_change": -1
     },
     {
@@ -864,24 +864,24 @@
     },
     {
       "rank": 41,
-      "book_id": "1040790581",
-      "book_name": "刚准备高考，离婚逆袭系统来了",
-      "author": "七月封阳",
+      "book_id": "1045929618",
+      "book_name": "从魔法少女开始独断万古",
+      "author": "绿茶藨子",
       "gender": "男频",
-      "primary_tag": "都市",
+      "primary_tag": "轻小说",
       "secondary_tags": [
-        "都市生活"
+        "原生幻想"
       ],
       "all_tags": [
-        "都市",
-        "都市生活"
+        "轻小说",
+        "原生幻想"
       ],
-      "abstract": "【三万均校园日常恋爱文】人在高三，离婚逆袭系统早到二十年。【三十八岁，你婚姻失败，站在不惑之年十字路口，想起了少年时的青梅。结婚后，你们断绝了来往，再无她的消息。与徐浅浅重新建立联系，奖励：300RMB。】十八岁的江年看了一眼面板上的系统任务，又看了一眼住在对门的徐浅浅。不由陷入沉思，嗯.......这系统似乎来早了。还有一件事。未来的前妻是谁？呃......江年有些绷不住了，年年十八岁，未来会离婚。系统颁布报复前妻的任务，江年望了望眼前还未“黑化”的前妻，再次陷入了沉思。青梅、未来的前妻、未来前女友，全是年轻版本，一个个出现的时候。系统有点变质了。有万订完结老书《恋综：万人嫌的我爆红了》",
+      "abstract": "十年网文老书虫，江思和其他人不一样，他对自己也能踏出一条修真大道始终深信不疑。以各路网文前辈为目标，不断的寻找踏上修真大道的方法。气功，基因锁，魔法，超能力，丧尸危机……什么都好，只要有超凡力量的存在，都必然能踏上求道之路，一切力量的最终导向就是修真。然而可惜，这个世界平平无奇，什么超凡力量也没有。就在江思逐渐动摇之际，他终于等来了属于他的那一辆卡车。穿越后的世界，虽然日常生活与过去并无区别。但是，这里有超凡的力量。魔法少女。虽然和预想的有些不同，魔法少女的力量体系也和他过去所看的网文完全不一样，但是没关系。只要能助他踏上修真大道，变身魔法少女又何妨？他江思，就要从魔法少女开始，独断万古！",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040790581/150.webp",
-      "book_url": "https://www.qidian.com/book/1040790581/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045929618/150.webp",
+      "book_url": "https://www.qidian.com/book/1045929618/",
+      "rank_change": -1
     },
     {
       "rank": 42,
@@ -986,7 +986,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/150.webp",
       "book_url": "https://www.qidian.com/book/1039831421/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 47,
@@ -1007,10 +1007,31 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046179008/150.webp",
       "book_url": "https://www.qidian.com/book/1046179008/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 48,
+      "book_id": "1045831749",
+      "book_name": "红楼芳华，权倾天下",
+      "author": "爱车的z",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "架空历史"
+      ],
+      "all_tags": [
+        "历史",
+        "架空历史"
+      ],
+      "abstract": "【北宋末背景，加了红楼作为后宫戏，没看过红楼也不影响观看，红楼，水浒结合体，快万订，日万，质量保证】穿越成西门庆，见到的第一个女人不是潘金莲竟是红楼秦可卿。这北宋靖康之耻将临，亦如红楼将倾！我堂堂清河县一霸，带着一群绿林豪杰，在宋徽宗跟前混的是风生水起！潘金莲，李瓶儿遇上了薛宝钗，林黛玉，这些天底下最能斗的女人们凑在一个园子，也不知谁更厉害！惹恼了大官人我，又是一顿家法大棒伺候！有干爹蔡京撑腰，抄了贾府也是顺手的事。我爬啊爬！爬垮了干爹，爬塌了宋徽宗送钦宗。爬到最高处，只剩我一个权倾朝野！黄袍加身！只手拦住南侵覆灭的滚滚狼烟！",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
+      "book_url": "https://www.qidian.com/book/1045831749/",
+      "rank_change": "new"
+    },
+    {
+      "rank": 49,
       "book_id": "1017281778",
       "book_name": "绍宋",
       "author": "榴弹怕水",
@@ -1028,10 +1049,10 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp",
       "book_url": "https://www.qidian.com/book/1017281778/",
-      "rank_change": 0
+      "rank_change": -1
     },
     {
-      "rank": 49,
+      "rank": 50,
       "book_id": "1046986854",
       "book_name": "从黄包车夫到覆海大圣",
       "author": "安心知易",
@@ -1049,27 +1070,6 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046986854/150.webp",
       "book_url": "https://www.qidian.com/book/1046986854/",
-      "rank_change": 1
-    },
-    {
-      "rank": 50,
-      "book_id": "1046117934",
-      "book_name": "大明黑帆",
-      "author": "庆历泗年春",
-      "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "两宋元明"
-      ],
-      "all_tags": [
-        "历史",
-        "两宋元明"
-      ],
-      "abstract": "这一年，欧洲文明载满白银、丝绸、火药，在黑潮与季风间激情碰撞。这一年，经历萨尔浒惨败的大明，又接连驾崩两位皇帝，风雨飘摇。对世界来说，现在是大航海的黄金时代。对大明来说，如今正值党争的大好时光。值此大争之世，林浅悄然来到大明，成了一名海寇，左手海贸，右手海权，掀起海洋帝国的建设狂潮。拉丁美洲提供白银，越南北部供给煤矿。中南半岛为我们种树，澳大利亚为我们牧羊，还有阿根廷为我们养牛。香料群岛送来豆蔻，象牙海岸进贡黄金和象牙。奥斯曼人为我们种咖啡，地中海是我们的葡萄酒厂。我们的棉花种植园，从印度向地球一切温暖的地方扩展。至于我们的纺织工厂，走锭精纺机无休运转，蒸汽机的气缸正轰鸣作响。这本是最坏的时代，却成了最好的时代。这个世界的文明，将从东方启航。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046117934/150.webp",
-      "book_url": "https://www.qidian.com/book/1046117934/",
       "rank_change": -1
     }
   ]
