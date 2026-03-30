@@ -78,113 +78,133 @@ function httpGet(url, encoding = 'gbk') {
 function parseRankPage(html) {
   const books = [];
   
-  // 晋江月榜的表格结构：每行是一条记录
-  // 格式: 排名 | 作者 | 作品标题 | 文章属性 | 积分 | 更新时间
+  // 晋江月榜表格结构（8列）:
+  // 序号 | 作者 | 作品 | 类型 | 进度 | 字数 | 作品积分 | 发表时间
   
-  // 提取表格行
-  const tableMatch = html.match(/<table[^>]*class="cytable"[^>]*>([\s\S]*?)<\/table>/i) 
-    || html.match(/<table[^>]*>([\s\S]*?)<\/table>/gi);
-  
-  // 尝试按行匹配（晋江的格式比较特殊）
-  // 每条记录包含: 排名, 作者链接, 作品标题链接, 属性, 积分, 更新时间
-  
-  // 方法1: 匹配 tr 行
   const rows = html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi);
   let rank = 0;
   
   for (const row of rows) {
     const rowHtml = row[1];
     
-    // 跳过表头行
-    if (rowHtml.includes('<th') || rowHtml.includes('排名') && rowHtml.includes('作品')) continue;
+    // 跳过表头行（含 "序号"/"作品"/"积分" 等文字但无 <a> 链接）
+    if (rowHtml.includes('序号') || rowHtml.includes('作品积分')) continue;
+    // 跳过没有作品链接的行
+    if (!rowHtml.includes('onebook.php')) continue;
     
     const cells = [];
     const cellMatches = rowHtml.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi);
     for (const cell of cellMatches) {
-      cells.push(cell[1].trim());
+      cells.push(cell[1]);
     }
     
-    if (cells.length < 4) continue;
+    if (cells.length < 7) continue;
     
     rank++;
     if (rank > TARGET_COUNT) break;
     
-    // 解析各字段
-    // 排名
+    // 列0: 排名序号
     const rankNum = parseInt(cells[0]?.replace(/<[^>]*>/g, '').trim()) || rank;
     
-    // 作者
-    const authorMatch = cells[1]?.match(/<a[^>]*>(.*?)<\/a>/);
-    const author = authorMatch ? authorMatch[1].trim() : cells[1]?.replace(/<[^>]*>/g, '').trim() || '';
-    const authorLinkMatch = cells[1]?.match(/href="([^"]*)"/);
-    const authorUrl = authorLinkMatch ? authorLinkMatch[1] : '';
+    // 列1: 作者 — 从 <a> 标签的 title 属性提取（最可靠）
+    const authorTitleMatch = cells[1]?.match(/<a[^>]*title="([^"]*)"/) || cells[1]?.match(/<a[^>]*>([^<]+)<\/a>/);
+    const author = authorTitleMatch ? authorTitleMatch[1].trim() : '';
+    const authorIdMatch = cells[1]?.match(/authorid=(\d+)/);
+    const authorUrl = authorIdMatch ? `https://www.jjwxc.net/oneauthor.php?authorid=${authorIdMatch[1]}` : '';
     
-    // 作品标题
-    const titleMatch = cells[2]?.match(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/);
-    const bookName = titleMatch ? titleMatch[2].replace(/<[^>]*>/g, '').trim() : cells[2]?.replace(/<[^>]*>/g, '').trim() || '';
-    const bookUrl = titleMatch ? titleMatch[1] : '';
+    // 列2: 作品标题 — 从 <a> 标签的 title 属性提取（避免 tooltip 污染）
+    const bookTitleMatch = cells[2]?.match(/<a[^>]*href="onebook\.php\?novelid=(\d+)"[^>]*title="([^"]*)"/) 
+      || cells[2]?.match(/<a[^>]*title="([^"]*)"[^>]*href="onebook\.php\?novelid=(\d+)"/);
     
-    // 提取 novelid
+    let bookName = '';
     let bookId = '';
-    if (bookUrl) {
-      const idMatch = bookUrl.match(/novelid=(\d+)/) || bookUrl.match(/\/(\d+)/);
-      if (idMatch) bookId = idMatch[1];
+    
+    if (bookTitleMatch) {
+      // 第一个正则: href 在前, groups = [全, novelid, title]
+      // 第二个正则: title 在前, groups = [全, title, novelid]
+      if (bookTitleMatch[0].indexOf('href') < bookTitleMatch[0].indexOf('title')) {
+        bookId = bookTitleMatch[1];
+        bookName = bookTitleMatch[2];
+      } else {
+        bookName = bookTitleMatch[1];
+        bookId = bookTitleMatch[2];
+      }
+    } else {
+      // fallback: 直接取 novelid 和 <a> 文字
+      const idFallback = cells[2]?.match(/novelid=(\d+)/);
+      if (idFallback) bookId = idFallback[1];
+      const nameFallback = cells[2]?.match(/<a[^>]*>([^<]+)<\/a>/);
+      if (nameFallback) bookName = nameFallback[1].trim();
     }
     
-    // 文章属性 (原创-纯爱-近代现代-游戏)
-    const attrText = cells[3]?.replace(/<[^>]*>/g, '').trim() || '';
+    // 清理书名中可能残留的 HTML 实体
+    bookName = bookName.replace(/&nbsp;/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+    
+    const bookUrl = bookId ? `https://www.jjwxc.net/onebook.php?novelid=${bookId}` : '';
+    
+    // 列3: 类型 (原创-言情-幻想未来-爱情)
+    const attrText = cells[3]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').trim() || '';
     const attrParts = attrText.split('-').map(s => s.trim()).filter(Boolean);
     
-    // 积分
-    const scoreText = cells[4]?.replace(/<[^>]*>/g, '').replace(/,/g, '').trim() || '0';
+    // 列4: 进度（连载/完结）
+    const statusText = cells[4]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').trim() || '';
+    let status = '未知';
+    if (statusText.includes('连载')) status = '连载中';
+    else if (statusText.includes('完结') || statusText.includes('完成')) status = '完结';
+    
+    // 列5: 字数
+    const wordCountText = cells[5]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').replace(/,/g, '').trim() || '';
+    const wordCount = parseInt(wordCountText) || 0;
+    
+    // 列6: 作品积分
+    const scoreText = cells[6]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').replace(/,/g, '').replace(/\s/g, '').trim() || '0';
     const score = parseInt(scoreText) || 0;
     
-    // 更新时间
-    const updateTime = cells[5]?.replace(/<[^>]*>/g, '').trim() || '';
+    // 列7: 发表时间
+    const publishTime = cells[7]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').trim() || '';
     
-    // 分类解析
-    // attrParts 通常是: [性质, 类型, 时代, 题材]
-    // 例: ["原创", "纯爱", "近代现代", "游戏"]
+    // 分类解析: [性质, 类型, 时代, 题材]
     const nature = attrParts[0] || '';     // 原创/衍生
     const genre = attrParts[1] || '';       // 纯爱/言情/百合/无CP
     const era = attrParts[2] || '';         // 近代现代/架空历史/古色古香/幻想未来
-    const theme = attrParts[3] || '';       // 游戏/科幻/武侠 等
+    const theme = attrParts[3] || '';       // 爱情/剧情/仙侠 等
     
-    // 标签体系
     const allTags = attrParts.filter(Boolean);
     const primaryTag = theme || genre || era || nature || '未分类';
     const secondaryTags = allTags.filter(t => t !== primaryTag);
     
-    // 频道判断（晋江的频道概念不同于起点/番茄）
+    // 频道判断
     let channel = '未知';
     if (genre === '纯爱') channel = '纯爱';
     else if (genre === '言情') channel = '言情';
     else if (genre === '百合') channel = '百合';
     else if (genre === '无CP') channel = '无CP';
+    else if (genre === '多元') channel = '多元';
     else channel = genre || '未知';
     
-    if (bookName) {
+    if (bookName && bookName !== '作品') {
       books.push({
         rank: rankNum,
         book_id: bookId,
         book_name: bookName,
         author,
-        channel,          // 晋江用 channel 表示 纯爱/言情/百合/无CP
-        nature,           // 原创/衍生
-        genre,            // 纯爱/言情
-        era,              // 时代设定
-        theme,            // 题材
+        channel,
+        nature,
+        genre,
+        era,
+        theme,
         primary_tag: primaryTag,
         secondary_tags: secondaryTags,
         all_tags: allTags,
         score,
         score_display: formatScore(score),
-        abstract: '',     // 需要从详情页获取
-        status: '未知',
-        update_time: updateTime,
+        abstract: '',
+        status,
+        word_count: wordCount > 0 ? formatWordCount(wordCount) : '',
+        update_time: publishTime,
         thumb_url: '',
-        book_url: bookUrl.startsWith('http') ? bookUrl : `https://www.jjwxc.net/${bookUrl}`,
-        author_url: authorUrl.startsWith('http') ? authorUrl : (authorUrl ? `https://www.jjwxc.net/${authorUrl}` : ''),
+        book_url: bookUrl,
+        author_url: authorUrl,
         rank_change: null,
       });
     }
@@ -198,6 +218,12 @@ function formatScore(n) {
   if (n >= 1000000000) return (n / 1000000000).toFixed(1) + 'G';
   if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
   if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+  return String(n);
+}
+
+function formatWordCount(n) {
+  if (!n || n <= 0) return '';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '万';
   return String(n);
 }
 

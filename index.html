@@ -1378,7 +1378,7 @@ function renderPlatformTab(platformId) {
         <option value="连载中">连载中</option>
         <option value="完结">完结</option>
       </select>
-      ${historyIndex.length > 1 ? `
+      ${historyIndex.length >= 1 ? `
         <select class="filter-select" id="history-${platformId}" onchange="loadHistoryData('${platformId}', this.value)">
           <option value="">当前数据</option>
           ${historyIndex.map(d => `<option value="${d}">${d}</option>`).join('')}
