@@ -502,9 +502,8 @@ async function main() {
 
     // 标签处理：多源合并
     // 优先级：topBookList.category > categoryByBookId > 详情页标签
-    const apiCategory = topInfo.category || '';
     const catMapCategory = categoryByBookId[bookId] || '';
-    const category = apiCategory || catMapCategory;
+    const finalCategory = category || catMapCategory;
     
     let detailTags = detailInfo.all_tags || [];
     
@@ -514,7 +513,7 @@ async function main() {
       !/小说|免费|阅读|章节|下载|番茄|全文/.test(t)
     );
     
-    let primaryTag = category || (detailTags.length > 0 ? detailTags[0] : '未分类');
+    let primaryTag = finalCategory || (detailTags.length > 0 ? detailTags[0] : '未分类');
     let secondaryTags = detailTags.filter(t => t !== primaryTag);
     let allTags = [primaryTag, ...secondaryTags].filter(t => t && t !== '未分类');
     
@@ -524,9 +523,9 @@ async function main() {
       if (inferred) {
         primaryTag = inferred;
         allTags = [inferred];
-      } else if (category) {
-        primaryTag = category;
-        allTags = [category];
+      } else if (finalCategory) {
+        primaryTag = finalCategory;
+        allTags = [finalCategory];
       }
     }
     

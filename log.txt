@@ -1,0 +1,761 @@
+﻿scrape	Set up job	﻿2026-03-30T12:14:01.3820002Z Current runner version: '2.333.0'
+scrape	Set up job	2026-03-30T12:14:01.3851607Z ##[group]Runner Image Provisioner
+scrape	Set up job	2026-03-30T12:14:01.3852453Z Hosted Compute Agent
+scrape	Set up job	2026-03-30T12:14:01.3853124Z Version: 20260213.493
+scrape	Set up job	2026-03-30T12:14:01.3853713Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+scrape	Set up job	2026-03-30T12:14:01.3854417Z Build Date: 2026-02-13T00:28:41Z
+scrape	Set up job	2026-03-30T12:14:01.3855121Z Worker ID: {c3c7d215-87e6-4829-818b-898d20ee1da8}
+scrape	Set up job	2026-03-30T12:14:01.3855778Z Azure Region: centralus
+scrape	Set up job	2026-03-30T12:14:01.3856322Z ##[endgroup]
+scrape	Set up job	2026-03-30T12:14:01.3858223Z ##[group]Operating System
+scrape	Set up job	2026-03-30T12:14:01.3858885Z Ubuntu
+scrape	Set up job	2026-03-30T12:14:01.3859323Z 24.04.4
+scrape	Set up job	2026-03-30T12:14:01.3859830Z LTS
+scrape	Set up job	2026-03-30T12:14:01.3860268Z ##[endgroup]
+scrape	Set up job	2026-03-30T12:14:01.3860755Z ##[group]Runner Image
+scrape	Set up job	2026-03-30T12:14:01.3861362Z Image: ubuntu-24.04
+scrape	Set up job	2026-03-30T12:14:01.3861849Z Version: 20260323.65.1
+scrape	Set up job	2026-03-30T12:14:01.3862870Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260323.65/images/ubuntu/Ubuntu2404-Readme.md
+scrape	Set up job	2026-03-30T12:14:01.3864467Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260323.65
+scrape	Set up job	2026-03-30T12:14:01.3865405Z ##[endgroup]
+scrape	Set up job	2026-03-30T12:14:01.3866549Z ##[group]GITHUB_TOKEN Permissions
+scrape	Set up job	2026-03-30T12:14:01.3868945Z Contents: write
+scrape	Set up job	2026-03-30T12:14:01.3869495Z Metadata: read
+scrape	Set up job	2026-03-30T12:14:01.3870057Z Pages: write
+scrape	Set up job	2026-03-30T12:14:01.3870548Z ##[endgroup]
+scrape	Set up job	2026-03-30T12:14:01.3872966Z Secret source: Actions
+scrape	Set up job	2026-03-30T12:14:01.3874003Z Prepare workflow directory
+scrape	Set up job	2026-03-30T12:14:01.4210244Z Prepare all required actions
+scrape	Set up job	2026-03-30T12:14:01.4249457Z Getting action download info
+scrape	Set up job	2026-03-30T12:14:01.7979615Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+scrape	Set up job	2026-03-30T12:14:01.9488543Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+scrape	Set up job	2026-03-30T12:14:02.1349643Z Complete job name: scrape
+scrape	Run actions/checkout@v4	﻿2026-03-30T12:14:02.2075210Z ##[group]Run actions/checkout@v4
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2076081Z with:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2076532Z   repository: dylan-byte-max/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2077472Z   token: ***
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2077887Z   ssh-strict: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2078281Z   ssh-user: git
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2078678Z   persist-credentials: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2079116Z   clean: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2079514Z   sparse-checkout-cone-mode: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2079983Z   fetch-depth: 1
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2080369Z   fetch-tags: false
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2080762Z   show-progress: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2081166Z   lfs: false
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2081521Z   submodules: false
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2081919Z   set-safe-directory: true
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.2082603Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3154846Z Syncing repository: dylan-byte-max/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3156704Z ##[group]Getting Git version info
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3157740Z Working directory is '/home/runner/work/novel-tracker/novel-tracker'
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3158830Z [command]/usr/bin/git version
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3201744Z git version 2.53.0
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3227528Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3241871Z Temporarily overriding HOME='/home/runner/work/_temp/ce09f768-45a6-45ee-be07-81f2950a0055' before making global git config changes
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3254613Z Adding repository directory to the temporary git global config as a safe directory
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3255987Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/novel-tracker/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3285984Z Deleting the contents of '/home/runner/work/novel-tracker/novel-tracker'
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3289552Z ##[group]Initializing the repository
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3293514Z [command]/usr/bin/git init /home/runner/work/novel-tracker/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3399016Z hint: Using 'master' as the name for the initial branch. This default branch name
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3400829Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3402619Z hint: to use in all of your new repositories, which will suppress this warning,
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3404347Z hint: call:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3405039Z hint:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3406162Z hint: 	git config --global init.defaultBranch <name>
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3407481Z hint:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3408439Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3409924Z hint: 'development'. The just-created branch can be renamed via this command:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3411171Z hint:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3411882Z hint: 	git branch -m <name>
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3412667Z hint:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3413756Z hint: Disable this message with "git config set advice.defaultBranchName false"
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3415673Z Initialized empty Git repository in /home/runner/work/novel-tracker/novel-tracker/.git/
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3418706Z [command]/usr/bin/git remote add origin https://github.com/dylan-byte-max/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3445636Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3447104Z ##[group]Disabling automatic garbage collection
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3450875Z [command]/usr/bin/git config --local gc.auto 0
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3479546Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3480732Z ##[group]Setting up auth
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3487427Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3518382Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3829933Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.3859997Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4093553Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4131693Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4382392Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4423521Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4425104Z ##[group]Fetching the repository
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.4433984Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4161cfe156c7b052d407100a509867501c3ab9c4:refs/remotes/origin/main
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7759993Z From https://github.com/dylan-byte-max/novel-tracker
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7765288Z  * [new ref]         4161cfe156c7b052d407100a509867501c3ab9c4 -> origin/main
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7793396Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7794710Z ##[group]Determining the checkout info
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7796492Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7801295Z [command]/usr/bin/git sparse-checkout disable
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7840875Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7869607Z ##[group]Checking out the ref
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7874748Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7949292Z Switched to a new branch 'main'
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7952352Z branch 'main' set up to track 'origin/main'.
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7960023Z ##[endgroup]
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.7998724Z [command]/usr/bin/git log -1 --format=%H
+scrape	Run actions/checkout@v4	2026-03-30T12:14:02.8020713Z 4161cfe156c7b052d407100a509867501c3ab9c4
+scrape	Run actions/setup-node@v4	﻿2026-03-30T12:14:02.8332741Z ##[group]Run actions/setup-node@v4
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8333632Z with:
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8334115Z   node-version: 20
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8334700Z   always-auth: false
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8335588Z   check-latest: false
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8336607Z   token: ***
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:02.8337586Z ##[endgroup]
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.0104492Z Found in cache @ /opt/hostedtoolcache/node/20.20.1/x64
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.0111177Z ##[group]Environment details
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.2749837Z node: v20.20.1
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.2750912Z npm: 10.8.2
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.2751806Z yarn: 1.22.22
+scrape	Run actions/setup-node@v4	2026-03-30T12:14:03.2753508Z ##[endgroup]
+scrape	Install dependencies	﻿2026-03-30T12:14:03.2888537Z ##[group]Run npm install
+scrape	Install dependencies	2026-03-30T12:14:03.2889701Z [36;1mnpm install[0m
+scrape	Install dependencies	2026-03-30T12:14:03.2930583Z shell: /usr/bin/bash -e {0}
+scrape	Install dependencies	2026-03-30T12:14:03.2931680Z ##[endgroup]
+scrape	Install dependencies	2026-03-30T12:14:05.1486839Z 
+scrape	Install dependencies	2026-03-30T12:14:05.1494195Z added 2 packages, and audited 3 packages in 2s
+scrape	Install dependencies	2026-03-30T12:14:05.1495253Z 
+scrape	Install dependencies	2026-03-30T12:14:05.1495526Z found 0 vulnerabilities
+scrape	Install Playwright browsers	﻿2026-03-30T12:14:05.1686082Z ##[group]Run npx playwright install chromium --with-deps
+scrape	Install Playwright browsers	2026-03-30T12:14:05.1686628Z [36;1mnpx playwright install chromium --with-deps[0m
+scrape	Install Playwright browsers	2026-03-30T12:14:05.1715400Z shell: /usr/bin/bash -e {0}
+scrape	Install Playwright browsers	2026-03-30T12:14:05.1715652Z ##[endgroup]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.1330350Z Installing dependencies...
+scrape	Install Playwright browsers	2026-03-30T12:14:06.1434908Z Switching to root user to install dependencies...
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2272189Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2612227Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2629551Z Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2655154Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2691612Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2729637Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.2760591Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4383107Z Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1846 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4563344Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [339 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4585092Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [177 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4605110Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [16.9 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4623829Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1665 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4725473Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [323 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4738068Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4772260Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [34.2 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4787819Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2837 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4912319Z Get:22 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [86.6 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4977137Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [656 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.4984971Z Get:23 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [109 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5426709Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5428525Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [32.1 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5438612Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5440086Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [500 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5447600Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7368 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5483879Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [30.7 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5494317Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [13.2 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5509566Z Get:27 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1480 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5517264Z Get:28 http://azure.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.5518765Z Get:29 http://azure.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6027825Z Get:30 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1551 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6108724Z Get:31 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [249 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6125101Z Get:32 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6134168Z Get:33 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [10.7 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6564735Z Get:34 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1166 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6628543Z Get:35 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [225 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6649063Z Get:36 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.3 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6671526Z Get:37 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [22.9 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6682768Z Get:38 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2701 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6817860Z Get:39 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [627 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6857195Z Get:40 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:06.6871630Z Get:41 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:15.5355743Z Fetched 15.6 MB in 2s (8942 kB/s)
+scrape	Install Playwright browsers	2026-03-30T12:14:16.3091588Z Reading package lists...
+scrape	Install Playwright browsers	2026-03-30T12:14:16.3337601Z Reading package lists...
+scrape	Install Playwright browsers	2026-03-30T12:14:16.5253257Z Building dependency tree...
+scrape	Install Playwright browsers	2026-03-30T12:14:16.5260259Z Reading state information...
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6848918Z libasound2t64 is already the newest version (1.2.11-1ubuntu0.2).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6849757Z libasound2t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6850455Z libatk-bridge2.0-0t64 is already the newest version (2.52.0-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6850926Z libatk-bridge2.0-0t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6851356Z libatk1.0-0t64 is already the newest version (2.52.0-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6851741Z libatk1.0-0t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6853467Z libatspi2.0-0t64 is already the newest version (2.52.0-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6853927Z libatspi2.0-0t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6854324Z libcairo2 is already the newest version (1.18.0-3build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6854696Z libcairo2 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6855093Z libcups2t64 is already the newest version (2.4.7-1.2ubuntu7.9).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6855478Z libcups2t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6855868Z libdbus-1-3 is already the newest version (1.14.10-4ubuntu4.1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6856242Z libdbus-1-3 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6856640Z libdrm2 is already the newest version (2.4.125-1ubuntu0.1~24.04.1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6857296Z libdrm2 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6857692Z libgbm1 is already the newest version (25.2.8-0ubuntu0.24.04.1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6858213Z libgbm1 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6858950Z libglib2.0-0t64 is already the newest version (2.80.0-6ubuntu3.8).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6859705Z libglib2.0-0t64 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6860412Z libnspr4 is already the newest version (2:4.35-1.1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6861104Z libnspr4 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6861778Z libnss3 is already the newest version (2:3.98-1ubuntu0.1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6862405Z libnss3 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6863137Z libpango-1.0-0 is already the newest version (1.52.1+ds-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6864426Z libpango-1.0-0 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6865135Z libx11-6 is already the newest version (2:1.8.7-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6865779Z libx11-6 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6866402Z libxcb1 is already the newest version (1.15-1ubuntu2).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6867348Z libxcb1 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6868097Z libxcomposite1 is already the newest version (1:0.4.5-1build3).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6868807Z libxcomposite1 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6869535Z libxdamage1 is already the newest version (1:1.1.6-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6870582Z libxdamage1 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6871260Z libxext6 is already the newest version (2:1.3.4-1build2).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6871906Z libxext6 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6872582Z libxfixes3 is already the newest version (1:6.0.0-2build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6873250Z libxfixes3 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6873976Z libxkbcommon0 is already the newest version (1.6.0-1build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6874651Z libxkbcommon0 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6875365Z libxrandr2 is already the newest version (2:1.5.2-2build1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6876030Z libxrandr2 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6876694Z xvfb is already the newest version (2:21.1.12-1ubuntu1.5).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6877935Z fonts-noto-color-emoji is already the newest version (2.047-0ubuntu0.24.04.1).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6878953Z libfontconfig1 is already the newest version (2.15.0-1.1ubuntu2).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6879720Z libfontconfig1 set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6880469Z fonts-liberation is already the newest version (1:2.1.5-3).
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6881164Z fonts-liberation set to manually installed.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6881887Z The following additional packages will be installed:
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6882523Z   xfonts-encodings xfonts-utils
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6882996Z Recommended packages:
+scrape	Install Playwright browsers	2026-03-30T12:14:16.6883479Z   fonts-ipafont-mincho fonts-tlwg-loma
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7054297Z The following NEW packages will be installed:
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7055169Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7061968Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7062567Z   xfonts-utils
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7066737Z The following packages will be upgraded:
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7071802Z   libfreetype6
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7237863Z 1 upgraded, 9 newly installed, 0 to remove and 43 not upgraded.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7238518Z Need to get 21.5 MB of archives.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7238943Z After this operation, 79.5 MB of additional disk space will be used.
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7239426Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+scrape	Install Playwright browsers	2026-03-30T12:14:16.7869069Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-ipafont-gothic all 00303-21ubuntu1 [3513 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.0070120Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-freefont-ttf all 20211204+svn4273-2 [5641 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.3411380Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-tlwg-loma-otf all 1:0.7.3-1 [107 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.3871502Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-unifont all 1:15.1.01-1build1 [2993 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.5562025Z Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-wqy-zenhei all 0.9.45-8 [7472 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.8773685Z Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libfreetype6 amd64 2.13.2+dfsg-1ubuntu0.1 [402 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.9182636Z Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-encodings all 1:1.0.5-0ubuntu2 [578 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:17.9652614Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-utils amd64 1:7.7+6build3 [94.4 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:18.0038039Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xfonts-cyrillic all 1:1.0.5+nmu1 [384 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:18.0503001Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-scalable all 1:1.0.3-1.3 [304 kB]
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3145119Z Fetched 21.5 MB in 1s (15.9 MB/s)
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3386076Z Selecting previously unselected package fonts-ipafont-gothic.
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3730067Z (Reading database ... 
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3730403Z (Reading database ... 5%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3730660Z (Reading database ... 10%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3730900Z (Reading database ... 15%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3731396Z (Reading database ... 20%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3731620Z (Reading database ... 25%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3731833Z (Reading database ... 30%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3732147Z (Reading database ... 35%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3733538Z (Reading database ... 40%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3733911Z (Reading database ... 45%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3734151Z (Reading database ... 50%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.3832322Z (Reading database ... 55%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.5022619Z (Reading database ... 60%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.6516478Z (Reading database ... 65%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.8441125Z (Reading database ... 70%
+scrape	Install Playwright browsers	2026-03-30T12:14:18.9990014Z (Reading database ... 75%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.2025366Z (Reading database ... 80%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.3951421Z (Reading database ... 85%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.6001588Z (Reading database ... 90%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.7687349Z (Reading database ... 95%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.7687951Z (Reading database ... 100%
+scrape	Install Playwright browsers	2026-03-30T12:14:19.7688792Z (Reading database ... 220111 files and directories currently installed.)
+scrape	Install Playwright browsers	2026-03-30T12:14:19.7733682Z Preparing to unpack .../0-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:19.7832025Z Unpacking fonts-ipafont-gothic (00303-21ubuntu1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.0095431Z Selecting previously unselected package fonts-freefont-ttf.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.0231129Z Preparing to unpack .../1-fonts-freefont-ttf_20211204+svn4273-2_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.0243322Z Unpacking fonts-freefont-ttf (20211204+svn4273-2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1071229Z Selecting previously unselected package fonts-tlwg-loma-otf.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1203297Z Preparing to unpack .../2-fonts-tlwg-loma-otf_1%3a0.7.3-1_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1215731Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1463352Z Selecting previously unselected package fonts-unifont.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1595101Z Preparing to unpack .../3-fonts-unifont_1%3a15.1.01-1build1_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.1607924Z Unpacking fonts-unifont (1:15.1.01-1build1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.2699714Z Selecting previously unselected package fonts-wqy-zenhei.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.2832102Z Preparing to unpack .../4-fonts-wqy-zenhei_0.9.45-8_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.2942605Z Unpacking fonts-wqy-zenhei (0.9.45-8) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.7794309Z Preparing to unpack .../5-libfreetype6_2.13.2+dfsg-1ubuntu0.1_amd64.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.7855749Z Unpacking libfreetype6:amd64 (2.13.2+dfsg-1ubuntu0.1) over (2.13.2+dfsg-1build3) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8159688Z Selecting previously unselected package xfonts-encodings.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8296604Z Preparing to unpack .../6-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8310213Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8659448Z Selecting previously unselected package xfonts-utils.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8793249Z Preparing to unpack .../7-xfonts-utils_1%3a7.7+6build3_amd64.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.8817033Z Unpacking xfonts-utils (1:7.7+6build3) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9240910Z Selecting previously unselected package xfonts-cyrillic.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9373484Z Preparing to unpack .../8-xfonts-cyrillic_1%3a1.0.5+nmu1_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9386351Z Unpacking xfonts-cyrillic (1:1.0.5+nmu1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9775173Z Selecting previously unselected package xfonts-scalable.
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9909509Z Preparing to unpack .../9-xfonts-scalable_1%3a1.0.3-1.3_all.deb ...
+scrape	Install Playwright browsers	2026-03-30T12:14:20.9923476Z Unpacking xfonts-scalable (1:1.0.3-1.3) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0368581Z Setting up fonts-wqy-zenhei (0.9.45-8) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0515896Z Setting up fonts-freefont-ttf (20211204+svn4273-2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0550693Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0579730Z Setting up libfreetype6:amd64 (2.13.2+dfsg-1ubuntu0.1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0616365Z Setting up xfonts-encodings (1:1.0.5-0ubuntu2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0651243Z Setting up fonts-ipafont-gothic (00303-21ubuntu1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0734960Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0758333Z Setting up fonts-unifont (1:15.1.01-1build1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0790950Z Setting up xfonts-utils (1:7.7+6build3) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.0850443Z Setting up xfonts-cyrillic (1:1.0.5+nmu1) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.1158769Z Setting up xfonts-scalable (1:1.0.3-1.3) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.1440467Z Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.1791910Z Processing triggers for man-db (2.12.0-4build2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.1824696Z Not building database; man-db/auto-update is not 'true'.
+scrape	Install Playwright browsers	2026-03-30T12:14:21.1841102Z Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.8877220Z 
+scrape	Install Playwright browsers	2026-03-30T12:14:21.8877997Z Running kernel seems to be up-to-date.
+scrape	Install Playwright browsers	2026-03-30T12:14:21.8878380Z 
+scrape	Install Playwright browsers	2026-03-30T12:14:21.8878549Z Restarting services...
+scrape	Install Playwright browsers	2026-03-30T12:14:21.8954715Z  systemctl restart php8.3-fpm.service
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9986682Z 
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9988194Z No containers need to be restarted.
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9988680Z 
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9989885Z No user sessions are running outdated binaries.
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9990868Z 
+scrape	Install Playwright browsers	2026-03-30T12:14:21.9994723Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+scrape	Install Playwright browsers	2026-03-30T12:14:22.9098814Z Downloading Chrome for Testing 145.0.7632.6 (playwright chromium v1208) from https://cdn.playwright.dev/builds/cft/145.0.7632.6/linux64/chrome-linux64.zip
+scrape	Install Playwright browsers	2026-03-30T12:14:23.1732500Z |                                                                                |   0% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.5312154Z |■■■■■■■■                                                                        |  10% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.6488465Z |■■■■■■■■■■■■■■■■                                                                |  20% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.7332291Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.8260918Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.9000776Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:23.9954853Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:24.0738302Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:24.1495671Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:24.2325771Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:24.3154862Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 167.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.5257007Z Chrome for Testing 145.0.7632.6 (playwright chromium v1208) downloaded to /home/runner/.cache/ms-playwright/chromium-1208
+scrape	Install Playwright browsers	2026-03-30T12:14:27.5261279Z Downloading FFmpeg (playwright ffmpeg v1011) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+scrape	Install Playwright browsers	2026-03-30T12:14:27.7886239Z |                                                                                |   0% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.8435692Z |■■■■■■■■                                                                        |  10% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.8761396Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9001052Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9198592Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9315245Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9422965Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9521579Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9613356Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9735952Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:27.9780734Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.0472288Z FFmpeg (playwright ffmpeg v1011) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011
+scrape	Install Playwright browsers	2026-03-30T12:14:28.0476726Z Downloading Chrome Headless Shell 145.0.7632.6 (playwright chromium-headless-shell v1208) from https://cdn.playwright.dev/builds/cft/145.0.7632.6/linux64/chrome-headless-shell-linux64.zip
+scrape	Install Playwright browsers	2026-03-30T12:14:28.2933477Z |                                                                                |   0% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.6565240Z |■■■■■■■■                                                                        |  10% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.7383281Z |■■■■■■■■■■■■■■■■                                                                |  20% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.7958365Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.8542400Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.9136089Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:28.9729876Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:29.0320476Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:29.0916521Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:29.1501187Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:29.2093385Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 110.9 MiB
+scrape	Install Playwright browsers	2026-03-30T12:14:31.5324105Z Chrome Headless Shell 145.0.7632.6 (playwright chromium-headless-shell v1208) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1208
+scrape	Scrape Fanqie (番茄小说)	﻿2026-03-30T12:14:31.5529008Z ##[group]Run node scrapers/fanqie.js
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5529330Z [36;1mnode scrapers/fanqie.js[0m
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5555517Z shell: /usr/bin/bash -e {0}
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5555750Z ##[endgroup]
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5827440Z /home/runner/work/novel-tracker/novel-tracker/scrapers/fanqie.js:507
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5828153Z     const category = apiCategory || catMapCategory;
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5828531Z           ^
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5828660Z 
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5828982Z SyntaxError: Identifier 'category' has already been declared
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5829517Z     at wrapSafe (node:internal/modules/cjs/loader:1464:18)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5830046Z     at Module._compile (node:internal/modules/cjs/loader:1495:20)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5830760Z     at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5831719Z     at Module.load (node:internal/modules/cjs/loader:1266:32)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5832621Z     at Module._load (node:internal/modules/cjs/loader:1091:12)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5833801Z     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5834825Z     at node:internal/main/run_main_module:28:49
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5835233Z 
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5835391Z Node.js v20.20.1
+scrape	Scrape Fanqie (番茄小说)	2026-03-30T12:14:31.5863705Z ##[error]Process completed with exit code 1.
+scrape	Scrape Qidian (起点中文网)	﻿2026-03-30T12:14:31.5907962Z ##[group]Run node scrapers/qidian.js
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.5908271Z [36;1mnode scrapers/qidian.js[0m
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.5934654Z shell: /usr/bin/bash -e {0}
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.5934897Z ##[endgroup]
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.9678662Z ============================================================
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.9684618Z 起点中文网畅销榜爬虫 v2 - 2026-03-30 20:14:31
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:31.9685309Z ============================================================
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:32.2164658Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:32.2167022Z 📊 第1页: https://www.qidian.com/rank/hotsales/
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:39.0368473Z   页面标题: 小说畅销排行榜单_起点小说畅销排行-起点中文网
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:39.0439899Z   抓到: 20 本
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:41.0447126Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:41.0448475Z 📊 第2页: https://www.qidian.com/rank/hotsales/page2/
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:45.1773097Z   页面标题: 小说畅销排行榜单_起点小说畅销排行-第2页-起点中文网
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:45.1834119Z   抓到: 20 本
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:47.1839934Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:47.1841190Z 📊 第3页: https://www.qidian.com/rank/hotsales/page3/
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3583216Z   页面标题: 小说畅销排行榜单_起点小说畅销排行-第3页-起点中文网
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3671039Z   抓到: 20 本
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3671284Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3671474Z 📖 总计: 50 本
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3674895Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3675149Z 📈 计算排名变化
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3693522Z 
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3693891Z ============================================================
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3694525Z 🎉 完成！共 50 本
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3695273Z    性别: {"男频":48,"未知":2}
+scrape	Scrape Qidian (起点中文网)	2026-03-30T12:14:51.3695969Z    标签: {"都市":10,"玄幻":14,"仙侠":9,"轻小说":7,"科幻":1,"奇幻":2,"历史":5,"游戏":1,"悬疑":1}
+scrape	Scrape JJWXC (晋江文学城)	﻿2026-03-30T12:14:51.4143059Z ##[group]Run node scrapers/jjwxc.js
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4143564Z [36;1mnode scrapers/jjwxc.js[0m
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4169554Z shell: /usr/bin/bash -e {0}
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4169798Z ##[endgroup]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4474519Z ============================================================
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4479127Z 晋江文学城月榜爬虫 - 2026-03-30 20:14:51
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4479834Z ============================================================
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4480268Z 
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.4480543Z 📊 阶段一：抓取月榜列表
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.9748782Z   解析到 50 本
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.9749106Z 
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:51.9749332Z 📖 阶段二：获取 50 本书详情
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:52.7965120Z   [1/50] 你愿意吗（穿书） ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:53.6295735Z   [2/50] 统帅穿成我的机器人男友 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:54.4622298Z   [3/50] 呜呜我尽量哭得小小声 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:55.2949990Z   [4/50] 诚聘救世主 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:56.1272370Z   [5/50] 他的光影 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:56.9599061Z   [6/50] 金手指主理人 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:57.7922598Z   [7/50] 昨日书 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:58.6256473Z   [8/50] 我有一座安全城 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:14:59.4581262Z   [9/50] 协议恋爱，但大佬失忆了 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:00.2904769Z   [10/50] 院里（gb） ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:01.1219794Z   [11/50] 摄政王偏偏独宠我一人 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:01.9547898Z   [12/50] 从民国来到这里 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:02.7873639Z   [13/50] 凭什么她一回头我就在 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:03.6202696Z   [14/50] 他携地府归来 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:04.4526005Z   [15/50] 过度标记依存症 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:05.2853153Z   [16/50] 假Daddy ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:06.1167678Z   [17/50] 浮金浪子abo ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:06.9699144Z   [18/50] 生津 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:07.8030853Z   [19/50] 拓荒者 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:08.6357462Z   [20/50] 还阳 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:09.4709020Z   [21/50] 和暗恋对象相亲后 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:10.3030795Z   [22/50] 这不对吧？ ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:12.3277921Z   [23/50] 隐热秘密 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:13.1617192Z   [24/50] 我养成了两个死对头皇子 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:13.9942887Z   [25/50] 阿姐 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:14.8266365Z   [26/50] 贵妃娘娘宠冠后宫 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:16.7172986Z   [27/50] 这样也能当炮灰吗[快穿] ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:17.5483022Z   [28/50] 男频文里的白月光（快穿） ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:18.3818911Z   [29/50] 总有小动物来找我报案 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:19.2142197Z   [30/50] 如何阻止道侣杀掉男主 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:20.0464261Z   [31/50] 我这儿是正经店 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:20.8786167Z   [32/50] 我真不是算命的！[香江] ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:21.7110378Z   [33/50] 我们合欢宗过于温馨了！ ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:22.5434620Z   [34/50] 魔王模拟器 ✓ [无CP]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:23.3757653Z   [35/50] 怀上权臣男主的崽 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:24.2069260Z   [36/50] 我生来最恨反派 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:25.0388015Z   [37/50] 老天赐我重来一次 ✓ [百合]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:25.8707215Z   [38/50] 我真的只会Ctrl啊！ ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:26.7022245Z   [39/50] 请输入密保答案 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:27.5339270Z   [40/50] 情天娃娃气象电台 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:28.3651736Z   [41/50] 高岭之花不过如此 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:29.1970370Z   [42/50] 校草捞子网恋了封建大爹 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:30.0293126Z   [43/50] 全家气运被夺后小祖宗穿来了 ✓ [无CP]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:30.8614885Z   [44/50] 三年后新婚 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:31.7073653Z   [45/50] 偷偷怀上元帅的崽后（ABO） ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:32.5398564Z   [46/50] 大巫妖现代求死指导 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:33.3708115Z   [47/50] 风来明月载[gb] ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:34.2018089Z   [48/50] 风月地 ✓ [言情]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.0349559Z   [49/50] 我有一座地下城 ✓ [无CP]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8666239Z   [50/50] 高冷omega上将强制选夫后 ✓ [纯爱]
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8666640Z 
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8667136Z 📈 阶段三：计算排名变化
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8672975Z   已对比历史数据
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8689810Z 
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8690232Z ============================================================
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8690856Z 🎉 完成！共 50 本
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8691310Z    频道分布: {"纯爱":20,"言情":26,"无CP":3,"百合":1}
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8691840Z    主标签分布: {"纯爱":20,"言情":26,"无CP":3,"百合":1}
+scrape	Scrape JJWXC (晋江文学城)	2026-03-30T12:15:35.8692584Z    数据: /home/runner/work/novel-tracker/novel-tracker/data/jjwxc/latest.json
+scrape	AI Analysis (通义千问)	﻿2026-03-30T12:15:35.8792648Z ##[group]Run node scrapers/analyze.js
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.8792963Z [36;1mnode scrapers/analyze.js[0m
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.8819358Z shell: /usr/bin/bash -e {0}
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.8819590Z env:
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.8819779Z   QWEN_API_KEY: 
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.8819959Z ##[endgroup]
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.9122348Z ============================================================
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.9126529Z AI 智能分析模块 - 2026-03-30 20:15:35
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.9127329Z ============================================================
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.9128009Z ❌ 未设置 QWEN_API_KEY 环境变量
+scrape	AI Analysis (通义千问)	2026-03-30T12:15:35.9155453Z ##[error]Process completed with exit code 1.
+scrape	Commit & Push data	﻿2026-03-30T12:15:35.9199337Z ##[group]Run git config user.name "github-actions[bot]"
+scrape	Commit & Push data	2026-03-30T12:15:35.9199743Z [36;1mgit config user.name "github-actions[bot]"[0m
+scrape	Commit & Push data	2026-03-30T12:15:35.9200150Z [36;1mgit config user.email "github-actions[bot]@users.noreply.github.com"[0m
+scrape	Commit & Push data	2026-03-30T12:15:35.9200518Z [36;1mgit add data/[0m
+scrape	Commit & Push data	2026-03-30T12:15:35.9200902Z [36;1mgit diff --cached --quiet || git commit -m "📊 update: $(date -u '+%Y-%m-%d %H:%M UTC')"[0m
+scrape	Commit & Push data	2026-03-30T12:15:35.9201325Z [36;1mgit push[0m
+scrape	Commit & Push data	2026-03-30T12:15:35.9227423Z shell: /usr/bin/bash -e {0}
+scrape	Commit & Push data	2026-03-30T12:15:35.9227674Z ##[endgroup]
+scrape	Commit & Push data	2026-03-30T12:15:35.9478771Z [main e1e841d] 📊 update: 2026-03-30 12:15 UTC
+scrape	Commit & Push data	2026-03-30T12:15:35.9479300Z  4 files changed, 108 insertions(+), 108 deletions(-)
+scrape	Commit & Push data	2026-03-30T12:15:36.6861501Z To https://github.com/dylan-byte-max/novel-tracker
+scrape	Commit & Push data	2026-03-30T12:15:36.6862208Z    4161cfe..e1e841d  main -> main
+scrape	Post Run actions/setup-node@v4	﻿2026-03-30T12:15:36.6969237Z Post job cleanup.
+scrape	Post Run actions/checkout@v4	﻿2026-03-30T12:15:36.8654750Z Post job cleanup.
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9586886Z [command]/usr/bin/git version
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9624383Z git version 2.53.0
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9668053Z Temporarily overriding HOME='/home/runner/work/_temp/a36f9280-a1a2-4a49-9125-17cfcfd46b10' before making global git config changes
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9669137Z Adding repository directory to the temporary git global config as a safe directory
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9674519Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/novel-tracker/novel-tracker
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9709821Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9741831Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9959383Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9980361Z http.https://github.com/.extraheader
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:36.9992353Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:37.0021438Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:37.0235295Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+scrape	Post Run actions/checkout@v4	2026-03-30T12:15:37.0266562Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+scrape	Complete job	﻿2026-03-30T12:15:37.0591452Z Cleaning up orphan processes
+scrape	Complete job	2026-03-30T12:15:37.0899766Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+deploy	Set up job	﻿2026-03-30T12:15:43.9862114Z Current runner version: '2.333.0'
+deploy	Set up job	2026-03-30T12:15:43.9885087Z ##[group]Runner Image Provisioner
+deploy	Set up job	2026-03-30T12:15:43.9885962Z Hosted Compute Agent
+deploy	Set up job	2026-03-30T12:15:43.9886495Z Version: 20260213.493
+deploy	Set up job	2026-03-30T12:15:43.9887153Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+deploy	Set up job	2026-03-30T12:15:43.9887874Z Build Date: 2026-02-13T00:28:41Z
+deploy	Set up job	2026-03-30T12:15:43.9888573Z Worker ID: {31536d81-d46e-4f91-8b9b-2d3ded69b911}
+deploy	Set up job	2026-03-30T12:15:43.9889346Z Azure Region: westus
+deploy	Set up job	2026-03-30T12:15:43.9889865Z ##[endgroup]
+deploy	Set up job	2026-03-30T12:15:43.9891215Z ##[group]Operating System
+deploy	Set up job	2026-03-30T12:15:43.9891779Z Ubuntu
+deploy	Set up job	2026-03-30T12:15:43.9892327Z 24.04.4
+deploy	Set up job	2026-03-30T12:15:43.9892768Z LTS
+deploy	Set up job	2026-03-30T12:15:43.9893237Z ##[endgroup]
+deploy	Set up job	2026-03-30T12:15:43.9893969Z ##[group]Runner Image
+deploy	Set up job	2026-03-30T12:15:43.9894544Z Image: ubuntu-24.04
+deploy	Set up job	2026-03-30T12:15:43.9895014Z Version: 20260323.65.1
+deploy	Set up job	2026-03-30T12:15:43.9896070Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260323.65/images/ubuntu/Ubuntu2404-Readme.md
+deploy	Set up job	2026-03-30T12:15:43.9897941Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260323.65
+deploy	Set up job	2026-03-30T12:15:43.9899056Z ##[endgroup]
+deploy	Set up job	2026-03-30T12:15:43.9900090Z ##[group]GITHUB_TOKEN Permissions
+deploy	Set up job	2026-03-30T12:15:43.9901925Z Contents: write
+deploy	Set up job	2026-03-30T12:15:43.9902491Z Metadata: read
+deploy	Set up job	2026-03-30T12:15:43.9902991Z Pages: write
+deploy	Set up job	2026-03-30T12:15:43.9903471Z ##[endgroup]
+deploy	Set up job	2026-03-30T12:15:43.9905917Z Secret source: Actions
+deploy	Set up job	2026-03-30T12:15:43.9906652Z Prepare workflow directory
+deploy	Set up job	2026-03-30T12:15:44.0224854Z Prepare all required actions
+deploy	Set up job	2026-03-30T12:15:44.0284610Z Getting action download info
+deploy	Set up job	2026-03-30T12:15:44.5773082Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+deploy	Set up job	2026-03-30T12:15:44.6959003Z Download action repository 'actions/configure-pages@v4' (SHA:1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d)
+deploy	Set up job	2026-03-30T12:15:45.2418707Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+deploy	Set up job	2026-03-30T12:15:45.6386638Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+deploy	Set up job	2026-03-30T12:15:46.4314574Z Getting action download info
+deploy	Set up job	2026-03-30T12:15:46.6379873Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+deploy	Set up job	2026-03-30T12:15:46.7805072Z Complete job name: deploy
+deploy	Run actions/checkout@v4	﻿2026-03-30T12:15:46.8593139Z ##[group]Run actions/checkout@v4
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8594518Z with:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8595116Z   ref: main
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8595795Z   repository: dylan-byte-max/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8596909Z   token: ***
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8597534Z   ssh-strict: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8598177Z   ssh-user: git
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8598847Z   persist-credentials: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8599579Z   clean: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8600239Z   sparse-checkout-cone-mode: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8601048Z   fetch-depth: 1
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8601696Z   fetch-tags: false
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8602381Z   show-progress: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8603072Z   lfs: false
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8603849Z   submodules: false
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8604547Z   set-safe-directory: true
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.8605531Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9710918Z Syncing repository: dylan-byte-max/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9713948Z ##[group]Getting Git version info
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9715239Z Working directory is '/home/runner/work/novel-tracker/novel-tracker'
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9716933Z [command]/usr/bin/git version
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9725099Z git version 2.53.0
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9751585Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9765502Z Temporarily overriding HOME='/home/runner/work/_temp/564132c1-21bf-4e82-8fdb-6d1a9625d27a' before making global git config changes
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9768274Z Adding repository directory to the temporary git global config as a safe directory
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9778738Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/novel-tracker/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9808456Z Deleting the contents of '/home/runner/work/novel-tracker/novel-tracker'
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9811923Z ##[group]Initializing the repository
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9816073Z [command]/usr/bin/git init /home/runner/work/novel-tracker/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9896713Z hint: Using 'master' as the name for the initial branch. This default branch name
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9899029Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9900578Z hint: to use in all of your new repositories, which will suppress this warning,
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9902427Z hint: call:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9903485Z hint:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9904891Z hint: 	git config --global init.defaultBranch <name>
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9906221Z hint:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9907141Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9909087Z hint: 'development'. The just-created branch can be renamed via this command:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9910281Z hint:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9910913Z hint: 	git branch -m <name>
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9911661Z hint:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9912684Z hint: Disable this message with "git config set advice.defaultBranchName false"
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9914820Z Initialized empty Git repository in /home/runner/work/novel-tracker/novel-tracker/.git/
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9917495Z [command]/usr/bin/git remote add origin https://github.com/dylan-byte-max/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9940097Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9941682Z ##[group]Disabling automatic garbage collection
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9943040Z [command]/usr/bin/git config --local gc.auto 0
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9971079Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9972561Z ##[group]Setting up auth
+deploy	Run actions/checkout@v4	2026-03-30T12:15:46.9977356Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0006456Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0284882Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0312658Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0530512Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0571377Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0812637Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0850154Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0851578Z ##[group]Fetching the repository
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.0863504Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6355909Z From https://github.com/dylan-byte-max/novel-tracker
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6357788Z  * [new branch]      main       -> origin/main
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6384529Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6386391Z ##[group]Determining the checkout info
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6392087Z [command]/usr/bin/git branch --list --remote origin/main
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6414433Z   origin/main
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6420144Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6423439Z [command]/usr/bin/git sparse-checkout disable
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6457294Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6482505Z ##[group]Checking out the ref
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6485142Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6552681Z Switched to a new branch 'main'
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6556084Z branch 'main' set up to track 'origin/main'.
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6562259Z ##[endgroup]
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6594196Z [command]/usr/bin/git log -1 --format=%H
+deploy	Run actions/checkout@v4	2026-03-30T12:15:47.6614919Z e1e841d58d746dc318c3b46639b8def26acbac36
+deploy	Pull latest data	﻿2026-03-30T12:15:47.6801561Z ##[group]Run git pull origin main
+deploy	Pull latest data	2026-03-30T12:15:47.6802455Z [36;1mgit pull origin main[0m
+deploy	Pull latest data	2026-03-30T12:15:47.6836212Z shell: /usr/bin/bash -e {0}
+deploy	Pull latest data	2026-03-30T12:15:47.6836981Z ##[endgroup]
+deploy	Pull latest data	2026-03-30T12:15:48.0564526Z From https://github.com/dylan-byte-max/novel-tracker
+deploy	Pull latest data	2026-03-30T12:15:48.0565396Z  * branch            main       -> FETCH_HEAD
+deploy	Pull latest data	2026-03-30T12:15:48.0629156Z Already up to date.
+deploy	Run actions/configure-pages@v4	﻿2026-03-30T12:15:48.0692790Z ##[group]Run actions/configure-pages@v4
+deploy	Run actions/configure-pages@v4	2026-03-30T12:15:48.0693179Z with:
+deploy	Run actions/configure-pages@v4	2026-03-30T12:15:48.0693548Z   token: ***
+deploy	Run actions/configure-pages@v4	2026-03-30T12:15:48.0694142Z   enablement: false
+deploy	Run actions/configure-pages@v4	2026-03-30T12:15:48.0694410Z ##[endgroup]
+deploy	Run actions/upload-pages-artifact@v3	﻿2026-03-30T12:15:48.5529320Z ##[group]Run actions/upload-pages-artifact@v3
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5529668Z with:
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5529838Z   path: .
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5530004Z   name: github-pages
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5530222Z   retention-days: 1
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5530393Z env:
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5530552Z   GITHUB_PAGES: true
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5530736Z ##[endgroup]
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5621288Z ##[group]Run echo ::group::Archive artifact
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5621633Z [36;1mecho ::group::Archive artifact[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5621888Z [36;1mtar \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5622119Z [36;1m  --dereference --hard-dereference \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5622421Z [36;1m  --directory "$INPUT_PATH" \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5622695Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5622963Z [36;1m  --exclude=.git \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5623185Z [36;1m  --exclude=.github \[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5623400Z [36;1m  .[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5623576Z [36;1mecho ::endgroup::[0m
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5661890Z shell: /usr/bin/sh -e {0}
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5662167Z env:
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5662337Z   GITHUB_PAGES: true
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5662543Z   INPUT_PATH: .
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5662726Z ##[endgroup]
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5712605Z ##[group]Archive artifact
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5725447Z ./
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5725799Z ./index.html
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5726283Z ./data/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5726725Z ./data/fanqie/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5727130Z ./data/fanqie/latest.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5727663Z ./data/fanqie/history/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5728018Z ./data/fanqie/history/2026-03-30.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5728733Z ./data/fanqie/history_index.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5729223Z ./data/qidian/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5729584Z ./data/qidian/latest.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5730192Z ./data/qidian/history/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5730713Z ./data/qidian/history/2026-03-30.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5731332Z ./data/qidian/history_index.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5731865Z ./data/jjwxc/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5732345Z ./data/jjwxc/latest.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5732867Z ./data/jjwxc/history/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5733348Z ./data/jjwxc/history/2026-03-30.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5734231Z ./data/jjwxc/history_index.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5734707Z ./generate-demo-data.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5735097Z ./.gitignore
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5735422Z ./scrapers/
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5735734Z ./scrapers/qidian.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5736083Z ./scrapers/analyze.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5736458Z ./scrapers/fanqie.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5736833Z ./scrapers/jjwxc.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5737221Z ./_server.js
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5737535Z ./README.md
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5737829Z ./package.json
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5740169Z ##[endgroup]
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5816981Z ##[group]Run actions/upload-artifact@v4
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5817250Z with:
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5817424Z   name: github-pages
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5817655Z   path: /home/runner/work/_temp/artifact.tar
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5817929Z   retention-days: 1
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5818123Z   if-no-files-found: error
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5818350Z   compression-level: 6
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5818543Z   overwrite: false
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5818743Z   include-hidden-files: false
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5818948Z env:
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5819276Z   GITHUB_PAGES: true
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.5819477Z ##[endgroup]
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.7904409Z With the provided path, there will be 1 file uploaded
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.7909848Z Artifact name is valid!
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:48.7911185Z Root directory input is valid!
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.0692070Z Beginning upload of artifact content to blob storage
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.6563107Z Uploaded bytes 152149
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.7459555Z Finished uploading artifact content to blob storage!
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.7464073Z SHA256 digest of uploaded artifact zip is 9ad24acbe88de6b2a36f3cca07c36f3025fdeeca41f6e9bca5079868b08f18da
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.7465529Z Finalizing artifact upload
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.9161779Z Artifact github-pages.zip successfully finalized. Artifact ID 6177647306
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.9163011Z Artifact github-pages has been successfully uploaded! Final size is 152149 bytes. Artifact ID is 6177647306
+deploy	Run actions/upload-pages-artifact@v3	2026-03-30T12:15:49.9170120Z Artifact download URL: https://github.com/dylan-byte-max/novel-tracker/actions/runs/23744137987/artifacts/6177647306
+deploy	Run actions/deploy-pages@v4	﻿2026-03-30T12:15:49.9335250Z ##[group]Run actions/deploy-pages@v4
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9335551Z with:
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9335842Z   token: ***
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9336020Z   timeout: 600000
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9336203Z   error_count: 10
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9336391Z   reporting_interval: 5000
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9336613Z   artifact_name: github-pages
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9336832Z   preview: false
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9337033Z env:
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9337190Z   GITHUB_PAGES: true
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:49.9337377Z ##[endgroup]
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.4591290Z Fetching artifact metadata for "github-pages" in this workflow run
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7366625Z Found 1 artifact(s)
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7384421Z Creating Pages deployment with payload:
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7384920Z {
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7385254Z 	"artifact_id": 6177647306,
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7385774Z 	"pages_build_version": "4161cfe156c7b052d407100a509867501c3ab9c4",
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7417351Z 	"oidc_token": "***"
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:50.7417607Z }
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:51.1472409Z Created deployment for 4161cfe156c7b052d407100a509867501c3ab9c4, ID: 4161cfe156c7b052d407100a509867501c3ab9c4
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:56.1487822Z Getting Pages deployment status...
+deploy	Run actions/deploy-pages@v4	2026-03-30T12:15:56.3667329Z Reported success!
+deploy	Post Run actions/checkout@v4	﻿2026-03-30T12:15:56.3867753Z Post job cleanup.
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4808729Z [command]/usr/bin/git version
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4844315Z git version 2.53.0
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4886663Z Temporarily overriding HOME='/home/runner/work/_temp/d3d6367e-1657-4683-8547-98d866aa27b4' before making global git config changes
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4887992Z Adding repository directory to the temporary git global config as a safe directory
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4893220Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/novel-tracker/novel-tracker
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4927298Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.4957676Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5171670Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5190935Z http.https://github.com/.extraheader
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5203806Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5233558Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5446904Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+deploy	Post Run actions/checkout@v4	2026-03-30T12:15:56.5476244Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+deploy	Complete job	﻿2026-03-30T12:15:56.5797284Z Cleaning up orphan processes
+deploy	Complete job	2026-03-30T12:15:56.6092359Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/configure-pages@v4, actions/deploy-pages@v4, actions/upload-artifact@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
