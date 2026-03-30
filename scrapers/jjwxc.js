@@ -16,7 +16,7 @@ const path = require('path');
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'jjwxc');
 const TARGET_COUNT = 50;
-const RANK_URL = 'https://www.jjwxc.net/topten.php?orderstr=5&t=0';
+const RANK_URL = 'https://www.jjwxc.net/topten.php?orderstr=5&t=2';
 const REQUEST_DELAY = 800;
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -164,14 +164,16 @@ function parseRankPage(html) {
     const publishTime = cells[7]?.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, '').trim() || '';
     
     // 分类解析: [性质, 类型, 时代, 题材]
-    const nature = attrParts[0] || '';     // 原创/衍生
-    const genre = attrParts[1] || '';       // 纯爱/言情/百合/无CP
+    // 忽略第一个（原创/衍生），以第二个 genre 为主分类
+    const nature = attrParts[0] || '';     // 原创/衍生（不计入主分类）
+    const genre = attrParts[1] || '';       // 纯爱/言情/百合/无CP → 主分类
     const era = attrParts[2] || '';         // 近代现代/架空历史/古色古香/幻想未来
     const theme = attrParts[3] || '';       // 爱情/剧情/仙侠 等
     
-    const allTags = attrParts.filter(Boolean);
-    const primaryTag = theme || genre || era || nature || '未分类';
-    const secondaryTags = allTags.filter(t => t !== primaryTag);
+    const contentTags = [genre, era, theme].filter(Boolean);
+    const primaryTag = genre || era || theme || '未分类';
+    const secondaryTags = contentTags.filter(t => t !== primaryTag);
+    const allTags = [nature, ...contentTags].filter(Boolean);
     
     // 频道判断
     let channel = '未知';

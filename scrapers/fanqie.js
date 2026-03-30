@@ -299,13 +299,22 @@ async function main() {
       gender = catGenderMap[category].gender;
     }
 
-    // 标签处理：优先使用详情页抓到的完整标签
-    let primaryTag = detailInfo.primary_tag || category || '未分类';
-    let secondaryTags = detailInfo.secondary_tags || [];
-    let allTags = detailInfo.all_tags || (category ? [category] : []);
-
-    // 如果详情页没抓到但 API 有 category，确保至少有一个标签
-    if (primaryTag === '未分类' && category) {
+    // 标签处理：优先使用 API 的 category（最可靠），详情页标签作为补充
+    const category = topInfo.category || '';
+    let detailTags = detailInfo.all_tags || [];
+    
+    // 过滤掉详情页中可能误入的书名、作者名
+    detailTags = detailTags.filter(t => 
+      t !== bookName && t !== author && t.length <= 6 &&
+      !/小说|免费|阅读|章节|下载|番茄|全文/.test(t)
+    );
+    
+    let primaryTag = category || (detailTags.length > 0 ? detailTags[0] : '未分类');
+    let secondaryTags = detailTags.filter(t => t !== primaryTag);
+    let allTags = [primaryTag, ...secondaryTags].filter(t => t && t !== '未分类');
+    
+    // 确保至少有一个标签
+    if (primaryTag === '未分类' && allTags.length === 0 && category) {
       primaryTag = category;
       allTags = [category];
     }
