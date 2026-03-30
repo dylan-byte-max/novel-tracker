@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-30 20:14:31",
+  "update_time": "2026-03-30 20:41:14",
   "update_date": "2026-03-30",
   "total_count": 50,
   "source": "起点中文网·每日畅销榜",
@@ -8,14 +8,14 @@
   "platform_name": "起点中文网",
   "tag_stats": {
     "都市": 10,
-    "玄幻": 14,
+    "玄幻": 15,
     "仙侠": 9,
     "轻小说": 7,
     "科幻": 1,
     "奇幻": 2,
-    "历史": 5,
-    "游戏": 1,
-    "悬疑": 1
+    "历史": 4,
+    "悬疑": 1,
+    "游戏": 1
   },
   "gender_stats": {
     "男频": 48,
@@ -213,27 +213,6 @@
     },
     {
       "rank": 10,
-      "book_id": "1010868264",
-      "book_name": "诡秘之主",
-      "author": "爱潜水的乌贼",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "诡秘之主动画已经在腾讯视频上播出，欢迎大家前去观看！蒸汽与机械的浪潮中，谁能触及非凡？历史和黑暗的迷雾里，又是谁在耳语？我从诡秘中醒来，睁眼看见这个世界：枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1010868264/150.webp",
-      "book_url": "https://www.qidian.com/book/1010868264/",
-      "rank_change": 0
-    },
-    {
-      "rank": 11,
       "book_id": "1043128588",
       "book_name": "以一龙之力打倒整个世界！",
       "author": "唐宋元明氢",
@@ -251,7 +230,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043128588/150.webp",
       "book_url": "https://www.qidian.com/book/1043128588/",
-      "rank_change": 0
+      "rank_change": 1
+    },
+    {
+      "rank": 11,
+      "book_id": "1010868264",
+      "book_name": "诡秘之主",
+      "author": "爱潜水的乌贼",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "诡秘之主动画已经在腾讯视频上播出，欢迎大家前去观看！蒸汽与机械的浪潮中，谁能触及非凡？历史和黑暗的迷雾里，又是谁在耳语？我从诡秘中醒来，睁眼看见这个世界：枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1010868264/150.webp",
+      "book_url": "https://www.qidian.com/book/1010868264/",
+      "rank_change": -1
     },
     {
       "rank": 12,
@@ -314,7 +314,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043748975/150.webp",
       "book_url": "https://www.qidian.com/book/1043748975/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 15,
@@ -335,7 +335,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
       "book_url": "https://www.qidian.com/book/1041604040/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 16,
@@ -566,7 +566,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1003306811/150.webp",
       "book_url": "https://www.qidian.com/book/1003306811/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 27,
@@ -587,28 +587,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046738077/150.webp",
       "book_url": "https://www.qidian.com/book/1046738077/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 28,
-      "book_id": "1047956575",
-      "book_name": "我的学习群里全是真大佬",
-      "author": "胖胖的小橘",
+      "book_id": "1012584111",
+      "book_name": "神秘复苏",
+      "author": "佛前献花",
       "gender": "男频",
-      "primary_tag": "都市",
+      "primary_tag": "悬疑",
       "secondary_tags": [
-        "都市生活"
+        "诡秘悬疑"
       ],
       "all_tags": [
-        "都市",
-        "都市生活"
+        "悬疑",
+        "诡秘悬疑"
       ],
-      "abstract": "学渣李东无意中加入了一个诡异的“青龙学习小组”。群友的名字都十分复古，像是什么“艾萨克·牛顿”、“法拉第”、“高斯”、“爱因斯坦”。他们经常讨论一些晦涩难懂的学术问题，偶尔还会发一些专属红包。红包里的东西更加离谱，“洞穿真理的专注”、“逻辑思维碎片”、“绝对记忆”、“微积分本源”……李东一直以为这是一群入戏太深的中二病患者。直到有一天，那位叫“艾萨克·牛顿”的群友忽然颤抖着说道：“诸位，我测量声音的速度时发现，上帝好像在空气中隐藏了什么变量。”",
+      "abstract": "“我叫杨间，当你看到这句话的时候我已经死了......”一张诡异的羊皮卷，一只窥视黑暗的眼睛，这是一个活下来的人经历的故事。——————",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047956575/150.webp",
-      "book_url": "https://www.qidian.com/book/1047956575/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
+      "book_url": "https://www.qidian.com/book/1012584111/",
+      "rank_change": 2
     },
     {
       "rank": 29,
@@ -633,24 +633,24 @@
     },
     {
       "rank": 30,
-      "book_id": "1012584111",
-      "book_name": "神秘复苏",
-      "author": "佛前献花",
+      "book_id": "1047956575",
+      "book_name": "我的学习群里全是真大佬",
+      "author": "胖胖的小橘",
       "gender": "男频",
-      "primary_tag": "悬疑",
+      "primary_tag": "都市",
       "secondary_tags": [
-        "诡秘悬疑"
+        "都市生活"
       ],
       "all_tags": [
-        "悬疑",
-        "诡秘悬疑"
+        "都市",
+        "都市生活"
       ],
-      "abstract": "“我叫杨间，当你看到这句话的时候我已经死了......”一张诡异的羊皮卷，一只窥视黑暗的眼睛，这是一个活下来的人经历的故事。——————",
+      "abstract": "学渣李东无意中加入了一个诡异的“青龙学习小组”。群友的名字都十分复古，像是什么“艾萨克·牛顿”、“法拉第”、“高斯”、“爱因斯坦”。他们经常讨论一些晦涩难懂的学术问题，偶尔还会发一些专属红包。红包里的东西更加离谱，“洞穿真理的专注”、“逻辑思维碎片”、“绝对记忆”、“微积分本源”……李东一直以为这是一群入戏太深的中二病患者。直到有一天，那位叫“艾萨克·牛顿”的群友忽然颤抖着说道：“诸位，我测量声音的速度时发现，上帝好像在空气中隐藏了什么变量。”",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
-      "book_url": "https://www.qidian.com/book/1012584111/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047956575/150.webp",
+      "book_url": "https://www.qidian.com/book/1047956575/",
+      "rank_change": -2
     },
     {
       "rank": 31,
@@ -717,27 +717,6 @@
     },
     {
       "rank": 34,
-      "book_id": "1036370336",
-      "book_name": "宿命之环",
-      "author": "爱潜水的乌贼",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
-      "book_url": "https://www.qidian.com/book/1036370336/",
-      "rank_change": 0
-    },
-    {
-      "rank": 35,
       "book_id": "1043182343",
       "book_name": "苟在初圣魔门当人材",
       "author": "鹤守月满池",
@@ -755,7 +734,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043182343/150.webp",
       "book_url": "https://www.qidian.com/book/1043182343/",
-      "rank_change": 0
+      "rank_change": 1
+    },
+    {
+      "rank": 35,
+      "book_id": "1036370336",
+      "book_name": "宿命之环",
+      "author": "爱潜水的乌贼",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
+      "book_url": "https://www.qidian.com/book/1036370336/",
+      "rank_change": -1
     },
     {
       "rank": 36,
@@ -864,24 +864,24 @@
     },
     {
       "rank": 41,
-      "book_id": "1039457453",
-      "book_name": "鸣龙",
-      "author": "关关公子",
+      "book_id": "1040790581",
+      "book_name": "刚准备高考，离婚逆袭系统来了",
+      "author": "七月封阳",
       "gender": "男频",
-      "primary_tag": "玄幻",
+      "primary_tag": "都市",
       "secondary_tags": [
-        "东方玄幻"
+        "都市生活"
       ],
       "all_tags": [
-        "玄幻",
-        "东方玄幻"
+        "都市",
+        "都市生活"
       ],
-      "abstract": "“事情是这样的，我当初身陷绝境，意外遇见了一条龙，它非说我是习武奇才，要给我指条通仙大道……”“这就是你挖开魔神陵，给妖魔当奴仆的理由？！”“我谢尽欢从不屈居人下，它才是奴仆，准确来说，我是被一条龙服务过……”……已有完本万订《世子很凶》《仙子很凶》《女侠且慢》，感兴趣的朋友可以先看老书~",
+      "abstract": "【三万均校园日常恋爱文】人在高三，离婚逆袭系统早到二十年。【三十八岁，你婚姻失败，站在不惑之年十字路口，想起了少年时的青梅。结婚后，你们断绝了来往，再无她的消息。与徐浅浅重新建立联系，奖励：300RMB。】十八岁的江年看了一眼面板上的系统任务，又看了一眼住在对门的徐浅浅。不由陷入沉思，嗯.......这系统似乎来早了。还有一件事。未来的前妻是谁？呃......江年有些绷不住了，年年十八岁，未来会离婚。系统颁布报复前妻的任务，江年望了望眼前还未“黑化”的前妻，再次陷入了沉思。青梅、未来的前妻、未来前女友，全是年轻版本，一个个出现的时候。系统有点变质了。有万订完结老书《恋综：万人嫌的我爆红了》",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039457453/150.webp",
-      "book_url": "https://www.qidian.com/book/1039457453/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040790581/150.webp",
+      "book_url": "https://www.qidian.com/book/1040790581/",
+      "rank_change": 3
     },
     {
       "rank": 42,
@@ -906,6 +906,27 @@
     },
     {
       "rank": 43,
+      "book_id": "1039457453",
+      "book_name": "鸣龙",
+      "author": "关关公子",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "东方玄幻"
+      ],
+      "abstract": "“事情是这样的，我当初身陷绝境，意外遇见了一条龙，它非说我是习武奇才，要给我指条通仙大道……”“这就是你挖开魔神陵，给妖魔当奴仆的理由？！”“我谢尽欢从不屈居人下，它才是奴仆，准确来说，我是被一条龙服务过……”……已有完本万订《世子很凶》《仙子很凶》《女侠且慢》，感兴趣的朋友可以先看老书~",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039457453/150.webp",
+      "book_url": "https://www.qidian.com/book/1039457453/",
+      "rank_change": -2
+    },
+    {
+      "rank": 44,
       "book_id": "1044394624",
       "book_name": "状元郎",
       "author": "三戒大师",
@@ -923,28 +944,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044394624/150.webp",
       "book_url": "https://www.qidian.com/book/1044394624/",
-      "rank_change": 0
-    },
-    {
-      "rank": 44,
-      "book_id": "1040790581",
-      "book_name": "刚准备高考，离婚逆袭系统来了",
-      "author": "七月封阳",
-      "gender": "男频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "都市生活"
-      ],
-      "all_tags": [
-        "都市",
-        "都市生活"
-      ],
-      "abstract": "【三万均校园日常恋爱文】人在高三，离婚逆袭系统早到二十年。【三十八岁，你婚姻失败，站在不惑之年十字路口，想起了少年时的青梅。结婚后，你们断绝了来往，再无她的消息。与徐浅浅重新建立联系，奖励：300RMB。】十八岁的江年看了一眼面板上的系统任务，又看了一眼住在对门的徐浅浅。不由陷入沉思，嗯.......这系统似乎来早了。还有一件事。未来的前妻是谁？呃......江年有些绷不住了，年年十八岁，未来会离婚。系统颁布报复前妻的任务，江年望了望眼前还未“黑化”的前妻，再次陷入了沉思。青梅、未来的前妻、未来前女友，全是年轻版本，一个个出现的时候。系统有点变质了。有万订完结老书《恋综：万人嫌的我爆红了》",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040790581/150.webp",
-      "book_url": "https://www.qidian.com/book/1040790581/",
-      "rank_change": 0
+      "rank_change": -1
     },
     {
       "rank": 45,
@@ -1053,24 +1053,24 @@
     },
     {
       "rank": 50,
-      "book_id": "1045831749",
-      "book_name": "红楼芳华，权倾天下",
-      "author": "爱车的z",
+      "book_id": "1046986854",
+      "book_name": "从黄包车夫到覆海大圣",
+      "author": "安心知易",
       "gender": "男频",
-      "primary_tag": "历史",
+      "primary_tag": "玄幻",
       "secondary_tags": [
-        "架空历史"
+        "东方玄幻"
       ],
       "all_tags": [
-        "历史",
-        "架空历史"
+        "玄幻",
+        "东方玄幻"
       ],
-      "abstract": "【北宋末背景，加了红楼作为后宫戏，没看过红楼也不影响观看，红楼，水浒结合体，快万订，日万，质量保证】穿越成西门庆，见到的第一个女人不是潘金莲竟是红楼秦可卿。这北宋靖康之耻将临，亦如红楼将倾！我堂堂清河县一霸，带着一群绿林豪杰，在宋徽宗跟前混的是风生水起！潘金莲，李瓶儿遇上了薛宝钗，林黛玉，这些天底下最能斗的女人们凑在一个园子，也不知谁更厉害！惹恼了大官人我，又是一顿家法大棒伺候！有干爹蔡京撑腰，抄了贾府也是顺手的事。我爬啊爬！爬垮了干爹，爬塌了宋徽宗送钦宗。爬到最高处，只剩我一个权倾朝野！黄袍加身！只手拦住南侵覆灭的滚滚狼烟！",
+      "abstract": "陈国宣历帝，退位第五年。天下大乱，妖诡横行，民不聊生。内有军阀割据，武人横行，肆虐一方，外有西方列强，密教霍乱，禽兽食国。一张《时局图》，道尽天下多少悲欢事？姜景年穿越而来，携带着能够无限加点，融天地万物的【特性词条】。烧【性命】。取【真经】。吞【龙脉】。以【恒定特性】。证【不朽果位】。在租界里边，从一个寄人篱下，每日靠着借贷吃饭，租车拉活的黄包车夫。一举成为足以遮天蔽日，光耀天下的......覆海大圣。",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
-      "book_url": "https://www.qidian.com/book/1045831749/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046986854/150.webp",
+      "book_url": "https://www.qidian.com/book/1046986854/",
+      "rank_change": "new"
     }
   ]
 }
