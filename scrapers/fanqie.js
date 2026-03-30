@@ -282,6 +282,40 @@ async function fetchBookCategoryMap(catGenderMap) {
   return { genderMap, categoryMap };
 }
 
+// ========== 关键词推断分类（兜底策略） ==========
+function inferCategoryFromText(title, desc) {
+  const text = `${title} ${desc}`.toLowerCase();
+  
+  // 按优先级匹配（从具体到宽泛）
+  const rules = [
+    { tag: '悬疑灵异', kws: ['灵异', '鬼', '诡', '恐怖', '惊悚', '灵魂', '阴间', '捉鬼', '风水', '驱邪', '道士'] },
+    { tag: '科幻末世', kws: ['末世', '末日', '丧尸', '僵尸', '废土', '科幻', '星际', '赛博', '机器人', '人工智能'] },
+    { tag: '游戏体育', kws: ['游戏', '副本', '电竞', '网游', '体育', '足球', '篮球', '直播'] },
+    { tag: '东方仙侠', kws: ['仙', '修仙', '修真', '仙侠', '飞升', '修炼', '仙门', '修道'] },
+    { tag: '传统玄幻', kws: ['玄幻', '异世', '大陆', '斗气', '魔法', '龙', '魔王', '勇者'] },
+    { tag: '都市高武', kws: ['高武', '武道', '境界', '灵气复苏', '觉醒', '超能', '异能'] },
+    { tag: '历史古代', kws: ['古代', '大唐', '大秦', '三国', '朝廷', '太子', '皇帝', '科举', '王爷', '郡主', '宫', '公主'] },
+    { tag: '悬疑脑洞', kws: ['推理', '破案', '侦探', '密室', '悬疑', '怪谈', '规则'] },
+    { tag: '都市种田', kws: ['种田', '乡村', '农村', '美食', '开店', '厨', '钓鱼'] },
+    { tag: '都市日常', kws: ['都市', '校园', '大学', '职场', '公司', '总裁', '医', '教授', '老师'] },
+    { tag: '仕途', kws: ['官场', '仕途', '反腐', '公务员', '县长', '书记', '公考'] },
+    { tag: '豪门总裁', kws: ['豪门', '总裁', '财阀', '千金', '少爷', '权势'] },
+    { tag: '娱乐圈', kws: ['娱乐圈', '明星', '偶像', '演员', '导演', '综艺'] },
+    { tag: '都市脑洞', kws: ['重生', '穿越', '系统', '面板', '模拟', '抽取', '词条', '穿书'] },
+    { tag: '古言', kws: ['嫡女', '侯府', '王妃', '闺', '妾', '庶', '嫁'] },
+    { tag: '现言', kws: ['甜宠', '恋爱', '男友', '闪婚', '双男主', '破镜重圆', 'he'] },
+    { tag: '西方奇幻', kws: ['魔法', '精灵', '骑士', '异界'] },
+  ];
+  
+  for (const rule of rules) {
+    if (rule.kws.some(kw => text.includes(kw))) {
+      return rule.tag;
+    }
+  }
+  
+  return null;
+}
+
 // ========== 主函数 ==========
 async function main() {
   const now = getNowBJT();
@@ -354,10 +388,22 @@ async function main() {
     let secondaryTags = detailTags.filter(t => t !== primaryTag);
     let allTags = [primaryTag, ...secondaryTags].filter(t => t && t !== '未分类');
     
-    // 确保至少有一个标签
-    if (primaryTag === '未分类' && allTags.length === 0 && category) {
-      primaryTag = category;
-      allTags = [category];
+    // 确保至少有一个标签 — 关键词推断兜底
+    if (primaryTag === '未分类' || primaryTag === bookName) {
+      const inferred = inferCategoryFromText(bookName, detailInfo.description || '');
+      if (inferred) {
+        primaryTag = inferred;
+        allTags = [inferred];
+      } else if (category) {
+        primaryTag = category;
+        allTags = [category];
+      }
+    }
+    
+    // 再次检查：如果 primaryTag 和书名一样，说明推断失败了
+    if (primaryTag === bookName) {
+      primaryTag = '未分类';
+      allTags = [];
     }
 
     const abstract = detailInfo.description || '暂无简介';
