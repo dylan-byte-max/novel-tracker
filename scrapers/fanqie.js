@@ -1,13 +1,17 @@
 /**
- * 番茄小说热门榜单爬虫 v3 (novel-tracker 版)
+ * 番茄小说热门榜单爬虫 v4 (novel-tracker 版)
  * 
- * 改进点：
- * - 从详情页抓取完整标签列表（主标签 + 副标签）
- * - 数据目录适配 novel-tracker 结构
- * - 统一输出格式供前端使用
+ * 标签获取策略（按优先级）：
+ * 1. top_book_list/v1 API → category 字段（未加密，覆盖部分热门书）
+ * 2. 按分类遍历 book_list API → book_id→category 映射
+ * 3. Playwright 详情页 → 直接从渲染后 DOM 抓取标签（兜底，最准确）
+ * 4. 关键词推断 → 基于书名+简介匹配分类规则（最终兜底）
  * 
- * 多源数据融合策略：
- * 1. top_book_list/v1 API  → 未加密的排名列表（书名、作者、分类、封面）
+ * 其他数据源：
+ * - category_list/v0 API → 分类名→性别频道映射
+ * - book_list/v0 API → 排名顺序（按最热排序）
+ * - 详情页 meta 标签 → 简介、作者确认
+ */
  * 2. category_list/v0 API  → 分类名→性别频道映射
  * 3. book_list/v0 API      → 排名顺序（按最热排序）
  * 4. 详情页 HTML           → 完整标签、简介、作者确认
@@ -17,6 +21,7 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { chromium } = require('playwright');
 
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'fanqie');
@@ -282,6 +287,135 @@ async function fetchBookCategoryMap(catGenderMap) {
   return { genderMap, categoryMap };
 }
 
+// ========== Playwright 详情页标签抓取（对 API 无法覆盖的书使用） ==========
+async function fetchTagsViaPlaywright(books) {
+  // 筛选出需要 Playwright 抓标签的书
+  const needTags = books.filter(b => !b.primary_tag || b.primary_tag === '未分类' || b.primary_tag === b.book_name);
+  
+  if (needTags.length === 0) {
+    console.log('  所有书都已有分类，无需 Playwright');
+    return;
+  }
+  
+  console.log(`\n🌐 Playwright 标签抓取：${needTags.length} 本需要处理`);
+  
+  let browser;
+  try {
+    browser = await chromium.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-blink-features=AutomationControlled'],
+    });
+    
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+      locale: 'zh-CN',
+      viewport: { width: 1920, height: 1080 },
+    });
+    
+    await context.addInitScript(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    });
+    
+    const page = await context.newPage();
+    
+    for (let i = 0; i < needTags.length; i++) {
+      const book = needTags[i];
+      const url = `https://fanqienovel.com/page/${book.book_id}`;
+      process.stdout.write(`  [${i+1}/${needTags.length}] ${book.book_name} `);
+      
+      try {
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
+        await sleep(1500);
+        
+        // 从渲染后的 DOM 提取标签
+        const tags = await page.evaluate(() => {
+          const result = [];
+          
+          // 方法1: 查找所有看起来像标签的元素
+          // 番茄详情页标签通常在书名下方，是一组小的 pill/badge 元素
+          const selectors = [
+            '.info-label .label-tag',
+            '.book-info .tag',
+            '.page-header-info .tag',
+            '[class*="tag"]',
+            '[class*="label"]',
+          ];
+          
+          for (const sel of selectors) {
+            const els = document.querySelectorAll(sel);
+            els.forEach(el => {
+              const t = el.textContent.trim();
+              if (t && t.length <= 8 && t.length >= 1 
+                  && !['连载中', '已完结', '完结', '连载', '开始阅读', '下载', '免费'].includes(t)
+                  && !t.includes('万字')
+                  && !t.includes('番茄')) {
+                result.push(t);
+              }
+            });
+            if (result.length > 0) break;
+          }
+          
+          // 方法2: 如果上面没找到，试试更宽泛的查找
+          if (result.length === 0) {
+            // 找书名附近的小文字块（排除大标题和按钮）
+            const allSpans = document.querySelectorAll('span, a');
+            const titleEl = document.querySelector('h1, .book-name, [class*="title"]');
+            if (titleEl) {
+              const titleRect = titleEl.getBoundingClientRect();
+              allSpans.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                // 在标题下方100px以内，且元素较小
+                if (rect.top > titleRect.bottom && rect.top < titleRect.bottom + 100
+                    && rect.height < 40 && rect.width < 150 && rect.width > 20) {
+                  const t = el.textContent.trim();
+                  if (t && t.length <= 8 && t.length >= 1
+                      && !['连载中', '已完结', '完结', '连载', '开始阅读', '下载', '免费'].includes(t)
+                      && !t.includes('万字')
+                      && !t.includes('番茄')
+                      && !t.includes('最近更新')) {
+                    result.push(t);
+                  }
+                }
+              });
+            }
+          }
+          
+          // 去重
+          return [...new Set(result)];
+        });
+        
+        if (tags.length > 0) {
+          // 过滤状态标签，保留分类标签
+          const contentTags = tags.filter(t => 
+            !['连载中', '已完结', '完结', '连载'].includes(t)
+          );
+          
+          if (contentTags.length > 0) {
+            book.primary_tag = contentTags[0];
+            book.secondary_tags = contentTags.slice(1);
+            book.all_tags = contentTags;
+            console.log(`✓ [${contentTags.join(', ')}]`);
+          } else {
+            console.log('✗ (只有状态标签)');
+          }
+        } else {
+          console.log('✗ (未找到标签)');
+        }
+        
+      } catch(e) {
+        console.log(`✗ (${e.message.slice(0, 50)})`);
+      }
+      
+      if (i < needTags.length - 1) await sleep(1000);
+    }
+    
+  } catch(e) {
+    console.log(`  Playwright 初始化失败: ${e.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+}
+
 // ========== 关键词推断分类（兜底策略） ==========
 function inferCategoryFromText(title, desc) {
   const text = `${title} ${desc}`.toLowerCase();
@@ -429,6 +563,9 @@ async function main() {
 
     if (i < hotRankList.length - 1) await sleep(REQUEST_DELAY);
   }
+
+  // 阶段2.5：对无分类的书用 Playwright 抓取详情页标签
+  await fetchTagsViaPlaywright(books);
 
   console.log('\n📈 阶段三：计算排名变化');
   const latestPath = path.join(DATA_DIR, 'latest.json');
