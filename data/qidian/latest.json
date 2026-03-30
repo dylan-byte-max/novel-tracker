@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-30 20:06:13",
+  "update_time": "2026-03-30 20:14:31",
   "update_date": "2026-03-30",
   "total_count": 50,
   "source": "起点中文网·每日畅销榜",
@@ -297,27 +297,6 @@
     },
     {
       "rank": 14,
-      "book_id": "1041604040",
-      "book_name": "异度旅社",
-      "author": "远瞳",
-      "gender": "男频",
-      "primary_tag": "科幻",
-      "secondary_tags": [
-        "时空穿梭"
-      ],
-      "all_tags": [
-        "科幻",
-        "时空穿梭"
-      ],
-      "abstract": "在日常之下，在理性尽头，在你所熟悉的世界之外——是你从未想象过的风景。当于生第一次打开那扇门的时候，他所熟悉的世界便轰然倒塌。而那直抵世界根源的“真相”，扑面而来。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
-      "book_url": "https://www.qidian.com/book/1041604040/",
-      "rank_change": 0
-    },
-    {
-      "rank": 15,
       "book_id": "1043748975",
       "book_name": "山河稷",
       "author": "姬叉",
@@ -335,7 +314,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043748975/150.webp",
       "book_url": "https://www.qidian.com/book/1043748975/",
-      "rank_change": 0
+      "rank_change": 1
+    },
+    {
+      "rank": 15,
+      "book_id": "1041604040",
+      "book_name": "异度旅社",
+      "author": "远瞳",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "时空穿梭"
+      ],
+      "all_tags": [
+        "科幻",
+        "时空穿梭"
+      ],
+      "abstract": "在日常之下，在理性尽头，在你所熟悉的世界之外——是你从未想象过的风景。当于生第一次打开那扇门的时候，他所熟悉的世界便轰然倒塌。而那直抵世界根源的“真相”，扑面而来。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
+      "book_url": "https://www.qidian.com/book/1041604040/",
+      "rank_change": -1
     },
     {
       "rank": 16,
@@ -549,27 +549,6 @@
     },
     {
       "rank": 26,
-      "book_id": "1046738077",
-      "book_name": "万生痴魔",
-      "author": "沙拉古斯",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "东方玄幻"
-      ],
-      "all_tags": [
-        "玄幻",
-        "东方玄幻"
-      ],
-      "abstract": "拿个碗，填好土，数个一二三四五。种个蛤蟆变火车，种颗毛豆变老虎。种出一身好手艺，一生享福不受苦。万生有行三百六，条条大路谁做主？那位木匠好本事，墨线弹指分阴阳，榫卯环扣镇八荒。这位铁匠有手段，铁火一炉鸣乾坤，锻锤千击裂晨昏。又有裁缝野心大，寸缕回风裁世象，绣针一点连四方。还有厨子心肠狠，铁灶燃狱煮红尘，刃起风雷骨作薪。万生州，千人千面，万生万变。张来福站在人海当中，得意洋洋笑道：“来，跟着咱享福去！”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046738077/150.webp",
-      "book_url": "https://www.qidian.com/book/1046738077/",
-      "rank_change": 0
-    },
-    {
-      "rank": 27,
       "book_id": "1003306811",
       "book_name": "放开那个女巫",
       "author": "二目",
@@ -587,7 +566,28 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1003306811/150.webp",
       "book_url": "https://www.qidian.com/book/1003306811/",
-      "rank_change": 0
+      "rank_change": 1
+    },
+    {
+      "rank": 27,
+      "book_id": "1046738077",
+      "book_name": "万生痴魔",
+      "author": "沙拉古斯",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "东方玄幻"
+      ],
+      "abstract": "拿个碗，填好土，数个一二三四五。种个蛤蟆变火车，种颗毛豆变老虎。种出一身好手艺，一生享福不受苦。万生有行三百六，条条大路谁做主？那位木匠好本事，墨线弹指分阴阳，榫卯环扣镇八荒。这位铁匠有手段，铁火一炉鸣乾坤，锻锤千击裂晨昏。又有裁缝野心大，寸缕回风裁世象，绣针一点连四方。还有厨子心肠狠，铁灶燃狱煮红尘，刃起风雷骨作薪。万生州，千人千面，万生万变。张来福站在人海当中，得意洋洋笑道：“来，跟着咱享福去！”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046738077/150.webp",
+      "book_url": "https://www.qidian.com/book/1046738077/",
+      "rank_change": -1
     },
     {
       "rank": 28,
@@ -692,7 +692,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1031777108/150.webp",
       "book_url": "https://www.qidian.com/book/1031777108/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 33,
@@ -713,7 +713,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047237870/150.webp",
       "book_url": "https://www.qidian.com/book/1047237870/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 34,
@@ -818,7 +818,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043196323/150.webp",
       "book_url": "https://www.qidian.com/book/1043196323/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 39,
@@ -839,7 +839,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1037570737/150.webp",
       "book_url": "https://www.qidian.com/book/1037570737/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 40,
@@ -1007,7 +1007,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/150.webp",
       "book_url": "https://www.qidian.com/book/1039831421/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 48,
@@ -1028,7 +1028,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp",
       "book_url": "https://www.qidian.com/book/1017281778/",
-      "rank_change": -1
+      "rank_change": 0
     },
     {
       "rank": 49,
@@ -1049,7 +1049,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046117934/150.webp",
       "book_url": "https://www.qidian.com/book/1046117934/",
-      "rank_change": 1
+      "rank_change": 0
     },
     {
       "rank": 50,
@@ -1070,7 +1070,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
       "book_url": "https://www.qidian.com/book/1045831749/",
-      "rank_change": -1
+      "rank_change": 0
     }
   ]
 }
