@@ -285,11 +285,14 @@ async function fetchBookCategoryMap(catGenderMap) {
 
 // ========== Playwright 详情页标签抓取（对 API 无法覆盖的书使用） ==========
 async function fetchTagsViaPlaywright(books) {
-  // 筛选出需要 Playwright 抓标签的书
-  const needTags = books.filter(b => !b.primary_tag || b.primary_tag === '未分类' || b.primary_tag === b.book_name);
+  // 筛选出需要 Playwright 抓标签的书：无分类 或 缺少副标签
+  const needTags = books.filter(b => 
+    !b.primary_tag || b.primary_tag === '未分类' || b.primary_tag === b.book_name ||
+    !b.secondary_tags || b.secondary_tags.length === 0
+  );
   
   if (needTags.length === 0) {
-    console.log('  所有书都已有分类，无需 Playwright');
+    console.log('  所有书都已有完整标签，无需 Playwright');
     return;
   }
   
@@ -387,10 +390,21 @@ async function fetchTagsViaPlaywright(books) {
           );
           
           if (contentTags.length > 0) {
-            book.primary_tag = contentTags[0];
-            book.secondary_tags = contentTags.slice(1);
-            book.all_tags = contentTags;
-            console.log(`✓ [${contentTags.join(', ')}]`);
+            const hasGoodPrimary = book.primary_tag && book.primary_tag !== '未分类' && book.primary_tag !== book.book_name;
+            
+            if (hasGoodPrimary) {
+              // 已有主标签 — 只补充副标签（不覆盖主标签）
+              const newSecondary = contentTags.filter(t => t !== book.primary_tag);
+              book.secondary_tags = newSecondary;
+              book.all_tags = [book.primary_tag, ...newSecondary];
+              console.log(`✓ 补充副标签 [${newSecondary.join(', ')}]`);
+            } else {
+              // 无主标签 — 全量替换
+              book.primary_tag = contentTags[0];
+              book.secondary_tags = contentTags.slice(1);
+              book.all_tags = contentTags;
+              console.log(`✓ [${contentTags.join(', ')}]`);
+            }
           } else {
             console.log('✗ (只有状态标签)');
           }
