@@ -12,10 +12,6 @@
  * - book_list/v0 API → 排名顺序（按最热排序）
  * - 详情页 meta 标签 → 简介、作者确认
  */
- * 2. category_list/v0 API  → 分类名→性别频道映射
- * 3. book_list/v0 API      → 排名顺序（按最热排序）
- * 4. 详情页 HTML           → 完整标签、简介、作者确认
- */
 
 const https = require('https');
 const http = require('http');
