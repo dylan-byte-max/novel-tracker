@@ -1,0 +1,1056 @@
+{
+  "update_time": "2026-03-30 15:00:00",
+  "update_date": "2026-03-30",
+  "total_count": 50,
+  "source": "起点中文网·每日畅销榜",
+  "source_url": "https://www.qidian.com/rank/hotsales/",
+  "platform": "qidian",
+  "platform_name": "起点中文网",
+  "tag_stats": {
+    "军事": 4,
+    "游戏": 6,
+    "玄幻": 6,
+    "科幻": 5,
+    "悬疑": 3,
+    "武侠": 6,
+    "都市": 5,
+    "历史": 7,
+    "轻小说": 2,
+    "仙侠": 6
+  },
+  "gender_stats": {
+    "男频": 36,
+    "女频": 14
+  },
+  "books": [
+    {
+      "rank": 1,
+      "book_id": "1010000001",
+      "book_name": "起点畅销小说1号·军事传",
+      "author": "起点作者1",
+      "gender": "男频",
+      "primary_tag": "军事",
+      "secondary_tags": [
+        "仙侠"
+      ],
+      "all_tags": [
+        "军事",
+        "仙侠"
+      ],
+      "abstract": "起点畅销军事力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "263万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000001/",
+      "rank_change": "new"
+    },
+    {
+      "rank": 2,
+      "book_id": "1010000002",
+      "book_name": "起点畅销小说2号·游戏传",
+      "author": "起点作者2",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [],
+      "all_tags": [
+        "游戏"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "209万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000002/",
+      "rank_change": "new"
+    },
+    {
+      "rank": 3,
+      "book_id": "1010000003",
+      "book_name": "起点畅销小说3号·玄幻传",
+      "author": "起点作者3",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "游戏"
+      ],
+      "all_tags": [
+        "玄幻",
+        "游戏"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "328万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000003/",
+      "rank_change": "new"
+    },
+    {
+      "rank": 4,
+      "book_id": "1010000004",
+      "book_name": "起点畅销小说4号·科幻传",
+      "author": "起点作者4",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "科幻",
+        "轻小说"
+      ],
+      "abstract": "起点畅销科幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "485万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000004/",
+      "rank_change": 0
+    },
+    {
+      "rank": 5,
+      "book_id": "1010000005",
+      "book_name": "起点畅销小说5号·悬疑传",
+      "author": "起点作者5",
+      "gender": "男频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "军事"
+      ],
+      "all_tags": [
+        "悬疑",
+        "军事"
+      ],
+      "abstract": "起点畅销悬疑力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "212万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000005/",
+      "rank_change": 4
+    },
+    {
+      "rank": 6,
+      "book_id": "1010000006",
+      "book_name": "起点畅销小说6号·武侠传",
+      "author": "起点作者6",
+      "gender": "女频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "仙侠"
+      ],
+      "all_tags": [
+        "武侠",
+        "仙侠"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "84万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000006/",
+      "rank_change": 0
+    },
+    {
+      "rank": 7,
+      "book_id": "1010000007",
+      "book_name": "起点畅销小说7号·都市传",
+      "author": "起点作者7",
+      "gender": "女频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "游戏"
+      ],
+      "all_tags": [
+        "都市",
+        "游戏"
+      ],
+      "abstract": "起点畅销都市力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "339万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000007/",
+      "rank_change": 0
+    },
+    {
+      "rank": 8,
+      "book_id": "1010000008",
+      "book_name": "起点畅销小说8号·历史传",
+      "author": "起点作者8",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "历史",
+        "科幻"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "509万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000008/",
+      "rank_change": 5
+    },
+    {
+      "rank": 9,
+      "book_id": "1010000009",
+      "book_name": "起点畅销小说9号·历史传",
+      "author": "起点作者9",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "历史",
+        "都市"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "71万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000009/",
+      "rank_change": 0
+    },
+    {
+      "rank": 10,
+      "book_id": "1010000010",
+      "book_name": "起点畅销小说10号·玄幻传",
+      "author": "起点作者10",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "科幻"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "242万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000010/",
+      "rank_change": 0
+    },
+    {
+      "rank": 11,
+      "book_id": "1010000011",
+      "book_name": "起点畅销小说11号·悬疑传",
+      "author": "起点作者11",
+      "gender": "男频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "悬疑",
+        "玄幻"
+      ],
+      "abstract": "起点畅销悬疑力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "395万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000011/",
+      "rank_change": 1
+    },
+    {
+      "rank": 12,
+      "book_id": "1010000012",
+      "book_name": "起点畅销小说12号·科幻传",
+      "author": "起点作者12",
+      "gender": "女频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "军事"
+      ],
+      "all_tags": [
+        "科幻",
+        "军事"
+      ],
+      "abstract": "起点畅销科幻力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "133万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000012/",
+      "rank_change": 0
+    },
+    {
+      "rank": 13,
+      "book_id": "1010000013",
+      "book_name": "起点畅销小说13号·轻小说传",
+      "author": "起点作者13",
+      "gender": "男频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "轻小说",
+        "悬疑"
+      ],
+      "abstract": "起点畅销轻小说力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "420万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000013/",
+      "rank_change": 3
+    },
+    {
+      "rank": 14,
+      "book_id": "1010000014",
+      "book_name": "起点畅销小说14号·仙侠传",
+      "author": "起点作者14",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "仙侠",
+        "玄幻"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "67万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000014/",
+      "rank_change": 0
+    },
+    {
+      "rank": 15,
+      "book_id": "1010000015",
+      "book_name": "起点畅销小说15号·仙侠传",
+      "author": "起点作者15",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "仙侠",
+        "历史"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "335万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000015/",
+      "rank_change": 0
+    },
+    {
+      "rank": 16,
+      "book_id": "1010000016",
+      "book_name": "起点畅销小说16号·仙侠传",
+      "author": "起点作者16",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "军事"
+      ],
+      "all_tags": [
+        "仙侠",
+        "军事"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "438万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000016/",
+      "rank_change": 0
+    },
+    {
+      "rank": 17,
+      "book_id": "1010000017",
+      "book_name": "起点畅销小说17号·游戏传",
+      "author": "起点作者17",
+      "gender": "女频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "游戏",
+        "轻小说"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "351万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000017/",
+      "rank_change": 1
+    },
+    {
+      "rank": 18,
+      "book_id": "1010000018",
+      "book_name": "起点畅销小说18号·历史传",
+      "author": "起点作者18",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "历史",
+        "科幻"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "337万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000018/",
+      "rank_change": 1
+    },
+    {
+      "rank": 19,
+      "book_id": "1010000019",
+      "book_name": "起点畅销小说19号·玄幻传",
+      "author": "起点作者19",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [],
+      "all_tags": [
+        "玄幻"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "233万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000019/",
+      "rank_change": 0
+    },
+    {
+      "rank": 20,
+      "book_id": "1010000020",
+      "book_name": "起点畅销小说20号·都市传",
+      "author": "起点作者20",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "仙侠"
+      ],
+      "all_tags": [
+        "都市",
+        "仙侠"
+      ],
+      "abstract": "起点畅销都市力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "86万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000020/",
+      "rank_change": -1
+    },
+    {
+      "rank": 21,
+      "book_id": "1010000021",
+      "book_name": "起点畅销小说21号·军事传",
+      "author": "起点作者21",
+      "gender": "男频",
+      "primary_tag": "军事",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "军事",
+        "轻小说"
+      ],
+      "abstract": "起点畅销军事力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "66万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000021/",
+      "rank_change": 4
+    },
+    {
+      "rank": 22,
+      "book_id": "1010000022",
+      "book_name": "起点畅销小说22号·悬疑传",
+      "author": "起点作者22",
+      "gender": "女频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "悬疑",
+        "科幻"
+      ],
+      "abstract": "起点畅销悬疑力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "337万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000022/",
+      "rank_change": 0
+    },
+    {
+      "rank": 23,
+      "book_id": "1010000023",
+      "book_name": "起点畅销小说23号·游戏传",
+      "author": "起点作者23",
+      "gender": "女频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "游戏",
+        "科幻"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "296万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000023/",
+      "rank_change": 2
+    },
+    {
+      "rank": 24,
+      "book_id": "1010000024",
+      "book_name": "起点畅销小说24号·玄幻传",
+      "author": "起点作者24",
+      "gender": "女频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "玄幻",
+        "都市"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "174万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000024/",
+      "rank_change": 0
+    },
+    {
+      "rank": 25,
+      "book_id": "1010000025",
+      "book_name": "起点畅销小说25号·游戏传",
+      "author": "起点作者25",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "游戏",
+        "历史"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "281万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000025/",
+      "rank_change": 0
+    },
+    {
+      "rank": 26,
+      "book_id": "1010000026",
+      "book_name": "起点畅销小说26号·科幻传",
+      "author": "起点作者26",
+      "gender": "女频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "科幻",
+        "悬疑"
+      ],
+      "abstract": "起点畅销科幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "197万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000026/",
+      "rank_change": 0
+    },
+    {
+      "rank": 27,
+      "book_id": "1010000027",
+      "book_name": "起点畅销小说27号·军事传",
+      "author": "起点作者27",
+      "gender": "男频",
+      "primary_tag": "军事",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "军事",
+        "科幻"
+      ],
+      "abstract": "起点畅销军事力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "456万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000027/",
+      "rank_change": -1
+    },
+    {
+      "rank": 28,
+      "book_id": "1010000028",
+      "book_name": "起点畅销小说28号·都市传",
+      "author": "起点作者28",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "都市",
+        "玄幻"
+      ],
+      "abstract": "起点畅销都市力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "319万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000028/",
+      "rank_change": -1
+    },
+    {
+      "rank": 29,
+      "book_id": "1010000029",
+      "book_name": "起点畅销小说29号·仙侠传",
+      "author": "起点作者29",
+      "gender": "女频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "仙侠",
+        "历史"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "296万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000029/",
+      "rank_change": 0
+    },
+    {
+      "rank": 30,
+      "book_id": "1010000030",
+      "book_name": "起点畅销小说30号·历史传",
+      "author": "起点作者30",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "历史",
+        "轻小说"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "223万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000030/",
+      "rank_change": 0
+    },
+    {
+      "rank": 31,
+      "book_id": "1010000031",
+      "book_name": "起点畅销小说31号·武侠传",
+      "author": "起点作者31",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [],
+      "all_tags": [
+        "武侠"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "108万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000031/",
+      "rank_change": 0
+    },
+    {
+      "rank": 32,
+      "book_id": "1010000032",
+      "book_name": "起点畅销小说32号·都市传",
+      "author": "起点作者32",
+      "gender": "女频",
+      "primary_tag": "都市",
+      "secondary_tags": [],
+      "all_tags": [
+        "都市"
+      ],
+      "abstract": "起点畅销都市力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "100万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000032/",
+      "rank_change": 3
+    },
+    {
+      "rank": 33,
+      "book_id": "1010000033",
+      "book_name": "起点畅销小说33号·历史传",
+      "author": "起点作者33",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [],
+      "all_tags": [
+        "历史"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "452万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000033/",
+      "rank_change": -1
+    },
+    {
+      "rank": 34,
+      "book_id": "1010000034",
+      "book_name": "起点畅销小说34号·游戏传",
+      "author": "起点作者34",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "游戏",
+        "历史"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "342万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000034/",
+      "rank_change": 0
+    },
+    {
+      "rank": 35,
+      "book_id": "1010000035",
+      "book_name": "起点畅销小说35号·轻小说传",
+      "author": "起点作者35",
+      "gender": "女频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "轻小说",
+        "历史"
+      ],
+      "abstract": "起点畅销轻小说力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "469万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000035/",
+      "rank_change": 3
+    },
+    {
+      "rank": 36,
+      "book_id": "1010000036",
+      "book_name": "起点畅销小说36号·武侠传",
+      "author": "起点作者36",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "武侠",
+        "都市"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "369万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000036/",
+      "rank_change": 0
+    },
+    {
+      "rank": 37,
+      "book_id": "1010000037",
+      "book_name": "起点畅销小说37号·历史传",
+      "author": "起点作者37",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "武侠"
+      ],
+      "all_tags": [
+        "历史",
+        "武侠"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "364万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000037/",
+      "rank_change": 0
+    },
+    {
+      "rank": 38,
+      "book_id": "1010000038",
+      "book_name": "起点畅销小说38号·仙侠传",
+      "author": "起点作者38",
+      "gender": "女频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [],
+      "all_tags": [
+        "仙侠"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "442万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000038/",
+      "rank_change": 2
+    },
+    {
+      "rank": 39,
+      "book_id": "1010000039",
+      "book_name": "起点畅销小说39号·武侠传",
+      "author": "起点作者39",
+      "gender": "女频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "游戏"
+      ],
+      "all_tags": [
+        "武侠",
+        "游戏"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "459万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000039/",
+      "rank_change": 3
+    },
+    {
+      "rank": 40,
+      "book_id": "1010000040",
+      "book_name": "起点畅销小说40号·历史传",
+      "author": "起点作者40",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "武侠"
+      ],
+      "all_tags": [
+        "历史",
+        "武侠"
+      ],
+      "abstract": "起点畅销历史力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "348万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000040/",
+      "rank_change": 3
+    },
+    {
+      "rank": 41,
+      "book_id": "1010000041",
+      "book_name": "起点畅销小说41号·仙侠传",
+      "author": "起点作者41",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "仙侠",
+        "悬疑"
+      ],
+      "abstract": "起点畅销仙侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "137万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000041/",
+      "rank_change": 1
+    },
+    {
+      "rank": 42,
+      "book_id": "1010000042",
+      "book_name": "起点畅销小说42号·都市传",
+      "author": "起点作者42",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "都市",
+        "科幻"
+      ],
+      "abstract": "起点畅销都市力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "325万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000042/",
+      "rank_change": 0
+    },
+    {
+      "rank": 43,
+      "book_id": "1010000043",
+      "book_name": "起点畅销小说43号·游戏传",
+      "author": "起点作者43",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "军事"
+      ],
+      "all_tags": [
+        "游戏",
+        "军事"
+      ],
+      "abstract": "起点畅销游戏力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "264万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000043/",
+      "rank_change": 0
+    },
+    {
+      "rank": 44,
+      "book_id": "1010000044",
+      "book_name": "起点畅销小说44号·科幻传",
+      "author": "起点作者44",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "游戏"
+      ],
+      "all_tags": [
+        "科幻",
+        "游戏"
+      ],
+      "abstract": "起点畅销科幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "450万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000044/",
+      "rank_change": -1
+    },
+    {
+      "rank": 45,
+      "book_id": "1010000045",
+      "book_name": "起点畅销小说45号·玄幻传",
+      "author": "起点作者45",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "玄幻",
+        "悬疑"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "208万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000045/",
+      "rank_change": -1
+    },
+    {
+      "rank": 46,
+      "book_id": "1010000046",
+      "book_name": "起点畅销小说46号·武侠传",
+      "author": "起点作者46",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "武侠",
+        "科幻"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "284万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000046/",
+      "rank_change": 0
+    },
+    {
+      "rank": 47,
+      "book_id": "1010000047",
+      "book_name": "起点畅销小说47号·科幻传",
+      "author": "起点作者47",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [],
+      "all_tags": [
+        "科幻"
+      ],
+      "abstract": "起点畅销科幻力作，热血激荡的冒险之旅...",
+      "status": "完结",
+      "word_count": "254万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000047/",
+      "rank_change": 2
+    },
+    {
+      "rank": 48,
+      "book_id": "1010000048",
+      "book_name": "起点畅销小说48号·军事传",
+      "author": "起点作者48",
+      "gender": "女频",
+      "primary_tag": "军事",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "军事",
+        "科幻"
+      ],
+      "abstract": "起点畅销军事力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "376万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000048/",
+      "rank_change": 1
+    },
+    {
+      "rank": 49,
+      "book_id": "1010000049",
+      "book_name": "起点畅销小说49号·玄幻传",
+      "author": "起点作者49",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "仙侠"
+      ],
+      "all_tags": [
+        "玄幻",
+        "仙侠"
+      ],
+      "abstract": "起点畅销玄幻力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "220万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000049/",
+      "rank_change": 3
+    },
+    {
+      "rank": 50,
+      "book_id": "1010000050",
+      "book_name": "起点畅销小说50号·武侠传",
+      "author": "起点作者50",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "武侠",
+        "悬疑"
+      ],
+      "abstract": "起点畅销武侠力作，热血激荡的冒险之旅...",
+      "status": "连载中",
+      "word_count": "301万字",
+      "thumb_url": "",
+      "book_url": "https://www.qidian.com/book/1010000050/",
+      "rank_change": 1
+    }
+  ]
+}

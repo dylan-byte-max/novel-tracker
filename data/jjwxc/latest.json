@@ -1,0 +1,1529 @@
+{
+  "update_time": "2026-03-30 15:00:00",
+  "update_date": "2026-03-30",
+  "total_count": 50,
+  "source": "晋江文学城·积分月榜",
+  "source_url": "https://www.jjwxc.net/topten.php?orderstr=5&t=0",
+  "platform": "jjwxc",
+  "platform_name": "晋江文学城",
+  "tag_stats": {
+    "悬疑": 6,
+    "武侠": 7,
+    "种田": 4,
+    "娱乐圈": 4,
+    "宫斗": 3,
+    "游戏": 8,
+    "校园": 7,
+    "甜文": 3,
+    "快穿": 4,
+    "科幻": 4
+  },
+  "gender_stats": {
+    "纯爱": 14,
+    "无CP": 13,
+    "言情": 13,
+    "百合": 10
+  },
+  "books": [
+    {
+      "rank": 1,
+      "book_id": "5000001",
+      "book_name": "晋江热文1号·悬疑BL",
+      "author": "晋江作者1",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "近代现代",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "纯爱",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "近代现代",
+        "悬疑"
+      ],
+      "score": 1563163188,
+      "score_display": "0.6G",
+      "abstract": "一部纯爱悬疑佳作，近代现代背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000001",
+      "rank_change": "new"
+    },
+    {
+      "rank": 2,
+      "book_id": "5000002",
+      "book_name": "晋江热文2号·武侠BL",
+      "author": "晋江作者2",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "幻想未来",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "纯爱",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "幻想未来",
+        "武侠"
+      ],
+      "score": 336968806,
+      "score_display": "0.1G",
+      "abstract": "一部纯爱武侠佳作，幻想未来背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000002",
+      "rank_change": "new"
+    },
+    {
+      "rank": 3,
+      "book_id": "5000003",
+      "book_name": "晋江热文3号·种田",
+      "author": "晋江作者3",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "种田",
+      "primary_tag": "种田",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "种田"
+      ],
+      "score": 1846454356,
+      "score_display": "0.4G",
+      "abstract": "一部无CP种田佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000003",
+      "rank_change": "new"
+    },
+    {
+      "rank": 4,
+      "book_id": "5000004",
+      "book_name": "晋江热文4号·娱乐圈",
+      "author": "晋江作者4",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "架空历史",
+      "theme": "娱乐圈",
+      "primary_tag": "娱乐圈",
+      "secondary_tags": [
+        "无CP",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "架空历史",
+        "娱乐圈"
+      ],
+      "score": 760087218,
+      "score_display": "1.3G",
+      "abstract": "一部无CP娱乐圈佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000004",
+      "rank_change": "new"
+    },
+    {
+      "rank": 5,
+      "book_id": "5000005",
+      "book_name": "晋江热文5号·种田",
+      "author": "晋江作者5",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "近代现代",
+      "theme": "种田",
+      "primary_tag": "种田",
+      "secondary_tags": [
+        "无CP",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "近代现代",
+        "种田"
+      ],
+      "score": 1662675915,
+      "score_display": "1.1G",
+      "abstract": "一部无CP种田佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000005",
+      "rank_change": 0
+    },
+    {
+      "rank": 6,
+      "book_id": "5000006",
+      "book_name": "晋江热文6号·宫斗",
+      "author": "晋江作者6",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "架空历史",
+      "theme": "宫斗",
+      "primary_tag": "宫斗",
+      "secondary_tags": [
+        "言情",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "架空历史",
+        "宫斗"
+      ],
+      "score": 844884075,
+      "score_display": "0.3G",
+      "abstract": "一部言情宫斗佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000006",
+      "rank_change": 0
+    },
+    {
+      "rank": 7,
+      "book_id": "5000007",
+      "book_name": "晋江热文7号·游戏",
+      "author": "晋江作者7",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "古色古香",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "言情",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "古色古香",
+        "游戏"
+      ],
+      "score": 310024897,
+      "score_display": "0.7G",
+      "abstract": "一部言情游戏佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000007",
+      "rank_change": 0
+    },
+    {
+      "rank": 8,
+      "book_id": "5000008",
+      "book_name": "晋江热文8号·武侠BL",
+      "author": "晋江作者8",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "幻想未来",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "纯爱",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "幻想未来",
+        "武侠"
+      ],
+      "score": 668543273,
+      "score_display": "1.7G",
+      "abstract": "一部纯爱武侠佳作，幻想未来背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000008",
+      "rank_change": 4
+    },
+    {
+      "rank": 9,
+      "book_id": "5000009",
+      "book_name": "晋江热文9号·武侠",
+      "author": "晋江作者9",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "幻想未来",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "百合",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "幻想未来",
+        "武侠"
+      ],
+      "score": 1830343317,
+      "score_display": "0.7G",
+      "abstract": "一部百合武侠佳作，幻想未来背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000009",
+      "rank_change": 0
+    },
+    {
+      "rank": 10,
+      "book_id": "5000010",
+      "book_name": "晋江热文10号·校园",
+      "author": "晋江作者10",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "近代现代",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "无CP",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "近代现代",
+        "校园"
+      ],
+      "score": 439425567,
+      "score_display": "1.7G",
+      "abstract": "一部无CP校园佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000010",
+      "rank_change": 4
+    },
+    {
+      "rank": 11,
+      "book_id": "5000011",
+      "book_name": "晋江热文11号·甜文",
+      "author": "晋江作者11",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "架空历史",
+      "theme": "甜文",
+      "primary_tag": "甜文",
+      "secondary_tags": [
+        "百合",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "架空历史",
+        "甜文"
+      ],
+      "score": 1603447684,
+      "score_display": "0.6G",
+      "abstract": "一部百合甜文佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000011",
+      "rank_change": 2
+    },
+    {
+      "rank": 12,
+      "book_id": "5000012",
+      "book_name": "晋江热文12号·武侠BL",
+      "author": "晋江作者12",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "幻想未来",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "纯爱",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "幻想未来",
+        "武侠"
+      ],
+      "score": 1171429217,
+      "score_display": "0.7G",
+      "abstract": "一部纯爱武侠佳作，幻想未来背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000012",
+      "rank_change": 0
+    },
+    {
+      "rank": 13,
+      "book_id": "5000013",
+      "book_name": "晋江热文13号·校园",
+      "author": "晋江作者13",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "架空历史",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "无CP",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "架空历史",
+        "校园"
+      ],
+      "score": 1237118178,
+      "score_display": "2.0G",
+      "abstract": "一部无CP校园佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000013",
+      "rank_change": 3
+    },
+    {
+      "rank": 14,
+      "book_id": "5000014",
+      "book_name": "晋江热文14号·游戏",
+      "author": "晋江作者14",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "游戏"
+      ],
+      "score": 1787826887,
+      "score_display": "0.8G",
+      "abstract": "一部无CP游戏佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000014",
+      "rank_change": -1
+    },
+    {
+      "rank": 15,
+      "book_id": "5000015",
+      "book_name": "晋江热文15号·甜文",
+      "author": "晋江作者15",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "近代现代",
+      "theme": "甜文",
+      "primary_tag": "甜文",
+      "secondary_tags": [
+        "言情",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "甜文"
+      ],
+      "score": 1879478280,
+      "score_display": "1.2G",
+      "abstract": "一部言情甜文佳作，近代现代背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000015",
+      "rank_change": 1
+    },
+    {
+      "rank": 16,
+      "book_id": "5000016",
+      "book_name": "晋江热文16号·娱乐圈",
+      "author": "晋江作者16",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "古色古香",
+      "theme": "娱乐圈",
+      "primary_tag": "娱乐圈",
+      "secondary_tags": [
+        "言情",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "古色古香",
+        "娱乐圈"
+      ],
+      "score": 533941197,
+      "score_display": "0.3G",
+      "abstract": "一部言情娱乐圈佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000016",
+      "rank_change": 0
+    },
+    {
+      "rank": 17,
+      "book_id": "5000017",
+      "book_name": "晋江热文17号·游戏BL",
+      "author": "晋江作者17",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "架空历史",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "纯爱",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "架空历史",
+        "游戏"
+      ],
+      "score": 626905459,
+      "score_display": "1.8G",
+      "abstract": "一部纯爱游戏佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000017",
+      "rank_change": 0
+    },
+    {
+      "rank": 18,
+      "book_id": "5000018",
+      "book_name": "晋江热文18号·游戏",
+      "author": "晋江作者18",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "近代现代",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "百合",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "近代现代",
+        "游戏"
+      ],
+      "score": 225505160,
+      "score_display": "2.0G",
+      "abstract": "一部百合游戏佳作，近代现代背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000018",
+      "rank_change": 1
+    },
+    {
+      "rank": 19,
+      "book_id": "5000019",
+      "book_name": "晋江热文19号·宫斗",
+      "author": "晋江作者19",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "古色古香",
+      "theme": "宫斗",
+      "primary_tag": "宫斗",
+      "secondary_tags": [
+        "百合",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "古色古香",
+        "宫斗"
+      ],
+      "score": 1750448685,
+      "score_display": "0.2G",
+      "abstract": "一部百合宫斗佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000019",
+      "rank_change": 0
+    },
+    {
+      "rank": 20,
+      "book_id": "5000020",
+      "book_name": "晋江热文20号·悬疑",
+      "author": "晋江作者20",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "古色古香",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "百合",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "古色古香",
+        "悬疑"
+      ],
+      "score": 647314436,
+      "score_display": "0.1G",
+      "abstract": "一部百合悬疑佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000020",
+      "rank_change": 0
+    },
+    {
+      "rank": 21,
+      "book_id": "5000021",
+      "book_name": "晋江热文21号·武侠",
+      "author": "晋江作者21",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "近代现代",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "百合",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "近代现代",
+        "武侠"
+      ],
+      "score": 1737580703,
+      "score_display": "1.2G",
+      "abstract": "一部百合武侠佳作，近代现代背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000021",
+      "rank_change": 0
+    },
+    {
+      "rank": 22,
+      "book_id": "5000022",
+      "book_name": "晋江热文22号·悬疑",
+      "author": "晋江作者22",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "架空历史",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "言情",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "架空历史",
+        "悬疑"
+      ],
+      "score": 1358733558,
+      "score_display": "1.3G",
+      "abstract": "一部言情悬疑佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000022",
+      "rank_change": 2
+    },
+    {
+      "rank": 23,
+      "book_id": "5000023",
+      "book_name": "晋江热文23号·游戏BL",
+      "author": "晋江作者23",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "幻想未来",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "纯爱",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "幻想未来",
+        "游戏"
+      ],
+      "score": 323064294,
+      "score_display": "1.7G",
+      "abstract": "一部纯爱游戏佳作，幻想未来背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000023",
+      "rank_change": 2
+    },
+    {
+      "rank": 24,
+      "book_id": "5000024",
+      "book_name": "晋江热文24号·悬疑",
+      "author": "晋江作者24",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "架空历史",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "言情",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "架空历史",
+        "悬疑"
+      ],
+      "score": 1851737917,
+      "score_display": "0.1G",
+      "abstract": "一部言情悬疑佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000024",
+      "rank_change": 2
+    },
+    {
+      "rank": 25,
+      "book_id": "5000025",
+      "book_name": "晋江热文25号·快穿",
+      "author": "晋江作者25",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "架空历史",
+      "theme": "快穿",
+      "primary_tag": "快穿",
+      "secondary_tags": [
+        "无CP",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "架空历史",
+        "快穿"
+      ],
+      "score": 1829574409,
+      "score_display": "0.1G",
+      "abstract": "一部无CP快穿佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000025",
+      "rank_change": 0
+    },
+    {
+      "rank": 26,
+      "book_id": "5000026",
+      "book_name": "晋江热文26号·宫斗BL",
+      "author": "晋江作者26",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "近代现代",
+      "theme": "宫斗",
+      "primary_tag": "宫斗",
+      "secondary_tags": [
+        "纯爱",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "近代现代",
+        "宫斗"
+      ],
+      "score": 732968069,
+      "score_display": "1.8G",
+      "abstract": "一部纯爱宫斗佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000026",
+      "rank_change": 0
+    },
+    {
+      "rank": 27,
+      "book_id": "5000027",
+      "book_name": "晋江热文27号·悬疑BL",
+      "author": "晋江作者27",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "古色古香",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "纯爱",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "古色古香",
+        "悬疑"
+      ],
+      "score": 715357198,
+      "score_display": "0.2G",
+      "abstract": "一部纯爱悬疑佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000027",
+      "rank_change": 0
+    },
+    {
+      "rank": 28,
+      "book_id": "5000028",
+      "book_name": "晋江热文28号·种田BL",
+      "author": "晋江作者28",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "近代现代",
+      "theme": "种田",
+      "primary_tag": "种田",
+      "secondary_tags": [
+        "纯爱",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "近代现代",
+        "种田"
+      ],
+      "score": 1707979720,
+      "score_display": "0.8G",
+      "abstract": "一部纯爱种田佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000028",
+      "rank_change": 0
+    },
+    {
+      "rank": 29,
+      "book_id": "5000029",
+      "book_name": "晋江热文29号·游戏",
+      "author": "晋江作者29",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "幻想未来",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "言情",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "幻想未来",
+        "游戏"
+      ],
+      "score": 1655440127,
+      "score_display": "0.6G",
+      "abstract": "一部言情游戏佳作，幻想未来背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000029",
+      "rank_change": 0
+    },
+    {
+      "rank": 30,
+      "book_id": "5000030",
+      "book_name": "晋江热文30号·校园",
+      "author": "晋江作者30",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "校园"
+      ],
+      "score": 1437543732,
+      "score_display": "0.8G",
+      "abstract": "一部无CP校园佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000030",
+      "rank_change": 0
+    },
+    {
+      "rank": 31,
+      "book_id": "5000031",
+      "book_name": "晋江热文31号·科幻",
+      "author": "晋江作者31",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "古色古香",
+      "theme": "科幻",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "言情",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "古色古香",
+        "科幻"
+      ],
+      "score": 49747,
+      "score_display": "1.6G",
+      "abstract": "一部言情科幻佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000031",
+      "rank_change": -1
+    },
+    {
+      "rank": 32,
+      "book_id": "5000032",
+      "book_name": "晋江热文32号·科幻",
+      "author": "晋江作者32",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "架空历史",
+      "theme": "科幻",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "言情",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "架空历史",
+        "科幻"
+      ],
+      "score": 1844995189,
+      "score_display": "0.2G",
+      "abstract": "一部言情科幻佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000032",
+      "rank_change": 0
+    },
+    {
+      "rank": 33,
+      "book_id": "5000033",
+      "book_name": "晋江热文33号·悬疑",
+      "author": "晋江作者33",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "近代现代",
+      "theme": "悬疑",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "言情",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "悬疑"
+      ],
+      "score": 452992267,
+      "score_display": "1.5G",
+      "abstract": "一部言情悬疑佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000033",
+      "rank_change": 4
+    },
+    {
+      "rank": 34,
+      "book_id": "5000034",
+      "book_name": "晋江热文34号·甜文",
+      "author": "晋江作者34",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "幻想未来",
+      "theme": "甜文",
+      "primary_tag": "甜文",
+      "secondary_tags": [
+        "无CP",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "幻想未来",
+        "甜文"
+      ],
+      "score": 1252106878,
+      "score_display": "1.3G",
+      "abstract": "一部无CP甜文佳作，幻想未来背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000034",
+      "rank_change": 0
+    },
+    {
+      "rank": 35,
+      "book_id": "5000035",
+      "book_name": "晋江热文35号·武侠",
+      "author": "晋江作者35",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "古色古香",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "言情",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "古色古香",
+        "武侠"
+      ],
+      "score": 21028958,
+      "score_display": "1.8G",
+      "abstract": "一部言情武侠佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000035",
+      "rank_change": 0
+    },
+    {
+      "rank": 36,
+      "book_id": "5000036",
+      "book_name": "晋江热文36号·快穿",
+      "author": "晋江作者36",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "架空历史",
+      "theme": "快穿",
+      "primary_tag": "快穿",
+      "secondary_tags": [
+        "百合",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "架空历史",
+        "快穿"
+      ],
+      "score": 786118492,
+      "score_display": "1.1G",
+      "abstract": "一部百合快穿佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000036",
+      "rank_change": 0
+    },
+    {
+      "rank": 37,
+      "book_id": "5000037",
+      "book_name": "晋江热文37号·快穿BL",
+      "author": "晋江作者37",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "架空历史",
+      "theme": "快穿",
+      "primary_tag": "快穿",
+      "secondary_tags": [
+        "纯爱",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "架空历史",
+        "快穿"
+      ],
+      "score": 1324013982,
+      "score_display": "0.5G",
+      "abstract": "一部纯爱快穿佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000037",
+      "rank_change": 2
+    },
+    {
+      "rank": 38,
+      "book_id": "5000038",
+      "book_name": "晋江热文38号·科幻BL",
+      "author": "晋江作者38",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "架空历史",
+      "theme": "科幻",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "纯爱",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "架空历史",
+        "科幻"
+      ],
+      "score": 184084994,
+      "score_display": "0.2G",
+      "abstract": "一部纯爱科幻佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000038",
+      "rank_change": 1
+    },
+    {
+      "rank": 39,
+      "book_id": "5000039",
+      "book_name": "晋江热文39号·种田BL",
+      "author": "晋江作者39",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "架空历史",
+      "theme": "种田",
+      "primary_tag": "种田",
+      "secondary_tags": [
+        "纯爱",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "架空历史",
+        "种田"
+      ],
+      "score": 69957395,
+      "score_display": "1.9G",
+      "abstract": "一部纯爱种田佳作，架空历史背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000039",
+      "rank_change": 3
+    },
+    {
+      "rank": 40,
+      "book_id": "5000040",
+      "book_name": "晋江热文40号·娱乐圈",
+      "author": "晋江作者40",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "娱乐圈",
+      "primary_tag": "娱乐圈",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "娱乐圈"
+      ],
+      "score": 287363391,
+      "score_display": "1.7G",
+      "abstract": "一部无CP娱乐圈佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000040",
+      "rank_change": 4
+    },
+    {
+      "rank": 41,
+      "book_id": "5000041",
+      "book_name": "晋江热文41号·娱乐圈BL",
+      "author": "晋江作者41",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "近代现代",
+      "theme": "娱乐圈",
+      "primary_tag": "娱乐圈",
+      "secondary_tags": [
+        "纯爱",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "近代现代",
+        "娱乐圈"
+      ],
+      "score": 515527393,
+      "score_display": "0.4G",
+      "abstract": "一部纯爱娱乐圈佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000041",
+      "rank_change": -1
+    },
+    {
+      "rank": 42,
+      "book_id": "5000042",
+      "book_name": "晋江热文42号·科幻",
+      "author": "晋江作者42",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "近代现代",
+      "theme": "科幻",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "百合",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "近代现代",
+        "科幻"
+      ],
+      "score": 1688491577,
+      "score_display": "0.1G",
+      "abstract": "一部百合科幻佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000042",
+      "rank_change": 0
+    },
+    {
+      "rank": 43,
+      "book_id": "5000043",
+      "book_name": "晋江热文43号·校园",
+      "author": "晋江作者43",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "架空历史",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "百合",
+        "架空历史"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "架空历史",
+        "校园"
+      ],
+      "score": 1030055691,
+      "score_display": "1.5G",
+      "abstract": "一部百合校园佳作，架空历史背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000043",
+      "rank_change": 4
+    },
+    {
+      "rank": 44,
+      "book_id": "5000044",
+      "book_name": "晋江热文44号·游戏BL",
+      "author": "晋江作者44",
+      "channel": "纯爱",
+      "nature": "原创",
+      "genre": "纯爱",
+      "era": "近代现代",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "纯爱",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "纯爱",
+        "近代现代",
+        "游戏"
+      ],
+      "score": 961492603,
+      "score_display": "0.3G",
+      "abstract": "一部纯爱游戏佳作，近代现代背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000044",
+      "rank_change": 0
+    },
+    {
+      "rank": 45,
+      "book_id": "5000045",
+      "book_name": "晋江热文45号·武侠",
+      "author": "晋江作者45",
+      "channel": "百合",
+      "nature": "原创",
+      "genre": "百合",
+      "era": "古色古香",
+      "theme": "武侠",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "百合",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "百合",
+        "古色古香",
+        "武侠"
+      ],
+      "score": 1898422271,
+      "score_display": "1.0G",
+      "abstract": "一部百合武侠佳作，古色古香背景下的动人故事...",
+      "status": "完结",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000045",
+      "rank_change": 1
+    },
+    {
+      "rank": 46,
+      "book_id": "5000046",
+      "book_name": "晋江热文46号·快穿",
+      "author": "晋江作者46",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "近代现代",
+      "theme": "快穿",
+      "primary_tag": "快穿",
+      "secondary_tags": [
+        "无CP",
+        "近代现代"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "近代现代",
+        "快穿"
+      ],
+      "score": 1583061730,
+      "score_display": "1.7G",
+      "abstract": "一部无CP快穿佳作，近代现代背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000046",
+      "rank_change": 0
+    },
+    {
+      "rank": 47,
+      "book_id": "5000047",
+      "book_name": "晋江热文47号·校园",
+      "author": "晋江作者47",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "幻想未来",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "言情",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "幻想未来",
+        "校园"
+      ],
+      "score": 1939195720,
+      "score_display": "0.3G",
+      "abstract": "一部言情校园佳作，幻想未来背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000047",
+      "rank_change": 0
+    },
+    {
+      "rank": 48,
+      "book_id": "5000048",
+      "book_name": "晋江热文48号·校园",
+      "author": "晋江作者48",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "校园"
+      ],
+      "score": 217980338,
+      "score_display": "1.4G",
+      "abstract": "一部无CP校园佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000048",
+      "rank_change": 1
+    },
+    {
+      "rank": 49,
+      "book_id": "5000049",
+      "book_name": "晋江热文49号·游戏",
+      "author": "晋江作者49",
+      "channel": "言情",
+      "nature": "原创",
+      "genre": "言情",
+      "era": "幻想未来",
+      "theme": "游戏",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "言情",
+        "幻想未来"
+      ],
+      "all_tags": [
+        "原创",
+        "言情",
+        "幻想未来",
+        "游戏"
+      ],
+      "score": 877982062,
+      "score_display": "0.1G",
+      "abstract": "一部言情游戏佳作，幻想未来背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000049",
+      "rank_change": 1
+    },
+    {
+      "rank": 50,
+      "book_id": "5000050",
+      "book_name": "晋江热文50号·校园",
+      "author": "晋江作者50",
+      "channel": "无CP",
+      "nature": "原创",
+      "genre": "无CP",
+      "era": "古色古香",
+      "theme": "校园",
+      "primary_tag": "校园",
+      "secondary_tags": [
+        "无CP",
+        "古色古香"
+      ],
+      "all_tags": [
+        "原创",
+        "无CP",
+        "古色古香",
+        "校园"
+      ],
+      "score": 714926149,
+      "score_display": "1.3G",
+      "abstract": "一部无CP校园佳作，古色古香背景下的动人故事...",
+      "status": "连载中",
+      "update_time": "2026-03-30",
+      "thumb_url": "",
+      "book_url": "https://www.jjwxc.net/onebook.php?novelid=5000050",
+      "rank_change": 0
+    }
+  ]
+}

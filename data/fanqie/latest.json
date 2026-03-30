@@ -1,0 +1,1011 @@
+{
+  "update_time": "2026-03-30 15:00:00",
+  "update_date": "2026-03-30",
+  "total_count": 50,
+  "source": "番茄小说书库·最热榜",
+  "source_url": "https://fanqienovel.com/library",
+  "platform": "fanqie",
+  "platform_name": "番茄小说",
+  "tag_stats": {
+    "悬疑": 3,
+    "体育": 4,
+    "玄幻": 5,
+    "武侠": 3,
+    "历史": 5,
+    "游戏": 6,
+    "都市": 5,
+    "二次元": 3,
+    "奇幻": 6,
+    "科幻": 3,
+    "轻小说": 3,
+    "现实": 4
+  },
+  "gender_stats": {
+    "男频": 31,
+    "女频": 19
+  },
+  "books": [
+    {
+      "rank": 1,
+      "book_id": "7300000001",
+      "book_name": "番茄热门小说1号·悬疑篇",
+      "author": "作者B1",
+      "gender": "男频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "悬疑",
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的悬疑小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000001",
+      "rank_change": "new"
+    },
+    {
+      "rank": 2,
+      "book_id": "7300000002",
+      "book_name": "番茄热门小说2号·体育篇",
+      "author": "作者C2",
+      "gender": "女频",
+      "primary_tag": "体育",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "体育",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的体育小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000002",
+      "rank_change": "new"
+    },
+    {
+      "rank": 3,
+      "book_id": "7300000003",
+      "book_name": "番茄热门小说3号·玄幻篇",
+      "author": "作者D3",
+      "gender": "女频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "玄幻",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的玄幻小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000003",
+      "rank_change": "new"
+    },
+    {
+      "rank": 4,
+      "book_id": "7300000004",
+      "book_name": "番茄热门小说4号·武侠篇",
+      "author": "作者E4",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "武侠",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000004",
+      "rank_change": "new"
+    },
+    {
+      "rank": 5,
+      "book_id": "7300000005",
+      "book_name": "番茄热门小说5号·玄幻篇",
+      "author": "作者F5",
+      "gender": "女频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "玄幻",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的玄幻小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000005",
+      "rank_change": "new"
+    },
+    {
+      "rank": 6,
+      "book_id": "7300000006",
+      "book_name": "番茄热门小说6号·历史篇",
+      "author": "作者G6",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "现实"
+      ],
+      "all_tags": [
+        "历史",
+        "现实"
+      ],
+      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000006",
+      "rank_change": 3
+    },
+    {
+      "rank": 7,
+      "book_id": "7300000007",
+      "book_name": "番茄热门小说7号·游戏篇",
+      "author": "作者H7",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "现实"
+      ],
+      "all_tags": [
+        "游戏",
+        "现实"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000007",
+      "rank_change": 0
+    },
+    {
+      "rank": 8,
+      "book_id": "7300000008",
+      "book_name": "番茄热门小说8号·游戏篇",
+      "author": "作者I8",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "体育"
+      ],
+      "all_tags": [
+        "游戏",
+        "体育"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000008",
+      "rank_change": 3
+    },
+    {
+      "rank": 9,
+      "book_id": "7300000009",
+      "book_name": "番茄热门小说9号·都市篇",
+      "author": "作者J9",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [],
+      "all_tags": [
+        "都市"
+      ],
+      "abstract": "这是一部精彩的都市小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000009",
+      "rank_change": 1
+    },
+    {
+      "rank": 10,
+      "book_id": "7300000010",
+      "book_name": "番茄热门小说10号·历史篇",
+      "author": "作者K10",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "二次元"
+      ],
+      "all_tags": [
+        "历史",
+        "二次元"
+      ],
+      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000010",
+      "rank_change": 5
+    },
+    {
+      "rank": 11,
+      "book_id": "7300000011",
+      "book_name": "番茄热门小说11号·都市篇",
+      "author": "作者L11",
+      "gender": "女频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "科幻"
+      ],
+      "all_tags": [
+        "都市",
+        "科幻"
+      ],
+      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000011",
+      "rank_change": -2
+    },
+    {
+      "rank": 12,
+      "book_id": "7300000012",
+      "book_name": "番茄热门小说12号·二次元篇",
+      "author": "作者M12",
+      "gender": "男频",
+      "primary_tag": "二次元",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "二次元",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的二次元小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000012",
+      "rank_change": 5
+    },
+    {
+      "rank": 13,
+      "book_id": "7300000013",
+      "book_name": "番茄热门小说13号·玄幻篇",
+      "author": "作者N13",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "奇幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "奇幻"
+      ],
+      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000013",
+      "rank_change": -2
+    },
+    {
+      "rank": 14,
+      "book_id": "7300000014",
+      "book_name": "番茄热门小说14号·玄幻篇",
+      "author": "作者O14",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "体育"
+      ],
+      "all_tags": [
+        "玄幻",
+        "体育"
+      ],
+      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000014",
+      "rank_change": 0
+    },
+    {
+      "rank": 15,
+      "book_id": "7300000015",
+      "book_name": "番茄热门小说15号·奇幻篇",
+      "author": "作者P15",
+      "gender": "男频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "奇幻",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000015",
+      "rank_change": 4
+    },
+    {
+      "rank": 16,
+      "book_id": "7300000016",
+      "book_name": "番茄热门小说16号·都市篇",
+      "author": "作者Q16",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [],
+      "all_tags": [
+        "都市"
+      ],
+      "abstract": "这是一部精彩的都市小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000016",
+      "rank_change": 0
+    },
+    {
+      "rank": 17,
+      "book_id": "7300000017",
+      "book_name": "番茄热门小说17号·科幻篇",
+      "author": "作者R17",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "现实"
+      ],
+      "all_tags": [
+        "科幻",
+        "现实"
+      ],
+      "abstract": "这是一部精彩的科幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000017",
+      "rank_change": 0
+    },
+    {
+      "rank": 18,
+      "book_id": "7300000018",
+      "book_name": "番茄热门小说18号·游戏篇",
+      "author": "作者S18",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "游戏",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000018",
+      "rank_change": 0
+    },
+    {
+      "rank": 19,
+      "book_id": "7300000019",
+      "book_name": "番茄热门小说19号·都市篇",
+      "author": "作者T19",
+      "gender": "女频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "二次元"
+      ],
+      "all_tags": [
+        "都市",
+        "二次元"
+      ],
+      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000019",
+      "rank_change": 5
+    },
+    {
+      "rank": 20,
+      "book_id": "7300000020",
+      "book_name": "番茄热门小说20号·历史篇",
+      "author": "作者U20",
+      "gender": "女频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "历史",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的历史小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000020",
+      "rank_change": 2
+    },
+    {
+      "rank": 21,
+      "book_id": "7300000021",
+      "book_name": "番茄热门小说21号·轻小说篇",
+      "author": "作者V21",
+      "gender": "女频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "奇幻"
+      ],
+      "all_tags": [
+        "轻小说",
+        "奇幻"
+      ],
+      "abstract": "这是一部精彩的轻小说小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000021",
+      "rank_change": 5
+    },
+    {
+      "rank": 22,
+      "book_id": "7300000022",
+      "book_name": "番茄热门小说22号·奇幻篇",
+      "author": "作者W22",
+      "gender": "女频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "奇幻",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000022",
+      "rank_change": 1
+    },
+    {
+      "rank": 23,
+      "book_id": "7300000023",
+      "book_name": "番茄热门小说23号·奇幻篇",
+      "author": "作者X23",
+      "gender": "男频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "奇幻",
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000023",
+      "rank_change": -1
+    },
+    {
+      "rank": 24,
+      "book_id": "7300000024",
+      "book_name": "番茄热门小说24号·都市篇",
+      "author": "作者Y24",
+      "gender": "女频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "都市",
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000024",
+      "rank_change": -3
+    },
+    {
+      "rank": 25,
+      "book_id": "7300000025",
+      "book_name": "番茄热门小说25号·现实篇",
+      "author": "作者Z25",
+      "gender": "女频",
+      "primary_tag": "现实",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "现实",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000025",
+      "rank_change": 0
+    },
+    {
+      "rank": 26,
+      "book_id": "7300000026",
+      "book_name": "番茄热门小说26号·轻小说篇",
+      "author": "作者A26",
+      "gender": "男频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "轻小说",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的轻小说小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000026",
+      "rank_change": 0
+    },
+    {
+      "rank": 27,
+      "book_id": "7300000027",
+      "book_name": "番茄热门小说27号·现实篇",
+      "author": "作者B27",
+      "gender": "女频",
+      "primary_tag": "现实",
+      "secondary_tags": [
+        "奇幻"
+      ],
+      "all_tags": [
+        "现实",
+        "奇幻"
+      ],
+      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000027",
+      "rank_change": 0
+    },
+    {
+      "rank": 28,
+      "book_id": "7300000028",
+      "book_name": "番茄热门小说28号·体育篇",
+      "author": "作者C28",
+      "gender": "女频",
+      "primary_tag": "体育",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "体育",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的体育小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000028",
+      "rank_change": 0
+    },
+    {
+      "rank": 29,
+      "book_id": "7300000029",
+      "book_name": "番茄热门小说29号·二次元篇",
+      "author": "作者D29",
+      "gender": "女频",
+      "primary_tag": "二次元",
+      "secondary_tags": [
+        "悬疑"
+      ],
+      "all_tags": [
+        "二次元",
+        "悬疑"
+      ],
+      "abstract": "这是一部精彩的二次元小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000029",
+      "rank_change": 3
+    },
+    {
+      "rank": 30,
+      "book_id": "7300000030",
+      "book_name": "番茄热门小说30号·二次元篇",
+      "author": "作者E30",
+      "gender": "女频",
+      "primary_tag": "二次元",
+      "secondary_tags": [
+        "武侠"
+      ],
+      "all_tags": [
+        "二次元",
+        "武侠"
+      ],
+      "abstract": "这是一部精彩的二次元小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000030",
+      "rank_change": -3
+    },
+    {
+      "rank": 31,
+      "book_id": "7300000031",
+      "book_name": "番茄热门小说31号·历史篇",
+      "author": "作者F31",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "奇幻"
+      ],
+      "all_tags": [
+        "历史",
+        "奇幻"
+      ],
+      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000031",
+      "rank_change": -1
+    },
+    {
+      "rank": 32,
+      "book_id": "7300000032",
+      "book_name": "番茄热门小说32号·科幻篇",
+      "author": "作者G32",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "现实"
+      ],
+      "all_tags": [
+        "科幻",
+        "现实"
+      ],
+      "abstract": "这是一部精彩的科幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000032",
+      "rank_change": 0
+    },
+    {
+      "rank": 33,
+      "book_id": "7300000033",
+      "book_name": "番茄热门小说33号·奇幻篇",
+      "author": "作者H33",
+      "gender": "男频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "奇幻",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000033",
+      "rank_change": 0
+    },
+    {
+      "rank": 34,
+      "book_id": "7300000034",
+      "book_name": "番茄热门小说34号·玄幻篇",
+      "author": "作者I34",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "游戏"
+      ],
+      "all_tags": [
+        "玄幻",
+        "游戏"
+      ],
+      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000034",
+      "rank_change": 1
+    },
+    {
+      "rank": 35,
+      "book_id": "7300000035",
+      "book_name": "番茄热门小说35号·游戏篇",
+      "author": "作者J35",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [],
+      "all_tags": [
+        "游戏"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000035",
+      "rank_change": 0
+    },
+    {
+      "rank": 36,
+      "book_id": "7300000036",
+      "book_name": "番茄热门小说36号·体育篇",
+      "author": "作者K36",
+      "gender": "男频",
+      "primary_tag": "体育",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "体育",
+        "都市"
+      ],
+      "abstract": "这是一部精彩的体育小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000036",
+      "rank_change": 2
+    },
+    {
+      "rank": 37,
+      "book_id": "7300000037",
+      "book_name": "番茄热门小说37号·奇幻篇",
+      "author": "作者L37",
+      "gender": "男频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "奇幻",
+        "历史"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000037",
+      "rank_change": 0
+    },
+    {
+      "rank": 38,
+      "book_id": "7300000038",
+      "book_name": "番茄热门小说38号·体育篇",
+      "author": "作者M38",
+      "gender": "男频",
+      "primary_tag": "体育",
+      "secondary_tags": [
+        "武侠"
+      ],
+      "all_tags": [
+        "体育",
+        "武侠"
+      ],
+      "abstract": "这是一部精彩的体育小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000038",
+      "rank_change": 0
+    },
+    {
+      "rank": 39,
+      "book_id": "7300000039",
+      "book_name": "番茄热门小说39号·奇幻篇",
+      "author": "作者N39",
+      "gender": "男频",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "奇幻",
+        "都市"
+      ],
+      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000039",
+      "rank_change": 0
+    },
+    {
+      "rank": 40,
+      "book_id": "7300000040",
+      "book_name": "番茄热门小说40号·游戏篇",
+      "author": "作者O40",
+      "gender": "女频",
+      "primary_tag": "游戏",
+      "secondary_tags": [],
+      "all_tags": [
+        "游戏"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000040",
+      "rank_change": 1
+    },
+    {
+      "rank": 41,
+      "book_id": "7300000041",
+      "book_name": "番茄热门小说41号·悬疑篇",
+      "author": "作者P41",
+      "gender": "男频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "悬疑",
+        "都市"
+      ],
+      "abstract": "这是一部精彩的悬疑小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000041",
+      "rank_change": 6
+    },
+    {
+      "rank": 42,
+      "book_id": "7300000042",
+      "book_name": "番茄热门小说42号·轻小说篇",
+      "author": "作者Q42",
+      "gender": "男频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [],
+      "all_tags": [
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的轻小说小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000042",
+      "rank_change": 2
+    },
+    {
+      "rank": 43,
+      "book_id": "7300000043",
+      "book_name": "番茄热门小说43号·历史篇",
+      "author": "作者R43",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "体育"
+      ],
+      "all_tags": [
+        "历史",
+        "体育"
+      ],
+      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000043",
+      "rank_change": 0
+    },
+    {
+      "rank": 44,
+      "book_id": "7300000044",
+      "book_name": "番茄热门小说44号·悬疑篇",
+      "author": "作者S44",
+      "gender": "女频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "悬疑",
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的悬疑小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000044",
+      "rank_change": 4
+    },
+    {
+      "rank": 45,
+      "book_id": "7300000045",
+      "book_name": "番茄热门小说45号·现实篇",
+      "author": "作者T45",
+      "gender": "女频",
+      "primary_tag": "现实",
+      "secondary_tags": [
+        "玄幻"
+      ],
+      "all_tags": [
+        "现实",
+        "玄幻"
+      ],
+      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000045",
+      "rank_change": 0
+    },
+    {
+      "rank": 46,
+      "book_id": "7300000046",
+      "book_name": "番茄热门小说46号·武侠篇",
+      "author": "作者U46",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [],
+      "all_tags": [
+        "武侠"
+      ],
+      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000046",
+      "rank_change": 3
+    },
+    {
+      "rank": 47,
+      "book_id": "7300000047",
+      "book_name": "番茄热门小说47号·科幻篇",
+      "author": "作者V47",
+      "gender": "女频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "历史"
+      ],
+      "all_tags": [
+        "科幻",
+        "历史"
+      ],
+      "abstract": "这是一部精彩的科幻小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000047",
+      "rank_change": 0
+    },
+    {
+      "rank": 48,
+      "book_id": "7300000048",
+      "book_name": "番茄热门小说48号·游戏篇",
+      "author": "作者W48",
+      "gender": "女频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "游戏",
+        "都市"
+      ],
+      "abstract": "这是一部精彩的游戏小说，讲述了主角在古代中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000048",
+      "rank_change": 0
+    },
+    {
+      "rank": 49,
+      "book_id": "7300000049",
+      "book_name": "番茄热门小说49号·现实篇",
+      "author": "作者X49",
+      "gender": "男频",
+      "primary_tag": "现实",
+      "secondary_tags": [
+        "轻小说"
+      ],
+      "all_tags": [
+        "现实",
+        "轻小说"
+      ],
+      "abstract": "这是一部精彩的现实小说，讲述了主角在都市中的冒险故事...",
+      "status": "连载中",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000049",
+      "rank_change": 5
+    },
+    {
+      "rank": 50,
+      "book_id": "7300000050",
+      "book_name": "番茄热门小说50号·武侠篇",
+      "author": "作者Y50",
+      "gender": "男频",
+      "primary_tag": "武侠",
+      "secondary_tags": [
+        "都市"
+      ],
+      "all_tags": [
+        "武侠",
+        "都市"
+      ],
+      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
+      "status": "完结",
+      "thumb_url": "",
+      "book_url": "https://fanqienovel.com/page/7300000050",
+      "rank_change": 0
+    }
+  ]
+}
