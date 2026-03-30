@@ -504,7 +504,7 @@
     .book-list { display: flex; flex-direction: column; gap: 8px; }
     .book-item {
       display: flex;
-      align-items: center;
+      align-items: stretch;
       gap: 14px;
       padding: 14px 16px;
       background: var(--card);
@@ -530,7 +530,8 @@
     .book-rank.r3 { background: linear-gradient(135deg, #cd7f32, #b8722d); color: #fff; }
     .book-rank.rn { background: var(--tag-bg); color: var(--text-dim); }
 
-    .book-info { flex: 1; min-width: 0; }
+    .book-info { flex: 1; min-width: 0; display: flex; gap: 16px; align-items: flex-start; }
+    .book-left { flex-shrink: 0; min-width: 180px; max-width: 280px; }
     .book-name {
       font-size: 15px;
       font-weight: 600;
@@ -578,14 +579,17 @@
     .book-abstract {
       font-size: 12px;
       color: var(--text-dim);
-      margin-top: 5px;
-      line-height: 1.5;
+      line-height: 1.6;
+      flex: 1;
+      min-width: 0;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-width: 600px;
+      padding-top: 2px;
+      border-left: 1px solid rgba(255,255,255,0.06);
+      padding-left: 16px;
     }
 
     .book-change {
@@ -623,6 +627,9 @@
       .main { padding: 12px; }
       .header-inner { padding: 0 12px; }
       .book-item { flex-wrap: wrap; }
+      .book-info { flex-direction: column; }
+      .book-left { max-width: 100%; }
+      .book-abstract { border-left: none; padding-left: 0; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; margin-top: 6px; -webkit-line-clamp: 2; }
       .insight-cards { grid-template-columns: 1fr; }
       .new-entry-list { grid-template-columns: 1fr; }
     }
@@ -1429,14 +1436,16 @@ function renderBookList(books, platformId) {
       <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-change="${b.rank_change}">
         <span class="book-rank ${rankClass}">${b.rank}</span>
         <div class="book-info">
-          <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
-          <div class="book-meta">
-            <span>${b.author}</span>
-            ${genderLabel ? `<span class="sep">·</span><span>${genderLabel}</span>` : ''}
-            <span class="sep">·</span><span>${b.status || '未知'}</span>
-            ${scoreLabel}
+          <div class="book-left">
+            <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
+            <div class="book-meta">
+              <span>${b.author}</span>
+              ${genderLabel ? `<span class="sep">·</span><span>${genderLabel}</span>` : ''}
+              <span class="sep">·</span><span>${b.status || '未知'}</span>
+              ${scoreLabel}
+            </div>
+            ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
           </div>
-          ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
           ${b.abstract && b.abstract !== '暂无简介' ? `<div class="book-abstract">${b.abstract}</div>` : ''}
         </div>
         ${changeHtml}
