@@ -217,13 +217,16 @@ function parseDetailPage(html) {
   return info;
 }
 
-// ========== 步骤5: 男频/女频判定 ==========
-async function fetchGenderForBooks() {
-  console.log('  精确判断男频/女频...');
-  const result = {};
+// ========== 步骤5: 按分类遍历，建立 book_id → gender + category 映射 ==========
+async function fetchBookCategoryMap(catGenderMap) {
+  console.log('  按分类遍历获取 book_id → category 映射...');
+  const genderMap = {};    // book_id → '男频'/'女频'
+  const categoryMap = {};  // book_id → category name
+  
+  // 先按性别全量扫描确定 gender
   for (const gender of [1, 0]) {
     const gLabel = gender === 1 ? '男频' : '女频';
-    for (let pageIdx = 0; pageIdx < 3; pageIdx++) {
+    for (let pageIdx = 0; pageIdx < 4; pageIdx++) {
       const params = new URLSearchParams({
         page_count: 18, page_index: pageIdx,
         gender, category_id: -1, creation_status: -1,
@@ -237,14 +240,46 @@ async function fetchGenderForBooks() {
         const json = JSON.parse(res.data);
         if (json.code === 0 && json.data?.book_list) {
           for (const b of json.data.book_list) {
-            if (!result[String(b.book_id)]) result[String(b.book_id)] = gLabel;
+            const id = String(b.book_id);
+            if (!genderMap[id]) genderMap[id] = gLabel;
           }
         }
       } catch(e) {}
-      await sleep(300);
+      await sleep(200);
     }
   }
-  return result;
+  
+  // 再按每个分类单独请求，确定 category
+  const categories = Object.entries(catGenderMap);
+  for (const [catName, catInfo] of categories) {
+    for (const gender of [1, 0]) {
+      // 只请求第1页（18本），足以覆盖 Top50 中属于该分类的书
+      const params = new URLSearchParams({
+        page_count: 18, page_index: 0,
+        gender, category_id: catInfo.id, creation_status: -1,
+        word_count: -1, book_type: -1, sort: 0,
+      });
+      try {
+        const res = await httpGet(
+          `https://fanqienovel.com/api/author/library/book_list/v0/?${params}`,
+          { Accept: 'application/json' }
+        );
+        const json = JSON.parse(res.data);
+        if (json.code === 0 && json.data?.book_list) {
+          for (const b of json.data.book_list) {
+            const id = String(b.book_id);
+            if (!categoryMap[id]) {
+              categoryMap[id] = catName;
+            }
+          }
+        }
+      } catch(e) {}
+      await sleep(150);
+    }
+  }
+  
+  console.log(`  → gender: ${Object.keys(genderMap).length} 本, category: ${Object.keys(categoryMap).length} 本`);
+  return { genderMap, categoryMap };
 }
 
 // ========== 主函数 ==========
@@ -258,15 +293,17 @@ async function main() {
   ensureDir(path.join(DATA_DIR, 'history'));
 
   console.log('\n📊 阶段一：获取基础数据');
-  const [hotRankList, topBookMap, catGenderMap, genderByBookId] = await Promise.all([
+  const [hotRankList, topBookMap, catGenderMap] = await Promise.all([
     fetchHotRankList(),
     fetchTopBookList(),
     buildCategoryGenderMap(),
-    fetchGenderForBooks(),
   ]);
+  
+  // 按分类遍历（需要 catGenderMap 先完成）
+  const { genderMap: genderByBookId, categoryMap: categoryByBookId } = await fetchBookCategoryMap(catGenderMap);
 
   console.log(`  热榜: ${hotRankList.length} 本 | TOP推荐: ${Object.keys(topBookMap).length} 本`);
-  console.log(`  分类: ${Object.keys(catGenderMap).length} 个 | 性别确认: ${Object.keys(genderByBookId).length} 本`);
+  console.log(`  分类: ${Object.keys(catGenderMap).length} 个 | 性别确认: ${Object.keys(genderByBookId).length} 本 | 分类确认: ${Object.keys(categoryByBookId).length} 本`);
 
   console.log(`\n📖 阶段二：获取 ${hotRankList.length} 本书详情（含完整标签）`);
   const books = [];
@@ -299,8 +336,12 @@ async function main() {
       gender = catGenderMap[category].gender;
     }
 
-    // 标签处理：优先使用 API 的 category（最可靠），详情页标签作为补充
-    const category = topInfo.category || '';
+    // 标签处理：多源合并
+    // 优先级：topBookList.category > categoryByBookId > 详情页标签
+    const apiCategory = topInfo.category || '';
+    const catMapCategory = categoryByBookId[bookId] || '';
+    const category = apiCategory || catMapCategory;
+    
     let detailTags = detailInfo.all_tags || [];
     
     // 过滤掉详情页中可能误入的书名、作者名
