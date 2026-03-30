@@ -1,1011 +1,842 @@
 {
-  "update_time": "2026-03-30 15:00:00",
+  "update_time": "2026-03-30 14:15:03",
   "update_date": "2026-03-30",
   "total_count": 50,
   "source": "番茄小说书库·最热榜",
-  "source_url": "https://fanqienovel.com/library",
+  "source_url": "https://fanqienovel.com/library?enter_from=menu",
   "platform": "fanqie",
   "platform_name": "番茄小说",
   "tag_stats": {
-    "悬疑": 3,
-    "体育": 4,
-    "玄幻": 5,
-    "武侠": 3,
-    "历史": 5,
-    "游戏": 6,
-    "都市": 5,
-    "二次元": 3,
-    "奇幻": 6,
-    "科幻": 3,
-    "轻小说": 3,
-    "现实": 4
+    "我不是戏神": 1,
+    "十日终焉": 1,
+    "都市高武": 3,
+    "游戏体育": 2,
+    "科幻末世": 1,
+    "天眼风水师": 1,
+    "玄幻脑洞": 2,
+    "惊鸿": 1,
+    "未分类": 24,
+    "诸神愚戏": 1,
+    "天渊": 1,
+    "冒姓琅琊": 1,
+    "诡舍": 1,
+    "序列：吃神者": 1,
+    "聚宝仙盆": 1,
+    "豪门总裁": 1,
+    "我以狐仙镇百鬼": 1,
+    "星光璀璨": 1,
+    "凡骨": 1,
+    "现言脑洞": 1,
+    "北派盗墓笔记": 1,
+    "开局地摊卖大力": 1,
+    "娱乐圈风水秘闻": 1
   },
   "gender_stats": {
-    "男频": 31,
-    "女频": 19
+    "男频": 39,
+    "女频": 11
   },
   "books": [
     {
       "rank": 1,
-      "book_id": "7300000001",
-      "book_name": "番茄热门小说1号·悬疑篇",
-      "author": "作者B1",
+      "book_id": "7276384138653862966",
+      "book_name": "我不是戏神",
+      "author": "三九音域",
       "gender": "男频",
-      "primary_tag": "悬疑",
-      "secondary_tags": [
-        "轻小说"
-      ],
+      "primary_tag": "我不是戏神",
+      "secondary_tags": [],
       "all_tags": [
-        "悬疑",
-        "轻小说"
+        "我不是戏神"
       ],
-      "abstract": "这是一部精彩的悬疑小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "《斩神》作家三九音域全新力作  | 澳门国际科幻奖最佳科幻网络文学 | 逆转时代的中式怪诞巨作赤色流...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000001",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o99ffbfd13492eb9953715959db26ed9b~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937711&x-signature=IwDA8WHozxhGpC7Q2pFYrt3z6YI%3D",
+      "book_url": "https://fanqienovel.com/page/7276384138653862966",
       "rank_change": "new"
     },
     {
       "rank": 2,
-      "book_id": "7300000002",
-      "book_name": "番茄热门小说2号·体育篇",
-      "author": "作者C2",
-      "gender": "女频",
-      "primary_tag": "体育",
-      "secondary_tags": [
-        "玄幻"
-      ],
+      "book_id": "7143038691944959011",
+      "book_name": "十日终焉",
+      "author": "杀虫队队员",
+      "gender": "男频",
+      "primary_tag": "十日终焉",
+      "secondary_tags": [],
       "all_tags": [
-        "体育",
-        "玄幻"
+        "十日终焉"
       ],
-      "abstract": "这是一部精彩的体育小说，讲述了主角在古代中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000002",
+      "abstract": "24年番茄年度巅峰榜TOP1 | 2024 年度“中国网络文学影响力榜” | 2024 年度“中国好...",
+      "status": "完结",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/4900f950c7af7f82fdc14cf528e0e288~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937713&x-signature=jTT1acRk0UvYIXyTyQU%2B2KPJk6g%3D",
+      "book_url": "https://fanqienovel.com/page/7143038691944959011",
       "rank_change": "new"
     },
     {
       "rank": 3,
-      "book_id": "7300000003",
-      "book_name": "番茄热门小说3号·玄幻篇",
-      "author": "作者D3",
-      "gender": "女频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "悬疑"
-      ],
+      "book_id": "6982529841564224526",
+      "book_name": "我在精神病院学斩神",
+      "author": "三九音域",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [],
       "all_tags": [
-        "玄幻",
-        "悬疑"
+        "都市高武"
       ],
-      "abstract": "这是一部精彩的玄幻小说，讲述了主角在古代中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000003",
+      "abstract": "番茄小说进站必读爆款 | 爆款动漫《斩神》原著 | 中国网络文学影响力榜IP影响力 | 2023年度...",
+      "status": "完结",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/c5397e4a514736bb1c6754663dbee3db~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937714&x-signature=8WEAQR%2Fu5KUy%2FnZTYJSNr6YWPfg%3D",
+      "book_url": "https://fanqienovel.com/page/6982529841564224526",
       "rank_change": "new"
     },
     {
       "rank": 4,
-      "book_id": "7300000004",
-      "book_name": "番茄热门小说4号·武侠篇",
-      "author": "作者E4",
-      "gender": "男频",
-      "primary_tag": "武侠",
-      "secondary_tags": [
-        "悬疑"
-      ],
+      "book_id": "7361653460183288894",
+      "book_name": "游戏入侵：抢男女主机缘会上瘾诶",
+      "author": "猫不秃",
+      "gender": "女频",
+      "primary_tag": "游戏体育",
+      "secondary_tags": [],
       "all_tags": [
-        "武侠",
-        "悬疑"
+        "游戏体育"
       ],
-      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "【游戏入侵+无cp+升级流+独狼+游戏】（又名：游戏入侵）虞寻歌重生后第一件事就是回家给弟弟灌了瓶白...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000004",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o7508a4ba13021b13b06776b2c864ec06~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937716&x-signature=SDIGUpe1TQEjRzEBI0frh8C%2Bwcc%3D",
+      "book_url": "https://fanqienovel.com/page/7361653460183288894",
       "rank_change": "new"
     },
     {
       "rank": 5,
-      "book_id": "7300000005",
-      "book_name": "番茄热门小说5号·玄幻篇",
-      "author": "作者F5",
-      "gender": "女频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "悬疑"
-      ],
+      "book_id": "7496026299845053465",
+      "book_name": "末日生存方案供应商",
+      "author": "板面王仔",
+      "gender": "男频",
+      "primary_tag": "科幻末世",
+      "secondary_tags": [],
       "all_tags": [
-        "玄幻",
-        "悬疑"
+        "科幻末世"
       ],
-      "abstract": "这是一部精彩的玄幻小说，讲述了主角在古代中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000005",
+      "abstract": "【 成长主线 ·  多主题副本 · 多角色群像 · 偶尔爆杀·非套路 · 非无脑爽】接连遭遇失业与背...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oefe821632dcc795622e206dd8464a062~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937717&x-signature=5QaeBmGvMNSDJe%2Fcqyuu%2FLHfZ8c%3D",
+      "book_url": "https://fanqienovel.com/page/7496026299845053465",
       "rank_change": "new"
     },
     {
       "rank": 6,
-      "book_id": "7300000006",
-      "book_name": "番茄热门小说6号·历史篇",
-      "author": "作者G6",
+      "book_id": "7504849932138859545",
+      "book_name": "时停起手，邪神也得给我跪下！",
+      "author": "六个葫芦",
       "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "现实"
-      ],
+      "primary_tag": "都市高武",
+      "secondary_tags": [],
       "all_tags": [
-        "历史",
-        "现实"
+        "都市高武"
       ],
-      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "【时间静止+末世+异能+嚣张+忘本+拒绝内耗】白野穿越到了二百年后的大灾变时代。这里危机四伏、民风淳...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000006",
-      "rank_change": 3
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oadaa82ad57ef8091a7a5bd32af452d4a~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937719&x-signature=mmAxFY3m%2Fz6ufls2%2BFuUx3a9ITo%3D",
+      "book_url": "https://fanqienovel.com/page/7504849932138859545",
+      "rank_change": "new"
     },
     {
       "rank": 7,
-      "book_id": "7300000007",
-      "book_name": "番茄热门小说7号·游戏篇",
-      "author": "作者H7",
+      "book_id": "7326876174989134910",
+      "book_name": "天眼风水师",
+      "author": "道之光",
       "gender": "男频",
-      "primary_tag": "游戏",
-      "secondary_tags": [
-        "现实"
-      ],
+      "primary_tag": "天眼风水师",
+      "secondary_tags": [],
       "all_tags": [
-        "游戏",
-        "现实"
+        "天眼风水师"
       ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "【可实操的风水小说】【涉及风水，道医，心理学，经济学，看头像，看手机号码】【干货知识】【用科学解释玄...",
       "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000007",
-      "rank_change": 0
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o0a2b996f16f47236c6f3f0af6bd9ceb4~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937721&x-signature=OxzkYUaREHQuorDSMQzd%2BARZoh4%3D",
+      "book_url": "https://fanqienovel.com/page/7326876174989134910",
+      "rank_change": "new"
     },
     {
       "rank": 8,
-      "book_id": "7300000008",
-      "book_name": "番茄热门小说8号·游戏篇",
-      "author": "作者I8",
+      "book_id": "7147596144942517284",
+      "book_name": "开局长生万古，苟到天荒地老",
+      "author": "紫灵风雪",
       "gender": "男频",
-      "primary_tag": "游戏",
-      "secondary_tags": [
-        "体育"
-      ],
+      "primary_tag": "玄幻脑洞",
+      "secondary_tags": [],
       "all_tags": [
-        "游戏",
-        "体育"
+        "玄幻脑洞"
       ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "【已出版实体书】【非爽文+平淡日常+轻松诙谐+无女主+无刀子+苟王】入坑谨慎。一本以长生者视角跨越几...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000008",
-      "rank_change": 3
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/baa65a198607b52168aa1338740642f8~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937722&x-signature=3rSZCHXQWgDS%2BBa8jyonThd%2BDko%3D",
+      "book_url": "https://fanqienovel.com/page/7147596144942517284",
+      "rank_change": "new"
     },
     {
       "rank": 9,
-      "book_id": "7300000009",
-      "book_name": "番茄热门小说9号·都市篇",
-      "author": "作者J9",
+      "book_id": "7228940788351110182",
+      "book_name": "系统赋我长生，我熬死了所有人",
+      "author": "一只榴莲3号",
       "gender": "男频",
-      "primary_tag": "都市",
+      "primary_tag": "玄幻脑洞",
       "secondary_tags": [],
       "all_tags": [
-        "都市"
+        "玄幻脑洞"
       ],
-      "abstract": "这是一部精彩的都市小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "以生命之外的身份，去观察时间长河中修仙者的红尘情仇。　　从不算繁华的小镇中走出，踏入了精彩纷呈修仙世...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000009",
-      "rank_change": 1
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o129beb2268aa16669806533810deddfb~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937724&x-signature=SOCCW86P1Qie1VKoo1kOi0cdYn0%3D",
+      "book_url": "https://fanqienovel.com/page/7228940788351110182",
+      "rank_change": "new"
     },
     {
       "rank": 10,
-      "book_id": "7300000010",
-      "book_name": "番茄热门小说10号·历史篇",
-      "author": "作者K10",
+      "book_id": "7421167583522458648",
+      "book_name": "大一实习，你跑去749收容怪物",
+      "author": "我爱罗的沙",
       "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "二次元"
-      ],
+      "primary_tag": "都市高武",
+      "secondary_tags": [],
       "all_tags": [
-        "历史",
-        "二次元"
+        "都市高武"
       ],
-      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000010",
-      "rank_change": 5
+      "abstract": "【杀伐果断】【那有怪物是好的啊】【怪物都该死】【心狠手辣】　　陆鼎大一暑假，本想趁着这个时间去实习一...",
+      "status": "连载中",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o368422f6d81aefa1e4c42491681bf9d1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937726&x-signature=5XVCoZJqZetO6qQ%2FxYhwF4tKHVM%3D",
+      "book_url": "https://fanqienovel.com/page/7421167583522458648",
+      "rank_change": "new"
     },
     {
       "rank": 11,
-      "book_id": "7300000011",
-      "book_name": "番茄热门小说11号·都市篇",
-      "author": "作者L11",
-      "gender": "女频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "科幻"
-      ],
+      "book_id": "6883748331202284558",
+      "book_name": "惊鸿",
+      "author": "一夕烟雨",
+      "gender": "男频",
+      "primary_tag": "惊鸿",
+      "secondary_tags": [],
       "all_tags": [
-        "都市",
-        "科幻"
+        "惊鸿"
       ],
-      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000011",
-      "rank_change": -2
+      "abstract": "『传统玄幻』『非后宫』世间有一楼，名为《烟雨楼》，烟雨楼主李庆之，有着绝代天骄之称，黑夜之中执掌生死...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oddf32e986d6b2109a53ac7f2d324583f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937728&x-signature=vL3DAAdUKNFVeMqydPCGPK4cYc8%3D",
+      "book_url": "https://fanqienovel.com/page/6883748331202284558",
+      "rank_change": "new"
     },
     {
       "rank": 12,
-      "book_id": "7300000012",
-      "book_name": "番茄热门小说12号·二次元篇",
-      "author": "作者M12",
+      "book_id": "7499292273901833278",
+      "book_name": "问鼎：从反腐行动开始",
+      "author": "哈哈是条小狗",
       "gender": "男频",
-      "primary_tag": "二次元",
-      "secondary_tags": [
-        "悬疑"
-      ],
-      "all_tags": [
-        "二次元",
-        "悬疑"
-      ],
-      "abstract": "这是一部精彩的二次元小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "权道，即正道！怀正义之心，行正义之事！方能在权术斗争中，披荆斩棘，立于不败之地！权途无捷径，身正才能...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000012",
-      "rank_change": 5
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/4b938061110b084b77567690c5f3cbee~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937730&x-signature=zpzf8GYdW%2BsBw%2BeA7Of3c086WuE%3D",
+      "book_url": "https://fanqienovel.com/page/7499292273901833278",
+      "rank_change": "new"
     },
     {
       "rank": 13,
-      "book_id": "7300000013",
-      "book_name": "番茄热门小说13号·玄幻篇",
-      "author": "作者N13",
+      "book_id": "7338034838672247833",
+      "book_name": "诸神愚戏",
+      "author": "一月九十秋",
       "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "奇幻"
-      ],
+      "primary_tag": "诸神愚戏",
+      "secondary_tags": [],
       "all_tags": [
-        "玄幻",
-        "奇幻"
+        "诸神愚戏"
       ],
-      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000013",
-      "rank_change": -2
+      "abstract": "我做人有2个原则：1.从不骗人2.从不相信任何人说的话，包括我自己“先生，我想提醒您，您说的第二点跟...",
+      "status": "完结",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o456671fab473706eac056e1ae403e5c3~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937731&x-signature=o48LB4hDV%2FTlyqfNWr4G8oaHAWs%3D",
+      "book_url": "https://fanqienovel.com/page/7338034838672247833",
+      "rank_change": "new"
     },
     {
       "rank": 14,
-      "book_id": "7300000014",
-      "book_name": "番茄热门小说14号·玄幻篇",
-      "author": "作者O14",
+      "book_id": "7585448189356936216",
+      "book_name": "刚转职法师，技能成精了什么鬼？",
+      "author": "九五六一",
       "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "体育"
-      ],
-      "all_tags": [
-        "玄幻",
-        "体育"
-      ],
-      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "（评分刚出偏低，后面会涨）【爽文】+【豪门背景】+【技能拟人化】林默穿越到全民转职的世界，觉醒为无元...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000014",
-      "rank_change": 0
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o2f17fef1cf99f90ae1bb64f628b9f0f3~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937732&x-signature=Js5f9qs2HUGi%2Bhza8wOu%2F1XsP2k%3D",
+      "book_url": "https://fanqienovel.com/page/7585448189356936216",
+      "rank_change": "new"
     },
     {
       "rank": 15,
-      "book_id": "7300000015",
-      "book_name": "番茄热门小说15号·奇幻篇",
-      "author": "作者P15",
+      "book_id": "7138249318909086727",
+      "book_name": "天渊",
+      "author": "沐潇三生",
       "gender": "男频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "玄幻"
-      ],
+      "primary_tag": "天渊",
+      "secondary_tags": [],
       "all_tags": [
-        "奇幻",
-        "玄幻"
+        "天渊"
       ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000015",
-      "rank_change": 4
+      "abstract": "（番茄搜天渊动画，看首支pv，与陈青源共赴九世红尘劫）百年前，陈青源进入了一个名为天渊的禁区，魂灯熄...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937734&x-signature=1Y09t2%2FdmdzbI5BuH3VpOdPx42A%3D",
+      "book_url": "https://fanqienovel.com/page/7138249318909086727",
+      "rank_change": "new"
     },
     {
       "rank": 16,
-      "book_id": "7300000016",
-      "book_name": "番茄热门小说16号·都市篇",
-      "author": "作者Q16",
+      "book_id": "7414011485757639704",
+      "book_name": "冒姓琅琊",
+      "author": "东周公子南",
       "gender": "男频",
-      "primary_tag": "都市",
+      "primary_tag": "冒姓琅琊",
       "secondary_tags": [],
       "all_tags": [
-        "都市"
+        "冒姓琅琊"
       ],
-      "abstract": "这是一部精彩的都市小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "（别名《关于南朝贵公子是我冒充的这回事》）穿越不是请客吃饭，穿越是步步杀机。江南妩媚，壮志常销。自古...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000016",
-      "rank_change": 0
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/ai/p2o40b8a1c9ad4c18298349ef8fe897eaa6~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937735&x-signature=Cd4bJN8CPlYosc19OOpn9VImOTk%3D",
+      "book_url": "https://fanqienovel.com/page/7414011485757639704",
+      "rank_change": "new"
     },
     {
       "rank": 17,
-      "book_id": "7300000017",
-      "book_name": "番茄热门小说17号·科幻篇",
-      "author": "作者R17",
+      "book_id": "7606949820229504024",
+      "book_name": "无敌镖人，开局护送灭世帝女！",
+      "author": "乌鸦不喝水水",
       "gender": "男频",
-      "primary_tag": "科幻",
-      "secondary_tags": [
-        "现实"
-      ],
-      "all_tags": [
-        "科幻",
-        "现实"
-      ],
-      "abstract": "这是一部精彩的科幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000017",
-      "rank_change": 0
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "（刚出评分，会慢慢增长）【镖人、妖魔乱世、词条、杀伐果断、诡异修仙】风起乱世，妖魔横行，邪祟当道。陈...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/a99906c7a4c42cc287cc058d5e9f911e~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937736&x-signature=NrlIR4AXLf6RxkLVQAxthCTM4EI%3D",
+      "book_url": "https://fanqienovel.com/page/7606949820229504024",
+      "rank_change": "new"
     },
     {
       "rank": 18,
-      "book_id": "7300000018",
-      "book_name": "番茄热门小说18号·游戏篇",
-      "author": "作者S18",
+      "book_id": "7256784068786785336",
+      "book_name": "诡舍",
+      "author": "夜来风雨声丶",
       "gender": "男频",
-      "primary_tag": "游戏",
-      "secondary_tags": [
-        "玄幻"
-      ],
+      "primary_tag": "诡舍",
+      "secondary_tags": [],
       "all_tags": [
-        "游戏",
-        "玄幻"
+        "诡舍"
       ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000018",
-      "rank_change": 0
+      "abstract": "【无限流+微惊悚+求生+单女主】一辆没有司机的大巴，载着一群被诅咒的人，去往了一间黑色的诡舍……诡舍...",
+      "status": "完结",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ob67b9e86ddf3a2d6293a37e7895331a6~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937738&x-signature=xyCBsUMzJCEDTf55wdpn%2BSCnquo%3D",
+      "book_url": "https://fanqienovel.com/page/7256784068786785336",
+      "rank_change": "new"
     },
     {
       "rank": 19,
-      "book_id": "7300000019",
-      "book_name": "番茄热门小说19号·都市篇",
-      "author": "作者T19",
+      "book_id": "7243499543516417064",
+      "book_name": "九千岁狠毒疯批，却实在美丽",
+      "author": "爱干饭的团子",
       "gender": "女频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "二次元"
-      ],
-      "all_tags": [
-        "都市",
-        "二次元"
-      ],
-      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000019",
-      "rank_change": 5
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【已完结】【自我攻略攻X情感障碍受＋双强双洁1V1＋破镜重圆HE】天下第一美人谢玉，体弱多病，满身弱...",
+      "status": "完结",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oc7abd4375a1760d5e37fed0c017b5244~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937739&x-signature=f07HTXDbAm0PQPM56r815ZIHqng%3D",
+      "book_url": "https://fanqienovel.com/page/7243499543516417064",
+      "rank_change": "new"
     },
     {
       "rank": 20,
-      "book_id": "7300000020",
-      "book_name": "番茄热门小说20号·历史篇",
-      "author": "作者U20",
-      "gender": "女频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "悬疑"
-      ],
+      "book_id": "7346057588347259929",
+      "book_name": "序列：吃神者",
+      "author": "不要大脑要小脑",
+      "gender": "男频",
+      "primary_tag": "序列：吃神者",
+      "secondary_tags": [],
       "all_tags": [
-        "历史",
-        "悬疑"
+        "序列：吃神者"
       ],
-      "abstract": "这是一部精彩的历史小说，讲述了主角在古代中的冒险故事...",
+      "abstract": "【已签出版质量保证，都市高武+群像权谋+慢节奏大设定都说越看越好看+20章结尾开始起飞+三百万字从不...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000020",
-      "rank_change": 2
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o43da4425bd3b338cef72fa545aaff9c1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937740&x-signature=6XDKl2T4DegZCzV2XOFGjhZaU%2FA%3D",
+      "book_url": "https://fanqienovel.com/page/7346057588347259929",
+      "rank_change": "new"
     },
     {
       "rank": 21,
-      "book_id": "7300000021",
-      "book_name": "番茄热门小说21号·轻小说篇",
-      "author": "作者V21",
-      "gender": "女频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "奇幻"
-      ],
-      "all_tags": [
-        "轻小说",
-        "奇幻"
-      ],
-      "abstract": "这是一部精彩的轻小说小说，讲述了主角在古代中的冒险故事...",
+      "book_id": "7583949514948496409",
+      "book_name": "一年抽取一词条，模拟的也可以？",
+      "author": "六大六子",
+      "gender": "男频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【词条抽取+模拟器+全部继承+仙武】陈奕穿越武道世界，获得了一个一年抽一个词条的系统。可惜抽到的全是...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000021",
-      "rank_change": 5
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o25721c86df780c788a2bd9ab196c60b4~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937741&x-signature=IavMvRTP33qqcIndnwZEPQyHEZQ%3D",
+      "book_url": "https://fanqienovel.com/page/7583949514948496409",
+      "rank_change": "new"
     },
     {
       "rank": 22,
-      "book_id": "7300000022",
-      "book_name": "番茄热门小说22号·奇幻篇",
-      "author": "作者W22",
-      "gender": "女频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "玄幻"
-      ],
-      "all_tags": [
-        "奇幻",
-        "玄幻"
-      ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在古代中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000022",
-      "rank_change": 1
+      "book_id": "7571694485361413145",
+      "book_name": "天道酬勤：开局联姻落魄千金",
+      "author": "深夜独弦",
+      "gender": "男频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【杀伐果断+面板+升级流+无视瓶颈】沈长青一朝觉醒前世宿慧，喜提天道酬勤天赋：可无视境关，只需经验足...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/b741c783c03e7e92cc7e35c065bc243f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937743&x-signature=kZq579gGVQs5br%2Bgf7kihBERDEc%3D",
+      "book_url": "https://fanqienovel.com/page/7571694485361413145",
+      "rank_change": "new"
     },
     {
       "rank": 23,
-      "book_id": "7300000023",
-      "book_name": "番茄热门小说23号·奇幻篇",
-      "author": "作者X23",
+      "book_id": "7462405945180572697",
+      "book_name": "你们刷怪啊，刷我干嘛！",
+      "author": "喜欢吃橘子",
       "gender": "男频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "轻小说"
-      ],
-      "all_tags": [
-        "奇幻",
-        "轻小说"
-      ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【已签实体出版：无系统、剧情流、不慢热、不无脑、快节奏、惊险刺激，拳拳到肉，怪物阵营视角！】自打【神...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000023",
-      "rank_change": -1
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o76b6acc31de1b5f4675e0abf2939a0fe~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937744&x-signature=1Al4chG9Mzf8sV3XAmiQRPNtbXw%3D",
+      "book_url": "https://fanqienovel.com/page/7462405945180572697",
+      "rank_change": "new"
     },
     {
       "rank": 24,
-      "book_id": "7300000024",
-      "book_name": "番茄热门小说24号·都市篇",
-      "author": "作者Y24",
-      "gender": "女频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "轻小说"
-      ],
+      "book_id": "7445188900496083992",
+      "book_name": "聚宝仙盆",
+      "author": "香果味奶茶",
+      "gender": "男频",
+      "primary_tag": "聚宝仙盆",
+      "secondary_tags": [],
       "all_tags": [
-        "都市",
-        "轻小说"
+        "聚宝仙盆"
       ],
-      "abstract": "这是一部精彩的都市小说，讲述了主角在古代中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000024",
-      "rank_change": -3
+      "abstract": "【凡人流】【无系统】，太虚门杂役弟子【贺平生】机缘巧合之下获得了一个【聚宝盆】，从此走上了修仙道路。...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oa52cb4e26960b709f39d799713678b82~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937746&x-signature=lxPE2UHPUcxBlYAR%2FwbFoFudMvo%3D",
+      "book_url": "https://fanqienovel.com/page/7445188900496083992",
+      "rank_change": "new"
     },
     {
       "rank": 25,
-      "book_id": "7300000025",
-      "book_name": "番茄热门小说25号·现实篇",
-      "author": "作者Z25",
+      "book_id": "7574112426858122264",
+      "book_name": "穿成假冒失忆大佬女友的恶毒女配",
+      "author": "闻栖",
       "gender": "女频",
-      "primary_tag": "现实",
-      "secondary_tags": [
-        "悬疑"
-      ],
+      "primary_tag": "豪门总裁",
+      "secondary_tags": [],
       "all_tags": [
-        "现实",
-        "悬疑"
+        "豪门总裁"
       ],
-      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
+      "abstract": "【已签实体】[偏日常/细水长流/先同居后爱/双洁/甜宠]　　一朝穿越，宋云绯成了假冒失忆总裁女友的女...",
       "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000025",
-      "rank_change": 0
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2obe1d47131ffbcc1bbfd55cc23d4982dd~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937747&x-signature=agGkXOF4PYquoH6bZxsEsYVpzY0%3D",
+      "book_url": "https://fanqienovel.com/page/7574112426858122264",
+      "rank_change": "new"
     },
     {
       "rank": 26,
-      "book_id": "7300000026",
-      "book_name": "番茄热门小说26号·轻小说篇",
-      "author": "作者A26",
+      "book_id": "7577210392514939929",
+      "book_name": "全民公路求生：我的房车无限进化",
+      "author": "橙汁加盐",
       "gender": "男频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "悬疑"
-      ],
-      "all_tags": [
-        "轻小说",
-        "悬疑"
-      ],
-      "abstract": "这是一部精彩的轻小说小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【全民求生】+【末日】+【载具升级】+【金词条】+【杀伐果断】+【丧尸】+【克苏鲁】+【无敌流】+【...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000026",
-      "rank_change": 0
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2ocf7394ea0f0eb5d8d70f38b0855f4529~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937749&x-signature=9hmACkbknMGKpuDQwPjU03hu6jM%3D",
+      "book_url": "https://fanqienovel.com/page/7577210392514939929",
+      "rank_change": "new"
     },
     {
       "rank": 27,
-      "book_id": "7300000027",
-      "book_name": "番茄热门小说27号·现实篇",
-      "author": "作者B27",
-      "gender": "女频",
-      "primary_tag": "现实",
-      "secondary_tags": [
-        "奇幻"
-      ],
+      "book_id": "7087872099557051400",
+      "book_name": "我以狐仙镇百鬼",
+      "author": "紫梦游龙",
+      "gender": "男频",
+      "primary_tag": "我以狐仙镇百鬼",
+      "secondary_tags": [],
       "all_tags": [
-        "现实",
-        "奇幻"
+        "我以狐仙镇百鬼"
       ],
-      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000027",
-      "rank_change": 0
+      "abstract": "我出生那天，在我家院子周围落下了十九道雷，有个算命先生说，我是天生妖胎，一生命犯十八劫，不是别人死就...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/05cb5f60d9bea6c19a94f9a27a763ce7~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937751&x-signature=TCXPRefA%2FpXRiqhvocpL2gkYCV0%3D",
+      "book_url": "https://fanqienovel.com/page/7087872099557051400",
+      "rank_change": "new"
     },
     {
       "rank": 28,
-      "book_id": "7300000028",
-      "book_name": "番茄热门小说28号·体育篇",
-      "author": "作者C28",
+      "book_id": "7342400869209492542",
+      "book_name": "癫，都癫，癫点好啊",
+      "author": "小盐子",
       "gender": "女频",
-      "primary_tag": "体育",
-      "secondary_tags": [
-        "玄幻"
-      ],
+      "primary_tag": "星光璀璨",
+      "secondary_tags": [],
       "all_tags": [
-        "体育",
-        "玄幻"
+        "星光璀璨"
       ],
-      "abstract": "这是一部精彩的体育小说，讲述了主角在古代中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000028",
-      "rank_change": 0
+      "abstract": "【1v1超甜+沙雕玩梗+娱乐圈+恋综+打脸】【发癫女明星vs脑回路清奇总裁】因被渣男背刺，刚穿书就被...",
+      "status": "完结",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2ob3650108869be31b54653c9eb86599a0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937753&x-signature=9gPVDLLuZSOsiJ9a%2FbsUAVCh6lI%3D",
+      "book_url": "https://fanqienovel.com/page/7342400869209492542",
+      "rank_change": "new"
     },
     {
       "rank": 29,
-      "book_id": "7300000029",
-      "book_name": "番茄热门小说29号·二次元篇",
-      "author": "作者D29",
-      "gender": "女频",
-      "primary_tag": "二次元",
-      "secondary_tags": [
-        "悬疑"
-      ],
-      "all_tags": [
-        "二次元",
-        "悬疑"
-      ],
-      "abstract": "这是一部精彩的二次元小说，讲述了主角在古代中的冒险故事...",
+      "book_id": "7589673170848713752",
+      "book_name": "全球僵尸降临，你说道士序列没用",
+      "author": "一盏明月灯",
+      "gender": "男频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "紫僵、白僵、黑僵、绿僵、毛僵、飞僵、游僵、伏僵、不化骨、魃……这是一个全球僵尸降临的世界！    许...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000029",
-      "rank_change": 3
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2offb82b72a7997033141cd9333f08b461~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937754&x-signature=WR%2BZzrAtTnNzexXshvE7GPH8Dm4%3D",
+      "book_url": "https://fanqienovel.com/page/7589673170848713752",
+      "rank_change": "new"
     },
     {
       "rank": 30,
-      "book_id": "7300000030",
-      "book_name": "番茄热门小说30号·二次元篇",
-      "author": "作者E30",
-      "gender": "女频",
-      "primary_tag": "二次元",
-      "secondary_tags": [
-        "武侠"
-      ],
-      "all_tags": [
-        "二次元",
-        "武侠"
-      ],
-      "abstract": "这是一部精彩的二次元小说，讲述了主角在古代中的冒险故事...",
+      "book_id": "7593597311880531006",
+      "book_name": "过年回家，与三个精神小妹挤大巴",
+      "author": "超级大头",
+      "gender": "男频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "魔都白领白离，在外三年熬到了经理的位置。今年春节，错过飞机的他挤上回乡的长途大巴，准备迎接亲戚的盘问...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000030",
-      "rank_change": -3
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/0965bdd66db0c83eb45588f1caab31ea~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937755&x-signature=9x3rJtJMAekK%2FzBQWM0PktIy%2F00%3D",
+      "book_url": "https://fanqienovel.com/page/7593597311880531006",
+      "rank_change": "new"
     },
     {
       "rank": 31,
-      "book_id": "7300000031",
-      "book_name": "番茄热门小说31号·历史篇",
-      "author": "作者F31",
+      "book_id": "7077516958534470656",
+      "book_name": "凡骨",
+      "author": "壹更大师",
       "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "奇幻"
-      ],
+      "primary_tag": "凡骨",
+      "secondary_tags": [],
       "all_tags": [
-        "历史",
-        "奇幻"
+        "凡骨"
       ],
-      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "abstract": "世间灵骨，共分四品。一品，天灵骨。二品，金灵骨。三品，玄灵骨。四品，白灵骨。余者，皆为凡骨，无缘修行...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000031",
-      "rank_change": -1
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oab63dc9453b797dc4e499ad254f803fc~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937757&x-signature=TwxJJtnQQjIF4E09Sj1BM0FSAC0%3D",
+      "book_url": "https://fanqienovel.com/page/7077516958534470656",
+      "rank_change": "new"
     },
     {
       "rank": 32,
-      "book_id": "7300000032",
-      "book_name": "番茄热门小说32号·科幻篇",
-      "author": "作者G32",
-      "gender": "男频",
-      "primary_tag": "科幻",
-      "secondary_tags": [
-        "现实"
-      ],
-      "all_tags": [
-        "科幻",
-        "现实"
-      ],
-      "abstract": "这是一部精彩的科幻小说，讲述了主角在都市中的冒险故事...",
+      "book_id": "7571356675811052568",
+      "book_name": "父王，开门！本郡主闯祸回来啦",
+      "author": "小酒谜",
+      "gender": "女频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "[轻松诙谐＋日常＋团宠＋爽文＋沙雕＋女强＋群像＋权谋＋颠文]（简介无能，大家还是直接看正文吧）   ...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000032",
-      "rank_change": 0
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ofda8857f86b23689363afc749b404fa4~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937758&x-signature=GXr4HLm5MDO3V3oBju5nGt%2FNmWo%3D",
+      "book_url": "https://fanqienovel.com/page/7571356675811052568",
+      "rank_change": "new"
     },
     {
       "rank": 33,
-      "book_id": "7300000033",
-      "book_name": "番茄热门小说33号·奇幻篇",
-      "author": "作者H33",
+      "book_id": "7594788447454235672",
+      "book_name": "一人：开局响雷果实，师叔祖出山",
+      "author": "浅梦不吃鱼",
       "gender": "男频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "玄幻"
-      ],
-      "all_tags": [
-        "奇幻",
-        "玄幻"
-      ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000033",
-      "rank_change": 0
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【无敌+轻松+响雷果实+辈分极高+护短】我穿越一人之下，成为张之维的二师弟，张天奕！开局获得响雷果实...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/c9a672cbeeab412e00a971eef6517f08~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937760&x-signature=d2Nzc%2BpdiYNRsSE2DCtNZAFHjiM%3D",
+      "book_url": "https://fanqienovel.com/page/7594788447454235672",
+      "rank_change": "new"
     },
     {
       "rank": 34,
-      "book_id": "7300000034",
-      "book_name": "番茄热门小说34号·玄幻篇",
-      "author": "作者I34",
+      "book_id": "7610056212469533720",
+      "book_name": "比老婆高三个境界，说我吃软饭？",
+      "author": "一碗流年",
       "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "游戏"
-      ],
-      "all_tags": [
-        "玄幻",
-        "游戏"
-      ],
-      "abstract": "这是一部精彩的玄幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000034",
-      "rank_change": 1
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【叮！绑定二十二岁宗师老婆，境界永久高三个大境界！】坏消息：经脉尽断三年，财阀砸一百万逼我离开老婆！...",
+      "status": "连载中",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o2b4ebae95ea199fe9129dea94af14b06~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937761&x-signature=HeQZpt1unJyueLPUqApO62XKwfg%3D",
+      "book_url": "https://fanqienovel.com/page/7610056212469533720",
+      "rank_change": "new"
     },
     {
       "rank": 35,
-      "book_id": "7300000035",
-      "book_name": "番茄热门小说35号·游戏篇",
-      "author": "作者J35",
+      "book_id": "7166580408522378292",
+      "book_name": "天师在此，奇门风水震天下",
+      "author": "大茄子",
       "gender": "男频",
-      "primary_tag": "游戏",
+      "primary_tag": "未分类",
       "secondary_tags": [],
-      "all_tags": [
-        "游戏"
-      ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000035",
-      "rank_change": 0
+      "all_tags": [],
+      "abstract": "【奇门风水，民间秘术，咒术，邪术，巫术，奇门遁甲，九宫命格，牵羊憋宝，祝由术！】俗话说，一名二运三风...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/769786ef7bf06064411cd2cb3fe921e7~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937762&x-signature=9i2jxlJ7jtlPH4O6tWQxpSe7m0U%3D",
+      "book_url": "https://fanqienovel.com/page/7166580408522378292",
+      "rank_change": "new"
     },
     {
       "rank": 36,
-      "book_id": "7300000036",
-      "book_name": "番茄热门小说36号·体育篇",
-      "author": "作者K36",
-      "gender": "男频",
-      "primary_tag": "体育",
-      "secondary_tags": [
-        "都市"
-      ],
+      "book_id": "7367259250789190681",
+      "book_name": "我不过作作妖，怎么就成了白月光",
+      "author": "叁生三三",
+      "gender": "女频",
+      "primary_tag": "现言脑洞",
+      "secondary_tags": [],
       "all_tags": [
-        "体育",
-        "都市"
+        "现言脑洞"
       ],
-      "abstract": "这是一部精彩的体育小说，讲述了主角在都市中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000036",
-      "rank_change": 2
+      "abstract": "【已签实体出版】【豪门甜宠】+【禁爱者坠入神坛】+【人物觉醒】+【修罗场乱炖】　　 “你是这个世界里...",
+      "status": "完结",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oa5a5d1cc86ec81abb6d01380dbcf8457~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937764&x-signature=uQs5LREX8%2BUGyuiMXAqZxXJZ7YI%3D",
+      "book_url": "https://fanqienovel.com/page/7367259250789190681",
+      "rank_change": "new"
     },
     {
       "rank": 37,
-      "book_id": "7300000037",
-      "book_name": "番茄热门小说37号·奇幻篇",
-      "author": "作者L37",
+      "book_id": "7609194638129237017",
+      "book_name": "前方高档小区，伪人止步",
+      "author": "番茄可以炒土豆",
       "gender": "男频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "历史"
-      ],
-      "all_tags": [
-        "奇幻",
-        "历史"
-      ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "这是一个伪人泛滥的世界。　　余汤是一名高贵的夜班保安，他的职责，就是待在安保岗哨内识别伪人，并通知对...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000037",
-      "rank_change": 0
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/da9b61dd8d43d83d37d510c108b839ec~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937766&x-signature=0ZzC5YgjLtriz01xYjUBXyS4VFk%3D",
+      "book_url": "https://fanqienovel.com/page/7609194638129237017",
+      "rank_change": "new"
     },
     {
       "rank": 38,
-      "book_id": "7300000038",
-      "book_name": "番茄热门小说38号·体育篇",
-      "author": "作者M38",
+      "book_id": "7501902210347830334",
+      "book_name": "公考捡漏：从女友抛弃到权利巅峰",
+      "author": "元明小阳",
       "gender": "男频",
-      "primary_tag": "体育",
-      "secondary_tags": [
-        "武侠"
-      ],
-      "all_tags": [
-        "体育",
-        "武侠"
-      ],
-      "abstract": "这是一部精彩的体育小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000038",
-      "rank_change": 0
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "“笔试第五又怎样？我靠捡漏上岸，从政府办科员到领导大秘，前女友跪求复合那天，我正陪领导调研她的离婚调...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o4e6e9153767cc52889315e72496b7971~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937767&x-signature=5H8DFcl2bnGml%2BuwJ6qY4lb%2Ffao%3D",
+      "book_url": "https://fanqienovel.com/page/7501902210347830334",
+      "rank_change": "new"
     },
     {
       "rank": 39,
-      "book_id": "7300000039",
-      "book_name": "番茄热门小说39号·奇幻篇",
-      "author": "作者N39",
+      "book_id": "6985246250434038815",
+      "book_name": "北派盗墓笔记",
+      "author": "云峰",
       "gender": "男频",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "都市"
-      ],
+      "primary_tag": "北派盗墓笔记",
+      "secondary_tags": [],
       "all_tags": [
-        "奇幻",
-        "都市"
+        "北派盗墓笔记"
       ],
-      "abstract": "这是一部精彩的奇幻小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000039",
-      "rank_change": 0
+      "abstract": "【已实体出版，线上平台有售】【盗墓+悬疑+鉴宝】我是一个东北山村的穷小子，二十一世纪初，为了出人头地...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/c947e7567fa8646dace2755ec6f436b1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937768&x-signature=qqFTrK6FYfXVGrWva9w18L2P83c%3D",
+      "book_url": "https://fanqienovel.com/page/6985246250434038815",
+      "rank_change": "new"
     },
     {
       "rank": 40,
-      "book_id": "7300000040",
-      "book_name": "番茄热门小说40号·游戏篇",
-      "author": "作者O40",
+      "book_id": "7595562847300504600",
+      "book_name": "人前不熟！人后备孕！夜夜被宠亲",
+      "author": "墨刀客",
       "gender": "女频",
-      "primary_tag": "游戏",
+      "primary_tag": "未分类",
       "secondary_tags": [],
-      "all_tags": [
-        "游戏"
-      ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在古代中的冒险故事...",
+      "all_tags": [],
+      "abstract": "［先婚后爱+上位者低头+细水长流小甜文+双洁］24岁的宋馨雅，身高一米七，体重180斤25岁的宋馨雅...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000040",
-      "rank_change": 1
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2of9bbf0d724d0e43ab8736ee85bcca1d1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937770&x-signature=BMAl6hNHSduXOpQbTVvAZD4xBU4%3D",
+      "book_url": "https://fanqienovel.com/page/7595562847300504600",
+      "rank_change": "new"
     },
     {
       "rank": 41,
-      "book_id": "7300000041",
-      "book_name": "番茄热门小说41号·悬疑篇",
-      "author": "作者P41",
-      "gender": "男频",
-      "primary_tag": "悬疑",
-      "secondary_tags": [
-        "都市"
-      ],
-      "all_tags": [
-        "悬疑",
-        "都市"
-      ],
-      "abstract": "这是一部精彩的悬疑小说，讲述了主角在都市中的冒险故事...",
+      "book_id": "7535337389883935768",
+      "book_name": "少逼逼歪歪，反派火力全开",
+      "author": "九拾九分",
+      "gender": "女频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【沙雕+团宠+发疯+豪门群像+爽文】（全文不含腐，搞笑情节勿认真，介意勿入。建议不带脑观看～）穿书成...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000041",
-      "rank_change": 6
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/83875c0224631f2cb042742ce628b9d9~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937771&x-signature=y2twsuTBcs0AEU%2FzsIyyM%2FmusCo%3D",
+      "book_url": "https://fanqienovel.com/page/7535337389883935768",
+      "rank_change": "new"
     },
     {
       "rank": 42,
-      "book_id": "7300000042",
-      "book_name": "番茄热门小说42号·轻小说篇",
-      "author": "作者Q42",
-      "gender": "男频",
-      "primary_tag": "轻小说",
+      "book_id": "7597604097813924926",
+      "book_name": "穿成破产太子爷的恶毒前女友",
+      "author": "草莓果果",
+      "gender": "女频",
+      "primary_tag": "未分类",
       "secondary_tags": [],
-      "all_tags": [
-        "轻小说"
-      ],
-      "abstract": "这是一部精彩的轻小说小说，讲述了主角在都市中的冒险故事...",
+      "all_tags": [],
+      "abstract": "【软萌超甜小画家vs长腿酷哥太子爷】阮钰睁开眼，穿成男主的恶毒女友。原书中，男主破产跟她住进地下室，...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000042",
-      "rank_change": 2
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/d8fe4035107e5e85ba2a94aa939e8c9e~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937772&x-signature=pBTlFl%2BEYecEFaspDWUNNH9FrWY%3D",
+      "book_url": "https://fanqienovel.com/page/7597604097813924926",
+      "rank_change": "new"
     },
     {
       "rank": 43,
-      "book_id": "7300000043",
-      "book_name": "番茄热门小说43号·历史篇",
-      "author": "作者R43",
+      "book_id": "7605079869315107864",
+      "book_name": "睡了姐姐闺蜜，她竟是我大学教授",
+      "author": "祈诗安雪",
       "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "体育"
-      ],
-      "all_tags": [
-        "历史",
-        "体育"
-      ],
-      "abstract": "这是一部精彩的历史小说，讲述了主角在都市中的冒险故事...",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "[都市日常+校园+教授+单女主+姐弟恋+甜文撒糖]许望的天塌了！他遇到一个喝醉酒的女人，带去酒店照顾...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000043",
-      "rank_change": 0
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/38eb0ac582a4f91149fbcc77ed7a2896~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937773&x-signature=fJtIBOrWJ%2BvteQWAFm0Te7U4g3E%3D",
+      "book_url": "https://fanqienovel.com/page/7605079869315107864",
+      "rank_change": "new"
     },
     {
       "rank": 44,
-      "book_id": "7300000044",
-      "book_name": "番茄热门小说44号·悬疑篇",
-      "author": "作者S44",
-      "gender": "女频",
-      "primary_tag": "悬疑",
-      "secondary_tags": [
-        "轻小说"
-      ],
+      "book_id": "6838480082219043843",
+      "book_name": "开局地摊卖大力",
+      "author": "弈青锋",
+      "gender": "男频",
+      "primary_tag": "开局地摊卖大力",
+      "secondary_tags": [],
       "all_tags": [
-        "悬疑",
-        "轻小说"
+        "开局地摊卖大力"
       ],
-      "abstract": "这是一部精彩的悬疑小说，讲述了主角在古代中的冒险故事...",
-      "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000044",
-      "rank_change": 4
+      "abstract": "【大力动漫7.29日开播，番茄搜书名看pv】地球进入灵气复苏时代，人类开启异能觉醒！江南开局觉醒最强...",
+      "status": "完结",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/859efeb8ede52332e566691a1147b14b~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937775&x-signature=hAwDNSMeN2eEqXKq5BXMyDXQXlk%3D",
+      "book_url": "https://fanqienovel.com/page/6838480082219043843",
+      "rank_change": "new"
     },
     {
       "rank": 45,
-      "book_id": "7300000045",
-      "book_name": "番茄热门小说45号·现实篇",
-      "author": "作者T45",
-      "gender": "女频",
-      "primary_tag": "现实",
-      "secondary_tags": [
-        "玄幻"
-      ],
+      "book_id": "7357660681379793982",
+      "book_name": "全民大航海，我开局一条幽灵船",
+      "author": "新买的桃子",
+      "gender": "男频",
+      "primary_tag": "游戏体育",
+      "secondary_tags": [],
       "all_tags": [
-        "现实",
-        "玄幻"
+        "游戏体育"
       ],
-      "abstract": "这是一部精彩的现实小说，讲述了主角在古代中的冒险故事...",
+      "abstract": "实体书已签【航海】【求生】【灾害】【打造船只】【天赋】【克苏鲁】【单女主】全民穿越，杨逸作为玩家，被...",
       "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000045",
-      "rank_change": 0
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o719bf69874fbc862ae64b8593f03217e~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937776&x-signature=BEsEzO8JoOWT0VUa7QroFIJxYsA%3D",
+      "book_url": "https://fanqienovel.com/page/7357660681379793982",
+      "rank_change": "new"
     },
     {
       "rank": 46,
-      "book_id": "7300000046",
-      "book_name": "番茄热门小说46号·武侠篇",
-      "author": "作者U46",
+      "book_id": "7444482186822044734",
+      "book_name": "提前登陆游戏世界，开局联姻女帝",
+      "author": "潇楚还没睡",
       "gender": "男频",
-      "primary_tag": "武侠",
+      "primary_tag": "未分类",
       "secondary_tags": [],
-      "all_tags": [
-        "武侠"
-      ],
-      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000046",
-      "rank_change": 3
+      "all_tags": [],
+      "abstract": "【提前穿越+权谋+王朝争霸+魅魔+诸天融合】本书又叫【我，女帝未婚夫，幕后最强反派】一觉醒来，夏辰提...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o44c882aad2fd291b073aa4c5496b4b15~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937778&x-signature=HmDag1eDWAv1LeEfn5c8O7dVU4s%3D",
+      "book_url": "https://fanqienovel.com/page/7444482186822044734",
+      "rank_change": "new"
     },
     {
       "rank": 47,
-      "book_id": "7300000047",
-      "book_name": "番茄热门小说47号·科幻篇",
-      "author": "作者V47",
-      "gender": "女频",
-      "primary_tag": "科幻",
-      "secondary_tags": [
-        "历史"
-      ],
-      "all_tags": [
-        "科幻",
-        "历史"
-      ],
-      "abstract": "这是一部精彩的科幻小说，讲述了主角在古代中的冒险故事...",
+      "book_id": "7598112750509771800",
+      "book_name": "身为万人迷大师兄的我只想下班",
+      "author": "眠眠薯条蝶",
+      "gender": "男频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "陆风眠一朝穿越，绑定了“满级大师兄系统”。本以为要开启龙傲天模式，谁知系统目标竟是——成为全宗门的完...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000047",
-      "rank_change": 0
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/f2b7372b3e9298cd60512d8aecdd7c70~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937779&x-signature=UwzERd7s0PBOiRehRp9RfPMNkIA%3D",
+      "book_url": "https://fanqienovel.com/page/7598112750509771800",
+      "rank_change": "new"
     },
     {
       "rank": 48,
-      "book_id": "7300000048",
-      "book_name": "番茄热门小说48号·游戏篇",
-      "author": "作者W48",
-      "gender": "女频",
-      "primary_tag": "游戏",
-      "secondary_tags": [
-        "都市"
-      ],
+      "book_id": "7546231091758107673",
+      "book_name": "娱乐圈风水秘闻",
+      "author": "苦瓜炒花蟹",
+      "gender": "男频",
+      "primary_tag": "娱乐圈风水秘闻",
+      "secondary_tags": [],
       "all_tags": [
-        "游戏",
-        "都市"
+        "娱乐圈风水秘闻"
       ],
-      "abstract": "这是一部精彩的游戏小说，讲述了主角在古代中的冒险故事...",
+      "abstract": "从为求富贵献祭子女的大眼女星，到靠玄学续命的功夫巨星；从用玄学求子的钢炮导演，到被大...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000048",
-      "rank_change": 0
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o1553807ac3933acff1bda2a90cae9b72~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937781&x-signature=X0mWSDc6jGnaReecDUwgzAJMzxE%3D",
+      "book_url": "https://fanqienovel.com/page/7546231091758107673",
+      "rank_change": "new"
     },
     {
       "rank": 49,
-      "book_id": "7300000049",
-      "book_name": "番茄热门小说49号·现实篇",
-      "author": "作者X49",
-      "gender": "男频",
-      "primary_tag": "现实",
-      "secondary_tags": [
-        "轻小说"
-      ],
-      "all_tags": [
-        "现实",
-        "轻小说"
-      ],
-      "abstract": "这是一部精彩的现实小说，讲述了主角在都市中的冒险故事...",
+      "book_id": "7598540474529352729",
+      "book_name": "爹！求你别升了，咱家真是奸臣！",
+      "author": "杨雪凌",
+      "gender": "女频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "许清欢穿书了，穿成了大乾第一巨贪许有德的独女。看着满屋子的金银珠宝，她没有笑，因为她知道，三年后许家...",
       "status": "连载中",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000049",
-      "rank_change": 5
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/cd5fd12c00d055e1479699c610310a96~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937782&x-signature=KRcsJ%2BiedLALnrf0IKsWT8fjcD8%3D",
+      "book_url": "https://fanqienovel.com/page/7598540474529352729",
+      "rank_change": "new"
     },
     {
       "rank": 50,
-      "book_id": "7300000050",
-      "book_name": "番茄热门小说50号·武侠篇",
-      "author": "作者Y50",
-      "gender": "男频",
-      "primary_tag": "武侠",
-      "secondary_tags": [
-        "都市"
-      ],
-      "all_tags": [
-        "武侠",
-        "都市"
-      ],
-      "abstract": "这是一部精彩的武侠小说，讲述了主角在都市中的冒险故事...",
-      "status": "完结",
-      "thumb_url": "",
-      "book_url": "https://fanqienovel.com/page/7300000050",
-      "rank_change": 0
+      "book_id": "7503764915430099992",
+      "book_name": "掏空家底，资本家大小姐嫁军少",
+      "author": "功夫马铃薯",
+      "gender": "女频",
+      "primary_tag": "未分类",
+      "secondary_tags": [],
+      "all_tags": [],
+      "abstract": "【重生+军婚+空间+外表明媚骨子里高傲的资本家小姐VS体力过人、八块腹肌的自律军官】  沈知棠前世被...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oc0be83e97980d5da15c1ca63c214d035~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1774937783&x-signature=hhLETHtbzTmTftsE0cMFz10joNQ%3D",
+      "book_url": "https://fanqienovel.com/page/7503764915430099992",
+      "rank_change": "new"
     }
   ]
 }
