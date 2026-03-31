@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-31 11:44:59",
+  "update_time": "2026-03-31 14:10:19",
   "update_date": "2026-03-31",
   "total_count": 50,
   "source": "起点中文网·每日畅销榜",
@@ -8,18 +8,18 @@
   "platform_name": "起点中文网",
   "tag_stats": {
     "都市": 10,
+    "仙侠": 8,
     "玄幻": 15,
-    "仙侠": 9,
-    "轻小说": 7,
     "科幻": 1,
-    "奇幻": 2,
-    "游戏": 1,
+    "轻小说": 7,
+    "奇幻": 3,
     "悬疑": 1,
-    "历史": 4
+    "游戏": 2,
+    "历史": 3
   },
   "gender_stats": {
-    "男频": 48,
-    "未知": 2
+    "男频": 47,
+    "未知": 3
   },
   "books": [
     {
@@ -45,24 +45,24 @@
     },
     {
       "rank": 2,
-      "book_id": "1040765595",
-      "book_name": "夜无疆",
-      "author": "辰东",
+      "book_id": "1042256511",
+      "book_name": "没钱修什么仙？",
+      "author": "熊狼狗",
       "gender": "男频",
-      "primary_tag": "玄幻",
+      "primary_tag": "仙侠",
       "secondary_tags": [
-        "东方玄幻"
+        "修真文明"
       ],
       "all_tags": [
-        "玄幻",
-        "东方玄幻"
+        "仙侠",
+        "修真文明"
       ],
-      "abstract": "那一天太阳落下再也没有升起…………………",
+      "abstract": "老者：“你想报仇？”少年：“我被强者反复侮辱，被师尊视为垃圾，我怎么可能不想报仇？”老者摸了摸少年的脑袋，叹道：“好孩子，我来传功给你吧。”少年惊道：“前辈！这怎么行？”老者伸出手：“把你手机给我。”少年看着手机上的变化，震惊道：“前辈！这哪里来的百年功力？”老者微微一笑：“好孩子，这是你在天庭的备用功力，以后急用的时候随用随取，别再被人侮辱了。”少年皱眉：“这不是法力贷吗？我怕……”老者：“天庭是大平台，新用户借百年功力有30天免息，日息最低半天功力，还没你吐纳一周天多。”……张羽冷哼一声，关掉了上面的广告。",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040765595/150.webp",
-      "book_url": "https://www.qidian.com/book/1040765595/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042256511/150.webp",
+      "book_url": "https://www.qidian.com/book/1042256511/",
+      "rank_change": 2
     },
     {
       "rank": 3,
@@ -87,27 +87,6 @@
     },
     {
       "rank": 4,
-      "book_id": "1042256511",
-      "book_name": "没钱修什么仙？",
-      "author": "熊狼狗",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "修真文明"
-      ],
-      "all_tags": [
-        "仙侠",
-        "修真文明"
-      ],
-      "abstract": "老者：“你想报仇？”少年：“我被强者反复侮辱，被师尊视为垃圾，我怎么可能不想报仇？”老者摸了摸少年的脑袋，叹道：“好孩子，我来传功给你吧。”少年惊道：“前辈！这怎么行？”老者伸出手：“把你手机给我。”少年看着手机上的变化，震惊道：“前辈！这哪里来的百年功力？”老者微微一笑：“好孩子，这是你在天庭的备用功力，以后急用的时候随用随取，别再被人侮辱了。”少年皱眉：“这不是法力贷吗？我怕……”老者：“天庭是大平台，新用户借百年功力有30天免息，日息最低半天功力，还没你吐纳一周天多。”……张羽冷哼一声，关掉了上面的广告。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042256511/150.webp",
-      "book_url": "https://www.qidian.com/book/1042256511/",
-      "rank_change": 0
-    },
-    {
-      "rank": 5,
       "book_id": "1033014772",
       "book_name": "青山",
       "author": "会说话的肘子",
@@ -125,31 +104,10 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1033014772/150.webp",
       "book_url": "https://www.qidian.com/book/1033014772/",
-      "rank_change": 0
+      "rank_change": 1
     },
     {
-      "rank": 6,
-      "book_id": "1016530091",
-      "book_name": "赤心巡天",
-      "author": "情何以甚",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "古典仙侠"
-      ],
-      "all_tags": [
-        "仙侠",
-        "古典仙侠"
-      ],
-      "abstract": "（《赤心巡天》实体书已在全网发售。）上古时代，妖族绝迹。近古时代，龙族消失。神道大昌的时代已经如烟，飞剑绝巅的时代终究沉沦……这个世界发生了什么？那埋葬于时间长河里的历史真相，谁来聆听？山河千里写伏尸，乾坤百年描饿虎。天地至公如无情，我有赤心一颗、以巡天！——————欢迎来到，情何以甚的仙侠世界。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1016530091/150.webp",
-      "book_url": "https://www.qidian.com/book/1016530091/",
-      "rank_change": 0
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "book_id": "1045003390",
       "book_name": "苟在武道世界成圣",
       "author": "在水中的纸老虎",
@@ -167,10 +125,31 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045003390/150.webp",
       "book_url": "https://www.qidian.com/book/1045003390/",
-      "rank_change": 0
+      "rank_change": 2
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "book_id": "1040765595",
+      "book_name": "夜无疆",
+      "author": "辰东",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "东方玄幻"
+      ],
+      "abstract": "那一天太阳落下再也没有升起…………………",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040765595/150.webp",
+      "book_url": "https://www.qidian.com/book/1040765595/",
+      "rank_change": -4
+    },
+    {
+      "rank": 7,
       "book_id": "1044896207",
       "book_name": "以神通之名",
       "author": "猪心虾仁",
@@ -191,7 +170,7 @@
       "rank_change": 1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "book_id": "1047213880",
       "book_name": "苟在两界修仙",
       "author": "文抄公",
@@ -209,31 +188,31 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047213880/150.webp",
       "book_url": "https://www.qidian.com/book/1047213880/",
-      "rank_change": -1
+      "rank_change": 1
+    },
+    {
+      "rank": 9,
+      "book_id": "1042108416",
+      "book_name": "元始法则",
+      "author": "飞天鱼",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "星空中的“道城”，修行最初的萌芽之地“祖洲”，浩瀚宇宙水之起源“神仓古泽”，虚暗禁区“战斧座空洞”。还有藏在宏观中的天界，与微观中的地府幽境。地球的微观世界……显微镜下——豆子般大小的佛祖舍利，宛若一颗浅红色星球，高耸的山脉和干枯的古河道密布，荒凉而辽阔，蔚为壮观。研究人员怀着惊叹情绪，细细观察这片微观世界。不久后，有了震撼的发现。一艘形制古老且外观诡奇的青铜船舰，停泊在这颗浅红色星球干枯的海洋中，锈迹斑斑，桅杆帆布清晰可辨，不知已经搁浅在那里多少岁月。调大倍率，只见船上尸骨累累，有身穿铠甲的白骨人类，也有凤尸蟒骸，甲板上还有大片的墓海碑林。它明明只有四百六十纳米长，却如此宏伟神秘。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042108416/150.webp",
+      "book_url": "https://www.qidian.com/book/1042108416/",
+      "rank_change": 6
     },
     {
       "rank": 10,
-      "book_id": "1043128588",
-      "book_name": "以一龙之力打倒整个世界！",
-      "author": "唐宋元明氢",
-      "gender": "男频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "原生幻想"
-      ],
-      "all_tags": [
-        "轻小说",
-        "原生幻想"
-      ],
-      "abstract": "【经过真龙指导，没有想当然，非乱写】钢铁为鳞，烈焰铸骨。红龙和铁龙的血脉在我体内交织融合，构筑出耀眼的新生，烈焰与钢铁是我与生俱来的天赋，适应与进化才是我证就永恒的权能。弱者顾虑重重，而王者，百无禁忌。凡是杀不死我的，都将使我更加强大。在我面前，跪伏者生，站立者死，万象生死皆我，生杀予夺由心。若整个世界与我为敌，我便以一龙之力燃烧这个世界，然后统治它的灰烬。吾名伽罗斯，世人敬我畏我，尊我为——永恒不灭之龙！————已有两百万字以上精品完本小说《掌控时光之龙》《帝龙》，欢迎各位品鉴阅读。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043128588/150.webp",
-      "book_url": "https://www.qidian.com/book/1043128588/",
-      "rank_change": 0
-    },
-    {
-      "rank": 11,
       "book_id": "1010868264",
       "book_name": "诡秘之主",
       "author": "爱潜水的乌贼",
@@ -251,10 +230,10 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1010868264/150.webp",
       "book_url": "https://www.qidian.com/book/1010868264/",
-      "rank_change": 0
+      "rank_change": 1
     },
     {
-      "rank": 12,
+      "rank": 11,
       "book_id": "1044818845",
       "book_name": "1984：从破产川菜馆开始",
       "author": "轻语江湖",
@@ -275,196 +254,7 @@
       "rank_change": 1
     },
     {
-      "rank": 13,
-      "book_id": "1043748975",
-      "book_name": "山河稷",
-      "author": "姬叉",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "幻想修仙"
-      ],
-      "all_tags": [
-        "仙侠",
-        "幻想修仙"
-      ],
-      "abstract": "且夫天地为炉兮，造化为工；阴阳为炭兮，万物为铜。——终有一天，要让这祭炼世界的炉火，换成属于我的火焰。——稷，祀也，社而稷之。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043748975/150.webp",
-      "book_url": "https://www.qidian.com/book/1043748975/",
-      "rank_change": 1
-    },
-    {
-      "rank": 14,
-      "book_id": "1047166699",
-      "book_name": "我，枪神！",
-      "author": "如水意",
-      "gender": "男频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "都市生活"
-      ],
-      "all_tags": [
-        "都市",
-        "都市生活"
-      ],
-      "abstract": "高飞做过很多事都失败了。家里工厂破产成为负二代，送过外卖跑过网约车，无奈去俄国要债，结果却被迫进入了俄乌战场。每个人都有适合自己的舞台，而高飞的舞台在战场，当了雇佣兵，才是高飞成功的开始。杀穿俄乌战场，美洲打毒枭，非洲灭军阀，全球武力输出，谱写佣兵新规则。打遍五大洲，神枪镇八方。高飞可以骄傲的宣称，我，枪神！",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/150.webp",
-      "book_url": "https://www.qidian.com/book/1047166699/",
-      "rank_change": 2
-    },
-    {
-      "rank": 15,
-      "book_id": "1042108416",
-      "book_name": "元始法则",
-      "author": "飞天鱼",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "星空中的“道城”，修行最初的萌芽之地“祖洲”，浩瀚宇宙水之起源“神仓古泽”，虚暗禁区“战斧座空洞”。还有藏在宏观中的天界，与微观中的地府幽境。地球的微观世界……显微镜下——豆子般大小的佛祖舍利，宛若一颗浅红色星球，高耸的山脉和干枯的古河道密布，荒凉而辽阔，蔚为壮观。研究人员怀着惊叹情绪，细细观察这片微观世界。不久后，有了震撼的发现。一艘形制古老且外观诡奇的青铜船舰，停泊在这颗浅红色星球干枯的海洋中，锈迹斑斑，桅杆帆布清晰可辨，不知已经搁浅在那里多少岁月。调大倍率，只见船上尸骨累累，有身穿铠甲的白骨人类，也有凤尸蟒骸，甲板上还有大片的墓海碑林。它明明只有四百六十纳米长，却如此宏伟神秘。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042108416/150.webp",
-      "book_url": "https://www.qidian.com/book/1042108416/",
-      "rank_change": -3
-    },
-    {
-      "rank": 16,
-      "book_id": "1041604040",
-      "book_name": "异度旅社",
-      "author": "远瞳",
-      "gender": "男频",
-      "primary_tag": "科幻",
-      "secondary_tags": [
-        "时空穿梭"
-      ],
-      "all_tags": [
-        "科幻",
-        "时空穿梭"
-      ],
-      "abstract": "在日常之下，在理性尽头，在你所熟悉的世界之外——是你从未想象过的风景。当于生第一次打开那扇门的时候，他所熟悉的世界便轰然倒塌。而那直抵世界根源的“真相”，扑面而来。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
-      "book_url": "https://www.qidian.com/book/1041604040/",
-      "rank_change": -1
-    },
-    {
-      "rank": 17,
-      "book_id": "1046692521",
-      "book_name": "我在永夜打造庇护所",
-      "author": "中世纪的兔子",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "陈凡穿越至一个诡异玄幻世界中，在这个世界，黑夜降临后，无数诡物肆虐人间。他通过穿越自带的永夜领主面板成为一名建筑师，一点一点在荒原上打造属于自己的营地。诡火、城墙、祭塔，一座座建筑凭空升起，他的名声也渐渐响彻整个江北。直至——当「终极天灾」降临，无数疯狂的诡物危害人间，民不聊生之时。一座横贯大陆的万里长城，凭空升起！...“这里是永夜大陆。”“我的地盘。”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046692521/150.webp",
-      "book_url": "https://www.qidian.com/book/1046692521/",
-      "rank_change": 0
-    },
-    {
-      "rank": 18,
-      "book_id": "1047259146",
-      "book_name": "人在美利坚：我的叔叔堂吉诃德",
-      "author": "喜欢吃圣代",
-      "gender": "男频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "异术超能"
-      ],
-      "all_tags": [
-        "都市",
-        "异术超能"
-      ],
-      "abstract": "（首订过万，均订3万，起点美利坚文历史最高首订均订）我叫李维，自从双亲逝世，欠下一大笔债务之后，我被一个在美利坚的远房叔叔收养，前往纽约和他一起生活。等等，这个中世纪冒险系统是什么鬼？它把我的叔叔认成了一个疯子骑士？上东区的富人区是贵族庭院？前面好像有个魅魔地窟，我决定去探索一下......来到纽约第一天，我遵纪守法。来到纽约第二天，我小心试探。来到纽约第三天，我决定我要守护世界。来到纽约第四天，我开始厌倦，这个世界太烂了。来到纽约第五天，这个世界就我一个超人啊，我不吃牛肉。-----------------【唯我独法】【无敌】【错位系统】【都市文】已有百万字完本高订7000都市文，人品有保证，放心追读",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047259146/150.webp",
-      "book_url": "https://www.qidian.com/book/1047259146/",
-      "rank_change": 0
-    },
-    {
-      "rank": 19,
-      "book_id": "1046465651",
-      "book_name": "腐朽世界",
-      "author": "滚开",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "神秘，绝望，痛苦，腐朽，世界走向迷途，我却不知何去何从。来到一个正在走向末路的世界，危机四伏，渺无希望，我只能依靠身上的神秘血印，不断推演进化各类技能，尝试走出一条绝望生路。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046465651/150.webp",
-      "book_url": "https://www.qidian.com/book/1046465651/",
-      "rank_change": 0
-    },
-    {
-      "rank": 20,
-      "book_id": "1045165156",
-      "book_name": "借剑",
-      "author": "幼儿园一把手",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "幻想修仙"
-      ],
-      "all_tags": [
-        "仙侠",
-        "幻想修仙"
-      ],
-      "abstract": "“就在刚才，我的剑被一声【万剑归宗】给叫走了，怎么办？”“在线等，挺急的，也不知道还不还……”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045165156/150.webp",
-      "book_url": "https://www.qidian.com/book/1045165156/",
-      "rank_change": 1
-    },
-    {
-      "rank": 21,
-      "book_id": "1046194994",
-      "book_name": "同时穿越：继承万界遗产",
-      "author": "透明鸽子",
-      "gender": "男频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "衍生同人"
-      ],
-      "all_tags": [
-        "轻小说",
-        "衍生同人"
-      ],
-      "abstract": "人在遮天世界，同时穿越诸天万界。天赋悟性融合，战力无限叠加。五倍同级战力，你说我只是凡体而已，我不挑你理。万倍同级战力时，你该叫我什么？诸天万界的我啊，把你们的元气借给我吧！（包含小说、动漫、电影、电视世界）",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046194994/150.webp",
-      "book_url": "https://www.qidian.com/book/1046194994/",
-      "rank_change": -1
-    },
-    {
-      "rank": 22,
+      "rank": 12,
       "book_id": "1046431588",
       "book_name": "东京医途",
       "author": "睡醒了会饿",
@@ -482,10 +272,157 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046431588/150.webp",
       "book_url": "https://www.qidian.com/book/1046431588/",
-      "rank_change": 2
+      "rank_change": 10
     },
     {
-      "rank": 23,
+      "rank": 13,
+      "book_id": "1041604040",
+      "book_name": "异度旅社",
+      "author": "远瞳",
+      "gender": "男频",
+      "primary_tag": "科幻",
+      "secondary_tags": [
+        "时空穿梭"
+      ],
+      "all_tags": [
+        "科幻",
+        "时空穿梭"
+      ],
+      "abstract": "在日常之下，在理性尽头，在你所熟悉的世界之外——是你从未想象过的风景。当于生第一次打开那扇门的时候，他所熟悉的世界便轰然倒塌。而那直抵世界根源的“真相”，扑面而来。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
+      "book_url": "https://www.qidian.com/book/1041604040/",
+      "rank_change": 3
+    },
+    {
+      "rank": 14,
+      "book_id": "1043128588",
+      "book_name": "以一龙之力打倒整个世界！",
+      "author": "唐宋元明氢",
+      "gender": "男频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "原生幻想"
+      ],
+      "all_tags": [
+        "轻小说",
+        "原生幻想"
+      ],
+      "abstract": "【经过真龙指导，没有想当然，非乱写】钢铁为鳞，烈焰铸骨。红龙和铁龙的血脉在我体内交织融合，构筑出耀眼的新生，烈焰与钢铁是我与生俱来的天赋，适应与进化才是我证就永恒的权能。弱者顾虑重重，而王者，百无禁忌。凡是杀不死我的，都将使我更加强大。在我面前，跪伏者生，站立者死，万象生死皆我，生杀予夺由心。若整个世界与我为敌，我便以一龙之力燃烧这个世界，然后统治它的灰烬。吾名伽罗斯，世人敬我畏我，尊我为——永恒不灭之龙！————已有两百万字以上精品完本小说《掌控时光之龙》《帝龙》，欢迎各位品鉴阅读。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043128588/150.webp",
+      "book_url": "https://www.qidian.com/book/1043128588/",
+      "rank_change": -4
+    },
+    {
+      "rank": 15,
+      "book_id": "1047259146",
+      "book_name": "人在美利坚：我的叔叔堂吉诃德",
+      "author": "喜欢吃圣代",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "异术超能"
+      ],
+      "all_tags": [
+        "都市",
+        "异术超能"
+      ],
+      "abstract": "（首订过万，均订3万，起点美利坚文历史最高首订均订）我叫李维，自从双亲逝世，欠下一大笔债务之后，我被一个在美利坚的远房叔叔收养，前往纽约和他一起生活。等等，这个中世纪冒险系统是什么鬼？它把我的叔叔认成了一个疯子骑士？上东区的富人区是贵族庭院？前面好像有个魅魔地窟，我决定去探索一下......来到纽约第一天，我遵纪守法。来到纽约第二天，我小心试探。来到纽约第三天，我决定我要守护世界。来到纽约第四天，我开始厌倦，这个世界太烂了。来到纽约第五天，这个世界就我一个超人啊，我不吃牛肉。-----------------【唯我独法】【无敌】【错位系统】【都市文】已有百万字完本高订7000都市文，人品有保证，放心追读",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047259146/150.webp",
+      "book_url": "https://www.qidian.com/book/1047259146/",
+      "rank_change": 3
+    },
+    {
+      "rank": 16,
+      "book_id": "1043748975",
+      "book_name": "山河稷",
+      "author": "姬叉",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "幻想修仙"
+      ],
+      "all_tags": [
+        "仙侠",
+        "幻想修仙"
+      ],
+      "abstract": "且夫天地为炉兮，造化为工；阴阳为炭兮，万物为铜。——终有一天，要让这祭炼世界的炉火，换成属于我的火焰。——稷，祀也，社而稷之。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043748975/150.webp",
+      "book_url": "https://www.qidian.com/book/1043748975/",
+      "rank_change": -3
+    },
+    {
+      "rank": 17,
+      "book_id": "1047166699",
+      "book_name": "我，枪神！",
+      "author": "如水意",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "都市生活"
+      ],
+      "all_tags": [
+        "都市",
+        "都市生活"
+      ],
+      "abstract": "高飞做过很多事都失败了。家里工厂破产成为负二代，送过外卖跑过网约车，无奈去俄国要债，结果却被迫进入了俄乌战场。每个人都有适合自己的舞台，而高飞的舞台在战场，当了雇佣兵，才是高飞成功的开始。杀穿俄乌战场，美洲打毒枭，非洲灭军阀，全球武力输出，谱写佣兵新规则。打遍五大洲，神枪镇八方。高飞可以骄傲的宣称，我，枪神！",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/150.webp",
+      "book_url": "https://www.qidian.com/book/1047166699/",
+      "rank_change": -3
+    },
+    {
+      "rank": 18,
+      "book_id": "1046194994",
+      "book_name": "同时穿越：继承万界遗产",
+      "author": "透明鸽子",
+      "gender": "男频",
+      "primary_tag": "轻小说",
+      "secondary_tags": [
+        "衍生同人"
+      ],
+      "all_tags": [
+        "轻小说",
+        "衍生同人"
+      ],
+      "abstract": "人在遮天世界，同时穿越诸天万界。天赋悟性融合，战力无限叠加。五倍同级战力，你说我只是凡体而已，我不挑你理。万倍同级战力时，你该叫我什么？诸天万界的我啊，把你们的元气借给我吧！（包含小说、动漫、电影、电视世界）",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046194994/150.webp",
+      "book_url": "https://www.qidian.com/book/1046194994/",
+      "rank_change": 3
+    },
+    {
+      "rank": 19,
+      "book_id": "1046692521",
+      "book_name": "我在永夜打造庇护所",
+      "author": "中世纪的兔子",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "陈凡穿越至一个诡异玄幻世界中，在这个世界，黑夜降临后，无数诡物肆虐人间。他通过穿越自带的永夜领主面板成为一名建筑师，一点一点在荒原上打造属于自己的营地。诡火、城墙、祭塔，一座座建筑凭空升起，他的名声也渐渐响彻整个江北。直至——当「终极天灾」降临，无数疯狂的诡物危害人间，民不聊生之时。一座横贯大陆的万里长城，凭空升起！...“这里是永夜大陆。”“我的地盘。”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046692521/150.webp",
+      "book_url": "https://www.qidian.com/book/1046692521/",
+      "rank_change": -2
+    },
+    {
+      "rank": 20,
       "book_id": "1044050715",
       "book_name": "这个地下城长蘑菇了",
       "author": "生吃菌子",
@@ -503,10 +440,31 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044050715/150.webp",
       "book_url": "https://www.qidian.com/book/1044050715/",
-      "rank_change": -1
+      "rank_change": 3
     },
     {
-      "rank": 24,
+      "rank": 21,
+      "book_id": "1016530091",
+      "book_name": "赤心巡天",
+      "author": "情何以甚",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "古典仙侠"
+      ],
+      "all_tags": [
+        "仙侠",
+        "古典仙侠"
+      ],
+      "abstract": "（《赤心巡天》实体书已在全网发售。）上古时代，妖族绝迹。近古时代，龙族消失。神道大昌的时代已经如烟，飞剑绝巅的时代终究沉沦……这个世界发生了什么？那埋葬于时间长河里的历史真相，谁来聆听？山河千里写伏尸，乾坤百年描饿虎。天地至公如无情，我有赤心一颗、以巡天！——————欢迎来到，情何以甚的仙侠世界。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1016530091/150.webp",
+      "book_url": "https://www.qidian.com/book/1016530091/",
+      "rank_change": -15
+    },
+    {
+      "rank": 22,
       "book_id": "1047904104",
       "book_name": "我的智商逐年递增",
       "author": "介安艺",
@@ -524,94 +482,10 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047904104/150.webp",
       "book_url": "https://www.qidian.com/book/1047904104/",
-      "rank_change": -1
+      "rank_change": 2
     },
     {
-      "rank": 25,
-      "book_id": "1047611660",
-      "book_name": "教练凶猛",
-      "author": "初四兮",
-      "gender": "男频",
-      "primary_tag": "游戏",
-      "secondary_tags": [
-        "电子竞技"
-      ],
-      "all_tags": [
-        "游戏",
-        "电子竞技"
-      ],
-      "abstract": "（英雄联盟电竞文）平行世界里荣誉满载的李述穿越到了2016年。对李述来说，这里除了英雄联盟的内容外，各大赛区是陌生的，任何选手都是陌生的。履历一片空白的李述首先要面临一个问题……那就是找份工作。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047611660/150.webp",
-      "book_url": "https://www.qidian.com/book/1047611660/",
-      "rank_change": 3
-    },
-    {
-      "rank": 26,
-      "book_id": "1012584111",
-      "book_name": "神秘复苏",
-      "author": "佛前献花",
-      "gender": "男频",
-      "primary_tag": "悬疑",
-      "secondary_tags": [
-        "诡秘悬疑"
-      ],
-      "all_tags": [
-        "悬疑",
-        "诡秘悬疑"
-      ],
-      "abstract": "“我叫杨间，当你看到这句话的时候我已经死了......”一张诡异的羊皮卷，一只窥视黑暗的眼睛，这是一个活下来的人经历的故事。——————",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
-      "book_url": "https://www.qidian.com/book/1012584111/",
-      "rank_change": 3
-    },
-    {
-      "rank": 27,
-      "book_id": "1003306811",
-      "book_name": "放开那个女巫",
-      "author": "二目",
-      "gender": "未知",
-      "primary_tag": "奇幻",
-      "secondary_tags": [
-        "史诗奇幻"
-      ],
-      "all_tags": [
-        "奇幻",
-        "史诗奇幻"
-      ],
-      "abstract": "程岩原以为穿越到了欧洲中世纪，成为了一位光荣的王子。但这世界似乎跟自己想的不太一样？女巫真实存在，而且还真具有魔力？女巫种田文，将种田进行到底。————新书《天道方程式》已经发布，请求投喂！",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1003306811/150.webp",
-      "book_url": "https://www.qidian.com/book/1003306811/",
-      "rank_change": -1
-    },
-    {
-      "rank": 28,
-      "book_id": "3223937",
-      "book_name": "神话版三国",
-      "author": "坟土荒草",
-      "gender": "男频",
-      "primary_tag": "历史",
-      "secondary_tags": [
-        "秦汉三国"
-      ],
-      "all_tags": [
-        "历史",
-        "秦汉三国"
-      ],
-      "abstract": "陈曦看着将一块数百斤巨石撇出去的士卒，无语望苍天，这真的是东汉末年？吕布单枪匹马凿穿万人部队，这怎么看都不科学。赵子龙真心龙魂附体了，一剑断山，这真的是人？典韦单人护着曹操杀出敌营，顺手宰了对面数千步骑，这战斗力爆表了吧！这是不是哪里有些不对啊，陈曦顺手摸了一把鹅毛扇挥了一下，狂风大作，叹了一口气，“这是神话吧，我自己都不正常了。”ps：其实这是一篇正经的种田文……QQ群：476971307（老群炸了，这是新的）全订验证群：949176942酱油群：397441818（快满了）二群：418928396（快满了）三群：188981452（这个之前也炸了，换新的了）五群：850567843（之前的炸了，换新的了）",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/3223937/150.webp",
-      "book_url": "https://www.qidian.com/book/3223937/",
-      "rank_change": -3
-    },
-    {
-      "rank": 29,
+      "rank": 23,
       "book_id": "1046738077",
       "book_name": "万生痴魔",
       "author": "沙拉古斯",
@@ -629,157 +503,10 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046738077/150.webp",
       "book_url": "https://www.qidian.com/book/1046738077/",
-      "rank_change": -2
+      "rank_change": 6
     },
     {
-      "rank": 30,
-      "book_id": "1043182343",
-      "book_name": "苟在初圣魔门当人材",
-      "author": "鹤守月满池",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "东方玄幻"
-      ],
-      "all_tags": [
-        "玄幻",
-        "东方玄幻"
-      ],
-      "abstract": "吕阳穿越修仙界，却成了魔门初圣宗的弟子。幸得异宝【百世书】，死后可以重开一世，让一切从头再来，还能带回前世的宝物，修为，寿命，甚至觉醒特殊的天赋。奈何次数有限，并非真的不死不灭。眼见修仙界乱世将至，吕阳原本决定先在魔门苟住，一世世苦修，不成仙不出山，奈何魔门凶险异常，遍地都是人材。第一世，吕阳惨遭师姐暗算。第二世，好不容易反杀师姐，又遭师兄毒手。第三世，第四世……直到百世之后，再回首，吕阳才发现自己已经成为了一代魔道巨擘，初圣宗里最畜生的那一个。“魔门个个都是人材，说话又好听。”“我超喜欢这里的！”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043182343/150.webp",
-      "book_url": "https://www.qidian.com/book/1043182343/",
-      "rank_change": 4
-    },
-    {
-      "rank": 31,
-      "book_id": "1031777108",
-      "book_name": "光阴之外",
-      "author": "耳根",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "神话修真"
-      ],
-      "all_tags": [
-        "仙侠",
-        "神话修真"
-      ],
-      "abstract": "天地是万物众生的客舍，光阴是古往今来的过客。死生的差异，就好像梦与醒的不同，纷纭变换，不可究诘。那么超越了生死，超脱了天地，在光阴之外，等待我们的是什么？这是耳根继《仙逆》《求魔》《我欲封天》《一念永恒》《三寸人间》后，创作的第六部长篇小说《光阴之外》",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1031777108/150.webp",
-      "book_url": "https://www.qidian.com/book/1031777108/",
-      "rank_change": 0
-    },
-    {
-      "rank": 32,
-      "book_id": "1036370336",
-      "book_name": "宿命之环",
-      "author": "爱潜水的乌贼",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
-      "book_url": "https://www.qidian.com/book/1036370336/",
-      "rank_change": 3
-    },
-    {
-      "rank": 33,
-      "book_id": "1047956575",
-      "book_name": "我的学习群里全是真大佬",
-      "author": "胖胖的小橘",
-      "gender": "男频",
-      "primary_tag": "都市",
-      "secondary_tags": [
-        "都市生活"
-      ],
-      "all_tags": [
-        "都市",
-        "都市生活"
-      ],
-      "abstract": "学渣李东无意中加入了一个诡异的“青龙学习小组”。群友的名字都十分复古，像是什么“艾萨克·牛顿”、“法拉第”、“高斯”、“爱因斯坦”。他们经常讨论一些晦涩难懂的学术问题，偶尔还会发一些专属红包。红包里的东西更加离谱，“洞穿真理的专注”、“逻辑思维碎片”、“绝对记忆”、“微积分本源”……李东一直以为这是一群入戏太深的中二病患者。直到有一天，那位叫“艾萨克·牛顿”的群友忽然颤抖着说道：“诸位，我测量声音的速度时发现，上帝好像在空气中隐藏了什么变量。”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047956575/150.webp",
-      "book_url": "https://www.qidian.com/book/1047956575/",
-      "rank_change": -3
-    },
-    {
-      "rank": 34,
-      "book_id": "107580",
-      "book_name": "凡人修仙传",
-      "author": "忘语",
-      "gender": "男频",
-      "primary_tag": "仙侠",
-      "secondary_tags": [
-        "幻想修仙"
-      ],
-      "all_tags": [
-        "仙侠",
-        "幻想修仙"
-      ],
-      "abstract": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！诸位道友，新版实体书已经上市，有兴趣的可自行购买，感谢支持！",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/107580/150.webp",
-      "book_url": "https://www.qidian.com/book/107580/",
-      "rank_change": -2
-    },
-    {
-      "rank": 35,
-      "book_id": "1047237870",
-      "book_name": "穿越三代：让木叶再次伟大！",
-      "author": "腊肉豆角煲仔饭",
-      "gender": "男频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "衍生同人"
-      ],
-      "all_tags": [
-        "轻小说",
-        "衍生同人"
-      ],
-      "abstract": "木叶41年，第二次忍界大战落幕未久。村内暗潮汹涌，人心浮动；村外，四大隐村厉兵秣马，等待着啃噬木叶的时机。内忧外患之际，机关老资历穿越成猿飞日斩。随之而来的，还有识海中的一页文件：权威、外交、军事、经济、教育——五项指标，将他的未来与村子绑定。从‘杯酒释根部’、重塑与弟子们的羁绊开始，猿飞日斩踏上了最强火影之路！“你相信火之意志吗？木叶，要开始加速了！”「笼络天才」、「制度改革」、「保健药收割贵族」「忍界灯塔」、「木叶绿卡」、「凝聚日向宇智波」「扶持平民」、「迭代科技」、「普适性柱间疫苗」「以宇智波之身复活扉间」…猿飞日斩立于火影岩之巅，下方人声沸腾：“以火影之名，让木叶再次伟大！”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047237870/150.webp",
-      "book_url": "https://www.qidian.com/book/1047237870/",
-      "rank_change": -2
-    },
-    {
-      "rank": 36,
-      "book_id": "1038440253",
-      "book_name": "太虚至尊",
-      "author": "苍天霸主",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "东方玄幻"
-      ],
-      "all_tags": [
-        "玄幻",
-        "东方玄幻"
-      ],
-      "abstract": "（又名《玄灵天帝》方辰）”江凡，我后悔了！“当许怡宁发现，自己宁死不嫁的窝囊未婚夫，娶了姐姐，将她培养成一代女帝时，她后悔了。如果时间可以重来，她一定不会任性的让姐姐替嫁！",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1038440253/150.webp",
-      "book_url": "https://www.qidian.com/book/1038440253/",
-      "rank_change": 1
-    },
-    {
-      "rank": 37,
+      "rank": 24,
       "book_id": "1041162879",
       "book_name": "魔王大人深不可测",
       "author": "晨星LL",
@@ -797,52 +524,31 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041162879/150.webp",
       "book_url": "https://www.qidian.com/book/1041162879/",
-      "rank_change": -1
+      "rank_change": 13
     },
     {
-      "rank": 38,
-      "book_id": "1040790581",
-      "book_name": "刚准备高考，离婚逆袭系统来了",
-      "author": "七月封阳",
+      "rank": 25,
+      "book_id": "1047237870",
+      "book_name": "穿越三代：让木叶再次伟大！",
+      "author": "腊肉豆角煲仔饭",
       "gender": "男频",
-      "primary_tag": "都市",
+      "primary_tag": "轻小说",
       "secondary_tags": [
-        "都市生活"
+        "衍生同人"
       ],
       "all_tags": [
-        "都市",
-        "都市生活"
+        "轻小说",
+        "衍生同人"
       ],
-      "abstract": "【三万均校园日常恋爱文】人在高三，离婚逆袭系统早到二十年。【三十八岁，你婚姻失败，站在不惑之年十字路口，想起了少年时的青梅。结婚后，你们断绝了来往，再无她的消息。与徐浅浅重新建立联系，奖励：300RMB。】十八岁的江年看了一眼面板上的系统任务，又看了一眼住在对门的徐浅浅。不由陷入沉思，嗯.......这系统似乎来早了。还有一件事。未来的前妻是谁？呃......江年有些绷不住了，年年十八岁，未来会离婚。系统颁布报复前妻的任务，江年望了望眼前还未“黑化”的前妻，再次陷入了沉思。青梅、未来的前妻、未来前女友，全是年轻版本，一个个出现的时候。系统有点变质了。有万订完结老书《恋综：万人嫌的我爆红了》",
+      "abstract": "木叶41年，第二次忍界大战落幕未久。村内暗潮汹涌，人心浮动；村外，四大隐村厉兵秣马，等待着啃噬木叶的时机。内忧外患之际，机关老资历穿越成猿飞日斩。随之而来的，还有识海中的一页文件：权威、外交、军事、经济、教育——五项指标，将他的未来与村子绑定。从‘杯酒释根部’、重塑与弟子们的羁绊开始，猿飞日斩踏上了最强火影之路！“你相信火之意志吗？木叶，要开始加速了！”「笼络天才」、「制度改革」、「保健药收割贵族」「忍界灯塔」、「木叶绿卡」、「凝聚日向宇智波」「扶持平民」、「迭代科技」、「普适性柱间疫苗」「以宇智波之身复活扉间」…猿飞日斩立于火影岩之巅，下方人声沸腾：“以火影之名，让木叶再次伟大！”",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040790581/150.webp",
-      "book_url": "https://www.qidian.com/book/1040790581/",
-      "rank_change": "new"
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047237870/150.webp",
+      "book_url": "https://www.qidian.com/book/1047237870/",
+      "rank_change": 10
     },
     {
-      "rank": 39,
-      "book_id": "1043196323",
-      "book_name": "巫师：从合成宝石开始",
-      "author": "橘猫龙",
-      "gender": "男频",
-      "primary_tag": "玄幻",
-      "secondary_tags": [
-        "异世大陆"
-      ],
-      "all_tags": [
-        "玄幻",
-        "异世大陆"
-      ],
-      "abstract": "（白巫师流开局)探索未知，追寻真理，超越生死，掌控人心，是为巫师。在这个非常需要资源的巫师世界之中，穿越者洛克.奥古斯丁，凭借金手指合成魔方，不断将低级材料转换为高级材料，走向了探索育种学、魔药学、炼金术等一切迈向真理的道路，开发出一项项全新的魔植，魔药，血脉…“我不关心这个世界的前途命运，也不关心这个世界上每一个陌生人的生死存亡，但我辈巫师当开拓一切，征服一切，向着未知的前方永远前进。”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043196323/150.webp",
-      "book_url": "https://www.qidian.com/book/1043196323/",
-      "rank_change": -1
-    },
-    {
-      "rank": 40,
+      "rank": 26,
       "book_id": "1009817672",
       "book_name": "轮回乐园",
       "author": "那一只蚊子",
@@ -860,34 +566,55 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1009817672/150.webp",
       "book_url": "https://www.qidian.com/book/1009817672/",
+      "rank_change": 14
+    },
+    {
+      "rank": 27,
+      "book_id": "1047956575",
+      "book_name": "我的学习群里全是真大佬",
+      "author": "胖胖的小橘",
+      "gender": "男频",
+      "primary_tag": "都市",
+      "secondary_tags": [
+        "都市生活"
+      ],
+      "all_tags": [
+        "都市",
+        "都市生活"
+      ],
+      "abstract": "学渣李东无意中加入了一个诡异的“青龙学习小组”。群友的名字都十分复古，像是什么“艾萨克·牛顿”、“法拉第”、“高斯”、“爱因斯坦”。他们经常讨论一些晦涩难懂的学术问题，偶尔还会发一些专属红包。红包里的东西更加离谱，“洞穿真理的专注”、“逻辑思维碎片”、“绝对记忆”、“微积分本源”……李东一直以为这是一群入戏太深的中二病患者。直到有一天，那位叫“艾萨克·牛顿”的群友忽然颤抖着说道：“诸位，我测量声音的速度时发现，上帝好像在空气中隐藏了什么变量。”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047956575/150.webp",
+      "book_url": "https://www.qidian.com/book/1047956575/",
+      "rank_change": 6
+    },
+    {
+      "rank": 28,
+      "book_id": "1043182343",
+      "book_name": "苟在初圣魔门当人材",
+      "author": "鹤守月满池",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "东方玄幻"
+      ],
+      "abstract": "吕阳穿越修仙界，却成了魔门初圣宗的弟子。幸得异宝【百世书】，死后可以重开一世，让一切从头再来，还能带回前世的宝物，修为，寿命，甚至觉醒特殊的天赋。奈何次数有限，并非真的不死不灭。眼见修仙界乱世将至，吕阳原本决定先在魔门苟住，一世世苦修，不成仙不出山，奈何魔门凶险异常，遍地都是人材。第一世，吕阳惨遭师姐暗算。第二世，好不容易反杀师姐，又遭师兄毒手。第三世，第四世……直到百世之后，再回首，吕阳才发现自己已经成为了一代魔道巨擘，初圣宗里最畜生的那一个。“魔门个个都是人材，说话又好听。”“我超喜欢这里的！”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043182343/150.webp",
+      "book_url": "https://www.qidian.com/book/1043182343/",
       "rank_change": 2
     },
     {
-      "rank": 41,
-      "book_id": "1039831421",
-      "book_name": "天命之上",
-      "author": "风月",
-      "gender": "男频",
-      "primary_tag": "轻小说",
-      "secondary_tags": [
-        "原生幻想"
-      ],
-      "all_tags": [
-        "轻小说",
-        "原生幻想"
-      ],
-      "abstract": "世界自毁灭之后重建。于危崖之上，再起万丈高楼。被称为天选者的人们活跃在现实的幕后，行走在历史的阴影中，掌握超凡脱俗的力量，领受着崇拜与敬畏。有人说他们身负天命，万中无一。可季觉对天命不感兴趣。他只想有朝一日，去看一看天命之上的风景。“……”记录者写到这里停下了笔，看向那个满手油污的汽修工：“所以，这就是你破坏国际秩序、贩卖禁忌武器、资助颠覆组织、引发两极大战、图谋暗中统治世界的理由？”“关我屁事儿！”季觉翻了个白眼：“我就是一个破修车的！”",
-      "status": "连载中",
-      "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/150.webp",
-      "book_url": "https://www.qidian.com/book/1039831421/",
-      "rank_change": 5
-    },
-    {
-      "rank": 42,
-      "book_id": "1037570737",
-      "book_name": "从水猴子开始成神",
-      "author": "甲壳蚁",
+      "rank": 29,
+      "book_id": "1046604493",
+      "book_name": "你也不想秘密满朝皆知吧",
+      "author": "十万菜团",
       "gender": "男频",
       "primary_tag": "玄幻",
       "secondary_tags": [
@@ -897,18 +624,102 @@
         "玄幻",
         "东方玄幻"
       ],
-      "abstract": "【已有完结七千均大精品，品质保障，放心阅读。】选择大于努力！武师们为陆地宝树打的头破血流，深水神草却无人问津。穿越成渔民的梁渠获得水泽之鼎，炼化【水猴子】天赋，统御水兽，一路收割，踏上巅峰！【水猴子】→【泽狨】→【水王猿】→【淮涡水君】！从此万里泽涛由我做主！…………洪水滔滔。人们跪拜祈福，献上祭品。“求水神大人保佑......”靠，能不能别向我祭祀少女了，我真不是水神啊！",
+      "abstract": "【轻权谋+剧情流+多红颜+情报金手指+幕后黑手】景平元月，人间出了件大事。大周将领赵氏黄袍加身，政变夺权，登基称帝，改国号为“颂”，誓要开辟新气象。唯有一件苦恼，前朝小皇帝始终下落不明。李明夷穿越而来，成为藏在民间，被天下海捕的前朝天子。更发现这个世界有点熟悉，酷似通关过的古风游戏。于是他怀揣无数情报，昂首挺胸，走向大颂朝堂。“朕来到这个世界，可不是为了当逃犯的。”……新朝公主昭庆近来喜忧参半。她招揽的名叫李明夷的门客太过能干，只需与人密谈，便可将文臣、武将、勋贵、大修士、女国师……悉数拉拢而来。还时常举荐能臣上位，打击前朝余孽不遗余力。但为何总觉得这群人唯他马首是瞻，前朝余孽也越打越多？父皇心病愈演愈烈？她决定找他谈谈。",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1037570737/150.webp",
-      "book_url": "https://www.qidian.com/book/1037570737/",
-      "rank_change": -3
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046604493/150.webp",
+      "book_url": "https://www.qidian.com/book/1046604493/",
+      "rank_change": "new"
     },
     {
-      "rank": 43,
-      "book_id": "1039457453",
-      "book_name": "鸣龙",
-      "author": "关关公子",
+      "rank": 30,
+      "book_id": "1012584111",
+      "book_name": "神秘复苏",
+      "author": "佛前献花",
+      "gender": "男频",
+      "primary_tag": "悬疑",
+      "secondary_tags": [
+        "诡秘悬疑"
+      ],
+      "all_tags": [
+        "悬疑",
+        "诡秘悬疑"
+      ],
+      "abstract": "“我叫杨间，当你看到这句话的时候我已经死了......”一张诡异的羊皮卷，一只窥视黑暗的眼睛，这是一个活下来的人经历的故事。——————",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
+      "book_url": "https://www.qidian.com/book/1012584111/",
+      "rank_change": -4
+    },
+    {
+      "rank": 31,
+      "book_id": "1003306811",
+      "book_name": "放开那个女巫",
+      "author": "二目",
+      "gender": "未知",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "史诗奇幻"
+      ],
+      "all_tags": [
+        "奇幻",
+        "史诗奇幻"
+      ],
+      "abstract": "程岩原以为穿越到了欧洲中世纪，成为了一位光荣的王子。但这世界似乎跟自己想的不太一样？女巫真实存在，而且还真具有魔力？女巫种田文，将种田进行到底。————新书《天道方程式》已经发布，请求投喂！",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1003306811/150.webp",
+      "book_url": "https://www.qidian.com/book/1003306811/",
+      "rank_change": -4
+    },
+    {
+      "rank": 32,
+      "book_id": "1047611660",
+      "book_name": "教练凶猛",
+      "author": "初四兮",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "电子竞技"
+      ],
+      "all_tags": [
+        "游戏",
+        "电子竞技"
+      ],
+      "abstract": "（英雄联盟电竞文）平行世界里荣誉满载的李述穿越到了2016年。对李述来说，这里除了英雄联盟的内容外，各大赛区是陌生的，任何选手都是陌生的。履历一片空白的李述首先要面临一个问题……那就是找份工作。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047611660/150.webp",
+      "book_url": "https://www.qidian.com/book/1047611660/",
+      "rank_change": -7
+    },
+    {
+      "rank": 33,
+      "book_id": "1036370336",
+      "book_name": "宿命之环",
+      "author": "爱潜水的乌贼",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
+      "book_url": "https://www.qidian.com/book/1036370336/",
+      "rank_change": -1
+    },
+    {
+      "rank": 34,
+      "book_id": "1038440253",
+      "book_name": "太虚至尊",
+      "author": "苍天霸主",
       "gender": "男频",
       "primary_tag": "玄幻",
       "secondary_tags": [
@@ -918,15 +729,78 @@
         "玄幻",
         "东方玄幻"
       ],
-      "abstract": "“事情是这样的，我当初身陷绝境，意外遇见了一条龙，它非说我是习武奇才，要给我指条通仙大道……”“这就是你挖开魔神陵，给妖魔当奴仆的理由？！”“我谢尽欢从不屈居人下，它才是奴仆，准确来说，我是被一条龙服务过……”……已有完本万订《世子很凶》《仙子很凶》《女侠且慢》，感兴趣的朋友可以先看老书~",
+      "abstract": "（又名《玄灵天帝》方辰）”江凡，我后悔了！“当许怡宁发现，自己宁死不嫁的窝囊未婚夫，娶了姐姐，将她培养成一代女帝时，她后悔了。如果时间可以重来，她一定不会任性的让姐姐替嫁！",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039457453/150.webp",
-      "book_url": "https://www.qidian.com/book/1039457453/",
-      "rank_change": 0
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1038440253/150.webp",
+      "book_url": "https://www.qidian.com/book/1038440253/",
+      "rank_change": 2
     },
     {
-      "rank": 44,
+      "rank": 35,
+      "book_id": "107580",
+      "book_name": "凡人修仙传",
+      "author": "忘语",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "幻想修仙"
+      ],
+      "all_tags": [
+        "仙侠",
+        "幻想修仙"
+      ],
+      "abstract": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！诸位道友，新版实体书已经上市，有兴趣的可自行购买，感谢支持！",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/107580/150.webp",
+      "book_url": "https://www.qidian.com/book/107580/",
+      "rank_change": -1
+    },
+    {
+      "rank": 36,
+      "book_id": "1046465651",
+      "book_name": "腐朽世界",
+      "author": "滚开",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "神秘，绝望，痛苦，腐朽，世界走向迷途，我却不知何去何从。来到一个正在走向末路的世界，危机四伏，渺无希望，我只能依靠身上的神秘血印，不断推演进化各类技能，尝试走出一条绝望生路。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046465651/150.webp",
+      "book_url": "https://www.qidian.com/book/1046465651/",
+      "rank_change": -17
+    },
+    {
+      "rank": 37,
+      "book_id": "1031777108",
+      "book_name": "光阴之外",
+      "author": "耳根",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "神话修真"
+      ],
+      "all_tags": [
+        "仙侠",
+        "神话修真"
+      ],
+      "abstract": "天地是万物众生的客舍，光阴是古往今来的过客。死生的差异，就好像梦与醒的不同，纷纭变换，不可究诘。那么超越了生死，超脱了天地，在光阴之外，等待我们的是什么？这是耳根继《仙逆》《求魔》《我欲封天》《一念永恒》《三寸人间》后，创作的第六部长篇小说《光阴之外》",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1031777108/150.webp",
+      "book_url": "https://www.qidian.com/book/1031777108/",
+      "rank_change": -6
+    },
+    {
+      "rank": 38,
       "book_id": "1045929618",
       "book_name": "从魔法少女开始独断万古",
       "author": "绿茶藨子",
@@ -944,31 +818,94 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045929618/150.webp",
       "book_url": "https://www.qidian.com/book/1045929618/",
-      "rank_change": -3
+      "rank_change": 6
     },
     {
-      "rank": 45,
-      "book_id": "1045831749",
-      "book_name": "红楼芳华，权倾天下",
-      "author": "爱车的z",
+      "rank": 39,
+      "book_id": "1037570737",
+      "book_name": "从水猴子开始成神",
+      "author": "甲壳蚁",
       "gender": "男频",
-      "primary_tag": "历史",
+      "primary_tag": "玄幻",
       "secondary_tags": [
-        "架空历史"
+        "东方玄幻"
       ],
       "all_tags": [
-        "历史",
-        "架空历史"
+        "玄幻",
+        "东方玄幻"
       ],
-      "abstract": "【北宋末背景，加了红楼作为后宫戏，没看过红楼也不影响观看，红楼，水浒结合体，快万订，日万，质量保证】穿越成西门庆，见到的第一个女人不是潘金莲竟是红楼秦可卿。这北宋靖康之耻将临，亦如红楼将倾！我堂堂清河县一霸，带着一群绿林豪杰，在宋徽宗跟前混的是风生水起！潘金莲，李瓶儿遇上了薛宝钗，林黛玉，这些天底下最能斗的女人们凑在一个园子，也不知谁更厉害！惹恼了大官人我，又是一顿家法大棒伺候！有干爹蔡京撑腰，抄了贾府也是顺手的事。我爬啊爬！爬垮了干爹，爬塌了宋徽宗送钦宗。爬到最高处，只剩我一个权倾朝野！黄袍加身！只手拦住南侵覆灭的滚滚狼烟！",
+      "abstract": "【已有完结七千均大精品，品质保障，放心阅读。】选择大于努力！武师们为陆地宝树打的头破血流，深水神草却无人问津。穿越成渔民的梁渠获得水泽之鼎，炼化【水猴子】天赋，统御水兽，一路收割，踏上巅峰！【水猴子】→【泽狨】→【水王猿】→【淮涡水君】！从此万里泽涛由我做主！…………洪水滔滔。人们跪拜祈福，献上祭品。“求水神大人保佑......”靠，能不能别向我祭祀少女了，我真不是水神啊！",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
-      "book_url": "https://www.qidian.com/book/1045831749/",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1037570737/150.webp",
+      "book_url": "https://www.qidian.com/book/1037570737/",
       "rank_change": 3
     },
     {
-      "rank": 46,
+      "rank": 40,
+      "book_id": "1044394624",
+      "book_name": "状元郎",
+      "author": "三戒大师",
+      "gender": "男频",
+      "primary_tag": "历史",
+      "secondary_tags": [
+        "两宋元明"
+      ],
+      "all_tags": [
+        "历史",
+        "两宋元明"
+      ],
+      "abstract": "朝为田舍郎，暮登天子堂。天子不在堂，日日宿豹房。~~~~~~唐寅：义父拯救了我。王守仁：要不是他救我，我半道就被锦衣卫做掉了。杨慎：既生瑜何生亮，我觉得他抢了我的状元，还抢了我的老婆……严嵩：义父教了我做官的道理，挽救了我的仕途。朱寿：义父救我，我不会游泳。",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044394624/150.webp",
+      "book_url": "https://www.qidian.com/book/1044394624/",
+      "rank_change": 8
+    },
+    {
+      "rank": 41,
+      "book_id": "1043196323",
+      "book_name": "巫师：从合成宝石开始",
+      "author": "橘猫龙",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "异世大陆"
+      ],
+      "all_tags": [
+        "玄幻",
+        "异世大陆"
+      ],
+      "abstract": "（白巫师流开局)探索未知，追寻真理，超越生死，掌控人心，是为巫师。在这个非常需要资源的巫师世界之中，穿越者洛克.奥古斯丁，凭借金手指合成魔方，不断将低级材料转换为高级材料，走向了探索育种学、魔药学、炼金术等一切迈向真理的道路，开发出一项项全新的魔植，魔药，血脉…“我不关心这个世界的前途命运，也不关心这个世界上每一个陌生人的生死存亡，但我辈巫师当开拓一切，征服一切，向着未知的前方永远前进。”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043196323/150.webp",
+      "book_url": "https://www.qidian.com/book/1043196323/",
+      "rank_change": -2
+    },
+    {
+      "rank": 42,
+      "book_id": "1045165156",
+      "book_name": "借剑",
+      "author": "幼儿园一把手",
+      "gender": "男频",
+      "primary_tag": "仙侠",
+      "secondary_tags": [
+        "幻想修仙"
+      ],
+      "all_tags": [
+        "仙侠",
+        "幻想修仙"
+      ],
+      "abstract": "“就在刚才，我的剑被一声【万剑归宗】给叫走了，怎么办？”“在线等，挺急的，也不知道还不还……”",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045165156/150.webp",
+      "book_url": "https://www.qidian.com/book/1045165156/",
+      "rank_change": -22
+    },
+    {
+      "rank": 43,
       "book_id": "1046597749",
       "book_name": "我在北美当地主",
       "author": "陶良辰",
@@ -986,7 +923,70 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046597749/150.webp",
       "book_url": "https://www.qidian.com/book/1046597749/",
+      "rank_change": 3
+    },
+    {
+      "rank": 44,
+      "book_id": "1039457453",
+      "book_name": "鸣龙",
+      "author": "关关公子",
+      "gender": "男频",
+      "primary_tag": "玄幻",
+      "secondary_tags": [
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "玄幻",
+        "东方玄幻"
+      ],
+      "abstract": "“事情是这样的，我当初身陷绝境，意外遇见了一条龙，它非说我是习武奇才，要给我指条通仙大道……”“这就是你挖开魔神陵，给妖魔当奴仆的理由？！”“我谢尽欢从不屈居人下，它才是奴仆，准确来说，我是被一条龙服务过……”……已有完本万订《世子很凶》《仙子很凶》《女侠且慢》，感兴趣的朋友可以先看老书~",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039457453/150.webp",
+      "book_url": "https://www.qidian.com/book/1039457453/",
       "rank_change": -1
+    },
+    {
+      "rank": 45,
+      "book_id": "1047209658",
+      "book_name": "艾泽拉斯绿野仙踪",
+      "author": "驿路羁旅",
+      "gender": "男频",
+      "primary_tag": "游戏",
+      "secondary_tags": [
+        "游戏异界"
+      ],
+      "all_tags": [
+        "游戏",
+        "游戏异界"
+      ],
+      "abstract": "那些想要惊扰我猎场的野狗们往往有很多共同点，它们软弱、鲁莽、怯懦...甚至不好吃，可在大自然的循环里，难吃，从来都不是逃避死亡的理由。更重要的是，孩子，如果你从不吃恶魔、吸血鬼或者无面者，你又该如何狩猎它们？---节选自《狩猎的艺术·第三卷论如何在满是荒野之神的世界里成为荒野之神的神》，作者：艾斯卡达尔，月神之爪/仙林捕鼠官【关于书名：艾露恩女士划掉了“生命轨迹”将其改成了“绿野仙踪”，祂决定亲自扮演多萝茜并指定寒冬女王为老巫婆。】",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047209658/150.webp",
+      "book_url": "https://www.qidian.com/book/1047209658/",
+      "rank_change": "new"
+    },
+    {
+      "rank": 46,
+      "book_id": "1042786143",
+      "book_name": "哥布林重度依赖",
+      "author": "絮理",
+      "gender": "未知",
+      "primary_tag": "奇幻",
+      "secondary_tags": [
+        "剑与魔法"
+      ],
+      "all_tags": [
+        "奇幻",
+        "剑与魔法"
+      ],
+      "abstract": "“兄弟，我们当冒险者是为了什么？”“一只哥布林的赏金是三枚银币。”“不，你误会我了伙计，我的意思是咱们干这一行的终极目标，一天到晚辛辛苦苦，到底有什么意义？”“一只哥布林，三枚银币。”“……”“三银币。”“好吧，这里有一个清理哥布林巢穴的任务，你……”“冲！”======要素：【底边冒险者】、【大杂烩世界观】、【伪DND】",
+      "status": "连载中",
+      "word_count": "",
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042786143/150.webp",
+      "book_url": "https://www.qidian.com/book/1042786143/",
+      "rank_change": "new"
     },
     {
       "rank": 47,
@@ -1007,70 +1007,70 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp",
       "book_url": "https://www.qidian.com/book/1017281778/",
-      "rank_change": 2
+      "rank_change": 0
     },
     {
       "rank": 48,
-      "book_id": "1044394624",
-      "book_name": "状元郎",
-      "author": "三戒大师",
+      "book_id": "1040790581",
+      "book_name": "刚准备高考，离婚逆袭系统来了",
+      "author": "七月封阳",
       "gender": "男频",
-      "primary_tag": "历史",
+      "primary_tag": "都市",
       "secondary_tags": [
-        "两宋元明"
+        "都市生活"
       ],
       "all_tags": [
-        "历史",
-        "两宋元明"
+        "都市",
+        "都市生活"
       ],
-      "abstract": "朝为田舍郎，暮登天子堂。天子不在堂，日日宿豹房。~~~~~~唐寅：义父拯救了我。王守仁：要不是他救我，我半道就被锦衣卫做掉了。杨慎：既生瑜何生亮，我觉得他抢了我的状元，还抢了我的老婆……严嵩：义父教了我做官的道理，挽救了我的仕途。朱寿：义父救我，我不会游泳。",
+      "abstract": "【三万均校园日常恋爱文】人在高三，离婚逆袭系统早到二十年。【三十八岁，你婚姻失败，站在不惑之年十字路口，想起了少年时的青梅。结婚后，你们断绝了来往，再无她的消息。与徐浅浅重新建立联系，奖励：300RMB。】十八岁的江年看了一眼面板上的系统任务，又看了一眼住在对门的徐浅浅。不由陷入沉思，嗯.......这系统似乎来早了。还有一件事。未来的前妻是谁？呃......江年有些绷不住了，年年十八岁，未来会离婚。系统颁布报复前妻的任务，江年望了望眼前还未“黑化”的前妻，再次陷入了沉思。青梅、未来的前妻、未来前女友，全是年轻版本，一个个出现的时候。系统有点变质了。有万订完结老书《恋综：万人嫌的我爆红了》",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044394624/150.webp",
-      "book_url": "https://www.qidian.com/book/1044394624/",
-      "rank_change": -4
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040790581/150.webp",
+      "book_url": "https://www.qidian.com/book/1040790581/",
+      "rank_change": -10
     },
     {
       "rank": 49,
-      "book_id": "1046179008",
-      "book_name": "西游：拦路人！",
-      "author": "九月病句",
+      "book_id": "1047469424",
+      "book_name": "什么？她们都是真实存在的？",
+      "author": "鸡蛋战士",
       "gender": "男频",
-      "primary_tag": "仙侠",
+      "primary_tag": "轻小说",
       "secondary_tags": [
-        "古典仙侠"
+        "原生幻想"
       ],
       "all_tags": [
-        "仙侠",
-        "古典仙侠"
+        "轻小说",
+        "原生幻想"
       ],
-      "abstract": "穿越西游，觉醒拦路人系统。只要在每一难阻拦唐僧师徒取经的脚步就可以获得奖励。拦截三天，奖励：移山之术拦截七天，奖励：六转金丹拦截半个月，奖励：真龙龙珠拦截一个月，奖励：后天灵宝·五火神焰扇拦截一季，奖励：神通·五色神光拦截半年，奖励：祖龙精血拦截一年，奖励：先天灵宝·散魄葫芦拦截三年，奖励：先天灵宝·河图洛书拦截十二年，奖励：混沌钟拦截六十年……若干年后，西方极乐世界，如来问道：“观音尊者，取经人如今历经多少磨难了，为何还未到达西天？”观音掐指道：“回禀世尊，已经八百难了。”",
+      "abstract": "（男主性格温柔豁达，三观很正，不喜勿入）蓝星灵气复苏，世界发生剧变。陈江意外绑定了神秘道具【无相假面】，获得进入各类“副本世界”的能力，只要完成任务，就可以获得奖励。他先是成为乡下放牛郎，机缘巧合与仙宗的仙子结婚。结果仙子竟是修无情道的，要杀夫证道；可他只是笑着说，“祝娘子仙途坦荡”。没想到仙子却不愿意了，说些什么迟早会找到他之类的话……又化身得道高僧，轮回九世，关押祸世魔女八百年，只为将其度化。没想到放她出来后，这魔女竟死性不改，不仅趁机报复，不让他成佛，还说什么九世怎么够，千世万世都不会放过他…………陈江对此本来不以为意，但直到离开副本回到现实后才发现。她们说的都是真的！本书又名：《刚出副本，她们就追来了》、《长官，真不是我给她们带的路》、《来就来，我问心无愧》、《她们怎么打起来了？》、《我错了》……",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046179008/150.webp",
-      "book_url": "https://www.qidian.com/book/1046179008/",
-      "rank_change": -2
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047469424/150.webp",
+      "book_url": "https://www.qidian.com/book/1047469424/",
+      "rank_change": "new"
     },
     {
       "rank": 50,
-      "book_id": "1039141715",
-      "book_name": "高武纪元",
-      "author": "烽仙",
+      "book_id": "1045831749",
+      "book_name": "红楼芳华，权倾天下",
+      "author": "爱车的z",
       "gender": "男频",
-      "primary_tag": "玄幻",
+      "primary_tag": "历史",
       "secondary_tags": [
-        "高武世界"
+        "架空历史"
       ],
       "all_tags": [
-        "玄幻",
-        "高武世界"
+        "历史",
+        "架空历史"
       ],
-      "abstract": "从南洋深海中飞起的黑龙，掀起灭世海啸……火焰魔灵毁灭一座座钢筋水泥城市，于核爆中心安然离去……域外神明试图统治整片星海……这是人类科技高度发达的未来世界。也是掀起生命进化狂潮的高武纪元。即将高考的武道学生李源，心怀能观想星海的奇异神宫，在这个世界艰难前行。多年以后。“我现在的飞行速度是122682米/每秒，力量爆发是……”李源在距蓝星表层约180公里的大气层中极速飞行，冰冷眸子盯着昏暗虚空尽头那条形似神话传说中神龙的庞然大物：“你，应该是所有入侵半神生命体中最强的一个了。”“只可惜，现在的我，可以称之为……武神！”————已完成高订11万作品《渊天尊》，高订3万作品《洪主》，精品《寒天帝》，人品保证，放心入坑。",
+      "abstract": "【北宋末背景，加了红楼作为后宫戏，没看过红楼也不影响观看，红楼，水浒结合体，快万订，日万，质量保证】穿越成西门庆，见到的第一个女人不是潘金莲竟是红楼秦可卿。这北宋靖康之耻将临，亦如红楼将倾！我堂堂清河县一霸，带着一群绿林豪杰，在宋徽宗跟前混的是风生水起！潘金莲，李瓶儿遇上了薛宝钗，林黛玉，这些天底下最能斗的女人们凑在一个园子，也不知谁更厉害！惹恼了大官人我，又是一顿家法大棒伺候！有干爹蔡京撑腰，抄了贾府也是顺手的事。我爬啊爬！爬垮了干爹，爬塌了宋徽宗送钦宗。爬到最高处，只剩我一个权倾朝野！黄袍加身！只手拦住南侵覆灭的滚滚狼烟！",
       "status": "连载中",
       "word_count": "",
-      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039141715/150.webp",
-      "book_url": "https://www.qidian.com/book/1039141715/",
-      "rank_change": "new"
+      "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
+      "book_url": "https://www.qidian.com/book/1045831749/",
+      "rank_change": -5
     }
   ]
 }
