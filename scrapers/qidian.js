@@ -210,6 +210,12 @@ async function main() {
 
     // 构建最终数据
     const books = allBooks.map((raw, i) => {
+      // 先从 tags 中识别完结状态
+      let status = raw.status || '连载中';
+      if (raw.tags.some(t => ['完本', '完结'].includes(t))) {
+        status = '完结';
+      }
+      
       const allTags = raw.tags.filter(t => 
         !['连载', '完本', '完结', '连载中', '签约', 'VIP', '免费', '|'].includes(t)
       );
@@ -233,7 +239,7 @@ async function main() {
         secondary_tags: secondaryTags,
         all_tags: allTags,
         abstract: raw.intro || '暂无简介',
-        status: raw.status || '连载中',
+        status,
         word_count: raw.wordCount || '',
         thumb_url: raw.thumbUrl || '',
         book_url: raw.bookUrl || `https://www.qidian.com/book/${raw.bookId}/`,
