@@ -610,18 +610,22 @@
       font-size: 13px;
       font-weight: 600;
       flex-shrink: 0;
-      min-width: 64px;
+      min-width: 48px;
       text-align: center;
       color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     .book-days .days-num {
-      font-size: 15px;
+      font-size: 16px;
       color: #ffa94d;
+      line-height: 1;
     }
     .book-days .days-label {
-      font-size: 11px;
+      font-size: 10px;
       color: var(--text-dim);
-      display: block;
       margin-top: 2px;
     }
 
@@ -1390,12 +1394,15 @@ function renderPlatformTab(platformId) {
   const genderStats = data.gender_stats || {};
   const historyIndex = state.history[platformId]?.index || [];
 
+  // 获取该平台实际抓到的天数
+  const coverageDays = (state.history[platformId]?.index?.length) || 0;
+
   // 构建页面
   contentEl.innerHTML = `
     <div class="platform-header">
       <div>
         <div class="platform-title">${platform.icon} ${platform.name} — ${platform.source}</div>
-        <div class="platform-meta">更新时间: ${data.update_time || '未知'} | 来源: <a href="${data.source_url}" target="_blank" style="color:${platform.color};">${data.source}</a></div>
+        <div class="platform-meta">更新时间: ${data.update_time || '未知'} | 来源: <a href="${data.source_url}" target="_blank" style="color:${platform.color};">${data.source}</a>${coverageDays > 0 ? ` · <span style="color:#ffa94d;">📅 已统计 ${coverageDays} 天数据</span>` : ''}</div>
       </div>
     </div>
 
@@ -1463,7 +1470,7 @@ function renderBookList(books, platformId) {
     const scoreLabel = b.score_display ? ` · 积分 ${b.score_display}` : '';
 
     const daysNum = b.history_days || 1;
-    const daysHtml = `<div class="book-days" title="自建站以来累计上榜天数"><span class="days-num">${daysNum}</span><span class="days-label">天上榜</span></div>`;
+    const daysHtml = `<div class="book-days" title="累计上榜 ${daysNum} 天"><span class="days-num">${daysNum}</span><span class="days-label">天</span></div>`;
 
     return `
       <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-change="${b.rank_change}" data-days="${daysNum}">
