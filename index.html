@@ -1470,8 +1470,8 @@ function renderBookList(books, platformId) {
     if (b.rank_change === 'new') {
       changeHtml = '<span class="book-change new">NEW</span>';
     } else if (typeof b.rank_change === 'number') {
-      if (b.rank_change > 0) changeHtml = `<span class="book-change up"><span class="change-num">${b.rank_change}</span><span class="change-label">↑昨日</span></span>`;
-      else if (b.rank_change < 0) changeHtml = `<span class="book-change down"><span class="change-num">${Math.abs(b.rank_change)}</span><span class="change-label">↓昨日</span></span>`;
+      if (b.rank_change > 0) changeHtml = `<span class="book-change up"><span class="change-num">↑${b.rank_change}</span><span class="change-label">昨日</span></span>`;
+      else if (b.rank_change < 0) changeHtml = `<span class="book-change down"><span class="change-num">↓${Math.abs(b.rank_change)}</span><span class="change-label">昨日</span></span>`;
       else changeHtml = '<span class="book-change same"><span class="change-num">—</span><span class="change-label">持平</span></span>';
     } else {
       changeHtml = '<span class="book-change same"><span class="change-num">—</span><span class="change-label">—</span></span>';
