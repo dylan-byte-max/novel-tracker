@@ -19,6 +19,7 @@ const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
 const { computeRankChange } = require('./rank-change');
+const { withRetry } = require('./retry');
 
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'fanqie');
@@ -36,7 +37,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function httpGet(url, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
-    lib.get(url, { headers: { ...HEADERS, ...extraHeaders }, timeout: 20000 }, (res) => {
+    lib.get(url, { headers: { ...HEADERS, ...extraHeaders }, timeout: 60000 }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return httpGet(res.headers.location, extraHeaders).then(resolve).catch(reject);
       }
@@ -92,15 +93,18 @@ async function fetchHotRankList() {
       word_count: -1, book_type: -1, sort: 0,
     });
     try {
-      const res = await httpGet(
-        `https://fanqienovel.com/api/author/library/book_list/v0/?${params}`,
-        { Accept: 'application/json' }
+      const res = await withRetry(
+        () => httpGet(
+          `https://fanqienovel.com/api/author/library/book_list/v0/?${params}`,
+          { Accept: 'application/json' }
+        ),
+        { name: `番茄热榜第${page+1}页`, maxAttempts: 3, baseDelay: 3000 }
       );
       const json = JSON.parse(res.data);
       if (json.code === 0 && json.data?.book_list) {
         allBooks.push(...json.data.book_list);
       }
-    } catch (e) { console.log(`  [WARN] 第${page+1}页失败: ${e.message}`); }
+    } catch (e) { console.log(`  [WARN] 第${page+1}页失败（重试后）: ${e.message}`); }
     if (page < pagesNeeded - 1) await sleep(REQUEST_DELAY);
   }
   return allBooks.slice(0, TARGET_COUNT);

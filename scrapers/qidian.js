@@ -9,6 +9,7 @@
 
 const { chromium } = require('playwright');
 const { computeRankChange } = require('./rank-change');
+const { withRetry } = require('./retry');
 const fs = require('fs');
 const path = require('path');
 
@@ -79,7 +80,10 @@ async function main() {
       const url = pageNum === 1 ? BASE_URL : `${BASE_URL}page${pageNum}/`;
       console.log(`\n📊 第${pageNum}页: ${url}`);
       
-      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      await withRetry(
+        () => page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }),
+        { name: `起点第${pageNum}页`, maxAttempts: 3, baseDelay: 5000 }
+      );
       
       // 等待内容加载
       try {

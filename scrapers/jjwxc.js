@@ -13,6 +13,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { computeRankChange } = require('./rank-change');
+const { withRetry } = require('./retry');
 
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'jjwxc');
@@ -44,7 +45,7 @@ function fmtDateTime(d) {
 function httpGet(url, encoding = 'gbk') {
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
-    lib.get(url, { headers: HEADERS, timeout: 20000 }, (res) => {
+    lib.get(url, { headers: HEADERS, timeout: 60000 }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         let redirect = res.headers.location;
         if (redirect.startsWith('/')) {
@@ -305,9 +306,9 @@ async function main() {
   console.log('\n📊 阶段一：抓取月榜列表');
   let res;
   try {
-    res = await httpGet(RANK_URL, 'gbk');
+    res = await withRetry(() => httpGet(RANK_URL, 'gbk'), { name: '晋江月榜', maxAttempts: 3, baseDelay: 5000 });
   } catch(e) {
-    console.error('  获取榜单失败:', e.message);
+    console.error('  获取榜单失败（重试后仍失败）:', e.message);
     process.exit(1);
   }
   
