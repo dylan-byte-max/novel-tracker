@@ -8,6 +8,7 @@
  */
 
 const { chromium } = require('playwright');
+const { computeRankChange } = require('./rank-change');
 const fs = require('fs');
 const path = require('path');
 
@@ -248,26 +249,8 @@ async function main() {
     });
 
     // 计算排名变化
-    console.log('\n📈 计算排名变化');
-    const latestPath = path.join(DATA_DIR, 'latest.json');
-    let prevData = null;
-    if (fs.existsSync(latestPath)) {
-      try { prevData = JSON.parse(fs.readFileSync(latestPath, 'utf-8')); } catch(e) {}
-    }
-
-    if (prevData?.books && !prevData.books[0]?.book_name?.includes('模拟')) {
-      const prevMap = {};
-      for (const b of prevData.books) if (b.book_id) prevMap[b.book_id] = b.rank;
-      for (const b of books) {
-        if (b.book_id && b.book_id in prevMap) {
-          b.rank_change = prevMap[b.book_id] - b.rank;
-        } else {
-          b.rank_change = 'new';
-        }
-      }
-    } else {
-      for (const b of books) b.rank_change = 'new';
-    }
+    console.log('\n📈 计算排名变化（严格新书：全 history 比对）');
+    computeRankChange(books, DATA_DIR, fmtDate(now), 'book_id');
 
     // 统计
     const tagStats = {};

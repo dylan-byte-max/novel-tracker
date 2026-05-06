@@ -18,6 +18,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
+const { computeRankChange } = require('./rank-change');
 
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'fanqie');
@@ -576,28 +577,8 @@ async function main() {
   // 阶段2.5：对无分类的书用 Playwright 抓取详情页标签
   await fetchTagsViaPlaywright(books);
 
-  console.log('\n📈 阶段三：计算排名变化');
-  const latestPath = path.join(DATA_DIR, 'latest.json');
-  let prevData = null;
-  if (fs.existsSync(latestPath)) {
-    try { prevData = JSON.parse(fs.readFileSync(latestPath, 'utf-8')); } catch(e) {}
-  }
-
-  if (prevData?.books) {
-    const prevMap = {};
-    for (const b of prevData.books) prevMap[b.book_id] = b.rank;
-    for (const b of books) {
-      if (b.book_id in prevMap) {
-        b.rank_change = prevMap[b.book_id] - b.rank;
-      } else {
-        b.rank_change = 'new';
-      }
-    }
-    console.log('  已对比历史数据');
-  } else {
-    for (const b of books) b.rank_change = 'new';
-    console.log('  无历史数据，全部标记为新');
-  }
+  console.log('\n📈 阶段三：计算排名变化（严格新书：全 history 比对）');
+  computeRankChange(books, DATA_DIR, fmtDate(now), 'book_id');
 
   // 标签统计
   const tagStats = {};

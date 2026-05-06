@@ -12,6 +12,7 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { computeRankChange } = require('./rank-change');
 
 // ========== 配置 ==========
 const DATA_DIR = path.join(__dirname, '..', 'data', 'jjwxc');
@@ -360,28 +361,8 @@ async function main() {
   }
 
   // 阶段三：计算排名变化
-  console.log('\n📈 阶段三：计算排名变化');
-  const latestPath = path.join(DATA_DIR, 'latest.json');
-  let prevData = null;
-  if (fs.existsSync(latestPath)) {
-    try { prevData = JSON.parse(fs.readFileSync(latestPath, 'utf-8')); } catch(e) {}
-  }
-
-  if (prevData?.books) {
-    const prevMap = {};
-    for (const b of prevData.books) prevMap[b.book_id] = b.rank;
-    for (const b of listBooks) {
-      if (b.book_id in prevMap) {
-        b.rank_change = prevMap[b.book_id] - b.rank;
-      } else {
-        b.rank_change = 'new';
-      }
-    }
-    console.log('  已对比历史数据');
-  } else {
-    for (const b of listBooks) b.rank_change = 'new';
-    console.log('  无历史数据，全部标记为新');
-  }
+  console.log('\n📈 阶段三：计算排名变化（严格新书：全 history 比对）');
+  computeRankChange(listBooks, DATA_DIR, fmtDate(now), 'book_id');
 
   // 统计
   const tagStats = {};

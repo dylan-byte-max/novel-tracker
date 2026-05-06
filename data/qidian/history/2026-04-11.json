@@ -944,7 +944,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046465651/150.webp",
       "book_url": "https://www.qidian.com/book/1046465651/",
-      "rank_change": "new"
+      "rank_change": null
     },
     {
       "rank": 45,
@@ -986,7 +986,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp",
       "book_url": "https://www.qidian.com/book/1017281778/",
-      "rank_change": "new"
+      "rank_change": null
     },
     {
       "rank": 47,
@@ -1070,7 +1070,7 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/150.webp",
       "book_url": "https://www.qidian.com/book/1045831749/",
-      "rank_change": "new"
+      "rank_change": null
     }
   ]
 }
