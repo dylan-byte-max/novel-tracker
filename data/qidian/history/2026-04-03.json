@@ -43,7 +43,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041637443/150.webp",
       "book_url": "https://www.qidian.com/book/1041637443/",
-      "rank_change": 0
+      "rank_change": 0,
+      "history_days": 5
     },
     {
       "rank": 2,
@@ -64,7 +65,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1035420986/150.webp",
       "book_url": "https://www.qidian.com/book/1035420986/",
-      "rank_change": 0
+      "rank_change": 0,
+      "history_days": 5
     },
     {
       "rank": 3,
@@ -85,7 +87,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042256511/150.webp",
       "book_url": "https://www.qidian.com/book/1042256511/",
-      "rank_change": 0
+      "rank_change": 0,
+      "history_days": 5
     },
     {
       "rank": 4,
@@ -106,7 +109,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1016530091/150.webp",
       "book_url": "https://www.qidian.com/book/1016530091/",
-      "rank_change": 22
+      "rank_change": 22,
+      "history_days": 5
     },
     {
       "rank": 5,
@@ -127,7 +131,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1033014772/150.webp",
       "book_url": "https://www.qidian.com/book/1033014772/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 6,
@@ -148,7 +153,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1040765595/150.webp",
       "book_url": "https://www.qidian.com/book/1040765595/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 7,
@@ -169,7 +175,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045003390/150.webp",
       "book_url": "https://www.qidian.com/book/1045003390/",
-      "rank_change": 0
+      "rank_change": 0,
+      "history_days": 5
     },
     {
       "rank": 8,
@@ -190,7 +197,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044896207/150.webp",
       "book_url": "https://www.qidian.com/book/1044896207/",
-      "rank_change": -2
+      "rank_change": -2,
+      "history_days": 5
     },
     {
       "rank": 9,
@@ -211,7 +219,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046692521/150.webp",
       "book_url": "https://www.qidian.com/book/1046692521/",
-      "rank_change": 6
+      "rank_change": 6,
+      "history_days": 5
     },
     {
       "rank": 10,
@@ -232,7 +241,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047213880/150.webp",
       "book_url": "https://www.qidian.com/book/1047213880/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 11,
@@ -253,7 +263,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039457453/150.webp",
       "book_url": "https://www.qidian.com/book/1039457453/",
-      "rank_change": null
+      "rank_change": null,
+      "history_days": 4
     },
     {
       "rank": 12,
@@ -274,7 +285,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042108416/150.webp",
       "book_url": "https://www.qidian.com/book/1042108416/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 13,
@@ -295,7 +307,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1010868264/150.webp",
       "book_url": "https://www.qidian.com/book/1010868264/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 14,
@@ -316,7 +329,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047259146/150.webp",
       "book_url": "https://www.qidian.com/book/1047259146/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 15,
@@ -337,7 +351,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044818845/150.webp",
       "book_url": "https://www.qidian.com/book/1044818845/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 16,
@@ -358,7 +373,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047904104/150.webp",
       "book_url": "https://www.qidian.com/book/1047904104/",
-      "rank_change": -8
+      "rank_change": -8,
+      "history_days": 5
     },
     {
       "rank": 17,
@@ -379,7 +395,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047881102/150.webp",
       "book_url": "https://www.qidian.com/book/1047881102/",
-      "rank_change": 3
+      "rank_change": 3,
+      "history_days": 3
     },
     {
       "rank": 18,
@@ -400,7 +417,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046431588/150.webp",
       "book_url": "https://www.qidian.com/book/1046431588/",
-      "rank_change": 7
+      "rank_change": 7,
+      "history_days": 5
     },
     {
       "rank": 19,
@@ -421,7 +439,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041604040/150.webp",
       "book_url": "https://www.qidian.com/book/1041604040/",
-      "rank_change": -2
+      "rank_change": -2,
+      "history_days": 5
     },
     {
       "rank": 20,
@@ -442,7 +461,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043128588/150.webp",
       "book_url": "https://www.qidian.com/book/1043128588/",
-      "rank_change": -2
+      "rank_change": -2,
+      "history_days": 5
     },
     {
       "rank": 21,
@@ -463,7 +483,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/150.webp",
       "book_url": "https://www.qidian.com/book/1047166699/",
-      "rank_change": -5
+      "rank_change": -5,
+      "history_days": 5
     },
     {
       "rank": 22,
@@ -484,7 +505,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047237870/150.webp",
       "book_url": "https://www.qidian.com/book/1047237870/",
-      "rank_change": null
+      "rank_change": null,
+      "history_days": 4
     },
     {
       "rank": 23,
@@ -505,7 +527,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046194994/150.webp",
       "book_url": "https://www.qidian.com/book/1046194994/",
-      "rank_change": 1
+      "rank_change": 1,
+      "history_days": 5
     },
     {
       "rank": 24,
@@ -526,7 +549,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045929618/150.webp",
       "book_url": "https://www.qidian.com/book/1045929618/",
-      "rank_change": -2
+      "rank_change": -2,
+      "history_days": 5
     },
     {
       "rank": 25,
@@ -547,7 +571,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046738077/150.webp",
       "book_url": "https://www.qidian.com/book/1046738077/",
-      "rank_change": -4
+      "rank_change": -4,
+      "history_days": 5
     },
     {
       "rank": 26,
@@ -568,7 +593,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043748975/150.webp",
       "book_url": "https://www.qidian.com/book/1043748975/",
-      "rank_change": -7
+      "rank_change": -7,
+      "history_days": 5
     },
     {
       "rank": 27,
@@ -589,7 +615,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047956575/150.webp",
       "book_url": "https://www.qidian.com/book/1047956575/",
-      "rank_change": -4
+      "rank_change": -4,
+      "history_days": 5
     },
     {
       "rank": 28,
@@ -610,7 +637,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044050715/150.webp",
       "book_url": "https://www.qidian.com/book/1044050715/",
-      "rank_change": 7
+      "rank_change": 7,
+      "history_days": 5
     },
     {
       "rank": 29,
@@ -631,7 +659,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1038440253/150.webp",
       "book_url": "https://www.qidian.com/book/1038440253/",
-      "rank_change": 3
+      "rank_change": 3,
+      "history_days": 5
     },
     {
       "rank": 30,
@@ -652,7 +681,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1003306811/150.webp",
       "book_url": "https://www.qidian.com/book/1003306811/",
-      "rank_change": 0
+      "rank_change": 0,
+      "history_days": 5
     },
     {
       "rank": 31,
@@ -673,7 +703,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1012584111/150.webp",
       "book_url": "https://www.qidian.com/book/1012584111/",
-      "rank_change": -4
+      "rank_change": -4,
+      "history_days": 5
     },
     {
       "rank": 32,
@@ -694,7 +725,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1041162879/150.webp",
       "book_url": "https://www.qidian.com/book/1041162879/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 4
     },
     {
       "rank": 33,
@@ -715,7 +747,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1043182343/150.webp",
       "book_url": "https://www.qidian.com/book/1043182343/",
-      "rank_change": -5
+      "rank_change": -5,
+      "history_days": 5
     },
     {
       "rank": 34,
@@ -736,7 +769,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1031777108/150.webp",
       "book_url": "https://www.qidian.com/book/1031777108/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 35,
@@ -757,7 +791,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045445836/150.webp",
       "book_url": "https://www.qidian.com/book/1045445836/",
-      "rank_change": "new"
+      "rank_change": "new",
+      "history_days": 1
     },
     {
       "rank": 36,
@@ -778,7 +813,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp",
       "book_url": "https://www.qidian.com/book/1036370336/",
-      "rank_change": 3
+      "rank_change": 3,
+      "history_days": 5
     },
     {
       "rank": 37,
@@ -799,7 +835,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1037570737/150.webp",
       "book_url": "https://www.qidian.com/book/1037570737/",
-      "rank_change": -1
+      "rank_change": -1,
+      "history_days": 5
     },
     {
       "rank": 38,
@@ -820,7 +857,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044572097/150.webp",
       "book_url": "https://www.qidian.com/book/1044572097/",
-      "rank_change": -9
+      "rank_change": -9,
+      "history_days": 3
     },
     {
       "rank": 39,
@@ -841,7 +879,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045749425/150.webp",
       "book_url": "https://www.qidian.com/book/1045749425/",
-      "rank_change": "new"
+      "rank_change": "new",
+      "history_days": 1
     },
     {
       "rank": 40,
@@ -862,7 +901,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1044394624/150.webp",
       "book_url": "https://www.qidian.com/book/1044394624/",
-      "rank_change": -3
+      "rank_change": -3,
+      "history_days": 5
     },
     {
       "rank": 41,
@@ -883,7 +923,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/150.webp",
       "book_url": "https://www.qidian.com/book/1039831421/",
-      "rank_change": 2
+      "rank_change": 2,
+      "history_days": 3
     },
     {
       "rank": 42,
@@ -904,7 +945,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/107580/150.webp",
       "book_url": "https://www.qidian.com/book/107580/",
-      "rank_change": -4
+      "rank_change": -4,
+      "history_days": 5
     },
     {
       "rank": 43,
@@ -925,7 +967,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046465651/150.webp",
       "book_url": "https://www.qidian.com/book/1046465651/",
-      "rank_change": -9
+      "rank_change": -9,
+      "history_days": 5
     },
     {
       "rank": 44,
@@ -946,7 +989,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1009817672/150.webp",
       "book_url": "https://www.qidian.com/book/1009817672/",
-      "rank_change": -2
+      "rank_change": -2,
+      "history_days": 5
     },
     {
       "rank": 45,
@@ -967,7 +1011,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047654482/150.webp",
       "book_url": "https://www.qidian.com/book/1047654482/",
-      "rank_change": -35
+      "rank_change": -35,
+      "history_days": 2
     },
     {
       "rank": 46,
@@ -988,7 +1033,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1042665043/150.webp",
       "book_url": "https://www.qidian.com/book/1042665043/",
-      "rank_change": 1
+      "rank_change": 1,
+      "history_days": 3
     },
     {
       "rank": 47,
@@ -1009,7 +1055,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1047611660/150.webp",
       "book_url": "https://www.qidian.com/book/1047611660/",
-      "rank_change": -7
+      "rank_change": -7,
+      "history_days": 5
     },
     {
       "rank": 48,
@@ -1030,7 +1077,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1045354296/150.webp",
       "book_url": "https://www.qidian.com/book/1045354296/",
-      "rank_change": "new"
+      "rank_change": "new",
+      "history_days": 1
     },
     {
       "rank": 49,
@@ -1051,7 +1099,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1046770618/150.webp",
       "book_url": "https://www.qidian.com/book/1046770618/",
-      "rank_change": -4
+      "rank_change": -4,
+      "history_days": 2
     },
     {
       "rank": 50,
@@ -1072,7 +1121,8 @@
       "word_count": "",
       "thumb_url": "https://bookcover.yuewen.com/qdbimg/349573/1039141715/150.webp",
       "book_url": "https://www.qidian.com/book/1039141715/",
-      "rank_change": -6
+      "rank_change": -6,
+      "history_days": 2
     }
   ]
 }

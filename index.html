@@ -605,6 +605,33 @@
     .book-change.new { color: var(--gold); }
     .book-change.same { color: var(--text-dim); }
 
+    /* 上榜天数列 */
+    .book-days {
+      font-size: 13px;
+      font-weight: 600;
+      flex-shrink: 0;
+      min-width: 64px;
+      text-align: center;
+      color: var(--text);
+    }
+    .book-days .days-num {
+      font-size: 15px;
+      color: #ffa94d;
+    }
+    .book-days .days-label {
+      font-size: 11px;
+      color: var(--text-dim);
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* 排序按钮 active 态 */
+    .filter-btn.sort-active {
+      background: rgba(255,169,77,0.18);
+      color: #ffa94d;
+      border-color: rgba(255,169,77,0.4);
+    }
+
     /* ===== History Date Picker ===== */
     .history-bar {
       display: flex;
@@ -1386,6 +1413,8 @@ function renderPlatformTab(platformId) {
     <div class="filter-bar">
       <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-${platformId}" oninput="filterBooks('${platformId}')">
       <button class="filter-btn" id="newonly-${platformId}" onclick="toggleNewOnly('${platformId}')">🆕 新上榜</button>
+      <button class="filter-btn" id="sortdays-${platformId}" onclick="toggleSort('${platformId}','days')" title="按累计上榜天数排序">📅 上榜天数</button>
+      <button class="filter-btn" id="sortchange-${platformId}" onclick="toggleSort('${platformId}','change')" title="按昨日涨跌幅排序">📈 昨日涨幅</button>
       <select class="filter-select" id="gender-${platformId}" onchange="filterBooks('${platformId}')">
         <option value="">全部频道</option>
         ${Object.keys(genderStats).map(g => `<option value="${g}">${g} (${genderStats[g]})</option>`).join('')}
@@ -1433,8 +1462,11 @@ function renderBookList(books, platformId) {
     const genderLabel = b.gender || b.channel || '';
     const scoreLabel = b.score_display ? ` · 积分 ${b.score_display}` : '';
 
+    const daysNum = b.history_days || 1;
+    const daysHtml = `<div class="book-days" title="自建站以来累计上榜天数"><span class="days-num">${daysNum}</span><span class="days-label">天上榜</span></div>`;
+
     return `
-      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-change="${b.rank_change}">
+      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-change="${b.rank_change}" data-days="${daysNum}">
         <span class="book-rank ${rankClass}">${b.rank}</span>
         <div class="book-info">
           <div class="book-left">
@@ -1449,6 +1481,7 @@ function renderBookList(books, platformId) {
           </div>
           ${b.abstract && b.abstract !== '暂无简介' ? `<div class="book-abstract">${b.abstract}</div>` : ''}
         </div>
+        ${daysHtml}
         ${changeHtml}
       </div>
     `;
@@ -1463,7 +1496,8 @@ function filterBooks(platformId) {
   const newOnlyBtn = document.getElementById(`newonly-${platformId}`);
   const newOnly = newOnlyBtn?.classList.contains('active') || false;
 
-  const items = document.querySelectorAll(`#bookList-${platformId} .book-item`);
+  const listEl = document.getElementById(`bookList-${platformId}`);
+  const items = listEl.querySelectorAll('.book-item');
   items.forEach(el => {
     const name = el.dataset.name || '';
     const author = el.dataset.author || '';
@@ -1481,6 +1515,86 @@ function filterBooks(platformId) {
 
     el.style.display = show ? '' : 'none';
   });
+
+  // 应用当前排序状态（如果有）
+  applySortOrder(platformId);
+}
+
+// 排序状态：state._sort[platformId] = { key: 'days'|'change'|null, dir: 'desc'|'asc' }
+function toggleSort(platformId, key) {
+  if (!state._sort) state._sort = {};
+  const cur = state._sort[platformId] || { key: null, dir: 'desc' };
+  let next;
+  if (cur.key !== key) {
+    // 切到新维度，默认 desc（持续力/涨幅大的在前）
+    next = { key, dir: 'desc' };
+  } else if (cur.dir === 'desc') {
+    next = { key, dir: 'asc' };
+  } else {
+    // 已经 asc → 取消排序，恢复 rank 原序
+    next = { key: null, dir: 'desc' };
+  }
+  state._sort[platformId] = next;
+
+  // 更新按钮视觉
+  const daysBtn = document.getElementById(`sortdays-${platformId}`);
+  const changeBtn = document.getElementById(`sortchange-${platformId}`);
+  if (daysBtn) {
+    daysBtn.classList.toggle('sort-active', next.key === 'days');
+    daysBtn.textContent = next.key === 'days'
+      ? (next.dir === 'desc' ? '📅 上榜天数 ↓' : '📅 上榜天数 ↑')
+      : '📅 上榜天数';
+  }
+  if (changeBtn) {
+    changeBtn.classList.toggle('sort-active', next.key === 'change');
+    changeBtn.textContent = next.key === 'change'
+      ? (next.dir === 'desc' ? '📈 昨日涨幅 ↓' : '📈 昨日涨幅 ↑')
+      : '📈 昨日涨幅';
+  }
+
+  applySortOrder(platformId);
+}
+
+function applySortOrder(platformId) {
+  const sort = state._sort?.[platformId];
+  const listEl = document.getElementById(`bookList-${platformId}`);
+  if (!listEl) return;
+  const items = Array.from(listEl.querySelectorAll('.book-item'));
+
+  // 把 data-rank 缓存到 element 上（用于恢复原序）
+  items.forEach((el, i) => {
+    if (!el.dataset.origIndex) el.dataset.origIndex = String(i);
+  });
+
+  let sorted;
+  if (!sort || !sort.key) {
+    // 恢复原榜单顺序（rank 从低到高）
+    sorted = items.slice().sort((a, b) => Number(a.dataset.origIndex) - Number(b.dataset.origIndex));
+  } else if (sort.key === 'days') {
+    sorted = items.slice().sort((a, b) => {
+      const da = Number(a.dataset.days) || 0;
+      const db = Number(b.dataset.days) || 0;
+      return sort.dir === 'desc' ? db - da : da - db;
+    });
+  } else if (sort.key === 'change') {
+    // 'new' 视为最大值（持续新品关注度高）；null 视为 0；数字按原值
+    const rank = (v) => {
+      if (v === 'new') return Number.POSITIVE_INFINITY;
+      if (v === 'null' || v === '' || v === null || v === undefined) return 0;
+      const n = Number(v);
+      return isNaN(n) ? 0 : n;
+    };
+    sorted = items.slice().sort((a, b) => {
+      const ra = rank(a.dataset.change);
+      const rb = rank(b.dataset.change);
+      return sort.dir === 'desc' ? rb - ra : ra - rb;
+    });
+  }
+
+  // 重排 DOM
+  const frag = document.createDocumentFragment();
+  sorted.forEach(el => frag.appendChild(el));
+  listEl.appendChild(frag);
 }
 
 function toggleNewOnly(platformId) {
