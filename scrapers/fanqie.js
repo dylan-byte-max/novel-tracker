@@ -584,6 +584,8 @@ async function main() {
   console.log('\n📈 阶段三：计算排名变化（严格新书：全 history 比对）');
   computeRankChange(books, DATA_DIR, fmtDate(now), 'book_id');
 
+  const latestPath = path.join(DATA_DIR, 'latest.json');
+
   // 标签统计
   const tagStats = {};
   for (const b of books) {
