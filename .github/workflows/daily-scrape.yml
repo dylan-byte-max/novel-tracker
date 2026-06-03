@@ -46,6 +46,19 @@ jobs:
         run: node scrapers/jjwxc.js
         continue-on-error: true
 
+      # 起点收藏榜 (每月1号更新 或 手动触发时运行，50页1000本)
+      - name: Scrape Qidian Collection (起点收藏榜)
+        run: |
+          DOM=$(date -u +%d)
+          if [ "$DOM" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Running collection scraper (day=$DOM, event=${{ github.event_name }})"
+            node scrapers/qidian-collection.js
+          else
+            echo "Skipping collection scraper (only runs on 1st of month or manual trigger)"
+          fi
+        continue-on-error: true
+        timeout-minutes: 20
+
       # AI 智能分析
       - name: AI Analysis (通义千问)
         run: node scrapers/analyze.js

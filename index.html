@@ -679,6 +679,37 @@
       .new-entry-list { grid-template-columns: 1fr; }
     }
 
+    /* ===== Sub-Tab Navigation (起点子榜切换) ===== */
+    .sub-tab-nav {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 8px;
+      padding: 3px;
+      width: fit-content;
+    }
+    .sub-tab-btn {
+      padding: 6px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-dim);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .sub-tab-btn:hover { color: var(--text); background: rgba(255,255,255,0.06); }
+    .sub-tab-btn.active {
+      color: #fff;
+      background: var(--accent-qidian);
+      font-weight: 600;
+    }
+    .sub-tab-content { display: none; }
+    .sub-tab-content.active { display: block; }
+
     /* ===== Loading ===== */
     .loading {
       text-align: center;
@@ -1402,6 +1433,12 @@ function renderPlatformTab(platformId) {
   if (state.loaded[platformId]) return;
   state.loaded[platformId] = true;
 
+  // 起点有子榜单（畅销榜 + 收藏榜）
+  if (platformId === 'qidian') {
+    renderQidianWithSubTabs(platform, data, contentEl);
+    return;
+  }
+
   const books = data.books;
   const tagStats = data.tag_stats || {};
   const genderStats = data.gender_stats || {};
@@ -1639,6 +1676,154 @@ async function loadHistoryData(platformId, date) {
   if (histData?.books) {
     document.getElementById(`bookList-${platformId}`).innerHTML = renderBookList(histData.books, platformId);
   }
+}
+
+// ========== 起点子榜单渲染 ==========
+async function renderQidianWithSubTabs(platform, data, contentEl) {
+  // 尝试加载收藏榜数据
+  const collectionData = await loadJSON('data/qidian/collection.json');
+  state.data.qidian_collection = collectionData;
+
+  const books = data.books;
+  const tagStats = data.tag_stats || {};
+  const genderStats = data.gender_stats || {};
+  const historyIndex = state.history['qidian']?.index || [];
+  const coverageDays = historyIndex.length || 0;
+
+  // 收藏榜数据
+  const collBooks = collectionData?.books || [];
+  const collTagStats = collectionData?.tag_stats || {};
+  const collGenderStats = collectionData?.gender_stats || {};
+
+  contentEl.innerHTML = `
+    <div class="platform-header">
+      <div>
+        <div class="platform-title">${platform.icon} ${platform.name}</div>
+        <div class="platform-meta">更新时间: ${data.update_time || '未知'}</div>
+      </div>
+    </div>
+
+    <!-- 子榜单切换 -->
+    <div class="sub-tab-nav">
+      <button class="sub-tab-btn active" data-subtab="hotsales" onclick="switchQidianSubTab('hotsales')">🔥 畅销榜 Top50</button>
+      <button class="sub-tab-btn" data-subtab="collection" onclick="switchQidianSubTab('collection')">⭐ 收藏榜 Top1000</button>
+    </div>
+
+    <!-- 畅销榜内容 -->
+    <div class="sub-tab-content active" id="qidian-sub-hotsales">
+      <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${data.source_url}" target="_blank" style="color:${platform.color};">${data.source}</a>${coverageDays > 0 ? ` · <span style="color:#ffa94d;">📅 已统计 ${coverageDays} 天数据</span>` : ''}</div>
+
+      <div class="tag-stats-bar">
+        ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([tag, count]) => `
+          <span class="tag-stat-item">
+            <span class="tag-name">${tag}</span>
+            <span class="tag-count">${count}</span>
+          </span>
+        `).join('')}
+      </div>
+
+      <div class="filter-bar">
+        <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-qidian" oninput="filterBooks('qidian')">
+        <button class="filter-btn" id="newonly-qidian" onclick="toggleNewOnly('qidian')">🆕 新上榜</button>
+        <button class="filter-btn" id="sortdays-qidian" onclick="toggleSort('qidian','days')" title="按累计上榜天数排序">📅 上榜天数</button>
+        <button class="filter-btn" id="sortchange-qidian" onclick="toggleSort('qidian','change')" title="按昨日涨跌幅排序">📈 昨日涨幅</button>
+        <select class="filter-select" id="gender-qidian" onchange="filterBooks('qidian')">
+          <option value="">全部频道</option>
+          ${Object.keys(genderStats).map(g => `<option value="${g}">${g} (${genderStats[g]})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="tag-qidian" onchange="filterBooks('qidian')">
+          <option value="">全部题材</option>
+          ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="status-qidian" onchange="filterBooks('qidian')">
+          <option value="">全部状态</option>
+          <option value="连载中">连载中</option>
+          <option value="完结">完结</option>
+        </select>
+        ${historyIndex.length >= 1 ? `
+          <select class="filter-select" id="history-qidian" onchange="loadHistoryData('qidian', this.value)">
+            <option value="">当前数据</option>
+            ${historyIndex.map(d => `<option value="${d}">${d}</option>`).join('')}
+          </select>
+        ` : ''}
+      </div>
+
+      <div class="book-list" id="bookList-qidian">
+        ${renderBookList(books, 'qidian')}
+      </div>
+    </div>
+
+    <!-- 收藏榜内容 -->
+    <div class="sub-tab-content" id="qidian-sub-collection">
+      ${collBooks.length === 0 
+        ? '<div class="empty-state">收藏榜数据尚未抓取，请先运行 <code>node scrapers/qidian-collection.js</code></div>'
+        : `
+          <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${collectionData.source_url}" target="_blank" style="color:${platform.color};">${collectionData.source}</a> · 更新时间: ${collectionData.update_time || '未知'} · 共 ${collBooks.length} 本</div>
+
+          <div class="tag-stats-bar">
+            ${Object.entries(collTagStats).sort((a,b) => b[1] - a[1]).slice(0, 15).map(([tag, count]) => `
+              <span class="tag-stat-item">
+                <span class="tag-name">${tag}</span>
+                <span class="tag-count">${count}</span>
+              </span>
+            `).join('')}
+          </div>
+
+          <div class="filter-bar">
+            <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-qidian_coll" oninput="filterBooks('qidian_coll')">
+            <select class="filter-select" id="gender-qidian_coll" onchange="filterBooks('qidian_coll')">
+              <option value="">全部频道</option>
+              ${Object.keys(collGenderStats).map(g => `<option value="${g}">${g} (${collGenderStats[g]})</option>`).join('')}
+            </select>
+            <select class="filter-select" id="tag-qidian_coll" onchange="filterBooks('qidian_coll')">
+              <option value="">全部题材</option>
+              ${Object.entries(collTagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+            </select>
+          </div>
+
+          <div class="book-list" id="bookList-qidian_coll">
+            ${renderCollectionBookList(collBooks)}
+          </div>
+        `}
+    </div>
+  `;
+}
+
+function switchQidianSubTab(subTabId) {
+  document.querySelectorAll('#qidianContent .sub-tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('#qidianContent .sub-tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById(`qidian-sub-${subTabId}`).classList.add('active');
+  document.querySelector(`#qidianContent .sub-tab-btn[data-subtab="${subTabId}"]`).classList.add('active');
+}
+
+function renderCollectionBookList(books) {
+  return books.map(b => {
+    const rankClass = b.rank <= 3 ? `r${b.rank}` : 'rn';
+    const tagsHtml = (b.all_tags || []).map((t, i) =>
+      `<span class="book-tag ${i === 0 ? 'primary' : ''}">${t}</span>`
+    ).join('');
+    const genderLabel = b.gender || '';
+
+    return `
+      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}">
+        <span class="book-rank ${rankClass}">${b.rank}</span>
+        <div class="book-info">
+          <div class="book-left">
+            <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
+            <div class="book-meta">
+              <span>${b.author}</span>
+              ${genderLabel ? `<span class="sep">·</span><span>${genderLabel}</span>` : ''}
+              <span class="sep">·</span><span>${b.status || '完结'}</span>
+              ${b.word_count ? `<span class="sep">·</span><span>${b.word_count}</span>` : ''}
+              ${b.collections ? `<span class="sep">·</span><span style="color:#ffd700;">收藏 ${b.collections}</span>` : ''}
+            </div>
+            ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
+          </div>
+          ${b.abstract && b.abstract !== '暂无简介' ? `<div class="book-abstract">${b.abstract}</div>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 // ========== 初始化 ==========
