@@ -593,6 +593,33 @@
       padding-left: 16px;
     }
 
+    /* ===== 晋江积分榜Top1000 · 单行横向布局（方案A）===== */
+    .score-item { align-items: center; padding: 10px 16px; }
+    .score-item .score-name { flex-shrink: 0; width: 210px; min-width: 210px; }
+    .score-item .book-meta { margin-top: 3px; }
+    .score-item .score-tags {
+      flex-shrink: 0; width: 320px;
+      display: flex; flex-wrap: wrap; gap: 4px;
+      align-content: center;
+      max-height: 46px; overflow: hidden;
+    }
+    .score-item .score-abs {
+      flex: 1; min-width: 0;
+      font-size: 12px; color: var(--text-dim);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      padding: 0 8px;
+    }
+    .score-item .score-num { flex-shrink: 0; width: 78px; text-align: right; line-height: 1.25; }
+    .score-item .score-val { color: #ffd700; font-weight: 700; font-size: 14px; display: block; }
+    .score-item .score-lbl { font-size: 10px; color: var(--text-dim); }
+    @media (max-width: 768px) {
+      .score-item { flex-wrap: wrap; align-items: flex-start; }
+      .score-item .score-name { width: 100%; min-width: 0; }
+      .score-item .score-tags { width: 100%; max-height: none; }
+      .score-item .score-abs { white-space: normal; padding: 0; }
+      .score-item .score-num { width: auto; text-align: left; }
+    }
+
     .book-change {
       flex-shrink: 0;
       min-width: 54px;
@@ -2021,6 +2048,7 @@ async function renderJjwxcWithSubTabs(platform, data, contentEl) {
 
 // 晋江积分榜 Top1000 列表渲染（展示积分 + 首发时间）
 function renderScoreBookList(books) {
+  // 方案A · 单行横向：排名 | 书名+作者 | 标签(全部,最多两行) | 简介(单行省略) | 积分(右)
   return books.map(b => {
     const rankClass = b.rank <= 3 ? `r${b.rank}` : 'rn';
     const tagsHtml = (b.all_tags || []).map((t, i) =>
@@ -2030,24 +2058,23 @@ function renderScoreBookList(books) {
     const scoreLabel = b.score_display || (b.score != null ? String(b.score) : '');
     const firstPub = (b.publish_time || '').slice(0, 10);
     const pubYear = (b.publish_time || '').slice(0, 4);
+    const absText = (b.abstract && b.abstract !== '暂无简介') ? b.abstract : '';
 
     return `
-      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-year="${pubYear}">
+      <div class="book-item score-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-year="${pubYear}">
         <span class="book-rank ${rankClass}">${b.rank}</span>
-        <div class="book-info">
-          <div class="book-left">
-            <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
-            <div class="book-meta">
-              <span>${b.author}</span>
-              ${channelLabel ? `<span class="sep">·</span><span>${channelLabel}</span>` : ''}
-              <span class="sep">·</span><span>${b.status || '未知'}</span>
-              ${firstPub ? `<span class="sep">·</span><span>首发 ${firstPub}</span>` : ''}
-              ${scoreLabel ? `<span class="sep">·</span><span style="color:#ffd700;">积分 ${scoreLabel}</span>` : ''}
-            </div>
-            ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
+        <div class="score-name">
+          <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
+          <div class="book-meta">
+            <span>${b.author}</span>
+            ${channelLabel ? `<span class="sep">·</span><span>${channelLabel}</span>` : ''}
+            <span class="sep">·</span><span>${b.status || '未知'}</span>
+            ${firstPub ? `<span class="sep">·</span><span>${firstPub}</span>` : ''}
           </div>
-          ${b.abstract && b.abstract !== '暂无简介' ? `<div class="book-abstract">${b.abstract}</div>` : ''}
         </div>
+        <div class="score-tags">${tagsHtml}</div>
+        <div class="score-abs" title="${(absText||'').replace(/"/g,'&quot;')}">${absText || '<span style="opacity:.35">——</span>'}</div>
+        <div class="score-num"><span class="score-val">${scoreLabel}</span><span class="score-lbl">积分</span></div>
       </div>
     `;
   }).join('');
