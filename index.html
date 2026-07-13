@@ -707,6 +707,7 @@
       background: var(--accent-qidian);
       font-weight: 600;
     }
+    #jjwxcContent .sub-tab-btn.active { background: var(--accent-jjwxc); }
     .sub-tab-content { display: none; }
     .sub-tab-content.active { display: block; }
 
@@ -939,7 +940,17 @@ async function loadAllData() {
       state.history[p.id] = { index: idx || [] };
     } catch { state.history[p.id] = { index: [] }; }
   }
-  
+
+  // 月度榜单的月份索引（起点收藏榜 / 晋江积分榜Top1000）
+  try {
+    const ci = await loadJSON('data/qidian/collection_index.json');
+    state.history.qidian_collection = { index: ci || [] };
+  } catch { state.history.qidian_collection = { index: [] }; }
+  try {
+    const si = await loadJSON('data/jjwxc/score1000_index.json');
+    state.history.jjwxc_score = { index: si || [] };
+  } catch { state.history.jjwxc_score = { index: [] }; }
+
   // 加载 AI 分析结果
   state.analysis = await loadJSON('data/analysis.json');
 }
@@ -1438,6 +1449,11 @@ function renderPlatformTab(platformId) {
     renderQidianWithSubTabs(platform, data, contentEl);
     return;
   }
+  // 晋江有子榜单（积分月榜 Top50 + 积分榜 Top1000）
+  if (platformId === 'jjwxc') {
+    renderJjwxcWithSubTabs(platform, data, contentEl);
+    return;
+  }
 
   const books = data.books;
   const tagStats = data.tag_stats || {};
@@ -1678,6 +1694,31 @@ async function loadHistoryData(platformId, date) {
   }
 }
 
+/**
+ * 通用月度榜单历史加载（起点收藏榜 / 晋江积分榜Top1000）
+ * @param {string} dataKey  state.data 里的键，也用作 fallback 当前数据（如 'qidian_collection'）
+ * @param {string} value    选中的月份（如 '2026-07'），空则恢复最新版
+ * @param {object} opts     { pathPrefix, targetId, renderFn }
+ *   pathPrefix: 月度存档目录（如 'data/qidian/collection_history'）
+ *   targetId:   书目列表容器 id（如 'qidian_coll'）
+ *   renderFn:   渲染函数名（'collection' | 'score'）
+ */
+async function loadMonthlyHistory(dataKey, value, opts) {
+  const listEl = document.getElementById(`bookList-${opts.targetId}`);
+  if (!listEl) return;
+  const render = (books) => opts.renderFn === 'score'
+    ? renderScoreBookList(books)
+    : renderCollectionBookList(books);
+
+  if (!value) {
+    const data = state.data[dataKey];
+    if (data?.books) listEl.innerHTML = render(data.books);
+    return;
+  }
+  const histData = await loadJSON(`${opts.pathPrefix}/${value}.json`);
+  if (histData?.books) listEl.innerHTML = render(histData.books);
+}
+
 // ========== 起点子榜单渲染 ==========
 async function renderQidianWithSubTabs(platform, data, contentEl) {
   // 尝试加载收藏榜数据
@@ -1694,6 +1735,7 @@ async function renderQidianWithSubTabs(platform, data, contentEl) {
   const collBooks = collectionData?.books || [];
   const collTagStats = collectionData?.tag_stats || {};
   const collGenderStats = collectionData?.gender_stats || {};
+  const collMonthIndex = state.history.qidian_collection?.index || [];
 
   contentEl.innerHTML = `
     <div class="platform-header">
@@ -1779,6 +1821,11 @@ async function renderQidianWithSubTabs(platform, data, contentEl) {
               <option value="">全部题材</option>
               ${Object.entries(collTagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
             </select>
+            ${collMonthIndex.length >= 1 ? `
+              <select class="filter-select" id="month-qidian_coll" onchange="loadMonthlyHistory('qidian_collection', this.value, {pathPrefix:'data/qidian/collection_history', targetId:'qidian_coll', renderFn:'collection'})">
+                ${collMonthIndex.map((m, i) => `<option value="${m}"${i === 0 ? ' selected' : ''}>${fmtMonthLabel(m)}</option>`).join('')}
+              </select>
+            ` : ''}
           </div>
 
           <div class="book-list" id="bookList-qidian_coll">
@@ -1789,12 +1836,22 @@ async function renderQidianWithSubTabs(platform, data, contentEl) {
   `;
 }
 
-function switchQidianSubTab(subTabId) {
-  document.querySelectorAll('#qidianContent .sub-tab-content').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('#qidianContent .sub-tab-btn').forEach(el => el.classList.remove('active'));
-  document.getElementById(`qidian-sub-${subTabId}`).classList.add('active');
-  document.querySelector(`#qidianContent .sub-tab-btn[data-subtab="${subTabId}"]`).classList.add('active');
+// 月份 '2026-07' → '2026年7月'
+function fmtMonthLabel(m) {
+  if (!m || !/^\d{4}-\d{2}$/.test(m)) return m || '';
+  const [y, mo] = m.split('-');
+  return `${y}年${parseInt(mo, 10)}月`;
 }
+
+// 通用子tab切换：contentId 为平台内容容器（如 'qidianContent'），prefix 为子tab id 前缀（如 'qidian'）
+function switchSubTab(contentId, prefix, subTabId) {
+  document.querySelectorAll(`#${contentId} .sub-tab-content`).forEach(el => el.classList.remove('active'));
+  document.querySelectorAll(`#${contentId} .sub-tab-btn`).forEach(el => el.classList.remove('active'));
+  document.getElementById(`${prefix}-sub-${subTabId}`).classList.add('active');
+  document.querySelector(`#${contentId} .sub-tab-btn[data-subtab="${subTabId}"]`).classList.add('active');
+}
+function switchQidianSubTab(subTabId) { switchSubTab('qidianContent', 'qidian', subTabId); }
+function switchJjwxcSubTab(subTabId) { switchSubTab('jjwxcContent', 'jjwxc', subTabId); }
 
 function renderCollectionBookList(books) {
   return books.map(b => {
@@ -1816,6 +1873,162 @@ function renderCollectionBookList(books) {
               <span class="sep">·</span><span>${b.status || '完结'}</span>
               ${b.word_count ? `<span class="sep">·</span><span>${b.word_count}</span>` : ''}
               ${b.collections ? `<span class="sep">·</span><span style="color:#ffd700;">收藏 ${b.collections}</span>` : ''}
+            </div>
+            ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
+          </div>
+          ${b.abstract && b.abstract !== '暂无简介' ? `<div class="book-abstract">${b.abstract}</div>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ========== 晋江子榜单渲染（积分月榜 Top50 + 积分榜 Top1000）==========
+async function renderJjwxcWithSubTabs(platform, data, contentEl) {
+  // 加载积分榜 Top1000
+  const scoreData = await loadJSON('data/jjwxc/score1000.json');
+  state.data.jjwxc_score = scoreData;
+
+  // 月榜 Top50 数据
+  const books = data.books;
+  const tagStats = data.tag_stats || {};
+  const genderStats = data.gender_stats || {};
+  const historyIndex = state.history['jjwxc']?.index || [];
+  const coverageDays = historyIndex.length || 0;
+
+  // 积分榜 Top1000 数据
+  const sBooks = scoreData?.books || [];
+  const sTagStats = scoreData?.tag_stats || {};
+  const sGenderStats = scoreData?.gender_stats || {};
+  const sMonthIndex = state.history.jjwxc_score?.index || [];
+
+  contentEl.innerHTML = `
+    <div class="platform-header">
+      <div>
+        <div class="platform-title">${platform.icon} ${platform.name}</div>
+        <div class="platform-meta">更新时间: ${data.update_time || '未知'}</div>
+      </div>
+    </div>
+
+    <!-- 子榜单切换 -->
+    <div class="sub-tab-nav">
+      <button class="sub-tab-btn active" data-subtab="monthrank" onclick="switchJjwxcSubTab('monthrank')">🔥 积分月榜 Top50</button>
+      <button class="sub-tab-btn" data-subtab="score1000" onclick="switchJjwxcSubTab('score1000')">⭐ 积分榜 Top1000</button>
+    </div>
+
+    <!-- 积分月榜 Top50 内容 -->
+    <div class="sub-tab-content active" id="jjwxc-sub-monthrank">
+      <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${data.source_url}" target="_blank" style="color:${platform.color};">${data.source}</a>${coverageDays > 0 ? ` · <span style="color:#ffa94d;">📅 已统计 ${coverageDays} 天数据</span>` : ''}</div>
+
+      <div class="tag-stats-bar">
+        ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([tag, count]) => `
+          <span class="tag-stat-item">
+            <span class="tag-name">${tag}</span>
+            <span class="tag-count">${count}</span>
+          </span>
+        `).join('')}
+      </div>
+
+      <div class="filter-bar">
+        <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-jjwxc" oninput="filterBooks('jjwxc')">
+        <button class="filter-btn" id="newonly-jjwxc" onclick="toggleNewOnly('jjwxc')">🆕 新上榜</button>
+        <button class="filter-btn" id="sortdays-jjwxc" onclick="toggleSort('jjwxc','days')" title="按累计上榜天数排序">📅 上榜天数</button>
+        <button class="filter-btn" id="sortchange-jjwxc" onclick="toggleSort('jjwxc','change')" title="按昨日涨跌幅排序">📈 昨日涨幅</button>
+        <select class="filter-select" id="gender-jjwxc" onchange="filterBooks('jjwxc')">
+          <option value="">全部频道</option>
+          ${Object.keys(genderStats).map(g => `<option value="${g}">${g} (${genderStats[g]})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="tag-jjwxc" onchange="filterBooks('jjwxc')">
+          <option value="">全部题材</option>
+          ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="status-jjwxc" onchange="filterBooks('jjwxc')">
+          <option value="">全部状态</option>
+          <option value="连载中">连载中</option>
+          <option value="完结">完结</option>
+        </select>
+        ${historyIndex.length >= 1 ? `
+          <select class="filter-select" id="history-jjwxc" onchange="loadHistoryData('jjwxc', this.value)">
+            <option value="">当前数据</option>
+            ${historyIndex.map(d => `<option value="${d}">${d}</option>`).join('')}
+          </select>
+        ` : ''}
+      </div>
+
+      <div class="book-list" id="bookList-jjwxc">
+        ${renderBookList(books, 'jjwxc')}
+      </div>
+    </div>
+
+    <!-- 积分榜 Top1000 内容 -->
+    <div class="sub-tab-content" id="jjwxc-sub-score1000">
+      ${sBooks.length === 0
+        ? '<div class="empty-state">积分榜Top1000数据尚未抓取，请先运行 <code>node scrapers/jjwxc-score.js</code></div>'
+        : `
+          <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${scoreData.source_url}" target="_blank" style="color:${platform.color};">${scoreData.source}</a> · 更新时间: ${scoreData.update_time || '未知'} · 共 ${sBooks.length} 本 · 按作品总积分排序</div>
+
+          <div class="tag-stats-bar">
+            ${Object.entries(sTagStats).sort((a,b) => b[1] - a[1]).slice(0, 15).map(([tag, count]) => `
+              <span class="tag-stat-item">
+                <span class="tag-name">${tag}</span>
+                <span class="tag-count">${count}</span>
+              </span>
+            `).join('')}
+          </div>
+
+          <div class="filter-bar">
+            <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-jjwxc_score" oninput="filterBooks('jjwxc_score')">
+            <select class="filter-select" id="gender-jjwxc_score" onchange="filterBooks('jjwxc_score')">
+              <option value="">全部频道</option>
+              ${Object.keys(sGenderStats).map(g => `<option value="${g}">${g} (${sGenderStats[g]})</option>`).join('')}
+            </select>
+            <select class="filter-select" id="tag-jjwxc_score" onchange="filterBooks('jjwxc_score')">
+              <option value="">全部题材</option>
+              ${Object.entries(sTagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+            </select>
+            <select class="filter-select" id="status-jjwxc_score" onchange="filterBooks('jjwxc_score')">
+              <option value="">全部状态</option>
+              <option value="连载中">连载中</option>
+              <option value="完结">完结</option>
+            </select>
+            ${sMonthIndex.length >= 1 ? `
+              <select class="filter-select" id="month-jjwxc_score" onchange="loadMonthlyHistory('jjwxc_score', this.value, {pathPrefix:'data/jjwxc/score1000_history', targetId:'jjwxc_score', renderFn:'score'})">
+                ${sMonthIndex.map((m, i) => `<option value="${m}"${i === 0 ? ' selected' : ''}>${fmtMonthLabel(m)}</option>`).join('')}
+              </select>
+            ` : ''}
+          </div>
+
+          <div class="book-list" id="bookList-jjwxc_score">
+            ${renderScoreBookList(sBooks)}
+          </div>
+        `}
+    </div>
+  `;
+}
+
+// 晋江积分榜 Top1000 列表渲染（展示积分 + 首发时间）
+function renderScoreBookList(books) {
+  return books.map(b => {
+    const rankClass = b.rank <= 3 ? `r${b.rank}` : 'rn';
+    const tagsHtml = (b.all_tags || []).map((t, i) =>
+      `<span class="book-tag ${i === 0 ? 'primary' : ''}">${t}</span>`
+    ).join('');
+    const channelLabel = b.channel || '';
+    const scoreLabel = b.score_display || (b.score != null ? String(b.score) : '');
+    const firstPub = (b.publish_time || '').slice(0, 10);
+
+    return `
+      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}">
+        <span class="book-rank ${rankClass}">${b.rank}</span>
+        <div class="book-info">
+          <div class="book-left">
+            <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
+            <div class="book-meta">
+              <span>${b.author}</span>
+              ${channelLabel ? `<span class="sep">·</span><span>${channelLabel}</span>` : ''}
+              <span class="sep">·</span><span>${b.status || '未知'}</span>
+              ${firstPub ? `<span class="sep">·</span><span>首发 ${firstPub}</span>` : ''}
+              ${scoreLabel ? `<span class="sep">·</span><span style="color:#ffd700;">积分 ${scoreLabel}</span>` : ''}
             </div>
             ${tagsHtml ? `<div class="book-tags">${tagsHtml}</div>` : ''}
           </div>

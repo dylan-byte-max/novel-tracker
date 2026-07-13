@@ -5,7 +5,11 @@
  * 爬取前 1000 本（50 页 × 20 本/页）
  * 字段：排名、书名、作者、总收藏数、字数、完结状态、简介、标签、封面、链接
  * 
- * 输出：data/qidian/collection.json（一次性榜单，不做每日 history）
+ * 输出：
+ *   data/qidian/collection.json                    —— 最新版（前端默认加载）
+ *   data/qidian/collection_history/YYYY-MM.json     —— 月度存档
+ *   data/qidian/collection_index.json               —— 月份索引 ["2026-08","2026-07",...]
+ * 每月 1 号更新一次，历史按月份保留可回溯查询。
  */
 
 const { chromium } = require('playwright');
@@ -29,6 +33,9 @@ function getNowBJT() {
 }
 function fmtDate(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function fmtMonth(d) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
 }
 function fmtDateTime(d) {
   return `${fmtDate(d)} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}:${String(d.getSeconds()).padStart(2,'0')}`;
@@ -258,9 +265,11 @@ async function main() {
     const genderStats = {};
     for (const b of books) { genderStats[b.gender] = (genderStats[b.gender] || 0) + 1; }
 
+    const month = fmtMonth(now);
     const result = {
       update_time: fmtDateTime(now),
       update_date: fmtDate(now),
+      update_month: month,
       total_count: books.length,
       source: '起点中文网·完本收藏榜',
       source_url: BASE_URL,
@@ -272,14 +281,30 @@ async function main() {
       books,
     };
 
+    // 1) 最新版（前端默认加载，兼容旧逻辑）
     const outputPath = path.join(DATA_DIR, 'collection.json');
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf-8');
+
+    // 2) 月度存档
+    const histDir = path.join(DATA_DIR, 'collection_history');
+    ensureDir(histDir);
+    const histPath = path.join(histDir, `${month}.json`);
+    fs.writeFileSync(histPath, JSON.stringify(result, null, 2), 'utf-8');
+
+    // 3) 月份索引（倒序，最新在前）
+    const idxPath = path.join(DATA_DIR, 'collection_index.json');
+    let idx = [];
+    if (fs.existsSync(idxPath)) { try { idx = JSON.parse(fs.readFileSync(idxPath, 'utf-8')); } catch(e){} }
+    if (!idx.includes(month)) idx.unshift(month);
+    idx.sort((a, b) => b.localeCompare(a));
+    fs.writeFileSync(idxPath, JSON.stringify(idx, null, 2), 'utf-8');
 
     console.log(`\n${'='.repeat(60)}`);
     console.log(`🎉 完成！共 ${books.length} 本`);
     console.log(`   性别分布: ${JSON.stringify(genderStats)}`);
     console.log(`   主标签分布: ${JSON.stringify(tagStats)}`);
-    console.log(`   数据: ${outputPath}`);
+    console.log(`   最新版: ${outputPath}`);
+    console.log(`   月度存档: ${histPath}`);
 
   } catch(e) {
     await browser.close();
