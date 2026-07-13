@@ -1568,6 +1568,7 @@ function filterBooks(platformId) {
   const gender = document.getElementById(`gender-${platformId}`)?.value || '';
   const tag = document.getElementById(`tag-${platformId}`)?.value || '';
   const status = document.getElementById(`status-${platformId}`)?.value || '';
+  const year = document.getElementById(`year-${platformId}`)?.value || '';
   const newOnlyBtn = document.getElementById(`newonly-${platformId}`);
   const newOnly = newOnlyBtn?.classList.contains('active') || false;
 
@@ -1580,12 +1581,14 @@ function filterBooks(platformId) {
     const elTag = el.dataset.tag || '';
     const elStatus = el.dataset.status || '';
     const elChange = el.dataset.change || '';
+    const elYear = el.dataset.year || '';
 
     let show = true;
     if (search && !name.includes(search) && !author.includes(search)) show = false;
     if (gender && elGender !== gender) show = false;
     if (tag && elTag !== tag) show = false;
     if (status && elStatus !== status) show = false;
+    if (year && elYear !== year) show = false;
     if (newOnly && elChange !== 'new') show = false;
 
     el.style.display = show ? '' : 'none';
@@ -1901,6 +1904,10 @@ async function renderJjwxcWithSubTabs(platform, data, contentEl) {
   const sTagStats = scoreData?.tag_stats || {};
   const sGenderStats = scoreData?.gender_stats || {};
   const sMonthIndex = state.history.jjwxc_score?.index || [];
+  // 首发年份分布（降序），用于年份筛选下拉
+  const sYearStats = {};
+  sBooks.forEach(b => { const y = (b.publish_time || '').slice(0, 4); if (/^\d{4}$/.test(y)) sYearStats[y] = (sYearStats[y] || 0) + 1; });
+  const sYears = Object.keys(sYearStats).sort((a, b) => b.localeCompare(a));
 
   contentEl.innerHTML = `
     <div class="platform-header">
@@ -1991,6 +1998,12 @@ async function renderJjwxcWithSubTabs(platform, data, contentEl) {
               <option value="连载中">连载中</option>
               <option value="完结">完结</option>
             </select>
+            ${sYears.length >= 1 ? `
+              <select class="filter-select" id="year-jjwxc_score" onchange="filterBooks('jjwxc_score')">
+                <option value="">全部首发年份</option>
+                ${sYears.map(y => `<option value="${y}">${y}年 (${sYearStats[y]})</option>`).join('')}
+              </select>
+            ` : ''}
             ${sMonthIndex.length >= 1 ? `
               <select class="filter-select" id="month-jjwxc_score" onchange="loadMonthlyHistory('jjwxc_score', this.value, {pathPrefix:'data/jjwxc/score1000_history', targetId:'jjwxc_score', renderFn:'score'})">
                 ${sMonthIndex.map((m, i) => `<option value="${m}"${i === 0 ? ' selected' : ''}>${fmtMonthLabel(m)}</option>`).join('')}
@@ -2016,9 +2029,10 @@ function renderScoreBookList(books) {
     const channelLabel = b.channel || '';
     const scoreLabel = b.score_display || (b.score != null ? String(b.score) : '');
     const firstPub = (b.publish_time || '').slice(0, 10);
+    const pubYear = (b.publish_time || '').slice(0, 4);
 
     return `
-      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}">
+      <div class="book-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.channel || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}" data-year="${pubYear}">
         <span class="book-rank ${rankClass}">${b.rank}</span>
         <div class="book-info">
           <div class="book-left">
