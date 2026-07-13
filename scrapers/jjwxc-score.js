@@ -133,6 +133,21 @@ function parsePage(html) {
     bookName = bookName.replace(/&nbsp;/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#\d+;/g,'').trim();
     const bookUrl = bookId ? `https://www.jjwxc.net/onebook.php?novelid=${bookId}` : '';
 
+    // 从作品链接的 title 属性提取【轻量简介 + 精细标签】—— 列表页自带，零额外请求
+    // title 格式: "简介：为你，所向披靡！&#10;标签：灵异神怪 情有独钟 仙侠修真 励志 轻松"
+    let tooltipIntro = '', fineTags = [];
+    const titleAttr = cells[1]?.match(/<a[^>]*onebook\.php[^>]*title="([^"]*)"/);
+    if (titleAttr) {
+      const raw = titleAttr[1]
+        .replace(/&#10;/g, '\n').replace(/&#13;/g, '')
+        .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+      const introM = raw.match(/简介[：:]\s*([\s\S]*?)(?:\n|标签[：:]|$)/);
+      if (introM) tooltipIntro = introM[1].trim();
+      const tagM = raw.match(/标签[：:]\s*([^\n]*)/);
+      if (tagM) fineTags = tagM[1].trim().split(/\s+/).filter(t => t && t.length < 12);
+    }
+
     // 列2: 类型 (原创-纯爱-架空历史-爱情-主受)
     const attrText = cells[2]?.replace(/<[^>]*>/g,'').replace(/&nbsp;/g,'').trim() || '';
     const attrParts = attrText.split('-').map(s => s.trim()).filter(Boolean);
@@ -162,8 +177,10 @@ function parsePage(html) {
 
     const contentTags = [genre, era, theme].filter(Boolean);
     const primaryTag = genre || era || theme || '未分类';
-    const secondaryTags = contentTags.filter(t => t !== primaryTag);
-    const allTags = [nature, ...contentTags].filter(Boolean);
+    // 精细标签并入次级标签（去重，排除已有分类词）
+    const mergedFine = fineTags.filter(t => !contentTags.includes(t) && t !== nature);
+    const secondaryTags = [...contentTags.filter(t => t !== primaryTag), ...mergedFine];
+    const allTags = [nature, ...contentTags, ...mergedFine].filter(Boolean);
 
     let channel = genre || '未知';
 
@@ -182,7 +199,7 @@ function parsePage(html) {
         all_tags: allTags,
         score,
         score_display: formatScore(score),
-        abstract: '',
+        abstract: tooltipIntro || '',
         status,
         word_count: wordCount > 0 ? formatWordCount(wordCount) : '',
         publish_time: publishTime,   // 首发时间
