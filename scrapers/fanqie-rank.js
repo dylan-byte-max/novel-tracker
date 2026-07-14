@@ -35,6 +35,48 @@ const HEADERS = {
 const PEAK_API = 'https://fanqienovel.com/api/author/misc/top_book_list/v1/';
 const REQUEST_DELAY = 500;
 
+// ========== 男女频判定 ==========
+// 番茄接口只给单一 category（无性别字段），用分类映射表判定男女频。
+// 优先级：GENDER_OVERRIDE(按 book_id 人工修正) > CATEGORY_GENDER(精确分类映射) > 关键词兜底
+
+// 1) 精确分类 → 频道映射（番茄官方分类，中性分类不列入，交给关键词兜底或 override）
+const CATEGORY_GENDER = {
+  // ===== 男频 =====
+  '都市高武': '男频', '玄幻脑洞': '男频', '传统玄幻': '男频', '东方仙侠': '男频',
+  '悬疑脑洞': '男频', '悬疑灵异': '男频', '历史古代': '男频', '西方奇幻': '男频',
+  '都市异能': '男频', '科幻脑洞': '男频', '末世危机': '男频', '铁血战争': '男频',
+  '游戏竞技': '男频', '体育竞技': '男频', '都市生活': '男频', '娱乐明星': '男频',
+  '武侠江湖': '男频', '现实百态': '男频', '玄幻': '男频', '仙侠': '男频',
+  '奇幻': '男频', '历史': '男频', '军事': '男频', '科幻': '男频', '悬疑': '男频',
+  // ===== 女频 =====
+  '现言脑洞': '女频', '青春甜宠': '女频', '玄幻言情': '女频', '豪门总裁': '女频',
+  '星光璀璨': '女频', '古代言情': '女频', '现代言情': '女频', '古言脑洞': '女频', '幻想言情': '女频',
+  '甜宠': '女频', '宫斗宅斗': '女频', '婚恋豪门': '女频', '青春校园': '女频',
+  '仙侠情缘': '女频', '穿越奇情': '女频', '女性成长': '女频', '古装言情': '女频',
+  '言情': '女频',
+};
+
+// 2) book_id 人工修正表（分类中性或分类无法判定的个案，此处最高优先级）
+//    key = book_id, value = '男频' | '女频'
+const GENDER_OVERRIDE = {
+  '7361653460183288894': '女频', // 游戏入侵：抢男女主机缘会上瘾诶（category=游戏体育，实为女频言情向）
+  '7448581895861849112': '女频', // 公路求生榜一说她要走到公路尽头（category=游戏体育，女强/无CP女主向）
+};
+
+// 女频关键词兜底（映射表未覆盖的新分类时用）
+const FEMALE_KWS = ['言情', '古言', '现言', '甜宠', '宫斗', '宅斗', '豪门', '总裁', '青春', '世情', '快穿', '穿书', '穿越', '重生', '虐恋', '婚恋', '校园', '女频'];
+
+function judgeGender(category, bookId) {
+  // 1) 人工修正表最高优先
+  if (GENDER_OVERRIDE[bookId]) return GENDER_OVERRIDE[bookId];
+  // 2) 精确分类映射
+  if (CATEGORY_GENDER[category]) return CATEGORY_GENDER[category];
+  // 3) 关键词兜底
+  if (category && FEMALE_KWS.some(k => category.includes(k))) return '女频';
+  if (category) return '男频';
+  return '未知';
+}
+
 // ========== 工具函数 ==========
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function ensureDir(dir) { if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true }); }
@@ -163,11 +205,8 @@ async function main() {
     const primaryTag = category || (allTags[0] || '未分类');
     const secondaryTags = allTags.filter(t => t !== primaryTag);
 
-    // 性别频道（用主分类粗判，与最热榜保持一致的女频关键词）
-    const femaleKws = ['言情', '古言', '现言', '甜宠', '宫斗', '宅斗', '豪门', '总裁', '民国言情', '青春', '女频', '世情', '快穿'];
-    let gender = '未知';
-    if (femaleKws.some(k => category.includes(k))) gender = '女频';
-    else if (category) gender = '男频';
+    // 性别频道（分类映射表 + book_id 人工修正，见顶部 judgeGender）
+    const gender = judgeGender(category, bookId);
 
     books.push({
       rank,
