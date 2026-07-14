@@ -735,6 +735,7 @@
       font-weight: 600;
     }
     #jjwxcContent .sub-tab-btn.active { background: var(--accent-jjwxc); }
+    #fanqieContent .sub-tab-btn.active { background: var(--accent-fanqie); }
     .sub-tab-content { display: none; }
     .sub-tab-content.active { display: block; }
 
@@ -977,6 +978,10 @@ async function loadAllData() {
     const si = await loadJSON('data/jjwxc/score1000_index.json');
     state.history.jjwxc_score = { index: si || [] };
   } catch { state.history.jjwxc_score = { index: [] }; }
+  try {
+    const pi = await loadJSON('data/fanqie/peak_index.json');
+    state.history.fanqie_peak = { index: pi || [] };
+  } catch { state.history.fanqie_peak = { index: [] }; }
 
   // 加载 AI 分析结果
   state.analysis = await loadJSON('data/analysis.json');
@@ -1471,6 +1476,11 @@ function renderPlatformTab(platformId) {
   if (state.loaded[platformId]) return;
   state.loaded[platformId] = true;
 
+  // 番茄有子榜单（最热榜 Top50 + 巅峰榜 Top30）
+  if (platformId === 'fanqie') {
+    renderFanqieWithSubTabs(platform, data, contentEl);
+    return;
+  }
   // 起点有子榜单（畅销榜 + 收藏榜）
   if (platformId === 'qidian') {
     renderQidianWithSubTabs(platform, data, contentEl);
@@ -1736,7 +1746,9 @@ async function loadHistoryData(platformId, date) {
 async function loadMonthlyHistory(dataKey, value, opts) {
   const listEl = document.getElementById(`bookList-${opts.targetId}`);
   if (!listEl) return;
-  const render = (books) => opts.renderFn === 'score'
+  const render = (books) => opts.renderFn === 'peak'
+    ? renderPeakBookList(books)
+    : opts.renderFn === 'score'
     ? renderScoreBookList(books)
     : renderCollectionBookList(books);
 
@@ -1882,6 +1894,157 @@ function switchSubTab(contentId, prefix, subTabId) {
 }
 function switchQidianSubTab(subTabId) { switchSubTab('qidianContent', 'qidian', subTabId); }
 function switchJjwxcSubTab(subTabId) { switchSubTab('jjwxcContent', 'jjwxc', subTabId); }
+function switchFanqieSubTab(subTabId) { switchSubTab('fanqieContent', 'fanqie', subTabId); }
+
+// ========== 番茄子榜单渲染（最热榜 Top50 + 巅峰榜 Top30）==========
+async function renderFanqieWithSubTabs(platform, data, contentEl) {
+  const peakData = await loadJSON('data/fanqie/peak.json');
+  state.data.fanqie_peak = peakData;
+
+  const books = data.books;
+  const tagStats = data.tag_stats || {};
+  const genderStats = data.gender_stats || {};
+  const historyIndex = state.history['fanqie']?.index || [];
+  const coverageDays = historyIndex.length || 0;
+
+  const peakBooks = peakData?.books || [];
+  const peakTagStats = peakData?.tag_stats || {};
+  const peakGenderStats = peakData?.gender_stats || {};
+  const peakMonthIndex = state.history.fanqie_peak?.index || [];
+
+  contentEl.innerHTML = `
+    <div class="platform-header">
+      <div>
+        <div class="platform-title">${platform.icon} ${platform.name}</div>
+        <div class="platform-meta">更新时间: ${data.update_time || '未知'}</div>
+      </div>
+    </div>
+
+    <div class="sub-tab-nav">
+      <button class="sub-tab-btn active" data-subtab="hot" onclick="switchFanqieSubTab('hot')">🔥 最热榜 Top50</button>
+      <button class="sub-tab-btn" data-subtab="peak" onclick="switchFanqieSubTab('peak')">👑 巅峰榜 Top30</button>
+    </div>
+
+    <div class="sub-tab-content active" id="fanqie-sub-hot">
+      <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${data.source_url}" target="_blank" style="color:${platform.color};">${data.source}</a>${coverageDays > 0 ? ` · <span style="color:#ffa94d;">📅 已统计 ${coverageDays} 天数据</span>` : ''}</div>
+
+      <div class="tag-stats-bar">
+        ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([tag, count]) => `
+          <span class="tag-stat-item">
+            <span class="tag-name">${tag}</span>
+            <span class="tag-count">${count}</span>
+          </span>
+        `).join('')}
+      </div>
+
+      <div class="filter-bar">
+        <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-fanqie" oninput="filterBooks('fanqie')">
+        <button class="filter-btn" id="newonly-fanqie" onclick="toggleNewOnly('fanqie')">🆕 新上榜</button>
+        <button class="filter-btn" id="sortdays-fanqie" onclick="toggleSort('fanqie','days')" title="按累计上榜天数排序">📅 上榜天数</button>
+        <button class="filter-btn" id="sortchange-fanqie" onclick="toggleSort('fanqie','change')" title="按昨日涨跌幅排序">📈 昨日涨幅</button>
+        <select class="filter-select" id="gender-fanqie" onchange="filterBooks('fanqie')">
+          <option value="">全部频道</option>
+          ${Object.keys(genderStats).map(g => `<option value="${g}">${g} (${genderStats[g]})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="tag-fanqie" onchange="filterBooks('fanqie')">
+          <option value="">全部题材</option>
+          ${Object.entries(tagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+        </select>
+        <select class="filter-select" id="status-fanqie" onchange="filterBooks('fanqie')">
+          <option value="">全部状态</option>
+          <option value="连载中">连载中</option>
+          <option value="完结">完结</option>
+        </select>
+        ${historyIndex.length >= 1 ? `
+          <select class="filter-select" id="history-fanqie" onchange="loadHistoryData('fanqie', this.value)">
+            <option value="">当前数据</option>
+            ${historyIndex.map(d => `<option value="${d}">${d}</option>`).join('')}
+          </select>
+        ` : ''}
+      </div>
+
+      <div class="book-list" id="bookList-fanqie">
+        ${renderBookList(books, 'fanqie')}
+      </div>
+    </div>
+
+    <div class="sub-tab-content" id="fanqie-sub-peak">
+      ${peakBooks.length === 0
+        ? '<div class="empty-state">巅峰榜数据尚未抓取，请先运行 <code>node scrapers/fanqie-rank.js</code></div>'
+        : `
+          <div class="platform-meta" style="margin-bottom:12px;">来源: <a href="${peakData.source_url}" target="_blank" style="color:${platform.color};">${peakData.source}</a> · 根据作品好评、人气、互动等综合得分排行 · 每月更新 · 共 ${peakBooks.length} 本</div>
+
+          <div class="tag-stats-bar">
+            ${Object.entries(peakTagStats).sort((a,b) => b[1] - a[1]).map(([tag, count]) => `
+              <span class="tag-stat-item">
+                <span class="tag-name">${tag}</span>
+                <span class="tag-count">${count}</span>
+              </span>
+            `).join('')}
+          </div>
+
+          <div class="filter-bar">
+            <input class="search-input" type="text" placeholder="搜索书名或作者..." id="search-fanqie_peak" oninput="filterBooks('fanqie_peak')">
+            <select class="filter-select" id="gender-fanqie_peak" onchange="filterBooks('fanqie_peak')">
+              <option value="">全部频道</option>
+              ${Object.keys(peakGenderStats).map(g => `<option value="${g}">${g} (${peakGenderStats[g]})</option>`).join('')}
+            </select>
+            <select class="filter-select" id="tag-fanqie_peak" onchange="filterBooks('fanqie_peak')">
+              <option value="">全部题材</option>
+              ${Object.entries(peakTagStats).sort((a,b) => b[1] - a[1]).map(([t, c]) => `<option value="${t}">${t} (${c})</option>`).join('')}
+            </select>
+            <select class="filter-select" id="status-fanqie_peak" onchange="filterBooks('fanqie_peak')">
+              <option value="">全部状态</option>
+              <option value="连载中">连载中</option>
+              <option value="完结">完结</option>
+            </select>
+            ${peakMonthIndex.length >= 1 ? `
+              <select class="filter-select" id="month-fanqie_peak" onchange="loadMonthlyHistory('fanqie_peak', this.value, {pathPrefix:'data/fanqie/peak_history', targetId:'fanqie_peak', renderFn:'peak'})">
+                ${peakMonthIndex.map((m, i) => `<option value="${m}"${i === 0 ? ' selected' : ''}>${fmtMonthLabel(m)}</option>`).join('')}
+              </select>
+            ` : ''}
+          </div>
+
+          <div class="book-list" id="bookList-fanqie_peak">
+            ${renderPeakBookList(peakBooks)}
+          </div>
+        `}
+    </div>
+  `;
+}
+
+// 巅峰榜 Top30 卡片（横向单行：排名 | 书名+作者 | 标签 | 简介 | 月度涨跌）
+function renderPeakBookList(books) {
+  return books.map(b => {
+    const rankClass = b.rank <= 3 ? `r${b.rank}` : 'rn';
+    const tagsHtml = (b.all_tags || []).map((t, i) =>
+      `<span class="book-tag ${i === 0 ? 'primary' : ''}">${t}</span>`
+    ).join('');
+    const absText = (b.abstract && b.abstract !== '暂无简介') ? b.abstract : '';
+    let changeHtml = '<span class="score-val" style="opacity:.35">—</span>';
+    if (b.rank_change === 'new') changeHtml = '<span class="score-val" style="color:#40c057;">NEW</span>';
+    else if (typeof b.rank_change === 'number' && b.rank_change > 0) changeHtml = `<span class="score-val" style="color:#ff6b6b;">↑${b.rank_change}</span>`;
+    else if (typeof b.rank_change === 'number' && b.rank_change < 0) changeHtml = `<span class="score-val" style="color:#51cf66;">↓${Math.abs(b.rank_change)}</span>`;
+    else if (b.rank_change === 0) changeHtml = '<span class="score-val" style="opacity:.6;">—</span>';
+
+    return `
+      <div class="book-item score-item" data-name="${(b.book_name||'').toLowerCase()}" data-author="${(b.author||'').toLowerCase()}" data-gender="${b.gender || ''}" data-tag="${b.primary_tag || ''}" data-status="${b.status || ''}">
+        <span class="book-rank ${rankClass}">${b.rank}</span>
+        <div class="score-name">
+          <div class="book-name"><a href="${b.book_url}" target="_blank">${b.book_name}</a></div>
+          <div class="book-meta">
+            <span>${b.author}</span>
+            ${b.gender && b.gender !== '未知' ? `<span class="sep">·</span><span>${b.gender}</span>` : ''}
+            <span class="sep">·</span><span>${b.status || '未知'}</span>
+          </div>
+        </div>
+        <div class="score-tags">${tagsHtml}</div>
+        <div class="score-abs" title="${(absText||'').replace(/"/g,'&quot;')}">${absText || '<span style="opacity:.35">——</span>'}</div>
+        <div class="score-num">${changeHtml}<span class="score-lbl">较上月</span></div>
+      </div>
+    `;
+  }).join('');
+}
 
 function renderCollectionBookList(books) {
   return books.map(b => {
