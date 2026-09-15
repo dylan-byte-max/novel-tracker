@@ -22,6 +22,10 @@ const DATA_DIR = path.join(__dirname, '..', 'data', 'qidian');
 const TARGET_COUNT = 1000;
 const PAGES_TO_SCRAPE = 50;
 const BASE_URL = 'https://www.qidian.com/finish/orderId11-/';
+// 完整性门槛：抓到的数量低于此值时，视为被反爬截断，不覆盖已有数据
+const MIN_ACCEPTABLE = 900;
+// 每翻 N 页做一次长休息，降低被起点限流的概率
+const LONG_REST_EVERY = 10;
 
 // ========== 工具函数 ==========
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -83,26 +87,27 @@ async function main() {
   try {
     let allBooks = [];
     let consecutiveEmpty = 0;
+    const failedPages = [];
 
     for (let pageNum = 1; pageNum <= PAGES_TO_SCRAPE && allBooks.length < TARGET_COUNT; pageNum++) {
       const url = pageNum === 1 ? BASE_URL : `${BASE_URL}page${pageNum}/`;
       process.stdout.write(`  [${pageNum}/${PAGES_TO_SCRAPE}] `);
 
       try {
-        await withRetry(
-          () => page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }),
-          { name: `收藏榜第${pageNum}页`, maxAttempts: 3, baseDelay: 5000 }
-        );
+        // 关键：把「打开页面 + 解析」整体纳入重试。
+        // 起点限流时会返回 HTTP 200 但列表为空，旧版只重试 goto，空页直接被当成「榜单到底了」。
+        const pageBooks = await withRetry(async () => {
+          await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-        // 等待内容加载
-        try {
-          await page.waitForSelector('.book-img-text li, .rank-body li, [class*="book"] li', { timeout: 10000 });
-        } catch(e) {
-          // 选择器超时，延时后继续
-        }
-        await sleep(2000);
+          // 等待内容加载
+          try {
+            await page.waitForSelector('.book-img-text li, .rank-body li, [class*="book"] li', { timeout: 10000 });
+          } catch(e) {
+            // 选择器超时，延时后继续
+          }
+          await sleep(2000);
 
-        const pageBooks = await page.evaluate(() => {
+          const books = await page.evaluate(() => {
           const items = [];
           const bookElements = document.querySelectorAll('.book-img-text ul li');
 
@@ -183,47 +188,83 @@ async function main() {
           });
 
           return items;
-        });
+          });
+
+          // 空列表 = 被反爬拦截（而非榜单结束），抛错交给 withRetry 退避重试
+          if (books.length === 0) {
+            throw new Error('列表为空，疑似被反爬限流');
+          }
+          return books;
+        }, { name: `收藏榜第${pageNum}页`, maxAttempts: 4, baseDelay: 8000 });
 
         console.log(`${pageBooks.length} 本 (累计 ${allBooks.length + pageBooks.length})`);
-
-        if (pageBooks.length === 0) {
-          consecutiveEmpty++;
-          if (consecutiveEmpty >= 3) {
-            console.log('\n  ⚠️ 连续3页空结果，停止爬取');
-            break;
-          }
-          // 保存调试信息
-          if (pageNum <= 3) {
-            const html = await page.content();
-            fs.writeFileSync(path.join(DATA_DIR, `debug_collection_page${pageNum}.html`), html, 'utf-8');
-          }
-        } else {
-          consecutiveEmpty = 0;
-          allBooks.push(...pageBooks);
-        }
+        consecutiveEmpty = 0;
+        allBooks.push(...pageBooks);
 
       } catch(e) {
         console.log(`失败: ${e.message.slice(0, 80)}`);
+        failedPages.push(pageNum);
         consecutiveEmpty++;
-        if (consecutiveEmpty >= 3) break;
+        // 重试 4 次后仍连续 3 页拿不到数据，才认定真的走不下去
+        if (consecutiveEmpty >= 3) {
+          console.log(`\n  ⚠️ 连续 ${consecutiveEmpty} 页重试后仍无数据，停止爬取`);
+          break;
+        }
       }
 
       // 礼貌延时，避免触发反爬
       if (pageNum < PAGES_TO_SCRAPE) {
-        const delay = 2000 + Math.random() * 1000;
+        const delay = 3000 + Math.random() * 2000;
         await sleep(delay);
+      }
+      // 每 LONG_REST_EVERY 页长休息一次，给反爬计数器降温
+      if (pageNum % LONG_REST_EVERY === 0 && pageNum < PAGES_TO_SCRAPE) {
+        const rest = 10000 + Math.random() * 5000;
+        console.log(`  💤 已翻 ${pageNum} 页，休息 ${Math.round(rest / 1000)}s 降温...`);
+        await sleep(rest);
       }
     }
 
-    await browser.close();
+    // 注意：不要在写盘前 await browser.close()。
+    // Playwright 的 close() 偶发挂死（实测 Windows 本地跑到第 50 页后卡住），
+    // 一挂就把已抓到的 1000 本全丢了。这里加超时兜底，且失败不影响后续写盘。
+    try {
+      await Promise.race([
+        browser.close(),
+        sleep(15000).then(() => { throw new Error('browser.close() 超时'); }),
+      ]);
+    } catch (e) {
+      console.log(`  ⚠️ 关闭浏览器异常（忽略，继续写盘）: ${e.message.slice(0, 60)}`);
+    }
 
     allBooks = allBooks.slice(0, TARGET_COUNT);
     console.log(`\n📖 总计抓取: ${allBooks.length} 本`);
+    if (failedPages.length) {
+      console.log(`   ⚠️ 失败页码: ${failedPages.join(', ')}`);
+    }
 
     if (allBooks.length === 0) {
       console.log('⚠️ 未抓到任何数据，保留历史数据');
       process.exit(0);
+    }
+
+    // 完整性守卫：起点会在连续翻页后限流并返回空列表，
+    // 若数量明显不足（如 2026-09 只抓到 520 本），不能覆盖已有的完整数据。
+    if (allBooks.length < MIN_ACCEPTABLE) {
+      const month = fmtMonth(now);
+      const histPath = path.join(DATA_DIR, 'collection_history', `${month}.json`);
+      let existing = 0;
+      if (fs.existsSync(histPath)) {
+        try { existing = (JSON.parse(fs.readFileSync(histPath, 'utf-8')).books || []).length; } catch(e) {}
+      }
+      console.log(`\n${'='.repeat(60)}`);
+      console.log(`⚠️ 数据不完整：只抓到 ${allBooks.length} 本（门槛 ${MIN_ACCEPTABLE}），疑似被反爬截断。`);
+      console.log(`   本月已存档 ${existing} 本。`);
+      if (allBooks.length <= existing) {
+        console.log(`   → 不覆盖已有数据，退出。请稍后手动重跑 workflow_dispatch。`);
+        process.exit(0);
+      }
+      console.log(`   → 本次比已存档更多，仍写入（部分数据优于更少的数据），但请手动重跑补全。`);
     }
 
     // 构建最终数据
@@ -307,12 +348,15 @@ async function main() {
     console.log(`   月度存档: ${histPath}`);
 
   } catch(e) {
-    await browser.close();
+    try { await Promise.race([browser.close(), sleep(10000)]); } catch(_) {}
     throw e;
   }
 }
 
-main().catch(e => {
+main().then(() => {
+  // 浏览器进程可能没彻底回收，显式退出避免 CI 里挂住
+  process.exit(0);
+}).catch(e => {
   console.error('致命错误:', e);
   process.exit(1);
 });
