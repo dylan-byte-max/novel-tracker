@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-11 13:30:08",
-  "update_date": "2026-10-11",
+  "update_time": "2026-10-12 13:40:29",
+  "update_date": "2026-10-12",
   "total_count": 50,
   "source": "番茄小说书库·最热榜",
   "source_url": "https://fanqienovel.com/library?enter_from=menu",
@@ -10,11 +10,11 @@
     "传统玄幻": 4,
     "悬疑脑洞": 8,
     "玄幻脑洞": 4,
-    "都市高武": 13,
+    "都市高武": 12,
     "游戏体育": 1,
-    "都市脑洞": 7,
-    "科幻末世": 1,
+    "都市脑洞": 8,
     "都市日常": 7,
+    "科幻末世": 1,
     "悬疑灵异": 1,
     "都市修真": 1,
     "历史古代": 1,
@@ -22,8 +22,8 @@
     "东方仙侠": 1
   },
   "gender_stats": {
-    "男频": 43,
-    "女频": 7
+    "男频": 44,
+    "女频": 6
   },
   "books": [
     {
@@ -46,10 +46,10 @@
       ],
       "abstract": "世间生灵，体生异骨，可铭刻承载诸多灵妙之法，执掌伟力，化火引风，叱雷吒电，吞日摘星，镇魔囚神。此为，...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783286&x-signature=GU%2B1wdnFyBFjc43oyWVwJrjvgQk%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870309&x-signature=PGWXYjrFvJjujXrEVtoT9v%2B8ago%3D",
       "book_url": "https://fanqienovel.com/page/7665193065501445145",
       "rank_change": 0,
-      "history_days": 76
+      "history_days": 77
     },
     {
       "rank": 2,
@@ -73,40 +73,13 @@
       ],
       "abstract": "【评分刚出后面会涨，无限流+微惊悚+原创副本+无女主】一栋屹立在永夜中的大楼，一群被困于楼中的玩家。...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o135c18d299e3ccd6a99b2d0ab54f036c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783287&x-signature=bBDaOr5ulNElrge30EbjJ%2BNi2qc%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o135c18d299e3ccd6a99b2d0ab54f036c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870310&x-signature=Q%2F%2B4FdcnebaVmxFgrQegGKFID34%3D",
       "book_url": "https://fanqienovel.com/page/7617740782291651646",
       "rank_change": 0,
-      "history_days": 14
+      "history_days": 15
     },
     {
       "rank": 3,
-      "book_id": "7143038691944959011",
-      "book_name": "十日终焉",
-      "author": "杀虫队队员",
-      "gender": "男频",
-      "primary_tag": "悬疑脑洞",
-      "secondary_tags": [
-        "推理",
-        "无限流",
-        "求生",
-        "末日求生"
-      ],
-      "all_tags": [
-        "悬疑脑洞",
-        "推理",
-        "无限流",
-        "求生",
-        "末日求生"
-      ],
-      "abstract": "24年番茄年度巅峰榜TOP1 | 2024 年度“中国网络文学影响力榜” | 2024 年度“中国好...",
-      "status": "完结",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/4900f950c7af7f82fdc14cf528e0e288~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783289&x-signature=0lhN3eKhNa%2FXonOPnwUruyfR920%3D",
-      "book_url": "https://fanqienovel.com/page/7143038691944959011",
-      "rank_change": 0,
-      "history_days": 169
-    },
-    {
-      "rank": 4,
       "book_id": "7679083199242193982",
       "book_name": "封神：开局反出西岐，我死守渑池",
       "author": "一千元",
@@ -127,10 +100,37 @@
       ],
       "abstract": "【封神+反西岐+杀伐果断+系统+截教】沈威穿越封神世界，机缘巧合拜姜子牙为师，从西岐一介无名小卒，一...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oc3ee788f765468a73ddcb57ee6038d51~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783291&x-signature=S68y4QZXXYKHEX3nT7KvQLQGkCo%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oc3ee788f765468a73ddcb57ee6038d51~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870311&x-signature=jQCDfgbLSxixi3M%2BtLCz111c5L8%3D",
       "book_url": "https://fanqienovel.com/page/7679083199242193982",
       "rank_change": 1,
-      "history_days": 20
+      "history_days": 21
+    },
+    {
+      "rank": 4,
+      "book_id": "7143038691944959011",
+      "book_name": "十日终焉",
+      "author": "杀虫队队员",
+      "gender": "男频",
+      "primary_tag": "悬疑脑洞",
+      "secondary_tags": [
+        "推理",
+        "无限流",
+        "求生",
+        "末日求生"
+      ],
+      "all_tags": [
+        "悬疑脑洞",
+        "推理",
+        "无限流",
+        "求生",
+        "末日求生"
+      ],
+      "abstract": "24年番茄年度巅峰榜TOP1 | 2024 年度“中国网络文学影响力榜” | 2024 年度“中国好...",
+      "status": "完结",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/4900f950c7af7f82fdc14cf528e0e288~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870313&x-signature=P4WDo7HRHS%2FHp%2FIJb6fU0sEbmG0%3D",
+      "book_url": "https://fanqienovel.com/page/7143038691944959011",
+      "rank_change": -1,
+      "history_days": 170
     },
     {
       "rank": 5,
@@ -154,10 +154,10 @@
       ],
       "abstract": "【神域降临全球】职业打金人杨凌只是想在「神域」这款游戏里放松放松，结果却发现这里环境恶劣，无法离线。...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oe517b47077b6004f7a08345823dac7ed~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783293&x-signature=9r8FVVpCwRDHNX8U%2FHieCHooM8g%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oe517b47077b6004f7a08345823dac7ed~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870315&x-signature=gSSQFZ6hquj2YQlghM%2FkhzRGXfM%3D",
       "book_url": "https://fanqienovel.com/page/7590221243043826712",
-      "rank_change": 1,
-      "history_days": 148
+      "rank_change": 0,
+      "history_days": 149
     },
     {
       "rank": 6,
@@ -166,16 +166,21 @@
       "author": "三九音域",
       "gender": "男频",
       "primary_tag": "都市高武",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "都市",
+        "穿越"
+      ],
       "all_tags": [
-        "都市高武"
+        "都市高武",
+        "都市",
+        "穿越"
       ],
       "abstract": "《斩神》作家三九音域全新力作  | 澳门国际科幻奖最佳科幻网络文学 | 逆转时代的中式怪诞巨作赤色流...",
       "status": "完结",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o99ffbfd13492eb9953715959db26ed9b~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783295&x-signature=s7qVuPdI%2Fj4%2BYRijuTRsj%2BQjqc4%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o99ffbfd13492eb9953715959db26ed9b~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870316&x-signature=AGrRH%2FaQGbro6Kbk0WF0jZzp1uw%3D",
       "book_url": "https://fanqienovel.com/page/7276384138653862966",
-      "rank_change": -2,
-      "history_days": 169
+      "rank_change": 0,
+      "history_days": 170
     },
     {
       "rank": 7,
@@ -184,16 +189,25 @@
       "author": "巡山主神",
       "gender": "男频",
       "primary_tag": "悬疑脑洞",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "悬疑",
+        "系统",
+        "穿越",
+        "灵异"
+      ],
       "all_tags": [
-        "悬疑脑洞"
+        "悬疑脑洞",
+        "悬疑",
+        "系统",
+        "穿越",
+        "灵异"
       ],
       "abstract": "慈航大舞台，没挂你别来。陈风穿越异世界，发现这里的Boss简直阴到没边。“先去新手村发育一下。”“哈...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oa1f371e1c298df2bfd6303b02eb719f4~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783297&x-signature=DRpY23o8l%2FxRJdwJapt5fkVm5sU%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oa1f371e1c298df2bfd6303b02eb719f4~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870318&x-signature=SubQDPdHL%2BrAbX3lJ47og8jgSXA%3D",
       "book_url": "https://fanqienovel.com/page/7552067105378536473",
       "rank_change": 0,
-      "history_days": 101
+      "history_days": 102
     },
     {
       "rank": 8,
@@ -213,10 +227,10 @@
       ],
       "abstract": "【游戏入侵+无cp+升级流+独狼+游戏】（又名：游戏入侵）虞寻歌重生后第一件事就是回家给弟弟灌了瓶白...",
       "status": "完结",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o7508a4ba13021b13b06776b2c864ec06~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783298&x-signature=yErqQwAA9pTRQAxZqmdP2TI1DbQ%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o7508a4ba13021b13b06776b2c864ec06~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870320&x-signature=9yDgGjIP0k%2FervkdKRwxlWiPSR8%3D",
       "book_url": "https://fanqienovel.com/page/7361653460183288894",
-      "rank_change": 1,
-      "history_days": 169
+      "rank_change": 0,
+      "history_days": 170
     },
     {
       "rank": 9,
@@ -238,10 +252,10 @@
       ],
       "abstract": "番茄小说进站必读爆款 | 爆款动漫《斩神》原著 | 中国网络文学影响力榜IP影响力 | 2023年度...",
       "status": "完结",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/c5397e4a514736bb1c6754663dbee3db~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783300&x-signature=KN%2FMyFUSzx%2BscIBnz1SRl8LZJ1c%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/c5397e4a514736bb1c6754663dbee3db~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870321&x-signature=tAbMULYVNg1Z87UwbNprqRJUD8c%3D",
       "book_url": "https://fanqienovel.com/page/6982529841564224526",
-      "rank_change": -1,
-      "history_days": 169
+      "rank_change": 0,
+      "history_days": 170
     },
     {
       "rank": 10,
@@ -265,31 +279,65 @@
       ],
       "abstract": "【已签实体出版】【非常规上交文，聚焦主角人物成长与国家双向奔赴】好消息！有系统！坏消息！系统貌似出b...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o4d282abdaf4117792b83f7f4c851c914~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783302&x-signature=Q%2BACxxsYSjbDG3bqWPCzu%2BNwax8%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o4d282abdaf4117792b83f7f4c851c914~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870323&x-signature=Ge2doTomn74FViK44j5lKkSVO5E%3D",
       "book_url": "https://fanqienovel.com/page/7650499837250522137",
-      "rank_change": 1,
-      "history_days": 64
+      "rank_change": 0,
+      "history_days": 65
     },
     {
       "rank": 11,
+      "book_id": "7630067790849788953",
+      "book_name": "都重生了，谁还装富二代啊",
+      "author": "爱和美式",
+      "gender": "男频",
+      "primary_tag": "都市日常",
+      "secondary_tags": [
+        "重生",
+        "无女主",
+        "大佬"
+      ],
+      "all_tags": [
+        "都市日常",
+        "重生",
+        "无女主",
+        "大佬"
+      ],
+      "abstract": "【重生+校园+群像+生活流+误会流】三十一岁那年，陆川死于一场车祸。死前他还在想，自己那拼命扮演富二...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o0336208dafbebaf312726bd1bde94007~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870324&x-signature=%2Fg6g6f5ea0J%2FjaYCeYu40scvJTE%3D",
+      "book_url": "https://fanqienovel.com/page/7630067790849788953",
+      "rank_change": 2,
+      "history_days": 6
+    },
+    {
+      "rank": 12,
       "book_id": "7636702239288986649",
       "book_name": "文字武侠：开局破庙夜会帮主夫人",
       "author": "我想下海",
       "gender": "男频",
       "primary_tag": "玄幻脑洞",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "玄幻",
+        "无女主",
+        "架空",
+        "开局"
+      ],
       "all_tags": [
-        "玄幻脑洞"
+        "玄幻脑洞",
+        "玄幻",
+        "无女主",
+        "架空",
+        "开局"
       ],
       "abstract": "【文字游戏】【影响现实】【高武】【无女主多女人】陈玄无意之间接触了一款文字类的‘游戏’《武道》，他惊...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o48044b67580cce64e26df7c28cad7234~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783304&x-signature=hGaDkKR8RuPej%2FocVBtXGAtvDeI%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o48044b67580cce64e26df7c28cad7234~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870326&x-signature=8h6qfd4i7oE7svYixiO4YnAL2rc%3D",
       "book_url": "https://fanqienovel.com/page/7636702239288986649",
       "rank_change": -1,
-      "history_days": 66
+      "history_days": 67
     },
     {
-      "rank": 12,
+      "rank": 13,
       "book_id": "7663700682670623768",
       "book_name": "末世选择：开局一亿只美洲大蠊",
       "author": "忆临",
@@ -310,49 +358,13 @@
       ],
       "abstract": "（评分刚出，后面会涨）“如果给你三袋面包，你需要在以下选择中选择一项，你会选择……”“A：战胜C-3...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ob5329c98d17ef9dd7198fa71fe6c5719~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783305&x-signature=yababGYDKNSuxuUeXvMhUPp0N3Q%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ob5329c98d17ef9dd7198fa71fe6c5719~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870327&x-signature=rirIc8qRguPMVLkip4WELY5bsw8%3D",
       "book_url": "https://fanqienovel.com/page/7663700682670623768",
-      "rank_change": 1,
-      "history_days": 11
-    },
-    {
-      "rank": 13,
-      "book_id": "7630067790849788953",
-      "book_name": "都重生了，谁还装富二代啊",
-      "author": "爱和美式",
-      "gender": "男频",
-      "primary_tag": "都市日常",
-      "secondary_tags": [],
-      "all_tags": [
-        "都市日常"
-      ],
-      "abstract": "【重生+校园+群像+生活流+误会流】三十一岁那年，陆川死于一场车祸。死前他还在想，自己那拼命扮演富二...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o0336208dafbebaf312726bd1bde94007~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783306&x-signature=YsVk4j0w6n88IZ4lsfJwajdxFOs%3D",
-      "book_url": "https://fanqienovel.com/page/7630067790849788953",
-      "rank_change": 1,
-      "history_days": 5
+      "rank_change": -1,
+      "history_days": 12
     },
     {
       "rank": 14,
-      "book_id": "7138249318909086727",
-      "book_name": "天渊",
-      "author": "沐潇三生",
-      "gender": "男频",
-      "primary_tag": "传统玄幻",
-      "secondary_tags": [],
-      "all_tags": [
-        "传统玄幻"
-      ],
-      "abstract": "（实体书已出版，网上可购买）百年前，陈青源进入了一个名为天渊的禁区，魂灯熄灭，世人皆认为他死了。今日...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783308&x-signature=KQkWlYy%2BrW5qnwihSxLrH4by8cY%3D",
-      "book_url": "https://fanqienovel.com/page/7138249318909086727",
-      "rank_change": -2,
-      "history_days": 169
-    },
-    {
-      "rank": 15,
       "book_id": "7644040936980220953",
       "book_name": "我都宇宙之主了，你们还在地球？",
       "author": "吒牛",
@@ -373,13 +385,67 @@
       ],
       "abstract": "徐缺觉醒了金手指，获得了天赋抽取能力！天赋一：【长生不老】每天增加1年寿命，无上限。天赋二：【逆天悟...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o96c2eeca26d8cbcc3fd8f54f7cd3ae5f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783310&x-signature=PBE06lm%2FF2HOCivis%2B8znken53s%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o96c2eeca26d8cbcc3fd8f54f7cd3ae5f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870328&x-signature=Kq9Jiklk5eDPJqOuZa%2Fdc9F28jk%3D",
       "book_url": "https://fanqienovel.com/page/7644040936980220953",
-      "rank_change": 0,
-      "history_days": 11
+      "rank_change": 1,
+      "history_days": 12
+    },
+    {
+      "rank": 15,
+      "book_id": "7138249318909086727",
+      "book_name": "天渊",
+      "author": "沐潇三生",
+      "gender": "男频",
+      "primary_tag": "传统玄幻",
+      "secondary_tags": [
+        "玄幻",
+        "腹黑",
+        "架空",
+        "东方玄幻"
+      ],
+      "all_tags": [
+        "传统玄幻",
+        "玄幻",
+        "腹黑",
+        "架空",
+        "东方玄幻"
+      ],
+      "abstract": "（实体书已出版，网上可购买）百年前，陈青源进入了一个名为天渊的禁区，魂灯熄灭，世人皆认为他死了。今日...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870330&x-signature=hh7xYNi50krr8R3SlannNrPKrVQ%3D",
+      "book_url": "https://fanqienovel.com/page/7138249318909086727",
+      "rank_change": -1,
+      "history_days": 170
     },
     {
       "rank": 16,
+      "book_id": "7504849932138859545",
+      "book_name": "时停起手，邪神也得给我跪下！",
+      "author": "六个葫芦",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "都市",
+        "穿越",
+        "末世",
+        "都市异能"
+      ],
+      "all_tags": [
+        "都市高武",
+        "都市",
+        "穿越",
+        "末世",
+        "都市异能"
+      ],
+      "abstract": "【时间静止+末世+异能+嚣张+忘本+拒绝内耗】白野穿越到了二百年后的大灾变时代。这里危机四伏、民风淳...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oadaa82ad57ef8091a7a5bd32af452d4a~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870332&x-signature=badpsBT1ou%2B56y1rZlqNctlAV18%3D",
+      "book_url": "https://fanqienovel.com/page/7504849932138859545",
+      "rank_change": 1,
+      "history_days": 170
+    },
+    {
+      "rank": 17,
       "book_id": "7592279900040465433",
       "book_name": "我操作的少女正在成为旧日之主",
       "author": "陷阵营营长",
@@ -400,28 +466,10 @@
       ],
       "abstract": "【本书已签约实体出版：克苏鲁+琥珀流+反派+无系统+杀伐果断+黑色幽默+癫+单女主+序列收容】徐墨：...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o46c2283e139d920988ff6fc3a1db1e26~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783311&x-signature=2XqZX3DcEdz%2Bo1JDLEZsqUOQjqk%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o46c2283e139d920988ff6fc3a1db1e26~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870333&x-signature=gkCZ1FI44ZeAVMmx7KnRid4T%2BdM%3D",
       "book_url": "https://fanqienovel.com/page/7592279900040465433",
-      "rank_change": 0,
-      "history_days": 111
-    },
-    {
-      "rank": 17,
-      "book_id": "7504849932138859545",
-      "book_name": "时停起手，邪神也得给我跪下！",
-      "author": "六个葫芦",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [],
-      "all_tags": [
-        "都市高武"
-      ],
-      "abstract": "【时间静止+末世+异能+嚣张+忘本+拒绝内耗】白野穿越到了二百年后的大灾变时代。这里危机四伏、民风淳...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oadaa82ad57ef8091a7a5bd32af452d4a~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783313&x-signature=lG%2FrtveSoQ1yC9KEzfUNu7gfzp0%3D",
-      "book_url": "https://fanqienovel.com/page/7504849932138859545",
-      "rank_change": 0,
-      "history_days": 169
+      "rank_change": -1,
+      "history_days": 112
     },
     {
       "rank": 18,
@@ -430,16 +478,27 @@
       "author": "一树挽歌",
       "gender": "女频",
       "primary_tag": "都市日常",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "现言脑洞",
+        "现代言情",
+        "校园",
+        "系统",
+        "重生"
+      ],
       "all_tags": [
-        "都市日常"
+        "都市日常",
+        "现言脑洞",
+        "现代言情",
+        "校园",
+        "系统",
+        "重生"
       ],
       "abstract": "（评分刚开，会上涨）类韩国校园小说 x 恶女万人迷 x  财阀 x 全洁 X 1V1X 纯爱【在韩国...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o8585a2a946f9a319c11c44addb6b388c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783314&x-signature=oT1q6%2FNJM4YwTEUnseWIdQZiWxM%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o8585a2a946f9a319c11c44addb6b388c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870335&x-signature=cPdhEnQbDQAEkeEAA%2FcNR19BCGE%3D",
       "book_url": "https://fanqienovel.com/page/7663152833243401278",
       "rank_change": 0,
-      "history_days": 25
+      "history_days": 26
     },
     {
       "rank": 19,
@@ -463,82 +522,114 @@
       ],
       "abstract": "【实体书已全网发售，各大渠道均可购买】『传统玄幻』『非后宫』九州大地有一楼，名为《烟雨楼》，烟雨楼主...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783316&x-signature=ONz%2BMjHsTmOkCTYX%2BRzb9OZm2cc%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870336&x-signature=2kzrVjH2Ome6aPoqEZmTqp62Q%2Bs%3D",
       "book_url": "https://fanqienovel.com/page/6883748331202284558",
-      "rank_change": 1,
-      "history_days": 169
+      "rank_change": 0,
+      "history_days": 170
     },
     {
       "rank": 20,
-      "book_id": "7625848078783761432",
-      "book_name": "我的沪上野妻",
-      "author": "月下冰河",
-      "gender": "男频",
-      "primary_tag": "都市日常",
-      "secondary_tags": [],
-      "all_tags": [
-        "都市日常"
-      ],
-      "abstract": "狂野美妻难驯服？那是没有遇上陈野！山村青年陈野，凭一腔热血闯上海。在这座霓虹闪烁的都市下，他见过挥金...",
-      "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2of3cd1f87f2abacaa84d6a1a953f08b1d~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783319&x-signature=A%2BH48X3DduP5Gi6V4FlK8ECF6MI%3D",
-      "book_url": "https://fanqienovel.com/page/7625848078783761432",
-      "rank_change": -1,
-      "history_days": 13
-    },
-    {
-      "rank": 21,
       "book_id": "7147596144942517284",
       "book_name": "开局长生万古，苟到天荒地老",
       "author": "紫灵风雪",
       "gender": "男频",
       "primary_tag": "玄幻脑洞",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "玄幻",
+        "系统",
+        "穿越",
+        "诸天万界"
+      ],
       "all_tags": [
-        "玄幻脑洞"
+        "玄幻脑洞",
+        "玄幻",
+        "系统",
+        "穿越",
+        "诸天万界"
       ],
       "abstract": "【已出版实体书】【非爽文+平淡日常+轻松诙谐+无女主+无刀子+苟王】入坑谨慎。一本以长生者视角跨越几...",
       "status": "完结",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/baa65a198607b52168aa1338740642f8~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783320&x-signature=T76huXqwmNe05Zm2s6hAaZ%2BogK4%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/baa65a198607b52168aa1338740642f8~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870339&x-signature=iFnQO8w63NKmzCE34cNlcK%2BpLns%3D",
       "book_url": "https://fanqienovel.com/page/7147596144942517284",
-      "rank_change": 0,
-      "history_days": 169
+      "rank_change": 1,
+      "history_days": 170
     },
     {
-      "rank": 22,
-      "book_id": "7646327973087300670",
-      "book_name": "公安局长之扫黑风暴",
-      "author": "南至",
-      "gender": "男频",
-      "primary_tag": "都市日常",
-      "secondary_tags": [],
-      "all_tags": [
-        "都市日常"
-      ],
-      "abstract": "高山县三任县长皆离奇惨死，身为转业军人的林英临危受命，成为高山县新一任公安局长，是成为黑恶势力的保护...",
-      "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o9f64cfee28dfd70f0d988d6ac0edd999~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783322&x-signature=hrimr8QKVTkG%2BhHtkSPgcgnPUgA%3D",
-      "book_url": "https://fanqienovel.com/page/7646327973087300670",
-      "rank_change": 0,
-      "history_days": 52
-    },
-    {
-      "rank": 23,
+      "rank": 21,
       "book_id": "7673830652382301209",
       "book_name": "点子王行动哥随便弟，三人行很刑",
       "author": "么十一",
       "gender": "男频",
       "primary_tag": "都市脑洞",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "系统",
+        "穿越",
+        "直播",
+        "开局"
+      ],
       "all_tags": [
-        "都市脑洞"
+        "都市脑洞",
+        "系统",
+        "穿越",
+        "直播",
+        "开局"
       ],
       "abstract": "江辰穿越平行世界，报名参加《三人行必有我师》真人秀综艺整活。开局觉醒【三人行，必有点子王系统】！点子...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o4117409ae895a4db4ac17e0f7166f1f0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783324&x-signature=luzTQ5iZvF7SQMPja%2FoJZjnu8Zc%3D",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o4117409ae895a4db4ac17e0f7166f1f0~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870341&x-signature=110WaFD5ZmHMB9IEoIAE5aMP1Wo%3D",
       "book_url": "https://fanqienovel.com/page/7673830652382301209",
-      "rank_change": 5,
-      "history_days": 27
+      "rank_change": 2,
+      "history_days": 28
+    },
+    {
+      "rank": 22,
+      "book_id": "7625848078783761432",
+      "book_name": "我的沪上野妻",
+      "author": "月下冰河",
+      "gender": "男频",
+      "primary_tag": "都市日常",
+      "secondary_tags": [
+        "都市",
+        "神医",
+        "多女主",
+        "校花"
+      ],
+      "all_tags": [
+        "都市日常",
+        "都市",
+        "神医",
+        "多女主",
+        "校花"
+      ],
+      "abstract": "狂野美妻难驯服？那是没有遇上陈野！山村青年陈野，凭一腔热血闯上海。在这座霓虹闪烁的都市下，他见过挥金...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2of3cd1f87f2abacaa84d6a1a953f08b1d~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870342&x-signature=OokOoV2%2Fj6yPaQ0oBW3GlIBJ9H8%3D",
+      "book_url": "https://fanqienovel.com/page/7625848078783761432",
+      "rank_change": -2,
+      "history_days": 14
+    },
+    {
+      "rank": 23,
+      "book_id": "7646327973087300670",
+      "book_name": "公安局长之扫黑风暴",
+      "author": "南至",
+      "gender": "男频",
+      "primary_tag": "都市日常",
+      "secondary_tags": [
+        "特种兵",
+        "仕途"
+      ],
+      "all_tags": [
+        "都市日常",
+        "特种兵",
+        "仕途"
+      ],
+      "abstract": "高山县三任县长皆离奇惨死，身为转业军人的林英临危受命，成为高山县新一任公安局长，是成为黑恶势力的保护...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o9f64cfee28dfd70f0d988d6ac0edd999~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870344&x-signature=3k%2B97lxyikupL6ZrL7viIekrxIo%3D",
+      "book_url": "https://fanqienovel.com/page/7646327973087300670",
+      "rank_change": -1,
+      "history_days": 53
     },
     {
       "rank": 24,
@@ -547,46 +638,28 @@
       "author": "紫梦游龙",
       "gender": "男频",
       "primary_tag": "悬疑灵异",
-      "secondary_tags": [],
+      "secondary_tags": [
+        "灵异",
+        "捉鬼",
+        "第一人称",
+        "悬疑"
+      ],
       "all_tags": [
-        "悬疑灵异"
+        "悬疑灵异",
+        "灵异",
+        "捉鬼",
+        "第一人称",
+        "悬疑"
       ],
       "abstract": "我出生那天，在我家院子周围落下了十九道雷，有个算命先生说，我是天生妖胎，一生命犯十八劫，不是别人死就...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/05cb5f60d9bea6c19a94f9a27a763ce7~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783325&x-signature=rsvcL8zBRwNh7XMbXDh0i%2FBiYqs%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/05cb5f60d9bea6c19a94f9a27a763ce7~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870345&x-signature=cVeyUU%2BvH83N40ZjQ3TyXaqMtzc%3D",
       "book_url": "https://fanqienovel.com/page/7087872099557051400",
       "rank_change": 0,
-      "history_days": 169
+      "history_days": 170
     },
     {
       "rank": 25,
-      "book_id": "7623686597409508376",
-      "book_name": "全球死考：刚下刑场你让我去考试",
-      "author": "我爱吃猫片哇",
-      "gender": "男频",
-      "primary_tag": "悬疑脑洞",
-      "secondary_tags": [
-        "悬疑",
-        "穿越",
-        "灵异",
-        "求生"
-      ],
-      "all_tags": [
-        "悬疑脑洞",
-        "悬疑",
-        "穿越",
-        "灵异",
-        "求生"
-      ],
-      "abstract": "【智战+微恐+无限流】死亡高考降临，三千万考生被拉进地狱。当考题被替换成各种恐怖片和灾难场景，活下去...",
-      "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oc1cad58a1611faa3ce1bff953296036f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783327&x-signature=Y2PnmT2HCcg4kbAe9vk4uInTctY%3D",
-      "book_url": "https://fanqienovel.com/page/7623686597409508376",
-      "rank_change": -2,
-      "history_days": 84
-    },
-    {
-      "rank": 26,
       "book_id": "7256682048616664098",
       "book_name": "疯批暴戾九千岁转头对我轻声哄",
       "author": "今晚吃烤鱼",
@@ -609,40 +682,40 @@
       ],
       "abstract": "（别名《疯批暴戾九千岁转头对我轻声哄》）【虐渣+重生+HE +双洁+对外残暴冷血对内破碎忠犬厂督 v...",
       "status": "完结",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o143a79005043a810ad8b388b5960c4a9~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783328&x-signature=H7vxdL7ez5wSMAZPiKGvI3Cxmvw%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o143a79005043a810ad8b388b5960c4a9~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870348&x-signature=vhJzpuY%2BA0JmC74KlDjyb0%2BlMxY%3D",
       "book_url": "https://fanqienovel.com/page/7256682048616664098",
-      "rank_change": 3,
-      "history_days": 6
+      "rank_change": 1,
+      "history_days": 7
     },
     {
-      "rank": 27,
-      "book_id": "7256784068786785336",
-      "book_name": "诡舍",
-      "author": "夜来风雨声丶",
+      "rank": 26,
+      "book_id": "7623686597409508376",
+      "book_name": "全球死考：刚下刑场你让我去考试",
+      "author": "我爱吃猫片哇",
       "gender": "男频",
       "primary_tag": "悬疑脑洞",
       "secondary_tags": [
-        "无限流",
+        "悬疑",
+        "穿越",
         "灵异",
-        "单女主",
-        "1v1"
+        "求生"
       ],
       "all_tags": [
         "悬疑脑洞",
-        "无限流",
+        "悬疑",
+        "穿越",
         "灵异",
-        "单女主",
-        "1v1"
+        "求生"
       ],
-      "abstract": "【无限流+微惊悚+求生+单女主】一辆没有司机的大巴，载着一群被诅咒的人，去往了一间黑色的诡舍……诡舍...",
-      "status": "完结",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2ob67b9e86ddf3a2d6293a37e7895331a6~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783330&x-signature=L6EZb02uK3eg7HfxCj4fRzqWIh8%3D",
-      "book_url": "https://fanqienovel.com/page/7256784068786785336",
-      "rank_change": 0,
-      "history_days": 169
+      "abstract": "【智战+微恐+无限流】死亡高考降临，三千万考生被拉进地狱。当考题被替换成各种恐怖片和灾难场景，活下去...",
+      "status": "连载中",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oc1cad58a1611faa3ce1bff953296036f~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870349&x-signature=ji58CXhsElGWqkQFz5ylwzPpyqg%3D",
+      "book_url": "https://fanqienovel.com/page/7623686597409508376",
+      "rank_change": -1,
+      "history_days": 85
     },
     {
-      "rank": 28,
+      "rank": 27,
       "book_id": "7346057588347259929",
       "book_name": "序列：吃神者",
       "author": "不要大脑要小脑",
@@ -663,13 +736,13 @@
       ],
       "abstract": "【已出版质量保证，架空高武+群像权谋+不套娃慢节奏大设定+都说越看越好看】巨鸟吞日，万象剧变。诡异不...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o43da4425bd3b338cef72fa545aaff9c1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783331&x-signature=r%2Fa%2FxnZXykUJCDtHqVyZe8RKugI%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o43da4425bd3b338cef72fa545aaff9c1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870351&x-signature=GJAEtFVYjlcRovvle7R8oiQ9E3M%3D",
       "book_url": "https://fanqienovel.com/page/7346057588347259929",
-      "rank_change": 2,
-      "history_days": 153
+      "rank_change": 1,
+      "history_days": 154
     },
     {
-      "rank": 29,
+      "rank": 28,
       "book_id": "7665609321647983640",
       "book_name": "从修仙回到都市，坏消息修为没了",
       "author": "绫波丽",
@@ -688,13 +761,148 @@
       ],
       "abstract": "十八岁高考结束那天，陈玄为了救下被失控汽车撞向的妹妹，重伤昏迷，成了植物人。没人知道，他的意识已经穿...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o30b6a2158f6e55b08007066c2f98c269~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783333&x-signature=swV0IZrfubNvQ7hW%2BbDELfkUK3I%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o30b6a2158f6e55b08007066c2f98c269~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870352&x-signature=bKckD6OUFNQ5NQoipCzKZU7OgXU%3D",
       "book_url": "https://fanqienovel.com/page/7665609321647983640",
-      "rank_change": -3,
-      "history_days": 11
+      "rank_change": 1,
+      "history_days": 12
+    },
+    {
+      "rank": 29,
+      "book_id": "7256784068786785336",
+      "book_name": "诡舍",
+      "author": "夜来风雨声丶",
+      "gender": "男频",
+      "primary_tag": "悬疑脑洞",
+      "secondary_tags": [
+        "无限流",
+        "灵异",
+        "单女主",
+        "1v1"
+      ],
+      "all_tags": [
+        "悬疑脑洞",
+        "无限流",
+        "灵异",
+        "单女主",
+        "1v1"
+      ],
+      "abstract": "【无限流+微惊悚+求生+单女主】一辆没有司机的大巴，载着一群被诅咒的人，去往了一间黑色的诡舍……诡舍...",
+      "status": "完结",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ob67b9e86ddf3a2d6293a37e7895331a6~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870354&x-signature=kFzajHoCBMgK2BG5i0zmw%2FbfE%2Fc%3D",
+      "book_url": "https://fanqienovel.com/page/7256784068786785336",
+      "rank_change": -2,
+      "history_days": 170
     },
     {
       "rank": 30,
+      "book_id": "7645556324868049945",
+      "book_name": "穿书反派，把阴湿女主养成病娇了",
+      "author": "二次元的猫",
+      "gender": "男频",
+      "primary_tag": "都市日常",
+      "secondary_tags": [
+        "穿越",
+        "反派",
+        "穿书",
+        "单女主"
+      ],
+      "all_tags": [
+        "都市日常",
+        "穿越",
+        "反派",
+        "穿书",
+        "单女主"
+      ],
+      "abstract": "【救赎】+【成长系病娇（轻度的不伤害男主)】+【傻白甜男主vs口嫌体正女主】+【单女主】+【穿书】祁...",
+      "status": "连载中",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2od79091090d050756ee48f5a96cbc8dbd~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870355&x-signature=EaXSpPNv3FzQPO9YeDob%2B2WzF4s%3D",
+      "book_url": "https://fanqienovel.com/page/7645556324868049945",
+      "rank_change": 1,
+      "history_days": 28
+    },
+    {
+      "rank": 31,
+      "book_id": "7612158980839722046",
+      "book_name": "魏家孽种成首辅，全族跪求我认祖",
+      "author": "生活中的咸鱼",
+      "gender": "男频",
+      "primary_tag": "历史古代",
+      "secondary_tags": [
+        "历史",
+        "穿越",
+        "架空",
+        "魂穿"
+      ],
+      "all_tags": [
+        "历史古代",
+        "历史",
+        "穿越",
+        "架空",
+        "魂穿"
+      ],
+      "abstract": "（别名《魏狐》）【权谋】【单女】【群像】【魏党】    落地即罪，赐名逆生。    降生之日，母殁于...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/fd7628a8d8e062c2a19d233ce7564f16~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870356&x-signature=NL4FMeY2qJGPhS%2FdIUUM1gotDyc%3D",
+      "book_url": "https://fanqienovel.com/page/7612158980839722046",
+      "rank_change": 2,
+      "history_days": 44
+    },
+    {
+      "rank": 32,
+      "book_id": "7644794897249094718",
+      "book_name": "全民神祇时代：我的词条每日刷新",
+      "author": "些许风霜过去",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "穿越",
+        "天才",
+        "开局",
+        "都市异能"
+      ],
+      "all_tags": [
+        "都市高武",
+        "穿越",
+        "天才",
+        "开局",
+        "都市异能"
+      ],
+      "abstract": "陆胜穿越到了一个人人皆可成为神明，掌控法则，开辟小世界的超级世界。主世界一天，小世界一年。陆胜开局觉...",
+      "status": "连载中",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oe4aa10d5cf17de514cb635315e38fef9~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870358&x-signature=6Y8tLgGUKvx4GA%2BRRmP0TroWw3o%3D",
+      "book_url": "https://fanqienovel.com/page/7644794897249094718",
+      "rank_change": 3,
+      "history_days": 5
+    },
+    {
+      "rank": 33,
+      "book_id": "7654593151348247614",
+      "book_name": "人在诡异，靠第四天灾登顶至高",
+      "author": "我时糕手",
+      "gender": "男频",
+      "primary_tag": "西方奇幻",
+      "secondary_tags": [
+        "系统",
+        "穿越",
+        "架空",
+        "异世大陆"
+      ],
+      "all_tags": [
+        "西方奇幻",
+        "系统",
+        "穿越",
+        "架空",
+        "异世大陆"
+      ],
+      "abstract": "(评分刚出，后面会涨的！)穿越到诡异横行的异界，林恩发现自己成了一尊神力枯竭，即将消散的野鸡伪神。教...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o38e0ac3221c93d255029503b040bb825~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870359&x-signature=svTMZm2uSZcRa6iNHW5RxnAmGAE%3D",
+      "book_url": "https://fanqienovel.com/page/7654593151348247614",
+      "rank_change": 1,
+      "history_days": 5
+    },
+    {
+      "rank": 34,
       "book_id": "7660590811435781182",
       "book_name": "老实员工和魅魔总裁一夜过后",
       "author": "椒江梁七",
@@ -717,40 +925,40 @@
       ],
       "abstract": "老实本分实习生VS顶级魅魔总裁老板1v1双洁 | 六岁年龄差男主：蓄意已久，步步为营，引导型恋人。女...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/e07613de4104c4bc2c712203edc0ef35~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783335&x-signature=MIOEo6HyDtGOwvI%2F5ORyPS3B55M%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/e07613de4104c4bc2c712203edc0ef35~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870360&x-signature=wn%2BBp1fRzQumgDwik%2Bv3s6qPEmA%3D",
       "book_url": "https://fanqienovel.com/page/7660590811435781182",
-      "rank_change": -5,
-      "history_days": 19
+      "rank_change": -4,
+      "history_days": 20
     },
     {
-      "rank": 31,
-      "book_id": "7645556324868049945",
-      "book_name": "穿书反派，把阴湿女主养成病娇了",
-      "author": "二次元的猫",
+      "rank": 35,
+      "book_id": "7650159645603941438",
+      "book_name": "高考出分前一晚，兑换北大录取书",
+      "author": "西瓜要涨价",
       "gender": "男频",
-      "primary_tag": "都市日常",
+      "primary_tag": "都市脑洞",
       "secondary_tags": [
+        "系统",
         "穿越",
-        "反派",
-        "穿书",
-        "单女主"
+        "直播",
+        "打脸"
       ],
       "all_tags": [
-        "都市日常",
+        "都市脑洞",
+        "系统",
         "穿越",
-        "反派",
-        "穿书",
-        "单女主"
+        "直播",
+        "打脸"
       ],
-      "abstract": "【救赎】+【成长系病娇（轻度的不伤害男主)】+【傻白甜男主vs口嫌体正女主】+【单女主】+【穿书】祁...",
+      "abstract": "高考出分前夜，季白刷到一条帖子：【给你十块钱，你怎么花？】1、回到十年前（6元）2、北京一套房（2元...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2od79091090d050756ee48f5a96cbc8dbd~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783337&x-signature=Qk8NpeP3GWZh1KBkb3U2m%2FXohiI%3D",
-      "book_url": "https://fanqienovel.com/page/7645556324868049945",
-      "rank_change": 0,
-      "history_days": 27
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o1df7e5c677acbd358e12cb5b0a6c99c8~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870362&x-signature=hGav6MHjWnetyXtQE5o3geJwZH4%3D",
+      "book_url": "https://fanqienovel.com/page/7650159645603941438",
+      "rank_change": 4,
+      "history_days": 21
     },
     {
-      "rank": 32,
+      "rank": 36,
       "book_id": "7421167583522458648",
       "book_name": "大一实习，你跑去749收容怪物",
       "author": "我爱罗的沙",
@@ -767,94 +975,13 @@
       ],
       "abstract": "【杀伐果断】【那有怪物是好的啊】【怪物都该死】【心狠手辣】　　陆鼎大一暑假，本想趁着这个时间去实习一...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o368422f6d81aefa1e4c42491681bf9d1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783338&x-signature=osz7zUarphYAwWYd4lJMfuZYh3U%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o368422f6d81aefa1e4c42491681bf9d1~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870363&x-signature=TCcZg9MEILWL9KdfEEr%2BGtGWjzo%3D",
       "book_url": "https://fanqienovel.com/page/7421167583522458648",
-      "rank_change": 0,
-      "history_days": 169
+      "rank_change": -4,
+      "history_days": 170
     },
     {
-      "rank": 33,
-      "book_id": "7612158980839722046",
-      "book_name": "魏家孽种成首辅，全族跪求我认祖",
-      "author": "生活中的咸鱼",
-      "gender": "男频",
-      "primary_tag": "历史古代",
-      "secondary_tags": [
-        "历史",
-        "穿越",
-        "架空",
-        "魂穿"
-      ],
-      "all_tags": [
-        "历史古代",
-        "历史",
-        "穿越",
-        "架空",
-        "魂穿"
-      ],
-      "abstract": "（别名《魏狐》）【权谋】【单女】【群像】【魏党】    落地即罪，赐名逆生。    降生之日，母殁于...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/fd7628a8d8e062c2a19d233ce7564f16~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783340&x-signature=%2FVP1Lm4BfkFaoUdqZTN7DPUS2Hs%3D",
-      "book_url": "https://fanqienovel.com/page/7612158980839722046",
-      "rank_change": 2,
-      "history_days": 43
-    },
-    {
-      "rank": 34,
-      "book_id": "7654593151348247614",
-      "book_name": "人在诡异，靠第四天灾登顶至高",
-      "author": "我时糕手",
-      "gender": "男频",
-      "primary_tag": "西方奇幻",
-      "secondary_tags": [
-        "系统",
-        "穿越",
-        "架空",
-        "异世大陆"
-      ],
-      "all_tags": [
-        "西方奇幻",
-        "系统",
-        "穿越",
-        "架空",
-        "异世大陆"
-      ],
-      "abstract": "(评分刚出，后面会涨的！)穿越到诡异横行的异界，林恩发现自己成了一尊神力枯竭，即将消散的野鸡伪神。教...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o38e0ac3221c93d255029503b040bb825~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783341&x-signature=ONdfShDL6Ft8e5kyfgEt8a5xiz0%3D",
-      "book_url": "https://fanqienovel.com/page/7654593151348247614",
-      "rank_change": 2,
-      "history_days": 4
-    },
-    {
-      "rank": 35,
-      "book_id": "7644794897249094718",
-      "book_name": "全民神祇时代：我的词条每日刷新",
-      "author": "些许风霜过去",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "穿越",
-        "天才",
-        "开局",
-        "都市异能"
-      ],
-      "all_tags": [
-        "都市高武",
-        "穿越",
-        "天才",
-        "开局",
-        "都市异能"
-      ],
-      "abstract": "陆胜穿越到了一个人人皆可成为神明，掌控法则，开辟小世界的超级世界。主世界一天，小世界一年。陆胜开局觉...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oe4aa10d5cf17de514cb635315e38fef9~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783342&x-signature=nI%2BCtXktwbp1CJw7zYtBJcIowhQ%3D",
-      "book_url": "https://fanqienovel.com/page/7644794897249094718",
-      "rank_change": 3,
-      "history_days": 4
-    },
-    {
-      "rank": 36,
+      "rank": 37,
       "book_id": "7658515148906187800",
       "book_name": "直播我和徐妙云，老朱全家破防了",
       "author": "馒头不香吧",
@@ -871,37 +998,10 @@
       ],
       "abstract": "苏明醒来时，旁边正躺着一位古装少女，自称大明魏国公长女，徐妙云。与此同时，天幕在大明洪武八年展开，现...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o8f1045f948bb707e1c40da6f4b1cfe55~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783343&x-signature=65%2F6QGmi6GCOzka7LYeYIhyvxFE%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o8f1045f948bb707e1c40da6f4b1cfe55~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870364&x-signature=sUJm0ySPQJnHQ4KW5IUzgVQN658%3D",
       "book_url": "https://fanqienovel.com/page/7658515148906187800",
-      "rank_change": -3,
-      "history_days": 21
-    },
-    {
-      "rank": 37,
-      "book_id": "7631863518148430873",
-      "book_name": "穿越神祇：我提取词条碾压诸神",
-      "author": "夏弥的幻想",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "都市",
-        "穿越",
-        "学霸",
-        "都市异能"
-      ],
-      "all_tags": [
-        "都市高武",
-        "都市",
-        "穿越",
-        "学霸",
-        "都市异能"
-      ],
-      "abstract": "【全民神祇】【造物主】【捡漏】【深渊入侵】【极道缝合】【斩神】这是一个抵抗深渊虚空的高武神明世界。林...",
-      "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o4a3a5263c058aab82bc587b161f0e916~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783345&x-signature=h6V4jJ9mEny25ug9WsQkDr4Dywo%3D",
-      "book_url": "https://fanqienovel.com/page/7631863518148430873",
-      "rank_change": -3,
-      "history_days": 20
+      "rank_change": -1,
+      "history_days": 22
     },
     {
       "rank": 38,
@@ -923,40 +1023,67 @@
       ],
       "abstract": "人情似纸张张薄，世事如棋局局新，李修远从基层开始做起，带着一颗想要追求进步的心，一步一个脚印，步步登...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/18712da583cf3f95b76697cac7980c90~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783346&x-signature=%2BcmlWQkNgA8vst%2BrD3KdpZ0l2vk%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/18712da583cf3f95b76697cac7980c90~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870366&x-signature=aPtcPkiRZsqT72j82MFmUppiocg%3D",
       "book_url": "https://fanqienovel.com/page/7501902210347830334",
-      "rank_change": -1,
-      "history_days": 154
+      "rank_change": 0,
+      "history_days": 155
     },
     {
       "rank": 39,
-      "book_id": "7650159645603941438",
-      "book_name": "高考出分前一晚，兑换北大录取书",
-      "author": "西瓜要涨价",
+      "book_id": "7663755378353507352",
+      "book_name": "我有一个女鬼催眠APP",
+      "author": "苟得青山在",
       "gender": "男频",
-      "primary_tag": "都市脑洞",
+      "primary_tag": "悬疑脑洞",
       "secondary_tags": [
-        "系统",
         "穿越",
-        "直播",
-        "打脸"
+        "多女主",
+        "灵异",
+        "惊悚游戏"
       ],
       "all_tags": [
-        "都市脑洞",
-        "系统",
+        "悬疑脑洞",
         "穿越",
-        "直播",
-        "打脸"
+        "多女主",
+        "灵异",
+        "惊悚游戏"
       ],
-      "abstract": "高考出分前夜，季白刷到一条帖子：【给你十块钱，你怎么花？】1、回到十年前（6元）2、北京一套房（2元...",
+      "abstract": "本想下载催眠APP游戏，却下载成女鬼催眠APP的秦明，看着游戏里琳琅满目的可攻略女鬼，并亲眼目睹女鬼...",
       "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o1df7e5c677acbd358e12cb5b0a6c99c8~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783348&x-signature=NwFjWr1Q0duEuX3Stcg%2F3jHhBSI%3D",
-      "book_url": "https://fanqienovel.com/page/7650159645603941438",
-      "rank_change": 6,
-      "history_days": 20
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2od06e54c03cc3af9474f9e3ac8ccda85c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870368&x-signature=5fTYS9cag8WTgFGQoZKIKqQw9Kk%3D",
+      "book_url": "https://fanqienovel.com/page/7663755378353507352",
+      "rank_change": 3,
+      "history_days": 3
     },
     {
       "rank": 40,
+      "book_id": "7631863518148430873",
+      "book_name": "穿越神祇：我提取词条碾压诸神",
+      "author": "夏弥的幻想",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "都市",
+        "穿越",
+        "学霸",
+        "都市异能"
+      ],
+      "all_tags": [
+        "都市高武",
+        "都市",
+        "穿越",
+        "学霸",
+        "都市异能"
+      ],
+      "abstract": "【全民神祇】【造物主】【捡漏】【深渊入侵】【极道缝合】【斩神】这是一个抵抗深渊虚空的高武神明世界。林...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o4a3a5263c058aab82bc587b161f0e916~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870369&x-signature=U6MeiDYUeJBOt3Ik1vv8Q7Zr3uc%3D",
+      "book_url": "https://fanqienovel.com/page/7631863518148430873",
+      "rank_change": -3,
+      "history_days": 21
+    },
+    {
+      "rank": 41,
       "book_id": "7630526178771618841",
       "book_name": "满宫不孕，唯我三年抱俩！",
       "author": "酸辣鱼丸粉",
@@ -979,117 +1106,13 @@
       ],
       "abstract": "满宫嫔妃十年生不出的龙种，她一夜就怀上了。沈知意，只是一个被人推下荷花池的秀女，最低微的小答应。谁料...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2ofb8dc7d823d7f5ee15efc782926b7922~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783349&x-signature=2r0XP1ovXDqD%2BjylTAclDfNnwxg%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2ofb8dc7d823d7f5ee15efc782926b7922~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870371&x-signature=%2FANxxbmEKcu4RJRQ8ahzfzp8Yzg%3D",
       "book_url": "https://fanqienovel.com/page/7630526178771618841",
-      "rank_change": 0,
-      "history_days": 14
-    },
-    {
-      "rank": 41,
-      "book_id": "7077516958534470656",
-      "book_name": "凡骨",
-      "author": "壹更大师",
-      "gender": "男频",
-      "primary_tag": "东方仙侠",
-      "secondary_tags": [
-        "玄幻",
-        "仙侠",
-        "奇幻仙侠",
-        "架空"
-      ],
-      "all_tags": [
-        "东方仙侠",
-        "玄幻",
-        "仙侠",
-        "奇幻仙侠",
-        "架空"
-      ],
-      "abstract": "世间灵骨，共分四品。一品，天灵骨。二品，金灵骨。三品，玄灵骨。四品，白灵骨。余者，皆为凡骨，无缘修行...",
-      "status": "完结",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oab63dc9453b797dc4e499ad254f803fc~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783350&x-signature=obImgMyjap7qwIGy6k7Ib8ivcHQ%3D",
-      "book_url": "https://fanqienovel.com/page/7077516958534470656",
-      "rank_change": 0,
-      "history_days": 160
+      "rank_change": -1,
+      "history_days": 15
     },
     {
       "rank": 42,
-      "book_id": "7663755378353507352",
-      "book_name": "我有一个女鬼催眠APP",
-      "author": "苟得青山在",
-      "gender": "男频",
-      "primary_tag": "悬疑脑洞",
-      "secondary_tags": [
-        "穿越",
-        "多女主",
-        "灵异",
-        "惊悚游戏"
-      ],
-      "all_tags": [
-        "悬疑脑洞",
-        "穿越",
-        "多女主",
-        "灵异",
-        "惊悚游戏"
-      ],
-      "abstract": "本想下载催眠APP游戏，却下载成女鬼催眠APP的秦明，看着游戏里琳琅满目的可攻略女鬼，并亲眼目睹女鬼...",
-      "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2od06e54c03cc3af9474f9e3ac8ccda85c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783352&x-signature=cqHEugq2MiYk%2F3FV1xNzQc6o%2BZQ%3D",
-      "book_url": "https://fanqienovel.com/page/7663755378353507352",
-      "rank_change": 5,
-      "history_days": 2
-    },
-    {
-      "rank": 43,
-      "book_id": "7677199681213975576",
-      "book_name": "直播见证神话：从鳌太线走蛟开始",
-      "author": "有点易斯但不多",
-      "gender": "男频",
-      "primary_tag": "都市脑洞",
-      "secondary_tags": [
-        "系统",
-        "直播",
-        "搞笑轻松"
-      ],
-      "all_tags": [
-        "都市脑洞",
-        "系统",
-        "直播",
-        "搞笑轻松"
-      ],
-      "abstract": "【直播+神话+探险+轻松搞笑+整活小王子……】    985土木毕业即失业，叶开一怒之下投身...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2oc3f857b0ce5f3294c8d8462d19f69679~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783353&x-signature=x46k5i75Bn0s6iGsv%2FWGVbu8KXE%3D",
-      "book_url": "https://fanqienovel.com/page/7677199681213975576",
-      "rank_change": null,
-      "history_days": 9
-    },
-    {
-      "rank": 44,
-      "book_id": "7462405945180572697",
-      "book_name": "你们刷怪啊，刷我干嘛！",
-      "author": "喜欢吃橘子",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "都市",
-        "校花",
-        "都市异能"
-      ],
-      "all_tags": [
-        "都市高武",
-        "都市",
-        "校花",
-        "都市异能"
-      ],
-      "abstract": "【已签实体出版：无系统、剧情流、不慢热、不无脑、快节奏、惊险刺激，拳拳到肉，怪物阵营视角！】自打【神...",
-      "status": "连载中",
-      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o76b6acc31de1b5f4675e0abf2939a0fe~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783355&x-signature=0z73aVuwUu%2FIFuE8AYFKHTB1YN0%3D",
-      "book_url": "https://fanqienovel.com/page/7462405945180572697",
-      "rank_change": -2,
-      "history_days": 134
-    },
-    {
-      "rank": 45,
       "book_id": "7613718162839718937",
       "book_name": "不是疯批反派吗？怎么红眼要抱抱",
       "author": "赵小爻",
@@ -1112,13 +1135,65 @@
       ],
       "abstract": "【疯批阴湿反派×娇软小怂包】【穿书+1V1甜宠+上位者为爱当狗+强性张力占有欲】【苏软（江鹿伊）x晏...",
       "status": "完结",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o0b5872d88d894542c64a40f8ba5cdbda~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783356&x-signature=mG3xE9JhtIyqG9mW7CkiOwXlr3E%3D",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o0b5872d88d894542c64a40f8ba5cdbda~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870372&x-signature=izPgRU3P%2FM0wLcahrQzuSW2QA1g%3D",
       "book_url": "https://fanqienovel.com/page/7613718162839718937",
       "rank_change": 3,
-      "history_days": 79
+      "history_days": 80
     },
     {
-      "rank": 46,
+      "rank": 43,
+      "book_id": "7077516958534470656",
+      "book_name": "凡骨",
+      "author": "壹更大师",
+      "gender": "男频",
+      "primary_tag": "东方仙侠",
+      "secondary_tags": [
+        "玄幻",
+        "仙侠",
+        "奇幻仙侠",
+        "架空"
+      ],
+      "all_tags": [
+        "东方仙侠",
+        "玄幻",
+        "仙侠",
+        "奇幻仙侠",
+        "架空"
+      ],
+      "abstract": "世间灵骨，共分四品。一品，天灵骨。二品，金灵骨。三品，玄灵骨。四品，白灵骨。余者，皆为凡骨，无缘修行...",
+      "status": "完结",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oab63dc9453b797dc4e499ad254f803fc~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870373&x-signature=bkS5lnhoiW1%2FpmgeMsQnN1M%2B9Tg%3D",
+      "book_url": "https://fanqienovel.com/page/7077516958534470656",
+      "rank_change": -2,
+      "history_days": 161
+    },
+    {
+      "rank": 44,
+      "book_id": "7677199681213975576",
+      "book_name": "直播见证神话：从鳌太线走蛟开始",
+      "author": "有点易斯但不多",
+      "gender": "男频",
+      "primary_tag": "都市脑洞",
+      "secondary_tags": [
+        "系统",
+        "直播",
+        "搞笑轻松"
+      ],
+      "all_tags": [
+        "都市脑洞",
+        "系统",
+        "直播",
+        "搞笑轻松"
+      ],
+      "abstract": "【直播+神话+探险+轻松搞笑+整活小王子……】    985土木毕业即失业，叶开一怒之下投身...",
+      "status": "连载中",
+      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2oc3f857b0ce5f3294c8d8462d19f69679~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870376&x-signature=ut5DBD1P3bYDFSaFQ4OzvdOmMco%3D",
+      "book_url": "https://fanqienovel.com/page/7677199681213975576",
+      "rank_change": -1,
+      "history_days": 10
+    },
+    {
+      "rank": 45,
       "book_id": "7488955435421010968",
       "book_name": "序列公路求生：我在末日升级物资",
       "author": "山海呼啸",
@@ -1139,94 +1214,13 @@
       ],
       "abstract": "【题材新颖+非无脑爽文+非无敌+序列魔药+诡异+公路求生+升级物资+心狠手辣】诡异降临，城市成了人类...",
       "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/ai/p2o5c18f15e4d52cde4a3766c8554856607~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783357&x-signature=59MTVVAzeW2EBHSM0xNn4FW91yI%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/ai/p2o5c18f15e4d52cde4a3766c8554856607~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870377&x-signature=%2BE0ld%2B8CjUgTvzfN%2B9IgtAELUuA%3D",
       "book_url": "https://fanqienovel.com/page/7488955435421010968",
-      "rank_change": 4,
-      "history_days": 2
+      "rank_change": 1,
+      "history_days": 3
     },
     {
-      "rank": 47,
-      "book_id": "7338034838672247833",
-      "book_name": "诸神愚戏",
-      "author": "一月九十秋",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "都市",
-        "末世",
-        "无限流",
-        "群像"
-      ],
-      "all_tags": [
-        "都市高武",
-        "都市",
-        "末世",
-        "无限流",
-        "群像"
-      ],
-      "abstract": "我做人有2个原则：1.从不骗人2.从不相信任何人说的话，包括我自己“先生，我想提醒您，您说的第二点跟...",
-      "status": "完结",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o456671fab473706eac056e1ae403e5c3~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783359&x-signature=O0YgwmuKfycA%2FxI6IdOFYrRKMes%3D",
-      "book_url": "https://fanqienovel.com/page/7338034838672247833",
-      "rank_change": -3,
-      "history_days": 169
-    },
-    {
-      "rank": 48,
-      "book_id": "7654827436672044056",
-      "book_name": "作精不吸血后，恋爱脑糙汉追着亲",
-      "author": "肆月六",
-      "gender": "女频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "豪门总裁",
-        "现代言情",
-        "总裁",
-        "作精"
-      ],
-      "all_tags": [
-        "都市高武",
-        "豪门总裁",
-        "现代言情",
-        "总裁",
-        "作精"
-      ],
-      "abstract": "【出租屋文学+拜金作精+超高精力肌肉硬汉+财阀太子爷当狗+重度恋爱脑】江圆圆觉醒剧情。她竟是作精前女...",
-      "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o03276f08e56efd889f04d6c9bf985658~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783360&x-signature=38JAY%2FVqFOeGqi%2B0Q3N%2FkpVZ%2FUo%3D",
-      "book_url": "https://fanqienovel.com/page/7654827436672044056",
-      "rank_change": -9,
-      "history_days": 36
-    },
-    {
-      "rank": 49,
-      "book_id": "7667935194233441305",
-      "book_name": "纨绔大少是邪神，眷属全部是美女",
-      "author": "灰烬寓言",
-      "gender": "男频",
-      "primary_tag": "都市高武",
-      "secondary_tags": [
-        "系统",
-        "穿越",
-        "多女主",
-        "反派"
-      ],
-      "all_tags": [
-        "都市高武",
-        "系统",
-        "穿越",
-        "多女主",
-        "反派"
-      ],
-      "abstract": "【评分刚出，后面会猛涨】【人前显圣】【多女主】【无毒不虐】【又神又疯】【高智商反派】【宏大战场】邪神...",
-      "status": "连载中",
-      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2oed675a289e16de0e226a198dfd75d673~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783362&x-signature=r6Mws175DEuAsBUEpY0%2F5yTFMcQ%3D",
-      "book_url": "https://fanqienovel.com/page/7667935194233441305",
-      "rank_change": -6,
-      "history_days": 24
-    },
-    {
-      "rank": 50,
+      "rank": 46,
       "book_id": "7669372598957919256",
       "book_name": "什么叫我成了灭世级怪谈？",
       "author": "狂拽酷炫鲨",
@@ -1247,10 +1241,112 @@
       ],
       "abstract": "【无女主】【微克】【一章变伪人】【主角纯怪物】苏远穿越到了危机四伏的诡异世界。这里，恐怖传说里的一切...",
       "status": "连载中",
-      "thumb_url": "https://p6-novel-sign.byteimg.com/novel-pic/p2o181d87d304f519020a2059f6ef70633c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791783363&x-signature=rVOPPOOE8DjgV1M2Rjau9M9exfI%3D",
+      "thumb_url": "https://p9-novel-sign.byteimg.com/novel-pic/p2o181d87d304f519020a2059f6ef70633c~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870378&x-signature=UZphBZxvqw8dPL2SlLa23A7cWzA%3D",
       "book_url": "https://fanqienovel.com/page/7669372598957919256",
+      "rank_change": 4,
+      "history_days": 2
+    },
+    {
+      "rank": 47,
+      "book_id": "7462405945180572697",
+      "book_name": "你们刷怪啊，刷我干嘛！",
+      "author": "喜欢吃橘子",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "都市",
+        "校花",
+        "都市异能"
+      ],
+      "all_tags": [
+        "都市高武",
+        "都市",
+        "校花",
+        "都市异能"
+      ],
+      "abstract": "【已签实体出版：无系统、剧情流、不慢热、不无脑、快节奏、惊险刺激，拳拳到肉，怪物阵营视角！】自打【神...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o76b6acc31de1b5f4675e0abf2939a0fe~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870379&x-signature=pVJNP9nJSvAmUTMeUMPRf%2BRjTr8%3D",
+      "book_url": "https://fanqienovel.com/page/7462405945180572697",
+      "rank_change": -3,
+      "history_days": 135
+    },
+    {
+      "rank": 48,
+      "book_id": "7672011528131857470",
+      "book_name": "高武：看不起斩魄刀，流刃若火呢",
+      "author": "一叶墨白",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "穿越",
+        "校花",
+        "高武世界",
+        "灵气复苏"
+      ],
+      "all_tags": [
+        "都市高武",
+        "穿越",
+        "校花",
+        "高武世界",
+        "灵气复苏"
+      ],
+      "abstract": "穿越到高武世界后。楚渊觉醒出的武魂，居然是死神世界的斩魄刀！偏偏！这个世界不识货，不知道斩魄刀的真名...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o9cc520475ba3338ac1a9a6dc88971edc~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870381&x-signature=YUjsZ8NR5lBijG1Osw%2FbHNCWjGE%3D",
+      "book_url": "https://fanqienovel.com/page/7672011528131857470",
       "rank_change": "new",
       "history_days": 1
+    },
+    {
+      "rank": 49,
+      "book_id": "7649016386907278361",
+      "book_name": "实习教出金牌班，家长要换班主任",
+      "author": "碧水红潮",
+      "gender": "男频",
+      "primary_tag": "都市脑洞",
+      "secondary_tags": [
+        "系统",
+        "卡牌"
+      ],
+      "all_tags": [
+        "都市脑洞",
+        "系统",
+        "卡牌"
+      ],
+      "abstract": "【脑洞+系统+不憋屈+buff+卡牌+词条+爽文】陆谦毕业后，成为高二七班的实习班主任。入职当天，觉...",
+      "status": "连载中",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o559debb0cab90a7cc1b4c337ee14db67~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870382&x-signature=6cQnhix%2FuVa%2FWydTLZmfJAmoJl8%3D",
+      "book_url": "https://fanqienovel.com/page/7649016386907278361",
+      "rank_change": null,
+      "history_days": 35
+    },
+    {
+      "rank": 50,
+      "book_id": "7338034838672247833",
+      "book_name": "诸神愚戏",
+      "author": "一月九十秋",
+      "gender": "男频",
+      "primary_tag": "都市高武",
+      "secondary_tags": [
+        "都市",
+        "末世",
+        "无限流",
+        "群像"
+      ],
+      "all_tags": [
+        "都市高武",
+        "都市",
+        "末世",
+        "无限流",
+        "群像"
+      ],
+      "abstract": "我做人有2个原则：1.从不骗人2.从不相信任何人说的话，包括我自己“先生，我想提醒您，您说的第二点跟...",
+      "status": "完结",
+      "thumb_url": "https://p3-novel-sign.byteimg.com/novel-pic/p2o456671fab473706eac056e1ae403e5c3~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1791870383&x-signature=Bu0aEK%2BzFFPuLcA2U%2Bxkahy%2Bb1k%3D",
+      "book_url": "https://fanqienovel.com/page/7338034838672247833",
+      "rank_change": -3,
+      "history_days": 170
     }
   ]
 }
